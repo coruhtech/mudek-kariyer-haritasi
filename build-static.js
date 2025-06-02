@@ -128,10 +128,11 @@ async function generateStaticAPIFiles(distDir) {
     try {
         const apiDir = path.join(distDir, 'api');
         await fs.ensureDir(apiDir);
+        const basePath = '/mudek-kariyer-haritasi'; // GitHub Pages için base path
 
         // Ders JSON dosyalarını listele
         const courseJsonFiles = glob.sync('2020_2024_course_details_json/**/*.json', { cwd: __dirname });
-        const fileUrls = courseJsonFiles.map(file => '/' + file.replace(/\\/g, '/'));
+        const fileUrls = courseJsonFiles.map(file => basePath + '/' + file.replace(/\\/g, '/'));
         
         await fs.writeJSON(path.join(apiDir, 'list-course-json-files.json'), fileUrls, { spaces: 2 });
         console.log('✅ Course JSON files API oluşturuldu');
@@ -149,6 +150,7 @@ async function generateStaticAPIFiles(distDir) {
 async function generateCourseCodeMap() {
     const courseCodeMap = { '2020': {}, '2024': {} };
     const jsonFiles = glob.sync('2020_2024_course_details_json/**/*.json', { cwd: __dirname });
+    const basePath = '/mudek-kariyer-haritasi'; // GitHub Pages için base path
 
     console.log(`📚 ${jsonFiles.length} ders dosyası işleniyor...`);
     
@@ -160,7 +162,7 @@ async function generateCourseCodeMap() {
             if (data.dersGenel && data.dersGenel.dersKodu) {
                 const courseCode = data.dersGenel.dersKodu.toUpperCase();
                 const curriculum = data.dersGenel.mufredatOlusturulmaYili || '';
-                const relativePath = '/' + filePath.replace(/\\/g, '/');
+                const relativePath = basePath + '/' + filePath.replace(/\\/g, '/');
                 
                 if (curriculum === '2020' || curriculum === '2024') {
                     courseCodeMap[curriculum][courseCode] = relativePath;
@@ -200,18 +202,37 @@ async function updateJSForStatic(distDir) {
             if (await fs.pathExists(filePath)) {
                 let content = await fs.readFile(filePath, 'utf8');
                 
+                // GitHub Pages için base path ekle
+                const basePath = '/mudek-kariyer-haritasi';
+                
                 // API çağrılarını statik dosya çağrılarına dönüştür
                 content = content.replace(
                     /\/api\/list-course-json-files/g,
-                    '/api/list-course-json-files.json'
+                    `${basePath}/api/list-course-json-files.json`
                 );
                 content = content.replace(
                     /\/api\/course-code-map/g,
-                    '/api/course-code-map.json'
+                    `${basePath}/api/course-code-map.json`
                 );
                 content = content.replace(
                     /\/api\/find-course-json\//g,
-                    '/api/course-code-map.json#'
+                    `${basePath}/api/course-code-map.json#`
+                );
+                
+                // Data klasöründeki dosyalar için de base path ekle
+                content = content.replace(
+                    /['"]\/data\//g,
+                    `'${basePath}/data/`
+                );
+                content = content.replace(
+                    /['"]\/career_data\//g,
+                    `'${basePath}/career_data/`
+                );
+                
+                // JSON course files için de base path ekle
+                content = content.replace(
+                    /['"]\/2020_2024_course_details_json\//g,
+                    `'${basePath}/2020_2024_course_details_json/`
                 );
                 
                 await fs.writeFile(filePath, content);
