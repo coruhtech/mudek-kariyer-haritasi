@@ -1,0 +1,180 @@
+name: 🚀 Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch: # Manuel tetikleme
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Build job
+  build:
+    name: 🔨 Build Static Site
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: [18, 20]
+    
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Full history for better builds
+          
+      - name: 🟢 Setup Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+          cache-dependency-path: package-lock.json
+          
+      - name: 📊 Display Environment Info
+        run: |
+          echo "Node.js version: $(node --version)"
+          echo "NPM version: $(npm --version)"
+          echo "Working directory: $(pwd)"
+          echo "Repository: ${{ github.repository }}"
+          echo "Branch: ${{ github.ref_name }}"
+          
+      - name: 📦 Install Dependencies
+        run: |
+          npm ci --prefer-offline --no-audit
+          echo "✅ Dependencies installed successfully"
+          
+      - name: 🔍 Verify Project Structure
+        run: |
+          echo "📁 Project structure:"
+          ls -la
+          echo "📁 Data files:"
+          ls -la data/ || echo "❌ Data directory not found"
+          echo "📁 Course JSON files:"
+          ls -la 2020_2024_course_details_json/ | head -5 || echo "❌ Course JSON directory not found"
+          echo "📁 JavaScript files:"
+          ls -la js/ || echo "❌ JS directory not found"
+          
+      - name: 🏗️ Build Static Version
+        run: |
+          echo "🚀 Starting static build process..."
+          npm run build:static
+          echo "✅ Static build completed successfully"
+          
+      - name: 🔍 Verify Build Output
+        run: |
+          echo "📁 Build output verification:"
+          if [ -d "dist" ]; then
+            echo "✅ dist/ directory exists"
+            echo "📊 Build statistics:"
+            find dist -type f | wc -l | xargs echo "Total files:"
+            du -sh dist | xargs echo "Total size:"
+            echo "📁 Key files check:"
+            [ -f "dist/index.html" ] && echo "✅ index.html" || echo "❌ index.html missing"
+            [ -f "dist/.nojekyll" ] && echo "✅ .nojekyll" || echo "❌ .nojekyll missing"
+            [ -d "dist/js" ] && echo "✅ js/ directory" || echo "❌ js/ directory missing"
+            [ -d "dist/css" ] && echo "✅ css/ directory" || echo "❌ css/ directory missing"
+            [ -d "dist/api" ] && echo "✅ api/ directory" || echo "❌ api/ directory missing"
+            [ -f "dist/api/course-code-map.json" ] && echo "✅ API files" || echo "❌ API files missing"
+          else
+            echo "❌ dist/ directory not found"
+            exit 1
+          fi
+          
+      - name: 📤 Upload Build Artifacts (Debug)
+        if: matrix.node-version == '18' # Only upload once
+        uses: actions/upload-artifact@v4
+        with:
+          name: static-build-debug
+          path: |
+            dist/
+            !dist/2020_2024_course_details_json/
+          retention-days: 7
+          
+      - name: ⚙️ Setup GitHub Pages
+        if: matrix.node-version == '18' # Only setup once
+        uses: actions/configure-pages@v4
+        
+      - name: 📤 Upload Pages Artifact
+        if: matrix.node-version == '18' # Only upload once
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+  # Deployment job
+  deploy:
+    name: 🚀 Deploy to Pages
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+    
+    steps:
+      - name: 🌐 Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        
+      - name: ✅ Deployment Success
+        run: |
+          echo "🎉 Deployment successful!"
+          echo "🌐 Site URL: ${{ steps.deployment.outputs.page_url }}"
+          echo "📅 Deployed at: $(date)"
+          
+      - name: 🔍 Post-Deployment Verification
+        run: |
+          sleep 30 # Wait for deployment to propagate
+          SITE_URL="${{ steps.deployment.outputs.page_url }}"
+          echo "🔍 Verifying site accessibility..."
+          
+          # Basic HTTP check
+          HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$SITE_URL" || echo "000")
+          
+          if [ "$HTTP_STATUS" = "200" ]; then
+            echo "✅ Site is accessible (HTTP $HTTP_STATUS)"
+          else
+            echo "⚠️ Site returned HTTP $HTTP_STATUS"
+          fi
+          
+  # Notification job (optional)
+  notify:
+    name: 📢 Send Notification
+    runs-on: ubuntu-latest
+    needs: [build, deploy]
+    if: always() && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
+    
+    steps:
+      - name: 📢 Create Deployment Summary
+        run: |
+          echo "## 🚀 Deployment Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Item | Status |" >> $GITHUB_STEP_SUMMARY
+          echo "|------|--------|" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "${{ needs.build.result }}" = "success" ]; then
+            echo "| 🔨 Build | ✅ Success |" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "| 🔨 Build | ❌ Failed |" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          if [ "${{ needs.deploy.result }}" = "success" ]; then
+            echo "| 🚀 Deploy | ✅ Success |" >> $GITHUB_STEP_SUMMARY
+            echo "| 🌐 Site URL | [${{ needs.deploy.outputs.page_url }}](${{ needs.deploy.outputs.page_url }}) |" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "| 🚀 Deploy | ❌ Failed |" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**📅 Deployment Time:** $(date)" >> $GITHUB_STEP_SUMMARY
+          echo "**🔗 Repository:** ${{ github.repository }}" >> $GITHUB_STEP_SUMMARY
+          echo "**🌿 Branch:** ${{ github.ref_name }}" >> $GITHUB_STEP_SUMMARY
+          echo "**👤 Triggered by:** ${{ github.actor }}" >> $GITHUB_STEP_SUMMARY 
