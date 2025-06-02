@@ -132,6 +132,8 @@ jobs:
         with:
           # GitHub Pages'i otomatik etkinleştir
           enablement: true
+          # Token ile yetki kontrolü
+          token: ${{ github.token }}
         
       - name: ✅ Deployment Success
         run: |
