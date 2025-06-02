@@ -2,7 +2,7 @@
 
 🎯 **Recep Tayyip Erdoğan Üniversitesi Bilgisayar Mühendisliği öğrencileri için kapsamlı ve interaktif kariyer rehberi**
 
-[![GitHub Pages Deploy](https://github.com/your-username/mudek-kariyer-haritasi/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/your-username/mudek-kariyer-haritasi/actions/workflows/deploy-pages.yml)
+[![GitHub Pages Deploy](https://github.com/coruhtech/mudek-kariyer-haritasi/actions/workflows/static.yml/badge.svg)](https://github.com/coruhtech/mudek-kariyer-haritasi/actions/workflows/static.yml)
 [![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg)](http://www.coruh.com.tr/)
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen)](https://nodejs.org/)
 
@@ -14,9 +14,9 @@ Bu proje, bilgisayar mühendisliği öğrencilerinin kariyer planlaması yapabil
 
 Bu proje GitHub Pages'de yayınlanmaktadır:
 
-**🌐 [Canlı Demo'yu Görüntüle](https://your-username.github.io/mudek-kariyer-haritasi/)**
+**🌐 [Canlı Demo'yu Görüntüle](https://coruhtech.github.io/mudek-kariyer-haritasi/)**
 
-> **Not**: `your-username` kısmını kendi GitHub kullanıcı adınızla değiştirin.
+> **Not**: Site https://coruhtech.github.io/mudek-kariyer-haritasi/ adresinde yayında.
 
 ## ✨ Özellikler
 
@@ -57,7 +57,7 @@ Bu proje GitHub Actions kullanılarak **her commit'te otomatik olarak** GitHub P
 1. **Repository Fork/Clone Edin**
    
    ```bash
-   git clone https://github.com/your-username/mudek-kariyer-haritasi.git
+   git clone https://github.com/coruhtech/mudek-kariyer-haritasi.git
    cd mudek-kariyer-haritasi
    ```
 
@@ -73,20 +73,20 @@ Bu proje GitHub Actions kullanılarak **her commit'te otomatik olarak** GitHub P
    
    ```json
    {
-     "homepage": "https://your-username.github.io/mudek-kariyer-haritasi",
+     "homepage": "https://coruhtech.github.io/mudek-kariyer-haritasi",
      "repository": {
        "type": "git", 
-       "url": "https://github.com/your-username/mudek-kariyer-haritasi.git"
+       "url": "https://github.com/coruhtech/mudek-kariyer-haritasi.git"
      },
      "bugs": {
-       "url": "https://github.com/your-username/mudek-kariyer-haritasi/issues"
+       "url": "https://github.com/coruhtech/mudek-kariyer-haritasi/issues"
      }
    }
    ```
 
 4. **README.md'de Badge URL'lerini Güncelleyin**
    
-   Bu dosyada `your-username` kısımlarını değiştirin.
+   Bu dosyada `coruhtech` kullanıcı adı ile URL'ler güncellenmiştir.
 
 ### ⚡ Otomatik Deployment Süreci
 
@@ -173,6 +173,272 @@ Kendi domain'inizi kullanmak için:
    www.your-domain.com
    ```
 
+### 🚨 Troubleshooting (Sorun Giderme)
+
+#### ❌ "Veri yükleme hatası" Uyarısı
+
+**Problem**: GitHub Pages'te "Veri yükleme hatası oluştu. Lütfen sayfayı yenileyin" mesajı
+
+**Çözüm**:
+1. **Base Path Kontrolü**: `build-static.js` dosyasında repository adının doğru olduğunu kontrol edin:
+   ```javascript
+   const basePath = '/mudek-kariyer-haritasi'; // Kendi repo adınız
+   ```
+
+2. **GitHub Pages Ayarları**: 
+   - Repository → Settings → Pages 
+   - Source: **GitHub Actions** seçili olmalı
+   - **NOT**: "Deploy from a branch" değil!
+
+3. **Build Script Çalıştırma**:
+   ```bash
+   npm run build:static
+   # 208 dosya oluşturulduğunu kontrol edin
+   ```
+
+#### ❌ GitHub Actions Build Hatası
+
+**Problem**: Actions sekmesinde build hatası
+
+**Çözümler**:
+1. **Node.js Versiyon Kontrolü**: Workflow'da Node.js 18+ kullanılıyor
+2. **Dependencies**: `package.json`'da tüm dependencies mevcut
+3. **Permissions**: Repository → Settings → Actions → General → Workflow permissions: **Read and write permissions**
+
+#### ❌ "404 - File Not Found" Hataları
+
+**Problem**: Statik dosyalar bulunamıyor
+
+**Çözüm**:
+1. **Path Kontrolü**: Tüm path'lerde `/mudek-kariyer-haritasi` prefix'i olmalı
+2. **Build Output**: `dist/` klasöründe dosyaların olduğunu kontrol edin
+3. **Deployment Log**: Actions sekmesinde "Upload artifact" adımını kontrol edin
+
+#### ❌ Local Build EPERM Hatası (Windows)
+
+**Problem**: `npm run build:static` Windows'ta EPERM hatası
+
+**Çözüm**:
+```bash
+# Önce dist klasörünü manuel silin
+rmdir /s dist  # Windows CMD
+rm -rf dist    # PowerShell/Git Bash
+
+# Sonra build'i çalıştırın
+npm run build:static
+```
+
+#### ❌ API Endpoints Çalışmıyor
+
+**Problem**: Development'ta API çağrıları başarısız
+
+**Çözüm**:
+1. **Server Kontrol**: `npm start` ile server'ın çalıştığını kontrol edin
+2. **Port Kontrolü**: 3002 portunun kullanımda olup olmadığını kontrol edin
+3. **CORS**: Express server'da CORS enabled olmalı
+
+### 🔧 Gelişmiş Konfigürasyon
+
+#### Repository Adı Değiştirme
+
+Repository adınızı değiştirdiyseniz:
+
+1. **build-static.js güncelleme**:
+   ```javascript
+   const basePath = '/YENİ-REPO-ADI'; // Satır ~120
+   ```
+
+2. **package.json güncelleme**:
+   ```json
+   {
+     "homepage": "https://username.github.io/YENİ-REPO-ADI",
+     "repository": {
+       "url": "https://github.com/username/YENİ-REPO-ADI.git"
+     }
+   }
+   ```
+
+3. **README.md güncelleme**: Tüm URL'lerde repository adını değiştirin
+
+#### Custom GitHub Actions Workflow
+
+Default workflow'u özelleştirmek için `.github/workflows/static.yml`:
+
+```yaml
+name: 🚀 Build and Deploy to Pages
+
+on:
+  push:
+    branches: ["main", "master"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout
+        uses: actions/checkout@v4
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: 📦 Install dependencies
+        run: npm ci
+
+      - name: 🔨 Build static files
+        run: npm run build:static
+
+      - name: 📄 Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: 📤 Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './dist'
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: 🌐 Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+```
+
+#### Performance İyileştirmeleri
+
+**Build Script Optimizasyonu**:
+```bash
+# Paralel build için
+npm run build:static --parallel
+
+# Verbose logging için
+DEBUG=* npm run build:static
+
+# Hafıza kullanımını artırmak için
+NODE_OPTIONS="--max-old-space-size=4096" npm run build:static
+```
+
+### 📊 Deployment Verification (Doğrulama)
+
+Build ve deploy işleminin başarılı olduğunu doğrulamak için:
+
+#### 1. GitHub Actions Kontrolü
+- Repository → **Actions** sekmesi
+- Son workflow'un ✅ yeşil olduğunu kontrol edin
+- Build time ~2-3 dakika olmalı
+
+#### 2. Build Artifact Kontrolü
+- Actions → Son workflow → **"build"** job
+- **"Upload artifact"** adımında **208 files uploaded** yazmalı
+
+#### 3. Site Accessibility Test
+```bash
+# Site erişilebilirlik testi
+curl -I https://coruhtech.github.io/mudek-kariyer-haritasi/
+
+# JSON API testi  
+curl https://coruhtech.github.io/mudek-kariyer-haritasi/api/course-code-map.json
+```
+
+#### 4. Browser Test Checklist
+- [ ] Ana sayfa yükleniyor
+- [ ] Kariyer yolları gösteriliyor
+- [ ] Ders detayları açılıyor
+- [ ] Console'da hata yok
+- [ ] Mobile responsive çalışıyor
+
+#### 5. Performance Metrics
+- **Lighthouse Score**: 90+ olmalı
+- **First Contentful Paint**: <2s
+- **Largest Contentful Paint**: <4s
+- **Time to Interactive**: <5s
+
+**Test URL**: https://pagespeed.web.dev/
+
+### 🛠️ Geliştirme Ortamı Kurulumu
+
+#### Ön Gereksinimler
+- **Node.js**: 18.0+ (LTS önerilen)
+- **npm**: 8.0+
+- **Git**: 2.30+
+- **Modern Tarayıcı**: Chrome 90+, Firefox 88+
+
+#### Full Setup (Sıfırdan)
+```bash
+# 1. Repository'yi klonlayın
+git clone https://github.com/coruhtech/mudek-kariyer-haritasi.git
+cd mudek-kariyer-haritasi
+
+# 2. Node.js version kontrolü
+node --version  # v18.0.0+
+npm --version   # 8.0.0+
+
+# 3. Dependencies yükleyin
+npm install
+
+# 4. GitHub repo ayarlarını güncelleyin
+# package.json ve README.md'de URL'leri değiştirin
+
+# 5. First build test
+npm run build:static
+
+# 6. Development server
+npm run dev
+
+# 7. Production test
+npm run preview
+```
+
+#### Development Commands Özeti
+```bash
+# Development (Express server with API)
+npm run dev                    # http://localhost:3002
+
+# Production build test
+npm run build:static          # Creates dist/ folder
+npm run serve:static          # http://localhost:8080
+npm run preview               # Build + Serve combined
+
+# Maintenance
+npm run clean                 # Remove dist/ and node_modules/
+npm audit                     # Security audit
+npm update                    # Update dependencies
+```
+
+### 📱 Mobile Development
+
+#### Mobile Test Setup
+```bash
+# Local network'te test için
+npm run dev -- --host 0.0.0.0
+# Mobile'dan http://IP-ADRES:3002 ile erişin
+
+# Mobile debugging için Chrome DevTools
+# chrome://inspect/#devices
+```
+
+#### PWA Features (v1.2.0'da gelecek)
+- Service Worker
+- Offline support
+- Install prompt
+- Push notifications
+
 ## 🛠️ Teknoloji Stack
 
 ### Frontend
@@ -248,7 +514,7 @@ mudek-kariyer-haritasi/
 
 ```bash
 # 1. Projeyi klonlayın
-git clone https://github.com/your-username/mudek-kariyer-haritasi.git
+git clone https://github.com/coruhtech/mudek-kariyer-haritasi.git
 cd mudek-kariyer-haritasi
 
 # 2. Bağımlılıkları yükleyin
@@ -549,7 +815,7 @@ Bu projeyi mümkün kılan herkese teşekkürler:
 
 ### 🔗 Hızlı Linkler
 
-- 🌐 **[Canlı Demo](https://your-username.github.io/mudek-kariyer-haritasi/)**
+- 🌐 **[Canlı Demo](https://coruhtech.github.io/mudek-kariyer-haritasi/)**
 - 🏢 **[Şirket Web Sitesi](http://www.coruh.com.tr/)**
 - 📧 **[İletişim](mailto:info@coruh.com.tr)**
 - 🎓 **[RTEÜ Bilgisayar Mühendisliği](https://bilgisayar-mmf.erdogan.edu.tr/)**
@@ -649,7 +915,7 @@ Bu projeyi mümkün kılan herkese teşekkürler:
 
 ### 🔗 Hızlı Linkler
 
-- 🌐 **[Canlı Demo](https://your-username.github.io/mudek-kariyer-haritasi/)**
+- 🌐 **[Canlı Demo](https://coruhtech.github.io/mudek-kariyer-haritasi/)**
 - 🏢 **[Şirket Web Sitesi](http://www.coruh.com.tr/)**
 - 📧 **[İletişim](mailto:info@coruh.com.tr)**
 - 🎓 **[RTEÜ Bilgisayar Mühendisliği](https://bilgisayar-mmf.erdogan.edu.tr/)**

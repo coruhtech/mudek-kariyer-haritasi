@@ -40,6 +40,22 @@ jobs:
       - name: 🔨 Build static files
         run: npm run build:static
 
+      - name: 📄 Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: ✅ Verify build output
+        run: |
+          echo "📊 Build verification:"
+          ls -la dist/
+          echo ""
+          echo "📁 Total files built:"
+          find dist/ -type f | wc -l
+          echo ""
+          echo "🔍 Critical files check:"
+          test -f dist/index.html && echo "✅ index.html exists" || echo "❌ index.html missing"
+          test -f dist/api/course-code-map.json && echo "✅ course-code-map.json exists" || echo "❌ course-code-map.json missing"
+          test -f dist/.nojekyll && echo "✅ .nojekyll exists" || echo "❌ .nojekyll missing"
+
       - name: 📤 Upload build artifacts
         uses: actions/upload-pages-artifact@v3
         with:

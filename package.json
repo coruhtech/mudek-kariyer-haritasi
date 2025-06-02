@@ -10,12 +10,19 @@
     "prestart": "npm install",
     "postinstall": "echo \"✅ Kurulum tamamlandı. 'npm start' ile uygulamayı başlatabilirsiniz.\"",
     "build:static": "node build-static.js",
+    "build:debug": "DEBUG=* node build-static.js",
+    "build:verbose": "NODE_OPTIONS=\"--max-old-space-size=4096\" node build-static.js",
     "serve:static": "http-server dist -p 8080 -c-1 --cors",
+    "serve:network": "http-server dist -p 8080 -c-1 --cors -a 0.0.0.0",
     "preview": "npm run build:static && npm run serve:static",
     "clean": "rimraf dist node_modules/.cache",
+    "clean:all": "rimraf dist node_modules",
     "lint": "echo \"Linting not configured yet\"",
     "validate": "npm test && echo \"✅ Package.json is valid\"",
-    "deploy:preview": "npm run build:static && echo '🌐 Preview: http://localhost:8080'"
+    "audit:security": "npm audit --audit-level moderate",
+    "update:deps": "npm update && npm audit fix",
+    "deploy:preview": "npm run build:static && echo '🌐 Preview: http://localhost:8080'",
+    "status": "echo '📊 Build Status:' && ls -la dist/ 2>/dev/null || echo '❌ No build found. Run: npm run build:static'"
   },
   "keywords": [
     "kariyer",
@@ -58,14 +65,14 @@
       "url": "https://bilgisayar-mmf.erdogan.edu.tr"
     }
   ],
-  "license": "MIT",
-  "homepage": "https://your-username.github.io/mudek-kariyer-haritasi",
+  "license": "PROPRIETARY",
+  "homepage": "https://coruhtech.github.io/mudek-kariyer-haritasi",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/mudek-kariyer-haritasi.git"
+    "url": "https://github.com/coruhtech/mudek-kariyer-haritasi.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/mudek-kariyer-haritasi/issues"
+    "url": "https://github.com/coruhtech/mudek-kariyer-haritasi/issues"
   },
   "funding": [
     {
