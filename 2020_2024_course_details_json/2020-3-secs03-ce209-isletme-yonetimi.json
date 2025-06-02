@@ -1,0 +1,775 @@
+{
+  "dersGenel": {
+    "dersTuru": "Seçmeli",
+    "dersinSeviyesi": "Lisans",
+    "dersinAKTSKredisi": 3,
+    "haftalikDersSaatiKuramsal": 3,
+    "haftalikUygulamaSaati": 0,
+    "haftalikLaboratuarSaati": 0,
+    "dersinVerildigiYariyil": 3,
+    "ogretimSistemi": "Birinci Öğretim",
+    "egitimDili": "Türkçe",
+    "secmeliDersGrubuKodu": "SECS03",
+    "universite": "Recep Tayyip Erdoğan Üniversitesi",
+    "ulke": "Türkiye",
+    "il": "Rize",
+    "ilce": "Merkez",
+    "mahalle": "Fener Mah",
+    "fakulte": "Mühendislik Ve Mimarlık Fakültesi",
+    "bolum": "Bilgisayar Mühendisliği",
+    "dersKodu": "CE209",
+    "dersAdi": "İşletme Yönetimi",
+    "ogretimYiliDonemi": "Güz",
+    "dersAKTSKredisi": 3,
+    "dilSecimi": "Türkçe",
+    "mufredatOlusturulmaYili": "2020",
+    "akademikYil": ""
+  },
+  "dersIcerik": {
+    "dersinAmaci": "Bu dersin temel amacı, öğrencilerin yönetim bilimi ve işletme yönetimi ile ilgili temel kavramları anlamalarını sağlamak, yönetim süreçlerini (planlama, örgütleme, yöneltme, denetim) kavramalarını ve modern yönetim yaklaşımları hakkında bilgi sahibi olmalarını sağlamaktır.",
+    "dersinOnKosuluOlanDersler": "Mevcut Değil",
+    "dersinIcerigi": "Yönetim ve organizasyon kavramları, yönetim teorileri (klasik, neoklasik, modern), yönetim fonksiyonları (planlama, örgütleme, yöneltme, koordinasyon ve denetim), karar verme süreçleri, motivasyon teorileri, liderlik yaklaşımları, stratejik yönetim, işletmelerde etik ve sosyal sorumluluk.",
+    "dersinIcinOnerilenHususlar": "Öğrencilerin temel sosyal bilimler kavramlarına aşina olması ve güncel iş dünyası örneklerini takip etmesi önerilir.",
+    "ogretimTuru": "Birinci Öğretim",
+    "stajDurumu": "Mevcut Değil",
+    "dersinKitabiMalzemesiOnerilenKaynaklar": "İlgili ders notları ve öğretim üyesinin önereceği kaynaklar.",
+    "dersiVerenOgretimUyesiOgretimGorevlisi": "",
+    "hazirlanmaTarihi": "27.04.2025"
+  },
+  "dersOgrenmeÇiktilari": [
+    {
+      "id": "ÖÇ.1",
+      "aciklama": "Yönetimin temel kavramlarını, amaçlarını, önemini ve işletme içindeki temel fonksiyonlarını (planlama, örgütleme, yöneltme, koordinasyon, denetim) açıklar."
+    },
+    {
+      "id": "ÖÇ.2",
+      "aciklama": "Yönetim düşüncesinin tarihsel gelişimini bilir; klasik, neoklasik ve modern yönetim teorilerini ve yaklaşımlarını (sistem, durumsallık vb.) karşılaştırır."
+    },
+    {
+      "id": "ÖÇ.3",
+      "aciklama": "İşletmelerde planlama, örgütleme (yapı türleri dahil), koordinasyon ve denetim süreçlerini analiz eder."
+    },
+    {
+      "id": "ÖÇ.4",
+      "aciklama": "Yöneltme fonksiyonu kapsamında motivasyon teorilerini ve liderlik yaklaşımlarını açıklar."
+    },
+    {
+      "id": "ÖÇ.5",
+      "aciklama": "İşletmelerde karar verme süreçlerini anlar ve temel stratejik yönetim kavramlarını bilir."
+    },
+    {
+      "id": "ÖÇ.6",
+      "aciklama": "İşletme etiği ve sosyal sorumluluk kavramlarının önemini ve işletme yönetimi üzerindeki etkilerini değerlendirir."
+    },
+    {
+      "id": "ÖÇ.7",
+      "aciklama": "Yönetim bilimi prensiplerini güncel iş dünyası problemlerini anlamak ve analiz etmek için kullanır."
+    }
+  ],
+  "haftalikDersIcerikleri": [
+    {
+      "hafta": 1,
+      "icerik": "Yönetim Bilimine Giriş, Temel Kavramlar",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Anlatım",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 2,
+      "icerik": "Yönetim Düşüncesinin Tarihsel Gelişimi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Temel Kavramlar",
+      "ogretimYontemleri": "Anlatım",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 3,
+      "icerik": "Klasik Yönetim Teorileri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tarihsel Gelişim",
+      "ogretimYontemleri": "Anlatım",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 4,
+      "icerik": "Neoklasik Yönetim Teorileri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Klasik Teoriler",
+      "ogretimYontemleri": "Anlatım",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 5,
+      "icerik": "Modern Yönetim Teorileri ve Sistem Yaklaşımı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Neoklasik Teoriler",
+      "ogretimYontemleri": "Anlatım",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 6,
+      "icerik": "Yönetim Fonksiyonları: Planlama",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.3, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Yönetim Teorileri",
+      "ogretimYontemleri": "Anlatım, Örnek Olay",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 7,
+      "icerik": "Yönetim Fonksiyonları: Örgütleme",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.3, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Planlama",
+      "ogretimYontemleri": "Anlatım, Örnek Olay",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 8,
+      "icerik": "Ara Sınav",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "İlk 7 Hafta",
+      "ogretimYontemleri": "Ölçme-Değerlendirme",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Yazılı Sınav",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 9,
+      "icerik": "Yönetim Fonksiyonları: Yöneltme (Motivasyon)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.4, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Örgütleme",
+      "ogretimYontemleri": "Anlatım, Tartışma",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 10,
+      "icerik": "Yönetim Fonksiyonları: Yöneltme (Liderlik)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.4, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Motivasyon",
+      "ogretimYontemleri": "Anlatım, Tartışma",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 11,
+      "icerik": "Yönetim Fonksiyonları: Koordinasyon",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.3, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Yöneltme",
+      "ogretimYontemleri": "Anlatım",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 12,
+      "icerik": "Yönetim Fonksiyonları: Denetim",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.3, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Koordinasyon",
+      "ogretimYontemleri": "Anlatım",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 13,
+      "icerik": "Karar Verme Süreçleri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.5, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Yönetim Fonksiyonları",
+      "ogretimYontemleri": "Anlatım, Problem Çözme",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 14,
+      "icerik": "Stratejik Yönetim",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.5, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Karar Verme",
+      "ogretimYontemleri": "Anlatım",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 15,
+      "icerik": "İşletmelerde Etik ve Sosyal Sorumluluk",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Stratejik Yönetim",
+      "ogretimYontemleri": "Anlatım, Tartışma",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 16,
+      "icerik": "Final Sınavı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm konular",
+      "ogretimYontemleri": "Ölçme-Değerlendirme",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Yazılı Sınav",
+      "odevVeCalisma": "-"
+    }
+  ],
+  "dersIsYuku": {
+    "etkinlikler": [
+      {
+        "etkinlik": "Derse Katılım",
+        "sayi": 15,
+        "sure": 3,
+        "toplamIsYuku": 45
+      },
+      {
+        "etkinlik": "Bireysel Çalışma",
+        "sayi": 15,
+        "sure": 1,
+        "toplamIsYuku": 15
+      },
+      {
+        "etkinlik": "Ev Ödevi",
+        "sayi": 2,
+        "sure": 5,
+        "toplamIsYuku": 10
+      },
+      {
+        "etkinlik": "Ara Sınav İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 8,
+        "toplamIsYuku": 8
+      },
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "sure": 2,
+        "toplamIsYuku": 2
+      },
+      {
+        "etkinlik": "Final Sınavı İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 8,
+        "toplamIsYuku": 8
+      },
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "sure": 2,
+        "toplamIsYuku": 2
+      }
+    ],
+    "toplamIsYuku": 90,
+    "dersAKTSKredisi": 3,
+    "hesaplama": "Dersin AKTS Kredisi = Toplam İş Yükü (Saat) / 25 = 3",
+    "aktsHesaplama": "Toplam İş Yükü / 25"
+  },
+  "etkinlikTurleri": [
+    "Alan Çalışması",
+    "Alan Gezisi",
+    "Ara Sınav",
+    "Ara Sınav İçin Bireysel Çalışma",
+    "Beyin Fırtınası",
+    "Bireysel Çalışma",
+    "Bütünleme Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Derse Katılım",
+    "Ev Ödevi",
+    "Final Sınavı",
+    "Final Sınavı İçin Bireysel Çalışma",
+    "Gösterme",
+    "Gözlem",
+    "Laboratuvar",
+    "Laboratuvar Ara Sınavı",
+    "Laboratuvar Sınavı",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Multirom CD Çalışması",
+    "Ödev Problemleri İçin Çalışma",
+    "Okuma",
+    "Örnek Vaka İncelemesi",
+    "Performans",
+    "Problem Çözümü",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Quiz İçin Bireysel Çalışma",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Rehberli Problem Çözümü",
+    "Rol Oynama / Dramatizasyon",
+    "Seminer",
+    "Soru-Yanıt",
+    "Sözlü Sınav",
+    "Takım/Grup Çalışması",
+    "Tartışma",
+    "Toplantı Başkanlığı Yapma",
+    "Uygulama/Pratik"
+  ],
+  "dersDegerlendirme": {
+    "yariyilIciEtkinlikleri": [
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "katkiYuzdesi": 67
+      },
+      {
+        "etkinlik": "Ev Ödevi",
+        "sayi": 2,
+        "katkiYuzdesi": 17
+      },
+      {
+        "etkinlik": "Derse Katılım",
+        "sayi": 15,
+        "katkiYuzdesi": 16
+      }
+    ],
+    "yariyilIciToplam": 100,
+    "yariyilSonuEtkinlikleri": [
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "katkiYuzdesi": 100
+      }
+    ],
+    "yariyilSonuToplam": 100,
+    "genelDegerlendirme": [
+      {
+        "degerlendirme": "Yarıyıl (Yıl) Sonu Etkinlikleri",
+        "katkiYuzdesi": 60
+      },
+      {
+        "degerlendirme": "Yarıyıl (Yıl) İçi Etkinlikleri",
+        "katkiYuzdesi": 40
+      }
+    ],
+    "genelDegerlendirmeToplam": 100
+  },
+  "yariyilIciOlasiEtkinlikler": [
+    "Ara Sınav",
+    "Laboratuvar Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Performans",
+    "Quiz",
+    "Rapor",
+    "Rapor Sunma",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Rehberli Problem Çözümü",
+    "Seminer",
+    "Sözlü Sınav",
+    "Ödev Problemleri İçin Çalışma",
+    "Proje Tasarımı/Yönetimi"
+  ],
+  "yariyilSonuOlasiEtkinlikler": [
+    "Final Sınavı",
+    "Laboratuvar Ara Sınavı",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Seminer",
+    "Sözlü Sınav",
+    "Gözlem"
+  ],
+  "programCiktilari": [
+    {
+      "id": "PÇ.1",
+      "kategori": "BİLGİ - Kuramsal Olgusal",
+      "aciklama": "TEMEL BİLGİ: ..."
+    },
+    {
+      "id": "PÇ.2",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "PROBLEM ÇÖZME: ..."
+    },
+    {
+      "id": "PÇ.3",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TASARIM: ..."
+    },
+    {
+      "id": "PÇ.4",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TEKNOLOJİ: ..."
+    },
+    {
+      "id": "PÇ.5",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "ARAŞTIRMA: ..."
+    },
+    {
+      "id": "PÇ.6",
+      "kategori": "YETKİNLİKLER - Bağımsız Çalışabilme ve Sorumluluk Alabilme Yetkinliği",
+      "aciklama": "İŞBİRLİĞİ: ..."
+    },
+    {
+      "id": "PÇ.7",
+      "kategori": "YETKİNLİKLER - Öğrenme Yetkinliği",
+      "aciklama": "GELİŞİM: ..."
+    },
+    {
+      "id": "PÇ.8",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "İLETİŞİM: ..."
+    },
+    {
+      "id": "PÇ.9",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "TOPLUMSAL BİLİNÇ: ..."
+    },
+    {
+      "id": "PÇ.10",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "ULUSLARARASILIK: ..."
+    },
+    {
+      "id": "PÇ.11",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "ETİK: ..."
+    },
+    {
+      "id": "PÇ.12",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "YÖNETİM: ..."
+    }
+  ],
+  "programVeOgrenmeIliskisi": {
+    "iliskiOlcekleri": "0-5 arası değerler (0: İlişki yok, 5: Çok güçlü ilişki)",
+    "iliskiTablosu": [
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.1",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 5
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.2",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 3,
+          "PÇ.11": 0,
+          "PÇ.12": 3
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.3",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 3,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 3
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.4",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 3
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.5",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 3
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.6",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 3,
+          "PÇ.11": 0,
+          "PÇ.12": 3
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.7",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 3,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 3
+        }
+      }
+    ]
+  },
+  "toplumsalKatkiVeSurdurulebilirlik": {
+    "surdurulebilirKalkinmaAmaclari": [
+      {
+        "amac": "Yoksulluğa Son",
+        "secili": false
+      },
+      {
+        "amac": "Açlığa Son",
+        "secili": false
+      },
+      {
+        "amac": "Sağlık ve Kaliteli Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Nitelikli Eğitim",
+        "secili": true
+      },
+      {
+        "amac": "Toplumsal Cinsiyet Eşitliği",
+        "secili": false
+      },
+      {
+        "amac": "Temiz Su ve Sanitasyon",
+        "secili": false
+      },
+      {
+        "amac": "Erişilebilir ve Temiz Enerji",
+        "secili": false
+      },
+      {
+        "amac": "İnsana Yakışır İş ve Ekonomik Büyüme",
+        "secili": true
+      },
+      {
+        "amac": "Sanayi, Yenilikçilik ve Altyapı",
+        "secili": true
+      },
+      {
+        "amac": "Eşitsizliklerin Azaltılması",
+        "secili": true
+      },
+      {
+        "amac": "Sürdürülebilir Şehirler ve Topluluklar",
+        "secili": false
+      },
+      {
+        "amac": "Sorumlu Üretim ve Tüketim",
+        "secili": true
+      },
+      {
+        "amac": "İklim Eylemi",
+        "secili": false
+      },
+      {
+        "amac": "Sudaki Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Karasal Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Barış, Adalet ve Güçlü Kurumlar",
+        "secili": true
+      },
+      {
+        "amac": "Amaçlar İçin Ortaklıklar",
+        "secili": false
+      }
+    ],
+    "toplumsalKatkiAlanlari": [
+      {
+        "alan": "Eğitim ve Öğretim",
+        "secili": true
+      },
+      {
+        "alan": "Sağlık",
+        "secili": false
+      },
+      {
+        "alan": "Sosyal Hizmetler ve Toplumsal Eşitlik",
+        "secili": true
+      },
+      {
+        "alan": "Çevre ve Sürdürülebilirlik",
+        "secili": true
+      },
+      {
+        "alan": "Teknolojik ve Bilimsel Yenilikler",
+        "secili": false
+      },
+      {
+        "alan": "Ekonomik Kalkınma ve Girişimcilik",
+        "secili": true
+      },
+      {
+        "alan": "Kültürel ve Sanatsal Etkinlikler",
+        "secili": false
+      },
+      {
+        "alan": "Uluslararası İş birliği ve Diplomasi",
+        "secili": false
+      },
+      {
+        "alan": "Toplum yararına yapılacak diğer çalışmalar",
+        "secili": true
+      }
+    ]
+  },
+  "dersSekmeler": {
+    "dersGenel": true,
+    "dersOgrenmeÇiktilari": true,
+    "haftalikDersIcerikleri": true,
+    "dersIsYuku": true,
+    "dersDegerlendirme": true,
+    "programVeOgrenmeÇiktilariIliskisi": true,
+    "toplumsalKatkiVeSurdurulebilirlik": true
+  },
+  "denetimBilgileri": {
+    "olusturmaTarihi": "2025-05-10 18:09:15",
+    "olusturan": "json_processor_script",
+    "sonGuncellenmeTarihi": "2025-05-10 18:09:15",
+    "guncelleyen": "json_processor_script",
+    "durum": "Taslak"
+  },
+  "numaralandirmaDegerleri": {
+    "dersTurleri": [
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dersSeviyesi": [
+      "Lisans",
+      "Yüksek Lisans",
+      "Doktora"
+    ],
+    "ogretimSistemi": [
+      "Birinci Öğretim",
+      "İkinci Öğretim",
+      "Uzaktan Öğretim"
+    ],
+    "egitimDili": [
+      "Türkçe",
+      "İngilizce"
+    ],
+    "stajDurumu": [
+      "Mevcut Değil",
+      "Mevcut",
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dokumanDurumu": [
+      "Taslak",
+      "Onaylandı",
+      "Yayınlandı",
+      "Revize Edildi"
+    ]
+  }
+}

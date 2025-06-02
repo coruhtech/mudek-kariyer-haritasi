@@ -1,0 +1,751 @@
+{
+  "dersGenel": {
+    "dersTuru": "Zorunlu",
+    "dersinSeviyesi": "Lisans",
+    "dersinAKTSKredisi": 3,
+    "haftalikDersSaatiKuramsal": 0,
+    "haftalikUygulamaSaati": 0,
+    "haftalikLaboratuarSaati": 0,
+    "dersinVerildigiYariyil": 4,
+    "ogretimSistemi": "Birinci Öğretim",
+    "egitimDili": "Türkçe",
+    "universite": "Recep Tayyip Erdoğan Üniversitesi",
+    "ulke": "Türkiye",
+    "il": "Rize",
+    "ilce": "Merkez",
+    "mahalle": "Fener Mah",
+    "fakulte": "Mühendislik Ve Mimarlık Fakültesi",
+    "bolum": "Bilgisayar Mühendisliği",
+    "dersKodu": "STJ202",
+    "dersAdi": "Staj",
+    "ogretimYiliDonemi": "Bahar",
+    "dersAKTSKredisi": 3,
+    "dilSecimi": "Türkçe",
+    "mufredatOlusturulmaYili": "2020",
+    "akademikYil": ""
+  },
+  "dersIcerik": {
+    "dersinAmaci": "Stajın amacı öğrencilerin akademik çalışmalarını saha deneyimi ile güçlendirmeleridir. Staj öğrencilerin kariyere yönelik ilgilerini netleştirmeleri için önemli bir fırsattır.",
+    "dersinOnKosuluOlanDersler": "4. dönemden itibaren staj yapılabilir",
+    "dersinIcerigi": "Staj herhangi bir iş yerinde (kamu ya da özel sektör) altı haftalık (30 işgünü) bir mesleki deneyim kazanılmasını öngörmektedir. Öğrencilerin stajlarını başarıyla tamamlayabilmeleri için Bilgisayar Mühendisliği Bölümü Staj Yönergesi’ndeki kuralları izlemeleri gerekmektedir.",
+    "dersinIcinOnerilenHususlar": "Yok",
+    "ogretimTuru": "Birinci Öğretim",
+    "stajDurumu": "Mevcut",
+    "dersinKitabiMalzemesiOnerilenKaynaklar": "Yok",
+    "dersiVerenOgretimUyesiOgretimGorevlisi": "Dr. Öğr. Üyesi Uğur CORUH",
+    "hazirlanmaTarihi": "27.04.2025"
+  },
+  "dersOgrenmeÇiktilari": [
+    {
+      "id": "ÖÇ.1",
+      "aciklama": "Üniversitede edindiği temel mühendislik (matematik, fen bilimleri, bilgisayar) bilgilerini ve problem çözme becerilerini staj yaptığı kurumdaki pratik uygulamalarda kullanır."
+    },
+    {
+      "id": "ÖÇ.2",
+      "aciklama": "Çalışma ortamındaki profesyonellerle (mühendisler, yöneticiler, ekip üyeleri) sözlü ve yazılı etkin iletişim kurar, talimatları anlar ve verir."
+    },
+    {
+      "id": "ÖÇ.3",
+      "aciklama": "Bilgisayar mühendisliği alanındaki modern teknikleri, araçları ve bilişim teknolojilerini kullanarak verilen görevleri yerine getirir ve gerçek dünya problemlerine çözümler geliştirir/uyarlar."
+    },
+    {
+      "id": "ÖÇ.4",
+      "aciklama": "Staj sürecinde edindiği teknik bilgileri, deneyimleri ve gözlemleri belirlenen standartlara uygun, yapılandırılmış bir staj raporu halinde sunar."
+    },
+    {
+      "id": "ÖÇ.5",
+      "aciklama": "İşyeri disiplinine ve kurallarına uyar, verilen sorumlulukları alır, bireysel veya takım içinde etkin çalışma sergiler."
+    },
+    {
+      "id": "ÖÇ.6",
+      "aciklama": "Staj yaptığı kurumun çalışma alanı, organizasyon yapısı ve iş süreçleri hakkında bilgi edinir; mühendislik uygulamalarının toplumsal ve evrensel boyutlarını gözlemler."
+    },
+    {
+      "id": "ÖÇ.7",
+      "aciklama": "Mesleki etik ilkelerinin iş hayatındaki yansımalarını gözlemler ve mesleki sorumluluk bilinci geliştirir."
+    }
+  ],
+  "haftalikDersIcerikleri": [
+    {
+      "hafta": 1,
+      "icerik": "Staj Yeri Belirleme ve Başvuru Süreci",
+      "iliskiliOgrenmeÇiktisi": "-",
+      "ogretimOrtami": "Bireysel",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Araştırma, İletişim",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "Staj Yönergesi, Bölüm Web Sayfası",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Staj yeri bulma ve başvuru"
+    },
+    {
+      "hafta": 2,
+      "icerik": "Staj Süreci (30 İş Günü - 1. Hafta)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "İş Yeri",
+      "onHazirlik": "Teorik Dersler",
+      "ogretimYontemleri": "Uygulama, Gözlem, İşbirliği",
+      "aracVeGerecler": "İş Yeri Donanımı",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 3,
+      "icerik": "Staj Süreci (30 İş Günü - 2. Hafta)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "İş Yeri",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Uygulama, Gözlem, İşbirliği",
+      "aracVeGerecler": "İş Yeri Donanımı",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 4,
+      "icerik": "Staj Süreci (30 İş Günü - 3. Hafta)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "İş Yeri",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Uygulama, Gözlem, İşbirliği",
+      "aracVeGerecler": "İş Yeri Donanımı",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 5,
+      "icerik": "Staj Süreci (30 İş Günü - 4. Hafta)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "İş Yeri",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Uygulama, Gözlem, İşbirliği",
+      "aracVeGerecler": "İş Yeri Donanımı",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 6,
+      "icerik": "Staj Süreci (30 İş Günü - 5. Hafta)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "İş Yeri",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Uygulama, Gözlem, İşbirliği",
+      "aracVeGerecler": "İş Yeri Donanımı",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "İş Yeri Değerlendirmesi",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 7,
+      "icerik": "Staj Süreci (30 İş Günü - 6. Hafta)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "İş Yeri",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Uygulama, Gözlem, İşbirliği",
+      "aracVeGerecler": "İş Yeri Donanımı",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "İş Yeri Değerlendirmesi",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 8,
+      "icerik": "Staj Raporu Hazırlama",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4",
+      "ogretimOrtami": "Bireysel Çalışma",
+      "onHazirlik": "Staj Deneyimi",
+      "ogretimYontemleri": "Araştırma, Yazma",
+      "aracVeGerecler": "Bilgisayar",
+      "kaynakVeMateryal": "Staj Defteri Formatı",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 9,
+      "icerik": "Staj Raporu Hazırlama",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4",
+      "ogretimOrtami": "Bireysel Çalışma",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Yazma",
+      "aracVeGerecler": "Bilgisayar",
+      "kaynakVeMateryal": "Staj Defteri Formatı",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 10,
+      "icerik": "Staj Raporu Hazırlama",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4",
+      "ogretimOrtami": "Bireysel Çalışma",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Yazma",
+      "aracVeGerecler": "Bilgisayar",
+      "kaynakVeMateryal": "Staj Defteri Formatı",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 11,
+      "icerik": "Staj Raporu Hazırlama",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4",
+      "ogretimOrtami": "Bireysel Çalışma",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Yazma",
+      "aracVeGerecler": "Bilgisayar",
+      "kaynakVeMateryal": "Staj Defteri Formatı",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 12,
+      "icerik": "Staj Raporu Teslimi ve Sunum Hazırlığı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4",
+      "ogretimOrtami": "Bireysel Çalışma",
+      "onHazirlik": "Rapor",
+      "ogretimYontemleri": "Hazırlık",
+      "aracVeGerecler": "Bilgisayar, Sunum Yazılımı",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 13,
+      "icerik": "Staj Sunumları",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Sunum",
+      "ogretimYontemleri": "Sunum, Soru-Cevap",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Sunum Değerlendirme",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 14,
+      "icerik": "Staj Sunumları",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Sunum",
+      "ogretimYontemleri": "Sunum, Soru-Cevap",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Sunum Değerlendirme",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 15,
+      "icerik": "Staj Sunumları / Değerlendirme",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Sunum",
+      "ogretimYontemleri": "Sunum, Soru-Cevap",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Sunum Değerlendirme",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 16,
+      "icerik": "Genel Değerlendirme (Staj Notu Girişi)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "-",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "-",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Genel Başarı Notu",
+      "odevVeCalisma": "-"
+    }
+  ],
+  "dersIsYuku": {
+    "etkinlikler": [
+      {
+        "etkinlik": "Uygulama/Pratik",
+        "sayi": 1,
+        "sure": 30,
+        "toplamIsYuku": 30
+      },
+      {
+        "etkinlik": "Rapor Hazırlama",
+        "sayi": 1,
+        "sure": 30,
+        "toplamIsYuku": 30
+      },
+      {
+        "etkinlik": "Rapor Sunma",
+        "sayi": 1,
+        "sure": 15,
+        "toplamIsYuku": 15
+      },
+      {
+        "etkinlik": "Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 15,
+        "toplamIsYuku": 15
+      }
+    ],
+    "toplamIsYuku": 90,
+    "dersAKTSKredisi": 3,
+    "hesaplama": "Dersin AKTS Kredisi = Toplam İş Yükü (Saat) / 25 = 3",
+    "aktsHesaplama": "Toplam İş Yükü / 25"
+  },
+  "etkinlikTurleri": [
+    "Alan Çalışması",
+    "Alan Gezisi",
+    "Ara Sınav",
+    "Ara Sınav İçin Bireysel Çalışma",
+    "Beyin Fırtınası",
+    "Bireysel Çalışma",
+    "Bütünleme Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Derse Katılım",
+    "Ev Ödevi",
+    "Final Sınavı",
+    "Final Sınavı İçin Bireysel Çalışma",
+    "Gösterme",
+    "Gözlem",
+    "Laboratuvar",
+    "Laboratuvar Ara Sınavı",
+    "Laboratuvar Sınavı",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Multirom CD Çalışması",
+    "Ödev Problemleri İçin Çalışma",
+    "Okuma",
+    "Örnek Vaka İncelemesi",
+    "Performans",
+    "Problem Çözümü",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Quiz İçin Bireysel Çalışma",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Rehberli Problem Çözümü",
+    "Rol Oynama / Dramatizasyon",
+    "Seminer",
+    "Soru-Yanıt",
+    "Sözlü Sınav",
+    "Takım/Grup Çalışması",
+    "Tartışma",
+    "Toplantı Başkanlığı Yapma",
+    "Uygulama/Pratik"
+  ],
+  "dersDegerlendirme": {
+    "yariyilIciEtkinlikleri": [
+      {
+        "etkinlik": "Performans",
+        "sayi": 1,
+        "katkiYuzdesi": 100
+      }
+    ],
+    "yariyilIciToplam": 100,
+    "yariyilSonuEtkinlikleri": [
+      {
+        "etkinlik": "Rapor Hazırlama",
+        "sayi": 1,
+        "katkiYuzdesi": 70
+      },
+      {
+        "etkinlik": "Rapor Sunma",
+        "sayi": 1,
+        "katkiYuzdesi": 30
+      }
+    ],
+    "yariyilSonuToplam": 100,
+    "genelDegerlendirme": [
+      {
+        "degerlendirme": "Yarıyıl (Yıl) Sonu Etkinlikleri (Rapor+Sunum)",
+        "katkiYuzdesi": 60
+      },
+      {
+        "degerlendirme": "Yarıyıl (Yıl) İçi Etkinlikleri (Staj Performansı/Devam)",
+        "katkiYuzdesi": 40
+      }
+    ],
+    "genelDegerlendirmeToplam": 100
+  },
+  "yariyilIciOlasiEtkinlikler": [
+    "Ara Sınav",
+    "Laboratuvar Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Performans",
+    "Quiz",
+    "Rapor",
+    "Rapor Sunma",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Rehberli Problem Çözümü",
+    "Seminer",
+    "Sözlü Sınav",
+    "Ödev Problemleri İçin Çalışma",
+    "Proje Tasarımı/Yönetimi"
+  ],
+  "yariyilSonuOlasiEtkinlikler": [
+    "Final Sınavı",
+    "Laboratuvar Ara Sınavı",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Seminer",
+    "Sözlü Sınav",
+    "Gözlem"
+  ],
+  "programCiktilari": [
+    {
+      "id": "PÇ.1",
+      "kategori": "BİLGİ - Kuramsal Olgusal",
+      "aciklama": "TEMEL BİLGİ: Matematik, Fen Bilimleri ve Bilgisayar Mühendisliği konularında yeterli bilgi sahibidir; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanır."
+    },
+    {
+      "id": "PÇ.2",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "PROBLEM ÇÖZME: Karmaşık Bilgisayar Mühendisliği problemlerini saptar, tanımlar, formüle eder ve çözer; bu amaca uygun analiz ve modelleme yöntemlerini seçer ve uygular."
+    },
+    {
+      "id": "PÇ.3",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TASARIM: Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlar; bu amaçla modern tasarım yöntemlerini uygular."
+    },
+    {
+      "id": "PÇ.4",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TEKNOLOJİ: Bilgisayar Mühendisliği uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirir, seçer ve kullanır; bilişim teknolojilerini etkin bir şekilde kullanır."
+    },
+    {
+      "id": "PÇ.5",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "ARAŞTIRMA: Karmaşık Bilgisayar Mühendisliği problemlerinin veya araştırma konularının incelenmesi için deney tasarlar, deney yapar, veri toplar, sonuçları analiz eder ve yorumlar."
+    },
+    {
+      "id": "PÇ.6",
+      "kategori": "YETKİNLİKLER - Bağımsız Çalışabilme ve Sorumluluk Alabilme Yetkinliği",
+      "aciklama": "İŞBİRLİĞİ: Bilgisayar Mühendisliği disiplini içinde ve çok disiplinli takımlarda etkin biçimde çalışır; bireysel çalışma sergiler."
+    },
+    {
+      "id": "PÇ.7",
+      "kategori": "YETKİNLİKLER - Öğrenme Yetkinliği",
+      "aciklama": "GELİŞİM: Yaşam boyu öğrenmenin gerekliliğinin bilincindedir; bilgiye erişir, bilim ve teknolojideki gelişmeleri izler ve kendini sürekli yeniler; insanlık tarihi boyunca oluşan bilgi birikimini Bilgisayar Mühendisliği alanıyla ilişkilendirir."
+    },
+    {
+      "id": "PÇ.8",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "İLETİŞİM: Türkçe sözlü ve yazılı etkin iletişim kurar; etkin rapor yazar ve yazılı raporları anlar, tasarım ve üretim raporları hazırlar, etkin sunum yapar, açık ve anlaşılır talimat verir ve alır."
+    },
+    {
+      "id": "PÇ.9",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "TOPLUMSAL BİLİNÇ: Bilgisayar Mühendisliği uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi sahibidir; mühendislik çözümlerinin hukuksal sonuçlarının farkındadır."
+    },
+    {
+      "id": "PÇ.10",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "ULUSLARARASILIK: Bir yabancı dili kullanarak Bilgisayar Mühendisliği ile ilişkili konularda, bilgi toplar ve meslektaşları ile iletişim kurar."
+    },
+    {
+      "id": "PÇ.11",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "ETİK: Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilincine sahiptir; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi sahibidir."
+    },
+    {
+      "id": "PÇ.12",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "YÖNETİM: Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi sahibidir; girişimcilik, yenilikçilik hakkında bilinçlidir; sürdürülebilir kalkınma hakkında bilgi sahibidir."
+    }
+  ],
+  "programVeOgrenmeIliskisi": {
+    "iliskiOlcekleri": "0-5 arası değerler (0: İlişki yok, 5: Çok güçlü ilişki)",
+    "iliskiTablosu": [
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.1",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 3,
+          "PÇ.6": 5,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.2",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 3,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.3",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 3,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.4",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 3,
+          "PÇ.7": 0,
+          "PÇ.8": 3,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.5",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 3,
+          "PÇ.6": 3,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.6",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 3,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.7",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 3,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      }
+    ]
+  },
+  "toplumsalKatkiVeSurdurulebilirlik": {
+    "surdurulebilirKalkinmaAmaclari": [
+      {
+        "amac": "Yoksulluğa Son",
+        "secili": false
+      },
+      {
+        "amac": "Açlığa Son",
+        "secili": false
+      },
+      {
+        "amac": "Sağlık ve Kaliteli Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Nitelikli Eğitim",
+        "secili": true
+      },
+      {
+        "amac": "Toplumsal Cinsiyet Eşitliği",
+        "secili": false
+      },
+      {
+        "amac": "Temiz Su ve Sanitasyon",
+        "secili": false
+      },
+      {
+        "amac": "Erişilebilir ve Temiz Enerji",
+        "secili": false
+      },
+      {
+        "amac": "İnsana Yakışır İş ve Ekonomik Büyüme",
+        "secili": true
+      },
+      {
+        "amac": "Sanayi, Yenilikçilik ve Altyapı",
+        "secili": true
+      },
+      {
+        "amac": "Eşitsizliklerin Azaltılması",
+        "secili": false
+      },
+      {
+        "amac": "Sürdürülebilir Şehirler ve Topluluklar",
+        "secili": false
+      },
+      {
+        "amac": "Sorumlu Üretim ve Tüketim",
+        "secili": false
+      },
+      {
+        "amac": "İklim Eylemi",
+        "secili": false
+      },
+      {
+        "amac": "Sudaki Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Karasal Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Barış, Adalet ve Güçlü Kurumlar",
+        "secili": false
+      },
+      {
+        "amac": "Amaçlar İçin Ortaklıklar",
+        "secili": false
+      }
+    ],
+    "toplumsalKatkiAlanlari": [
+      {
+        "alan": "Eğitim ve Öğretim",
+        "secili": true
+      },
+      {
+        "alan": "Sağlık",
+        "secili": false
+      },
+      {
+        "alan": "Sosyal Hizmetler ve Toplumsal Eşitlik",
+        "secili": false
+      },
+      {
+        "alan": "Çevre ve Sürdürülebilirlik",
+        "secili": false
+      },
+      {
+        "alan": "Teknolojik ve Bilimsel Yenilikler",
+        "secili": true
+      },
+      {
+        "alan": "Ekonomik Kalkınma ve Girişimcilik",
+        "secili": true
+      },
+      {
+        "alan": "Kültürel ve Sanatsal Etkinlikler",
+        "secili": false
+      },
+      {
+        "alan": "Uluslararası İş birliği ve Diplomasi",
+        "secili": false
+      },
+      {
+        "alan": "Toplum yararına yapılacak diğer çalışmalar",
+        "secili": true
+      }
+    ]
+  },
+  "dersSekmeler": {
+    "dersGenel": true,
+    "dersOgrenmeÇiktilari": true,
+    "haftalikDersIcerikleri": true,
+    "dersIsYuku": true,
+    "dersDegerlendirme": true,
+    "programVeOgrenmeÇiktilariIliskisi": true,
+    "toplumsalKatkiVeSurdurulebilirlik": true
+  },
+  "denetimBilgileri": {
+    "olusturmaTarihi": "2025-05-10 18:09:18",
+    "olusturan": "json_processor_script",
+    "sonGuncellenmeTarihi": "2025-05-10 18:09:18",
+    "guncelleyen": "json_processor_script",
+    "durum": "Taslak"
+  },
+  "numaralandirmaDegerleri": {
+    "dersTurleri": [
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dersSeviyesi": [
+      "Lisans",
+      "Yüksek Lisans",
+      "Doktora"
+    ],
+    "ogretimSistemi": [
+      "Birinci Öğretim",
+      "İkinci Öğretim",
+      "Uzaktan Öğretim"
+    ],
+    "egitimDili": [
+      "Türkçe",
+      "İngilizce"
+    ],
+    "stajDurumu": [
+      "Mevcut Değil",
+      "Mevcut",
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dokumanDurumu": [
+      "Taslak",
+      "Onaylandı",
+      "Yayınlandı",
+      "Revize Edildi"
+    ]
+  }
+}

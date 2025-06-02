@@ -1,0 +1,776 @@
+{
+  "dersGenel": {
+    "dersTuru": "Seçmeli",
+    "dersinSeviyesi": "Lisans",
+    "dersinAKTSKredisi": 5,
+    "haftalikDersSaatiKuramsal": 3,
+    "haftalikUygulamaSaati": 0,
+    "haftalikLaboratuarSaati": 2,
+    "dersinVerildigiYariyil": 8,
+    "ogretimSistemi": "Birinci Öğretim",
+    "egitimDili": "İngilizce",
+    "secmeliDersGrubuKodu": "ELCE08",
+    "universite": "Recep Tayyip Erdoğan Üniversitesi",
+    "ulke": "Türkiye",
+    "il": "Rize",
+    "ilce": "Merkez",
+    "mahalle": "Fener Mah",
+    "fakulte": "Mühendislik Ve Mimarlık Fakültesi",
+    "bolum": "Bilgisayar Mühendisliği",
+    "dersKodu": "CE406",
+    "dersAdi": "Postquantum Crytography",
+    "ogretimYiliDonemi": "Bahar",
+    "dersAKTSKredisi": 5,
+    "dilSecimi": "Türkçe",
+    "mufredatOlusturulmaYili": "2020",
+    "akademikYil": ""
+  },
+  "dersIcerik": {
+    "dersinAmaci": "Kuantum bilgisayarlarının mevcut kriptografik sistemlere yönelik oluşturduğu tehditleri anlamak ve bu tehditlere karşı dayanıklı olan kuantum sonrası kriptografi (PQC) algoritmalarını (kafes tabanlı, kod tabanlı, hash tabanlı vb.) incelemek. Öğrencilere PQC sistemlerinin temel prensiplerini, avantajlarını, dezavantajlarını ve uygulama zorluklarını öğretmek.",
+    "dersinOnKosuluOlanDersler": "Temel Kriptografi Bilgisi (örn: CE403 Network Security veya eşdeğeri önerilir)",
+    "dersinIcerigi": "Kuantum Hesaplamaya Giriş ve Kriptografiye Etkisi (Shor Algoritması), Kuantum Sonrası Kriptografiye Genel Bakış, Matematiksel Temeller (Kafesler, Kodlama Teorisi vb.), Kafes Tabanlı Kriptografi (LWE, NTRU), Kod Tabanlı Kriptografi (McEliece), Hash Tabanlı İmzalar, Çok Değişkenli Kriptografi, Kuantum Sonrası Kriptografi Standardizasyon Süreçleri (NIST PQC), PQC Algoritmalarının Uygulanması ve Performans Değerlendirmesi.",
+    "dersinIcinOnerilenHususlar": "İleri düzey matematik (özellikle lineer cebir ve soyut cebir) ve temel kriptografi bilgisi önemlidir. İlgili araştırma makalelerinin okunması teşvik edilir.",
+    "ogretimTuru": "Birinci Öğretim",
+    "stajDurumu": "Mevcut Değil",
+    "dersinKitabiMalzemesiOnerilenKaynaklar": "Post-Quantum Cryptography by Daniel J. Bernstein, Johannes Buchmann, Erik Dahmen (Eds.).\nNIST PQC Standardization Project documentation and papers.",
+    "dersiVerenOgretimUyesiOgretimGorevlisi": "",
+    "hazirlanmaTarihi": "2024-04-27"
+  },
+  "dersOgrenmeÇiktilari": [
+    {
+      "id": "ÖÇ.1",
+      "aciklama": "Kuantum bilgisayarlarının klasik kriptografik sistemlere yönelik tehdidini matematiksel ve kuramsal temellerle açıklar ve bu tehditlerin bilgi güvenliği üzerindeki potansiyel toplumsal etkilerini analiz eder."
+    },
+    {
+      "id": "ÖÇ.2",
+      "aciklama": "Başlıca kuantum sonrası kriptografi algoritma ailelerini (kafes tabanlı, kod tabanlı, hash tabanlı, çok değişkenli) sistematik olarak sınıflandırır ve bu algoritmaların karşılaştırmalı özellikleri hakkında teknik bilgileri uluslararası terminolojiyi kullanarak paylaşır."
+    },
+    {
+      "id": "ÖÇ.3",
+      "aciklama": "Önemli PQC şemalarının altında yatan matematiksel temelleri anlar ve bu matematiksel yapıların kuantum sonrası kriptografik sistemlerin tasarımındaki rolünü değerlendirir."
+    },
+    {
+      "id": "ÖÇ.4",
+      "aciklama": "Farklı PQC yaklaşımlarının güvenlik, performans ve uygulama zorluklarını uygun analiz yöntemleri ve araçlar kullanarak çözümler ve sonuçları açık ve anlaşılır şekilde iletir."
+    },
+    {
+      "id": "ÖÇ.5",
+      "aciklama": "Kuantum sonrası kriptografi için devam eden standardizasyon çabalarını (örneğin, NIST PQC) takip eder, bu çalışmaların sonuçlarını eleştirel bir yaklaşımla değerlendirir ve toplumsal güvenlik ihtiyaçları açısından yorumlar."
+    },
+    {
+      "id": "ÖÇ.6",
+      "aciklama": "Kuantum sonrası kriptografi alanında disiplinler arası takımlarda etkin biçimde çalışır, uluslararası kaynaklardan faydalanarak problem çözme süreçlerine katkıda bulunur ve ortak projeler geliştirir."
+    },
+    {
+      "id": "ÖÇ.7",
+      "aciklama": "Kuantum sonrası kriptografi alanındaki güncel gelişmeleri, etik ilkelere uygun bir şekilde takip eder, yaşam boyu öğrenme yaklaşımıyla bu alandaki teknolojilerin gelişimine katkıda bulunur ve bilgi güvenliğinin geleceği hakkında öngörülerde bulunur."
+    }
+  ],
+  "haftalikDersIcerikleri": [
+    {
+      "hafta": 1,
+      "icerik": "Giriş: Kriptografiye Kuantum Tehdidi, Shor Algoritması",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Temel Kriptografi",
+      "ogretimYontemleri": "Anlatım",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 2,
+      "icerik": "Kuantum Sonrası Kriptografiye (PQC) Genel Bakış",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Kuantum Tehdidi",
+      "ogretimYontemleri": "Anlatım",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 3,
+      "icerik": "Matematiksel Ön Bilgiler: Kafesler, Kodlama Teorisi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Lineer Cebir",
+      "ogretimYontemleri": "Anlatım",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 4,
+      "icerik": "Kafes Tabanlı Kriptografi: LWE, SIS Problemleri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Kafes Temelleri",
+      "ogretimYontemleri": "Anlatım",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 5,
+      "icerik": "Kafes Tabanlı Şemalar: Şifreleme (ör. Kyber)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3, ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "LWE/SIS",
+      "ogretimYontemleri": "Anlatım, Örnekleme",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Makaleler",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 6,
+      "icerik": "Kafes Tabanlı Şemalar: İmzalar (ör. Dilithium)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.6",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "LWE/SIS",
+      "ogretimYontemleri": "Anlatım, Örnekleme",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Makaleler",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 7,
+      "icerik": "Kod Tabanlı Kriptografi: McEliece Kriptosistemi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3, ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Kodlama Teorisi",
+      "ogretimYontemleri": "Anlatım",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "Quiz",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 8,
+      "icerik": "Ara Sınav",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "1-7 Hafta Konuları",
+      "ogretimYontemleri": "Sınav",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Ara Sınav",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 9,
+      "icerik": "Hash Tabanlı İmzalar (Lamport, Merkle)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3, ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Hash Fonksiyonları",
+      "ogretimYontemleri": "Anlatım",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 10,
+      "icerik": "Durumlu vs. Durumsuz Hash Tabanlı İmzalar (SPHINCS+)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.6",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Hash Tabanlı İmzalar",
+      "ogretimYontemleri": "Anlatım, Karşılaştırma",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 11,
+      "icerik": "Çok Değişkenli Kriptografi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3, ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Cebir Temelleri",
+      "ogretimYontemleri": "Anlatım",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 12,
+      "icerik": "İzojeni Tabanlı Kriptografi (Genel Bakış)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Eliptik Eğriler (Önerilir)",
+      "ogretimYontemleri": "Anlatım",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 13,
+      "icerik": "PQC Standardizasyon Çalışmaları (NIST PQC Projesi)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm PQC Aileleri",
+      "ogretimYontemleri": "Anlatım, Tartışma",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "NIST Raporları, Web Sitesi",
+      "degerlendirmeYontemleri": "Ödev/Sunum",
+      "odevVeCalisma": "NIST Süreci Araştırması"
+    },
+    {
+      "hafta": 14,
+      "icerik": "Uygulama Detayları ve Performans",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4, ÖÇ.6",
+      "ogretimOrtami": "Sınıf Ortamı / Laboratuvar",
+      "onHazirlik": "PQC Algoritmaları",
+      "ogretimYontemleri": "Anlatım, Uygulama Örnekleri",
+      "aracVeGerecler": "Projeksiyon, PQC Kütüphaneleri",
+      "kaynakVeMateryal": "Ders Notları, Benchmarklar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Performans Karşılaştırma"
+    },
+    {
+      "hafta": 15,
+      "icerik": "Tekrar ve İleri Konular/Araştırma Yönelimleri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.5, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm Konular",
+      "ogretimYontemleri": "Özetleme, Tartışma",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Güncel Makaleler",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Final Sınavına Hazırlık"
+    },
+    {
+      "hafta": 16,
+      "icerik": "Final Sınavı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm Konular",
+      "ogretimYontemleri": "Sınav",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Final Sınavı",
+      "odevVeCalisma": "-"
+    }
+  ],
+  "dersIsYuku": {
+    "etkinlikler": [
+      {
+        "etkinlik": "Derse Katılım",
+        "sayi": 14,
+        "sure": 5,
+        "toplamIsYuku": 70
+      },
+      {
+        "etkinlik": "Laboratuvar",
+        "sayi": 2,
+        "sure": 4,
+        "toplamIsYuku": 8
+      },
+      {
+        "etkinlik": "Ev Ödevi",
+        "sayi": 3,
+        "sure": 4,
+        "toplamIsYuku": 12
+      },
+      {
+        "etkinlik": "Bireysel Çalışma",
+        "sayi": 14,
+        "sure": 1,
+        "toplamIsYuku": 14
+      },
+      {
+        "etkinlik": "Ara Sınav İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 7,
+        "toplamIsYuku": 7
+      },
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "sure": 2,
+        "toplamIsYuku": 2
+      },
+      {
+        "etkinlik": "Final Sınavı İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 10,
+        "toplamIsYuku": 10
+      },
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "sure": 2,
+        "toplamIsYuku": 2
+      }
+    ],
+    "toplamIsYuku": 125,
+    "dersAKTSKredisi": 5,
+    "hesaplama": "Dersin AKTS Kredisi = Toplam İş Yükü (Saat) / 25 = 5",
+    "aktsHesaplama": "Toplam İş Yükü / 25"
+  },
+  "etkinlikTurleri": [
+    "Alan Çalışması",
+    "Alan Gezisi",
+    "Ara Sınav",
+    "Ara Sınav İçin Bireysel Çalışma",
+    "Beyin Fırtınası",
+    "Bireysel Çalışma",
+    "Bütünleme Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Derse Katılım",
+    "Ev Ödevi",
+    "Final Sınavı",
+    "Final Sınavı İçin Bireysel Çalışma",
+    "Gösterme",
+    "Gözlem",
+    "Laboratuvar",
+    "Laboratuvar Ara Sınavı",
+    "Laboratuvar Sınavı",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Multirom CD Çalışması",
+    "Ödev Problemleri İçin Çalışma",
+    "Okuma",
+    "Örnek Vaka İncelemesi",
+    "Performans",
+    "Problem Çözümü",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Quiz İçin Bireysel Çalışma",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Rehberli Problem Çözümü",
+    "Rol Oynama / Dramatizasyon",
+    "Seminer",
+    "Soru-Yanıt",
+    "Sözlü Sınav",
+    "Takım/Grup Çalışması",
+    "Tartışma",
+    "Toplantı Başkanlığı Yapma",
+    "Uygulama/Pratik"
+  ],
+  "dersDegerlendirme": {
+    "yariyilIciEtkinlikleri": [
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "katkiYuzdesi": 60
+      },
+      {
+        "etkinlik": "Ev Ödevi",
+        "sayi": 5,
+        "katkiYuzdesi": 40
+      }
+    ],
+    "yariyilIciToplam": 100,
+    "yariyilSonuEtkinlikleri": [
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "katkiYuzdesi": 100
+      }
+    ],
+    "yariyilSonuToplam": 100,
+    "genelDegerlendirme": [
+      {
+        "degerlendirme": "Yarıyıl (Yıl) Sonu Etkinlikleri",
+        "katkiYuzdesi": 60
+      },
+      {
+        "degerlendirme": "Yarıyıl (Yıl) İçi Etkinlikleri",
+        "katkiYuzdesi": 40
+      }
+    ],
+    "genelDegerlendirmeToplam": 100
+  },
+  "yariyilIciOlasiEtkinlikler": [
+    "Ara Sınav",
+    "Laboratuvar Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Performans",
+    "Quiz",
+    "Rapor",
+    "Rapor Sunma",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Rehberli Problem Çözümü",
+    "Seminer",
+    "Sözlü Sınav",
+    "Ödev Problemleri İçin Çalışma",
+    "Proje Tasarımı/Yönetimi"
+  ],
+  "yariyilSonuOlasiEtkinlikler": [
+    "Final Sınavı",
+    "Laboratuvar Ara Sınavı",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Seminer",
+    "Sözlü Sınav",
+    "Gözlem"
+  ],
+  "programCiktilari": [
+    {
+      "id": "PÇ.1",
+      "kategori": "BİLGİ - Kuramsal Olgusal",
+      "aciklama": "TEMEL BİLGİ: Matematik, Fen Bilimleri ve Bilgisayar Mühendisliği konularında yeterli bilgi sahibidir; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanır."
+    },
+    {
+      "id": "PÇ.2",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "PROBLEM ÇÖZME: Karmaşık Bilgisayar Mühendisliği problemlerini saptar, tanımlar, formüle eder ve çözer; bu amaca uygun analiz ve modelleme yöntemlerini seçer ve uygular."
+    },
+    {
+      "id": "PÇ.3",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TASARIM: Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlar; bu amaçla modern tasarım yöntemlerini uygular."
+    },
+    {
+      "id": "PÇ.4",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TEKNOLOJİ: Bilgisayar Mühendisliği uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirir, seçer ve kullanır; bilişim teknolojilerini etkin bir şekilde kullanır."
+    },
+    {
+      "id": "PÇ.5",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "ARAŞTIRMA: Karmaşık Bilgisayar Mühendisliği problemlerinin veya araştırma konularının incelenmesi için deney tasarlar, deney yapar, veri toplar, sonuçları analiz eder ve yorumlar."
+    },
+    {
+      "id": "PÇ.6",
+      "kategori": "YETKİNLİKLER - Bağımsız Çalışabilme ve Sorumluluk Alabilme Yetkinliği",
+      "aciklama": "İŞBİRLİĞİ: Bilgisayar Mühendisliği disiplini içinde ve çok disiplinli takımlarda etkin biçimde çalışır; bireysel çalışma sergiler."
+    },
+    {
+      "id": "PÇ.7",
+      "kategori": "YETKİNLİKLER - Öğrenme Yetkinliği",
+      "aciklama": "GELİŞİM: Yaşam boyu öğrenmenin gerekliliğinin bilincindedir; bilgiye erişir, bilim ve teknolojideki gelişmeleri izler ve kendini sürekli yeniler; insanlık tarihi boyunca oluşan bilgi birikimini Bilgisayar Mühendisliği alanıyla ilişkilendirir."
+    },
+    {
+      "id": "PÇ.8",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "İLETİŞİM: Türkçe sözlü ve yazılı etkin iletişim kurar; etkin rapor yazar ve yazılı raporları anlar, tasarım ve üretim raporları hazırlar, etkin sunum yapar, açık ve anlaşılır talimat verir ve alır."
+    },
+    {
+      "id": "PÇ.9",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "TOPLUMSAL BİLİNÇ: Bilgisayar Mühendisliği uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi sahibidir; mühendislik çözümlerinin hukuksal sonuçlarının farkındadır."
+    },
+    {
+      "id": "PÇ.10",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "ULUSLARARASILIK: Bir yabancı dili kullanarak Bilgisayar Mühendisliği ile ilişkili konularda, bilgi toplar ve meslektaşları ile iletişim kurar."
+    },
+    {
+      "id": "PÇ.11",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "ETİK: Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilincine sahiptir; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi sahibidir."
+    },
+    {
+      "id": "PÇ.12",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "YÖNETİM: Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi sahibidir; girişimcilik, yenilikçilik hakkında bilinçlidir; sürdürülebilir kalkınma hakkında bilgi sahibidir."
+    }
+  ],
+  "programVeOgrenmeIliskisi": {
+    "iliskiOlcekleri": "0-5 arası değerler (0: İlişki yok, 5: Çok güçlü ilişki)",
+    "iliskiTablosu": [
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.1",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 5,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.2",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 3,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 3,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.3",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 0,
+          "PÇ.3": 3,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.4",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.5",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.6",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 3,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 3,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.7",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 0,
+          "PÇ.3": 3,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      }
+    ]
+  },
+  "toplumsalKatkiVeSurdurulebilirlik": {
+    "surdurulebilirKalkinmaAmaclari": [
+      {
+        "amac": "Yoksulluğa Son",
+        "secili": false
+      },
+      {
+        "amac": "Açlığa Son",
+        "secili": false
+      },
+      {
+        "amac": "Sağlık ve Kaliteli Yaşam",
+        "secili": true
+      },
+      {
+        "amac": "Nitelikli Eğitim",
+        "secili": true
+      },
+      {
+        "amac": "Toplumsal Cinsiyet Eşitliği",
+        "secili": false
+      },
+      {
+        "amac": "Temiz Su ve Sanitasyon",
+        "secili": false
+      },
+      {
+        "amac": "Erişilebilir ve Temiz Enerji",
+        "secili": false
+      },
+      {
+        "amac": "İnsana Yakışır İş ve Ekonomik Büyüme",
+        "secili": true
+      },
+      {
+        "amac": "Sanayi, Yenilikçilik ve Altyapı",
+        "secili": true
+      },
+      {
+        "amac": "Eşitsizliklerin Azaltılması",
+        "secili": false
+      },
+      {
+        "amac": "Sürdürülebilir Şehirler ve Topluluklar",
+        "secili": true
+      },
+      {
+        "amac": "Sorumlu Üretim ve Tüketim",
+        "secili": false
+      },
+      {
+        "amac": "İklim Eylemi",
+        "secili": false
+      },
+      {
+        "amac": "Sudaki Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Karasal Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Barış, Adalet ve Güçlü Kurumlar",
+        "secili": true
+      },
+      {
+        "amac": "Amaçlar İçin Ortaklıklar",
+        "secili": true
+      }
+    ],
+    "toplumsalKatkiAlanlari": [
+      {
+        "alan": "Eğitim ve Öğretim",
+        "secili": true
+      },
+      {
+        "alan": "Sağlık",
+        "secili": true
+      },
+      {
+        "alan": "Sosyal Hizmetler ve Toplumsal Eşitlik",
+        "secili": false
+      },
+      {
+        "alan": "Çevre ve Sürdürülebilirlik",
+        "secili": false
+      },
+      {
+        "alan": "Teknolojik ve Bilimsel Yenilikler",
+        "secili": true
+      },
+      {
+        "alan": "Ekonomik Kalkınma ve Girişimcilik",
+        "secili": true
+      },
+      {
+        "alan": "Kültürel ve Sanatsal Etkinlikler",
+        "secili": false
+      },
+      {
+        "alan": "Uluslararası İş birliği ve Diplomasi",
+        "secili": true
+      },
+      {
+        "alan": "Toplum yararına yapılacak diğer çalışmalar",
+        "secili": true
+      }
+    ]
+  },
+  "dersSekmeler": {
+    "dersGenel": true,
+    "dersOgrenmeÇiktilari": true,
+    "haftalikDersIcerikleri": true,
+    "dersIsYuku": true,
+    "dersDegerlendirme": true,
+    "programVeOgrenmeÇiktilariIliskisi": true,
+    "toplumsalKatkiVeSurdurulebilirlik": true
+  },
+  "denetimBilgileri": {
+    "olusturmaTarihi": "2025-05-10 18:09:27",
+    "olusturan": "json_processor_script",
+    "sonGuncellenmeTarihi": "2025-05-10 18:09:27",
+    "guncelleyen": "json_processor_script",
+    "durum": "Taslak"
+  },
+  "numaralandirmaDegerleri": {
+    "dersTurleri": [
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dersSeviyesi": [
+      "Lisans",
+      "Yüksek Lisans",
+      "Doktora"
+    ],
+    "ogretimSistemi": [
+      "Birinci Öğretim",
+      "İkinci Öğretim",
+      "Uzaktan Öğretim"
+    ],
+    "egitimDili": [
+      "Türkçe",
+      "İngilizce"
+    ],
+    "stajDurumu": [
+      "Mevcut Değil",
+      "Mevcut",
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dokumanDurumu": [
+      "Taslak",
+      "Onaylandı",
+      "Yayınlandı",
+      "Revize Edildi"
+    ]
+  }
+}

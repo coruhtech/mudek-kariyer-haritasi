@@ -1,0 +1,781 @@
+{
+  "dersGenel": {
+    "dersTuru": "Zorunlu",
+    "dersinSeviyesi": "Lisans",
+    "dersKredisi": 3,
+    "dersinAKTSKredisi": 5,
+    "haftalikDersSaatiKuramsal": 3,
+    "haftalikUygulamaSaati": 0,
+    "haftalikLaboratuarSaati": 0,
+    "dersinVerildigiYariyil": 5,
+    "ogretimSistemi": "Birinci Öğretim",
+    "egitimDili": "Türkçe",
+    "universite": "Recep Tayyip Erdoğan Üniversitesi",
+    "ulke": "Türkiye",
+    "il": "Rize",
+    "ilce": "Merkez",
+    "mahalle": "Fener Mah",
+    "fakulte": "Mühendislik Ve Mimarlık Fakültesi",
+    "bolum": "Bilgisayar Mühendisliği",
+    "dersKodu": "CEN301",
+    "dersAdi": "Proje Yönetimi",
+    "ogretimYiliDonemi": "Güz",
+    "dersAKTSKredisi": 5,
+    "dilSecimi": "Türkçe",
+    "mufredatOlusturulmaYili": "2024",
+    "akademikYil": ""
+  },
+  "dersIcerik": {
+    "dersinAmaci": "Proje yönetimi ile ilgili kavramları tanıtmak ve öğrencilerin proje yönetim becerilerini geliştirmektir. Proje süreçlerinde gerekli araçların, proje yönetimi tekniklerinin ve projelerin başarısı için gereken becerilerin kazandırılması amaçlanmaktadır.",
+    "dersinOnKosuluOlanDersler": "Mevcut Değil",
+    "dersinIcerigi": "Proje Yönetimine Giriş\nProje Entegrasyon Yönetimi\nProje Kapsam Yönetimi\nSüreç Grupları\nProje Standartları\nProje Zaman Yönetimi\nProje Performans Ölçümü\nProje Risk Yönetimi\nProje Kalite Yönetimi\nProje İnsan Kaynakları Yönetimi\nProje Tedarik & İletişim Yönetimi\nProje Sunumları",
+    "dersinIcinOnerilenHususlar": "Öğrencilerin derslere düzenli katılımı ve verilen ödevleri zamanında tamamlaması önerilir. Proje yönetimi konusunda güncel makalelerin takip edilmesi ve proje yönetimi yazılımlarının (MS Project, Jira, Trello vb.) temel seviyede kullanımı öğrenilmelidir. Proje yönetimi vaka çalışmalarını analiz etmek ve gerçek dünya uygulamalarını incelemek de büyük fayda sağlar.",
+    "ogretimTuru": "Birinci Öğretim",
+    "stajDurumu": "Mevcut Değil",
+    "dersinKitabiMalzemesiOnerilenKaynaklar": "1. Project Management Institute (2021). A Guide to the Project Management Body of Knowledge (PMBOK Guide) (7th ed.). PMI.\n2. Kerzner, H. (2023). Project Management: A Systems Approach to Planning, Scheduling, and Controlling (13th ed.). Wiley.\n3. Larson, E. W., & Gray, C. F. (2021). Project Management: The Managerial Process (8th ed.). McGraw-Hill Education.\n4. Schwalbe, K. (2022). Information Technology Project Management (10th ed.). Cengage Learning.\n\nOnline Kaynaklar:\n- PMI (Project Management Institute): www.pmi.org\n- Harvard Business Review - Project Management: https://hbr.org/topic/project-management\n- Ders notları ve sunumları",
+    "dersiVerenOgretimUyesiOgretimGorevlisi": "Dr. Öğr. Üyesi Abdulgani Kahraman",
+    "hazirlanmaTarihi": "27.04.2025"
+  },
+  "dersOgrenmeÇiktilari": [
+    {
+      "id": "ÖÇ.1",
+      "aciklama": "Proje yönetimi temel kavramlarını (proje, program, portföy), süreç gruplarını (başlatma, planlama, yürütme, izleme/kontrol, kapanış) ve bilgi alanlarını açıklar."
+    },
+    {
+      "id": "ÖÇ.2",
+      "aciklama": "Proje kapsamını, kalitesini, insan kaynaklarını, iletişimi ve tedariği yönetmek için temel yöntem ve teknikleri bilir."
+    },
+    {
+      "id": "ÖÇ.3",
+      "aciklama": "Proje zaman çizelgesi oluşturma (iş kırılım yapısı, Gantt şeması, kritik yol analizi) ve proje maliyet yönetimi için temel teknikleri uygular."
+    },
+    {
+      "id": "ÖÇ.4",
+      "aciklama": "Proje ekibi içinde etkin iletişim kurar, takım çalışmasındaki potansiyel zorlukları analiz eder ve çözüm önerileri geliştirir."
+    },
+    {
+      "id": "ÖÇ.5",
+      "aciklama": "Proje risk yönetimi süreçlerini (tanımlama, analiz, yanıt planlama) ve proje performansını ölçme (kazanılmış değer analizi vb.) tekniklerini bilir."
+    },
+    {
+      "id": "ÖÇ.6",
+      "aciklama": "Proje yönetimi standartlarını (örn: PMBOK) bilir ve projelerin başarılı bir şekilde yürütülmesindeki önemini değerlendirir."
+    },
+    {
+      "id": "ÖÇ.7",
+      "aciklama": "Proje yönetimi yazılımlarını kullanarak proje planlama ve takip işlemlerini gerçekleştirir."
+    }
+  ],
+  "haftalikDersIcerikleri": [
+    {
+      "hafta": 1,
+      "icerik": "Proje Yönetimine Giriş: Temel kavramlar, proje, program ve portföy yönetimi arasındaki farklar, proje yönetiminin tarihçesi ve günümüzdeki önemi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Anlatım, Tartışma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, PMBOK Guide",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Proje, program ve portföy örneklerini araştırma"
+    },
+    {
+      "hafta": 2,
+      "icerik": "Proje Entegrasyon Yönetimi: Proje yaşam döngüsü, proje süreçleri, proje yönetimi planlaması, değişiklik kontrolü",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.6",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Proje Yönetimine Giriş",
+      "ogretimYontemleri": "Anlatım, Örnek Vaka İncelemesi",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, PMBOK Guide",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Proje yaşam döngüsü örneği hazırlama"
+    },
+    {
+      "hafta": 3,
+      "icerik": "Proje Kapsam Yönetimi: Kapsam planlaması, gereksinimlerin toplanması, İş Kırılım Yapısı (WBS) oluşturma, kapsam doğrulama ve kontrolü",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Entegrasyon Yönetimi",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, PMBOK Guide, Örnek Projeler",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "WBS oluşturma alıştırması"
+    },
+    {
+      "hafta": 4,
+      "icerik": "Süreç Grupları: Başlatma, planlama, yürütme, izleme/kontrol ve kapanış süreçleri, süreç grupları arasındaki ilişkiler",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.6",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Proje Kapsam Yönetimi",
+      "ogretimYontemleri": "Anlatım, Tartışma, Grup Çalışması",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, PMBOK Guide",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Süreç grupları vaka analizi"
+    },
+    {
+      "hafta": 5,
+      "icerik": "Proje Standartları: PMI ve PMBOK, PRINCE2, Agile, Scrum, Kanban gibi farklı proje yönetimi yaklaşımları, endüstri standartları",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.6",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Süreç Grupları",
+      "ogretimYontemleri": "Anlatım, Tartışma, Araştırma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, PMBOK Guide, PMI Standartları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Standartlar karşılaştırma araştırması"
+    },
+    {
+      "hafta": 6,
+      "icerik": "Proje Zaman Yönetimi: Aktivite tanımlama, sıralama, süre tahminleri, çizelgeleme, Gantt şemaları, kritik yol metodu (CPM), PERT analizi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Kapsam Yönetimi",
+      "ogretimYontemleri": "Anlatım, Uygulama, Problem Çözme",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, Proje Yönetim Yazılımı",
+      "kaynakVeMateryal": "Ders Notları, Örnek Projeler",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Gantt şeması ve CPM uygulaması"
+    },
+    {
+      "hafta": 7,
+      "icerik": "Proje Maliyet Yönetimi ve Performans Ölçümü: Maliyet tahminleri, bütçeleme, kazanılmış değer analizi (EVM), performans göstergeleri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Zaman Yönetimi",
+      "ogretimYontemleri": "Anlatım, Problem Çözme, Grup Çalışması",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, EVM Hesaplamaları ve Örnekleri",
+      "degerlendirmeYontemleri": "Ara Sınav",
+      "odevVeCalisma": "EVM hesaplama örneği"
+    },
+    {
+      "hafta": 8,
+      "icerik": "Ara Sınav: 1-7. haftalar arası konuları kapsayan yazılı değerlendirme",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.5, ÖÇ.6",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "1-7. Hafta Konuları",
+      "ogretimYontemleri": "Sınav",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Yazılı Sınav",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 9,
+      "icerik": "Proje Risk Yönetimi: Risk tanımlama, nitel ve nicel risk analizi, risk yanıt stratejileri, risk izleme ve kontrolü",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Performans Ölçümü",
+      "ogretimYontemleri": "Anlatım, Beyin Fırtınası, Vaka Analizi",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Risk Analizi Örnekleri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Risk matrisi oluşturma pratiği"
+    },
+    {
+      "hafta": 10,
+      "icerik": "Proje Kalite Yönetimi: Kalite planlama, kalite güvence, kalite kontrol, sürekli iyileştirme, kalite standartları",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Risk Yönetimi",
+      "ogretimYontemleri": "Anlatım, Tartışma, Grup Çalışması",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Kalite Standartları Dokümanları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Kalite kontrol planı oluşturma"
+    },
+    {
+      "hafta": 11,
+      "icerik": "Proje İnsan Kaynakları Yönetimi: Proje ekibi oluşturma, rol ve sorumluluklar, takım geliştirme, çatışma yönetimi, liderlik",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Kalite Yönetimi",
+      "ogretimYontemleri": "Anlatım, Rol Oynama, Tartışma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, İK Yönetimi Vaka Örnekleri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Takım yapısı ve sorumluluk matrisi oluşturma"
+    },
+    {
+      "hafta": 12,
+      "icerik": "Proje İletişim ve Paydaş Yönetimi: İletişim planlaması, bilgi yönetimi, paydaş analizi, paydaş katılımı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "İnsan Kaynakları Yönetimi",
+      "ogretimYontemleri": "Anlatım, Tartışma, Grup Çalışması",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, İletişim Şablonları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "İletişim planı ve paydaş kaydı oluşturma"
+    },
+    {
+      "hafta": 13,
+      "icerik": "Proje Tedarik Yönetimi ve Kapanış: Tedarik süreçleri, sözleşme türleri, proje kapanış aktiviteleri, öğrenilmiş dersler",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.6",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "İletişim Yönetimi",
+      "ogretimYontemleri": "Anlatım, Tartışma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Örnek Sözleşmeler",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Kapanış kontrol listesi oluşturma"
+    },
+    {
+      "hafta": 14,
+      "icerik": "Proje Yönetimi Yazılımları ve Dönem Projesi Sunumları: MS Project, Jira, Trello, Asana gibi araçların kullanımı ve dönem projelerinin sunumu",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Dönem Projesi Hazırlığı",
+      "ogretimYontemleri": "Sunum, Demonstrasyon, Soru-Cevap",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, Proje Yönetim Yazılımları",
+      "kaynakVeMateryal": "Öğrenci Projeleri, Yazılım Dokümanları",
+      "degerlendirmeYontemleri": "Proje Değerlendirmesi",
+      "odevVeCalisma": "Proje yönetimi yazılımı ile uygulama"
+    },
+    {
+      "hafta": 15,
+      "icerik": "Genel Değerlendirme ve Final Sınavına Hazırlık: Dersin özeti, örnek sınav soruları, tartışma",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm Konular",
+      "ogretimYontemleri": "Soru-Cevap, Tartışma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Örnek Sorular",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Final sınavı hazırlık soruları"
+    },
+    {
+      "hafta": 16,
+      "icerik": "Final Sınavı: Tüm dersi kapsayan yazılı değerlendirme",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm Konular",
+      "ogretimYontemleri": "Sınav",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Yazılı Sınav",
+      "odevVeCalisma": "-"
+    }
+  ],
+  "dersIsYuku": {
+    "etkinlikler": [
+      {
+        "etkinlik": "Derse Katılım",
+        "sayi": 15,
+        "sure": 2.5,
+        "toplamIsYuku": 37.5
+      },
+      {
+        "etkinlik": "Bireysel Çalışma",
+        "sayi": 14,
+        "sure": 1.7,
+        "toplamIsYuku": 23.8
+      },
+      {
+        "etkinlik": "Ödev Problemleri İçin Çalışma",
+        "sayi": 10,
+        "sure": 1.7,
+        "toplamIsYuku": 17.0
+      },
+      {
+        "etkinlik": "Proje Hazırlama",
+        "sayi": 1,
+        "sure": 12.5,
+        "toplamIsYuku": 12.5
+      },
+      {
+        "etkinlik": "Ara Sınav İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 12.5,
+        "toplamIsYuku": 12.5
+      },
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "sure": 1.7,
+        "toplamIsYuku": 1.7
+      },
+      {
+        "etkinlik": "Final Sınavı İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 19.2,
+        "toplamIsYuku": 19.2
+      },
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "sure": 1.7,
+        "toplamIsYuku": 1.7
+      }
+    ],
+    "toplamIsYuku": 125,
+    "dersAKTSKredisi": 5,
+    "hesaplama": "Dersin AKTS Kredisi = Toplam İş Yükü (Saat) / 25 = 5",
+    "aktsHesaplama": "Toplam İş Yükü / 25"
+  },
+  "etkinlikTurleri": [
+    "Alan Çalışması",
+    "Alan Gezisi",
+    "Ara Sınav",
+    "Ara Sınav İçin Bireysel Çalışma",
+    "Beyin Fırtınası",
+    "Bireysel Çalışma",
+    "Bütünleme Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Derse Katılım",
+    "Ev Ödevi",
+    "Final Sınavı",
+    "Final Sınavı İçin Bireysel Çalışma",
+    "Gösterme",
+    "Gözlem",
+    "Laboratuvar",
+    "Laboratuvar Ara Sınavı",
+    "Laboratuvar Sınavı",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Multirom CD Çalışması",
+    "Ödev Problemleri İçin Çalışma",
+    "Okuma",
+    "Örnek Vaka İncelemesi",
+    "Performans",
+    "Problem Çözümü",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Quiz İçin Bireysel Çalışma",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Rehberli Problem Çözümü",
+    "Rol Oynama / Dramatizasyon",
+    "Seminer",
+    "Soru-Yanıt",
+    "Sözlü Sınav",
+    "Takım/Grup Çalışması",
+    "Tartışma",
+    "Toplantı Başkanlığı Yapma",
+    "Uygulama/Pratik"
+  ],
+  "dersDegerlendirme": {
+    "yariyilIciEtkinlikleri": [
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "katkiYuzdesi": 70
+      },
+      {
+        "etkinlik": "Ev Ödevi",
+        "sayi": 3,
+        "katkiYuzdesi": 30
+      }
+    ],
+    "yariyilIciToplam": 100,
+    "yariyilSonuEtkinlikleri": [
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "katkiYuzdesi": 80
+      },
+      {
+        "etkinlik": "Proje Hazırlama",
+        "sayi": 1,
+        "katkiYuzdesi": 20
+      }
+    ],
+    "yariyilSonuToplam": 100,
+    "genelDegerlendirme": [
+      {
+        "degerlendirme": "Yarıyıl (Yıl) İçi Etkinlikleri",
+        "katkiYuzdesi": 40
+      },
+      {
+        "degerlendirme": "Yarıyıl (Yıl) Sonu Etkinlikleri",
+        "katkiYuzdesi": 60
+      }
+    ],
+    "genelDegerlendirmeToplam": 100
+  },
+  "yariyilIciOlasiEtkinlikler": [
+    "Ara Sınav",
+    "Laboratuvar Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Performans",
+    "Quiz",
+    "Rapor",
+    "Rapor Sunma",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Rehberli Problem Çözümü",
+    "Seminer",
+    "Sözlü Sınav",
+    "Ödev Problemleri İçin Çalışma",
+    "Proje Tasarımı/Yönetimi"
+  ],
+  "yariyilSonuOlasiEtkinlikler": [
+    "Final Sınavı",
+    "Laboratuvar Ara Sınavı",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Seminer",
+    "Sözlü Sınav",
+    "Gözlem"
+  ],
+  "programCiktilari": [
+    {
+      "id": "PÇ.1",
+      "kategori": "BİLGİ - Kuramsal Olgusal",
+      "aciklama": "TEMEL BİLGİ: Matematik, Fen Bilimleri ve Bilgisayar Mühendisliği konularında yeterli bilgi sahibidir; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanır."
+    },
+    {
+      "id": "PÇ.2",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "PROBLEM ÇÖZME: Karmaşık Bilgisayar Mühendisliği problemlerini saptar, tanımlar, formüle eder ve çözer; bu amaca uygun analiz ve modelleme yöntemlerini seçer ve uygular."
+    },
+    {
+      "id": "PÇ.3",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TASARIM: Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlar; bu amaçla modern tasarım yöntemlerini uygular."
+    },
+    {
+      "id": "PÇ.4",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TEKNOLOJİ: Bilgisayar Mühendisliği uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirir, seçer ve kullanır; bilişim teknolojilerini etkin bir şekilde kullanır."
+    },
+    {
+      "id": "PÇ.5",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "ARAŞTIRMA: Karmaşık Bilgisayar Mühendisliği problemlerinin veya araştırma konularının incelenmesi için deney tasarlar, deney yapar, veri toplar, sonuçları analiz eder ve yorumlar."
+    },
+    {
+      "id": "PÇ.6",
+      "kategori": "YETKİNLİKLER - Bağımsız Çalışabilme ve Sorumluluk Alabilme Yetkinliği",
+      "aciklama": "İŞBİRLİĞİ: Bilgisayar Mühendisliği disiplini içinde ve çok disiplinli takımlarda etkin biçimde çalışır; bireysel çalışma sergiler."
+    },
+    {
+      "id": "PÇ.7",
+      "kategori": "YETKİNLİKLER - Öğrenme Yetkinliği",
+      "aciklama": "GELİŞİM: Yaşam boyu öğrenmenin gerekliliğinin bilincindedir; bilgiye erişir, bilim ve teknolojideki gelişmeleri izler ve kendini sürekli yeniler; insanlık tarihi boyunca oluşan bilgi birikimini Bilgisayar Mühendisliği alanıyla ilişkilendirir."
+    },
+    {
+      "id": "PÇ.8",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "İLETİŞİM: Türkçe sözlü ve yazılı etkin iletişim kurar; etkin rapor yazar ve yazılı raporları anlar, tasarım ve üretim raporları hazırlar, etkin sunum yapar, açık ve anlaşılır talimat verir ve alır."
+    },
+    {
+      "id": "PÇ.9",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "TOPLUMSAL BİLİNÇ: Bilgisayar Mühendisliği uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi sahibidir; mühendislik çözümlerinin hukuksal sonuçlarının farkındadır."
+    },
+    {
+      "id": "PÇ.10",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "ULUSLARARASILIK: Bir yabancı dili kullanarak Bilgisayar Mühendisliği ile ilişkili konularda, bilgi toplar ve meslektaşları ile iletişim kurar."
+    },
+    {
+      "id": "PÇ.11",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "ETİK: Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilincine sahiptir; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi sahibidir."
+    },
+    {
+      "id": "PÇ.12",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "YÖNETİM: Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi sahibidir; girişimcilik, yenilikçilik hakkında bilinçlidir; sürdürülebilir kalkınma hakkında bilgi sahibidir."
+    }
+  ],
+  "programVeOgrenmeIliskisi": {
+    "iliskiOlcekleri": "0-5 arası değerler (0: İlişki yok, 5: Çok güçlü ilişki)",
+    "iliskiTablosu": [
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.1",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 5
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.2",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 3
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.3",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 3
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.4",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 3,
+          "PÇ.7": 0,
+          "PÇ.8": 3,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 3
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.5",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 3
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.6",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 3
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.7",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 3
+        }
+      }
+    ]
+  },
+  "toplumsalKatkiVeSurdurulebilirlik": {
+    "surdurulebilirKalkinmaAmaclari": [
+      {
+        "amac": "Yoksulluğa Son",
+        "secili": false
+      },
+      {
+        "amac": "Açlığa Son",
+        "secili": false
+      },
+      {
+        "amac": "Sağlık ve Kaliteli Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Nitelikli Eğitim",
+        "secili": true
+      },
+      {
+        "amac": "Toplumsal Cinsiyet Eşitliği",
+        "secili": false
+      },
+      {
+        "amac": "Temiz Su ve Sanitasyon",
+        "secili": false
+      },
+      {
+        "amac": "Erişilebilir ve Temiz Enerji",
+        "secili": false
+      },
+      {
+        "amac": "İnsana Yakışır İş ve Ekonomik Büyüme",
+        "secili": true
+      },
+      {
+        "amac": "Sanayi, Yenilikçilik ve Altyapı",
+        "secili": true
+      },
+      {
+        "amac": "Eşitsizliklerin Azaltılması",
+        "secili": false
+      },
+      {
+        "amac": "Sürdürülebilir Şehirler ve Topluluklar",
+        "secili": false
+      },
+      {
+        "amac": "Sorumlu Üretim ve Tüketim",
+        "secili": true
+      },
+      {
+        "amac": "İklim Eylemi",
+        "secili": false
+      },
+      {
+        "amac": "Sudaki Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Karasal Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Barış, Adalet ve Güçlü Kurumlar",
+        "secili": false
+      },
+      {
+        "amac": "Amaçlar İçin Ortaklıklar",
+        "secili": true
+      }
+    ],
+    "toplumsalKatkiAlanlari": [
+      {
+        "alan": "Eğitim ve Öğretim",
+        "secili": true
+      },
+      {
+        "alan": "Sağlık",
+        "secili": false
+      },
+      {
+        "alan": "Sosyal Hizmetler ve Toplumsal Eşitlik",
+        "secili": false
+      },
+      {
+        "alan": "Çevre ve Sürdürülebilirlik",
+        "secili": false
+      },
+      {
+        "alan": "Teknolojik ve Bilimsel Yenilikler",
+        "secili": true
+      },
+      {
+        "alan": "Ekonomik Kalkınma ve Girişimcilik",
+        "secili": true
+      },
+      {
+        "alan": "Kültürel ve Sanatsal Etkinlikler",
+        "secili": false
+      },
+      {
+        "alan": "Uluslararası İş birliği ve Diplomasi",
+        "secili": true
+      },
+      {
+        "alan": "Toplum yararına yapılacak diğer çalışmalar",
+        "secili": true
+      }
+    ]
+  },
+  "dersSekmeler": {
+    "dersGenel": true,
+    "dersOgrenmeÇiktilari": true,
+    "haftalikDersIcerikleri": true,
+    "dersIsYuku": true,
+    "dersDegerlendirme": true,
+    "programVeOgrenmeÇiktilariIliskisi": true,
+    "toplumsalKatkiVeSurdurulebilirlik": true
+  },
+  "denetimBilgileri": {
+    "olusturmaTarihi": "2025-05-10 18:09:38",
+    "olusturan": "json_processor_script",
+    "sonGuncellenmeTarihi": "2025-05-10 18:09:38",
+    "guncelleyen": "json_processor_script",
+    "durum": "Taslak"
+  },
+  "numaralandirmaDegerleri": {
+    "dersTurleri": [
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dersSeviyesi": [
+      "Lisans",
+      "Yüksek Lisans",
+      "Doktora"
+    ],
+    "ogretimSistemi": [
+      "Birinci Öğretim",
+      "İkinci Öğretim",
+      "Uzaktan Öğretim"
+    ],
+    "egitimDili": [
+      "Türkçe",
+      "İngilizce"
+    ],
+    "stajDurumu": [
+      "Mevcut Değil",
+      "Mevcut",
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dokumanDurumu": [
+      "Taslak",
+      "Onaylandı",
+      "Yayınlandı",
+      "Revize Edildi"
+    ]
+  }
+}

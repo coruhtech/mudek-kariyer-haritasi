@@ -1,0 +1,661 @@
+/* 
+ * Kariyer Haritası CSS
+ * Öğrenciler için interaktif bir kariyer yol haritası web sayfası stilleri
+ */
+
+:root {
+    --primary-color: #4ba3a8;          /* RTEÜ Turkuaz Ana Renk */
+    --secondary-color: #2d7a7e;        /* RTEÜ Koyu Turkuaz */
+    --highlight-color: #6bb6bb;        /* RTEÜ Açık Turkuaz */
+    --light-bg: #f8f9fa;
+    --dark-bg: #1e4b4f;                /* RTEÜ Çok Koyu Turkuaz */
+    --success-color: #5cb3b8;          /* RTEÜ Başarı Rengi */
+    --tertiary-color: #7bc4c9;         /* RTEÜ Üçüncül Renk */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: var(--light-bg);
+    padding-top: 56px;
+}
+
+/* Navbar Stilleri */
+.navbar {
+    background-color: var(--secondary-color);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white !important;
+}
+
+/* RTEÜ Logo Stilleri */
+.navbar-brand img {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover img {
+    transform: scale(1.05);
+}
+
+.navbar-brand div {
+    line-height: 1.2;
+}
+
+.navbar-brand small {
+    font-size: 0.8rem;
+    opacity: 0.75;
+}
+
+/* Footer Logo Stilleri */
+footer img {
+    height: 80px;
+    width: auto;
+    object-fit: contain;
+    filter: brightness(1.1);
+}
+
+/* Responsive Logo Ayarları */
+@media (max-width: 768px) {
+    .navbar-brand img {
+        height: 50px;
+    }
+    
+    .navbar-brand div {
+        font-size: 1rem;
+    }
+    
+    .navbar-brand small {
+        font-size: 0.7rem;
+    }
+    
+    footer img {
+        height: 70px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand img {
+        height: 45px;
+    }
+    
+    .navbar-brand div {
+        font-size: 0.9rem;
+    }
+    
+    footer img {
+        height: 65px;
+    }
+}
+
+.nav-link {
+    color: rgba(255,255,255,0.85) !important;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+/* Jumbotron Stilleri */
+.jumbotron {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+}
+
+/* Kart Stilleri */
+.path-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.path-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.path-intro-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.path-intro-card:hover {
+    transform: translateY(-5px);
+}
+
+.path-header {
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+}
+
+/* Kariyer Yolları Renkleri - RTEÜ Teması */
+.software {
+    background-color: #4ba3a8; /* Ana Turkuaz */
+}
+
+.cyber {
+    background-color: #2d7a7e; /* Koyu Turkuaz */
+}
+
+.data {
+    background-color: #6bb6bb; /* Açık Turkuaz */
+}
+
+.web {
+    background-color: #5cb3b8; /* Orta Turkuaz */
+}
+
+.ai {
+    background-color: #7bc4c9; /* Parlak Turkuaz */
+}
+
+.networks {
+    background-color: #3d8d92; /* Derin Turkuaz */
+}
+
+.systems {
+    background-color: #1e4b4f; /* Çok Koyu Turkuaz */
+}
+
+/* Etiket Stilleri */
+.course-tag {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.mandatory {
+    background-color: var(--secondary-color);
+}
+
+.elective {
+    background-color: var(--highlight-color);
+}
+
+.recommended {
+    background-color: var(--success-color);
+}
+
+/* Trend Stilleri */
+.trend-item {
+    background-color: rgba(75, 163, 168, 0.1);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 4px solid var(--primary-color);
+    border-radius: 4px;
+}
+
+/* Ders Listesi Stilleri */
+.course-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.course-list li {
+    padding: 8px;
+    margin-bottom: 5px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    border-left: 3px solid var(--primary-color);
+}
+
+/* Yıl Bölümü Stilleri */
+.year-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.year-header {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Harita Konteyneri */
+#career-map-container {
+    width: 100%;
+    height: 600px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Footer Stilleri */
+footer {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.section-title {
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Kariyer Yolu Bağlantı Çizgileri */
+.path-connections {
+    position: relative;
+    height: 150px;
+    margin: 20px 0;
+}
+
+.connection-line {
+    position: absolute;
+    height: 2px;
+    background-color: var(--primary-color);
+    top: 75px;
+    transform-origin: left center;
+}
+
+.connection-point {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    top: 71px;
+}
+
+/* İlgi Alanları Butonları */
+.interest-btn {
+    margin: 0.25rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+/* Duyarlı Tasarım Ayarlamaları */
+@media (max-width: 768px) {
+    .jumbotron h1 {
+        font-size: 2rem;
+    }
+    
+    .path-card {
+        margin-bottom: 15px;
+    }
+    
+    .year-section {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .course-tag {
+        font-size: 0.7rem;
+        padding: 3px 8px;
+        margin: 3px;
+    }
+    
+    .trend-item {
+        padding: 8px;
+    }
+}
+
+/* Animasyonlar */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.slide-in-up {
+    animation: slideInUp 0.5s ease-out;
+}
+
+/* Müfredat Seçim Düğmeleri */
+.curriculum-buttons {
+    margin-left: 15px;
+}
+
+.curriculum-buttons .btn-group {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.curriculum-buttons .btn {
+    font-size: 0.8rem;
+    border-radius: 0;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.curriculum-buttons .btn.active {
+    font-weight: bold;
+}
+
+.curriculum-buttons .btn:hover:not(.active) {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Duyarlı tasarım için müfredat düğmelerini küçük ekranlarda ayarla */
+@media (max-width: 768px) {
+    .curriculum-buttons {
+        margin: 10px 0 0 0;
+        width: 100%;
+    }
+    
+    .curriculum-buttons .btn-group {
+        width: 100%;
+    }
+    
+    .curriculum-buttons .btn {
+        flex: 1;
+    }
+}
+
+/* Tab Stilleri */
+.nav-tabs .nav-link {
+    color: #343a40 !important;
+    font-weight: 500;
+    border-radius: 0.25rem 0.25rem 0 0;
+    border: 1px solid #dee2e6;
+    background-color: #f8f9fa;
+}
+
+.nav-tabs .nav-link.active {
+    color: #495057 !important;
+    font-weight: bold;
+    background-color: #fff;
+    border-bottom-color: #fff;
+}
+
+.nav-tabs .nav-link:hover:not(.active) {
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+}
+
+/* Ders link stilleri */
+.course-link {
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.course-link:hover {
+    color: #0a58ca;
+    text-decoration: underline;
+}
+
+.course-list a.course-link {
+    display: block;
+    color: #333;
+}
+
+.course-list a.course-link:hover {
+    color: #0d6efd;
+}
+
+/* Modal içindeki ders linkler için stil */
+.modal-body .course-link {
+    cursor: pointer;
+}
+
+/* RTEÜ Teması - Buton Stilleri */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: white;
+}
+
+.btn-primary:active,
+.btn-primary.active {
+    background-color: var(--dark-bg);
+    border-color: var(--dark-bg);
+}
+
+.btn-outline-primary {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+}
+
+.btn-success {
+    background-color: var(--success-color);
+    border-color: var(--success-color);
+}
+
+.btn-success:hover,
+.btn-success:focus {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-info {
+    background-color: var(--highlight-color);
+    border-color: var(--highlight-color);
+    color: white;
+}
+
+.btn-info:hover,
+.btn-info:focus {
+    background-color: var(--tertiary-color);
+    border-color: var(--tertiary-color);
+}
+
+/* RTEÜ Teması - Link Stilleri */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+/* RTEÜ Teması - Tab Stilleri */
+.nav-tabs .nav-link {
+    color: var(--secondary-color) !important;
+    font-weight: 500;
+    border-radius: 0.25rem 0.25rem 0 0;
+    border: 1px solid #dee2e6;
+    background-color: #f8f9fa;
+}
+
+.nav-tabs .nav-link.active {
+    color: white !important;
+    font-weight: bold;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    border-bottom-color: var(--primary-color);
+}
+
+.nav-tabs .nav-link:hover:not(.active) {
+    background-color: var(--highlight-color);
+    border-color: var(--highlight-color);
+    color: white !important;
+}
+
+/* RTEÜ Teması - Badge/Etiket Stilleri */
+.badge-primary {
+    background-color: var(--primary-color);
+}
+
+.badge-secondary {
+    background-color: var(--secondary-color);
+}
+
+.badge-success {
+    background-color: var(--success-color);
+}
+
+.badge-info {
+    background-color: var(--highlight-color);
+}
+
+/* RTEÜ Teması - Alert Stilleri */
+.alert-primary {
+    background-color: rgba(75, 163, 168, 0.1);
+    border-color: var(--primary-color);
+    color: var(--dark-bg);
+}
+
+.alert-success {
+    background-color: rgba(92, 179, 184, 0.1);
+    border-color: var(--success-color);
+    color: var(--dark-bg);
+}
+
+.alert-info {
+    background-color: rgba(107, 182, 187, 0.1);
+    border-color: var(--highlight-color);
+    color: var(--dark-bg);
+}
+
+/* RTEÜ Teması - Card Header Stilleri */
+.card-header.bg-primary {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color);
+}
+
+.card-header.bg-success {
+    background-color: var(--success-color) !important;
+    border-color: var(--success-color);
+}
+
+.card-header.bg-info {
+    background-color: var(--highlight-color) !important;
+    border-color: var(--highlight-color);
+}
+
+/* RTEÜ Teması - Progress Bar Stilleri */
+.progress-bar {
+    background-color: var(--primary-color);
+}
+
+.progress-bar-success {
+    background-color: var(--success-color);
+}
+
+/* RTEÜ Teması - Form Stilleri */
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(75, 163, 168, 0.25);
+}
+
+.form-check-input:checked {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* RTEÜ Teması - Dropdown Stilleri */
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: rgba(75, 163, 168, 0.1);
+    color: var(--dark-bg);
+}
+
+.dropdown-item.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* RTEÜ Teması - Navbar Dropdown */
+.navbar-dark .navbar-nav .dropdown-menu {
+    background-color: var(--secondary-color);
+}
+
+.navbar-dark .navbar-nav .dropdown-item {
+    color: rgba(255,255,255,0.85);
+}
+
+.navbar-dark .navbar-nav .dropdown-item:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* RTEÜ Teması - Pagination Stilleri */
+.page-link {
+    color: var(--primary-color);
+}
+
+.page-link:hover {
+    color: var(--secondary-color);
+    background-color: rgba(75, 163, 168, 0.1);
+    border-color: var(--primary-color);
+}
+
+.page-item.active .page-link {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* RTEÜ Teması - Border Accent Stilleri */
+.border-primary {
+    border-color: var(--primary-color) !important;
+}
+
+.border-success {
+    border-color: var(--success-color) !important;
+}
+
+/* RTEÜ Teması - Text Renkleri */
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+.text-success {
+    color: var(--success-color) !important;
+}
+
+/* RTEÜ Teması - Background Renkleri */
+.bg-primary {
+    background-color: var(--primary-color) !important;
+}
+
+.bg-success {
+    background-color: var(--success-color) !important;
+} 

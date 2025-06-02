@@ -1,0 +1,773 @@
+{
+  "dersGenel": {
+    "dersTuru": "Seçmeli",
+    "dersinSeviyesi": "Lisans",
+    "secmeliDersKodu": "SECCEN06-2",
+    "dersKredisi": 3,
+    "dersinAKTSKredisi": 5,
+    "haftalikDersSaatiKuramsal": 3,
+    "haftalikUygulamaSaati": 0,
+    "haftalikLaboratuarSaati": 0,
+    "dersinVerildigiYariyil": 6,
+    "ogretimSistemi": "Birinci Öğretim",
+    "egitimDili": "Türkçe",
+    "universite": "Recep Tayyip Erdoğan Üniversitesi",
+    "ulke": "Türkiye",
+    "il": "Rize",
+    "ilce": "Merkez",
+    "mahalle": "Fener Mah",
+    "fakulte": "Mühendislik Ve Mimarlık Fakültesi",
+    "bolum": "Bilgisayar Mühendisliği",
+    "dersKodu": "CEN328",
+    "dersAdi": "Veri Mühendisliği",
+    "ogretimYiliDonemi": "Bahar",
+    "dersAKTSKredisi": 5,
+    "dilSecimi": "Türkçe",
+    "mufredatOlusturulmaYili": "2024",
+    "akademikYil": "",
+    "secmeliDersGrubuKodu": "SECCEN06-2"
+  },
+  "dersIcerik": {
+    "dersinAmaci": "Bu dersin amacı, öğrencilere veri mühendisliğinin temel kavramları, teknikleri ve altyapıları hakkında kapsamlı bir anlayış kazandırmaktır. Öğrenciler, veri toplama, depolama, işleme, entegrasyon ve analiz için gerekli olan veri boru hatları ve sistemlerini tasarlama ve geliştirme becerilerini kazanacaklardır. Ders, büyük veri teknolojileri, dağıtık sistemler, veri ambarları, NoSQL veritabanları ve modern veri mimari yaklaşımlarını ele alarak, öğrencileri veri odaklı kararlar verebilen ölçeklenebilir ve güvenilir sistemler geliştirme konusunda hazırlayacaktır.",
+    "dersinOnKosuluOlanDersler": "Veritabanı Yönetim Sistemleri",
+    "dersinIcerigi": "Veri Mühendisliğine Giriş ve Temel Kavramlar\nVeri Yaşam Döngüsü ve Veri Mühendisliği Süreçleri\nVeri Mimarisi ve Veri Modelleme\nİlişkisel ve İlişkisel Olmayan Veritabanı Sistemleri\nBüyük Veri Ekosistemleri ve Teknolojileri\nVeri Boru Hatları (Data Pipelines) Tasarımı ve Geliştirme\nGerçek Zamanlı ve Batch Veri İşleme\nVeri Entegrasyonu ve ETL Süreçleri\nVeri Ambarları ve Veri Gölü Mimarileri\nDağıtık Sistemler ve Veri İşleme Çerçeveleri\nVeri Kalitesi, Yönetişimi ve Güvenliği\nVeri Mühendisliği için Bulut Platformları\nVeri Mühendisliği Projelerinde DevOps ve MLOps\nÖlçeklenebilir Veri Sistemleri Tasarımı\nVeri Mühendisliği En İyi Uygulamaları ve Vaka Çalışmaları",
+    "dersinIcinOnerilenHususlar": "Öğrencilerin temel programlama becerileri, SQL bilgisi ve veri yapıları hakkında temel anlayışa sahip olmaları önerilir. Dersin uygulamalı bileşenleri için öğrencilerin kendi bilgisayarlarına Python, Docker ve ilgili veri işleme araçlarını kurmaları tavsiye edilir. Öğrencilerin ders dışında da gerçek dünya veri setleri üzerinde çalışarak ve açık kaynak veri teknolojilerini kullanarak becerilerini geliştirmeleri önerilir.",
+    "ogretimTuru": "Birinci Öğretim",
+    "stajDurumu": "Mevcut Değil",
+    "dersinKitabiMalzemesiOnerilenKaynaklar": "1. Kleppmann, Martin. Designing Data-Intensive Applications. O'Reilly Media, 2017.\n2. Lakshmanan, Valliappa and Jordan, Sara. Data Engineering with Google Cloud Platform. O'Reilly Media, 2021.\n3. Deshpande, Prashant. Data Engineering with Python. Packt Publishing, 2021.\n4. Ngo, Ken. Data Pipelines Pocket Reference. O'Reilly Media, 2021.\n5. White, Tom. Hadoop: The Definitive Guide. O'Reilly Media, 2015.\n6. Holden Karau, Andy Konwinski, Patrick Wendell, and Matei Zaharia. Learning Spark. O'Reilly Media, 2015.\n7. Çevrimiçi kaynaklar: GitHub veri mühendisliği projeleri, DataCamp veri mühendisliği kursları, Medium ve Towards Data Science blog yazıları.",
+    "dersiVerenOgretimUyesiOgretimGorevlisi": "",
+    "hazirlanmaTarihi": "27.04.2025"
+  },
+  "dersOgrenmeÇiktilari": [
+    {
+      "id": "ÖÇ.1",
+      "aciklama": "Veri mühendisliğinin temel kavramlarını, iş süreçlerini ve veri yaşam döngüsünü açıklar; modern veri ekosistemindeki bileşenleri tanımlar."
+    },
+    {
+      "id": "ÖÇ.2",
+      "aciklama": "İlişkisel ve ilişkisel olmayan veritabanı sistemlerini karşılaştırır; veri ihtiyaçlarına göre uygun veri depolama çözümlerini seçer ve kullanır."
+    },
+    {
+      "id": "ÖÇ.3",
+      "aciklama": "Batch ve gerçek zamanlı veri işleme sistemlerinin özelliklerini açıklar; verimli veri boru hatları ve ETL süreçlerini tasarlar ve geliştirir."
+    },
+    {
+      "id": "ÖÇ.4",
+      "aciklama": "Veri ambarları, veri gölleri ve dağıtık veri sistemleri için mimari tasarımlar oluşturur; veri sistemleri için ölçeklenebilirlik stratejileri geliştirir."
+    },
+    {
+      "id": "ÖÇ.5",
+      "aciklama": "Hadoop, Spark, Kafka gibi büyük veri teknolojilerini kullanarak veri işleme çözümleri uygular; Docker ve konteynerleştirme teknolojileri ile dağıtım yapar."
+    },
+    {
+      "id": "ÖÇ.6",
+      "aciklama": "Veri kalitesi, veri yönetişimi ve veri güvenliği için stratejiler ve teknikler uygular; veri sistemlerinin performansını izler ve optimize eder."
+    },
+    {
+      "id": "ÖÇ.7",
+      "aciklama": "Veri mühendisliği projelerinde en iyi uygulamaları, DevOps ilkelerini ve MLOps yaklaşımlarını uygular; veri mimarisinin iş gereksinimleriyle uyumluluğunu değerlendirir."
+    }
+  ],
+  "haftalikDersIcerikleri": [
+    {
+      "hafta": 1,
+      "icerik": "Veri Mühendisliğine Giriş: Temel Kavramlar, Tarihçe ve Mevcut Teknoloji Ekosistemleri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Anlatım, Tartışma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Önerilen Kaynaklar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Veri mühendisliği rollerini ve teknolojilerini araştırma"
+    },
+    {
+      "hafta": 2,
+      "icerik": "Veri Yaşam Döngüsü ve Veri Mühendisliği Süreçleri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Temel Kavramlar",
+      "ogretimYontemleri": "Anlatım, Örnek Olay İncelemesi",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Veri Akış Şemaları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Veri yaşam döngüsü analizi"
+    },
+    {
+      "hafta": 3,
+      "icerik": "Veri Mimarisi ve Veri Modelleme",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı, Bilgisayar Laboratuvarı",
+      "onHazirlik": "Veri Yaşam Döngüsü",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Veri Modelleme Araçları",
+      "kaynakVeMateryal": "Ders Notları, Örnek Veri Mimarileri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Veri mimarisi tasarımı"
+    },
+    {
+      "hafta": 4,
+      "icerik": "İlişkisel ve İlişkisel Olmayan Veritabanı Sistemleri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2",
+      "ogretimOrtami": "Sınıf Ortamı, Bilgisayar Laboratuvarı",
+      "onHazirlik": "Veri Modelleme",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Veritabanı Sistemleri",
+      "kaynakVeMateryal": "Ders Notları, Örnek Veritabanları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "İlişkisel ve NoSQL veritabanı karşılaştırması"
+    },
+    {
+      "hafta": 5,
+      "icerik": "Büyük Veri Ekosistemleri ve Teknolojileri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Veritabanı Sistemleri",
+      "ogretimYontemleri": "Anlatım, Demonstrasyon",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Büyük Veri Ekosistem Haritaları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Hadoop ekosistemi araştırması"
+    },
+    {
+      "hafta": 6,
+      "icerik": "Veri Boru Hatları (Data Pipelines) Tasarımı ve Geliştirme",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "Büyük Veri Teknolojileri",
+      "ogretimYontemleri": "Demonstrasyon, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Python, Apache Airflow",
+      "kaynakVeMateryal": "Uygulama Kodları, Örnek Veri Boru Hatları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Basit veri boru hattı geliştirme"
+    },
+    {
+      "hafta": 7,
+      "icerik": "Gerçek Zamanlı ve Batch Veri İşleme",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.5",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "Veri Boru Hatları",
+      "ogretimYontemleri": "Demonstrasyon, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Apache Spark, Apache Kafka",
+      "kaynakVeMateryal": "Uygulama Kodları, Streaming Veri Setleri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Batch ve streaming işleme karşılaştırması"
+    },
+    {
+      "hafta": 8,
+      "icerik": "Arasınav",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "1-7. Hafta Konuları",
+      "ogretimYontemleri": "Sınav",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Yazılı Sınav",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 9,
+      "icerik": "Veri Entegrasyonu ve ETL Süreçleri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.6",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "Batch ve Streaming İşleme",
+      "ogretimYontemleri": "Demonstrasyon, Uygulama",
+      "aracVeGerecler": "Bilgisayar, ETL Araçları",
+      "kaynakVeMateryal": "Uygulama Kodları, Veri Entegrasyon Senaryoları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "ETL süreci tasarlama ve uygulama"
+    },
+    {
+      "hafta": 10,
+      "icerik": "Veri Ambarları ve Veri Gölü Mimarileri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı, Bilgisayar Laboratuvarı",
+      "onHazirlik": "ETL Süreçleri",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Veri Ambarı Araçları",
+      "kaynakVeMateryal": "Ders Notları, Mimari Şemalar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Veri ambarı ve veri gölü mimarisi tasarımı"
+    },
+    {
+      "hafta": 11,
+      "icerik": "Dağıtık Sistemler ve Veri İşleme Çerçeveleri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4, ÖÇ.5",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "Veri Ambarları",
+      "ogretimYontemleri": "Demonstrasyon, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Apache Spark, Hadoop",
+      "kaynakVeMateryal": "Uygulama Kodları, Dağıtık Sistem Senaryoları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Dağıtık veri işleme uygulaması"
+    },
+    {
+      "hafta": 12,
+      "icerik": "Veri Kalitesi, Yönetişimi ve Güvenliği",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.6",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Dağıtık Sistemler",
+      "ogretimYontemleri": "Anlatım, Vaka Analizi",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Veri Kalitesi Çerçeveleri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Veri kalitesi ve güvenliği analizi"
+    },
+    {
+      "hafta": 13,
+      "icerik": "Veri Mühendisliği için Bulut Platformları ve DevOps",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.5, ÖÇ.7",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "Veri Kalitesi ve Güvenliği",
+      "ogretimYontemleri": "Demonstrasyon, Uygulama",
+      "aracVeGerecler": "Bilgisayar, AWS/GCP/Azure Araçları, Docker",
+      "kaynakVeMateryal": "Uygulama Kodları, Bulut Mimarileri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Bulut tabanlı veri işleme uygulaması"
+    },
+    {
+      "hafta": 14,
+      "icerik": "Ölçeklenebilir Veri Sistemleri Tasarımı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4, ÖÇ.6",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Bulut Platformları",
+      "ogretimYontemleri": "Anlatım, Vaka Analizi",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Sistem Mimarileri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Ölçeklenebilir veri sistemi tasarımı"
+    },
+    {
+      "hafta": 15,
+      "icerik": "Veri Mühendisliği En İyi Uygulamaları ve Vaka Çalışmaları",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm Önceki Konular",
+      "ogretimYontemleri": "Tartışma, Grup Çalışması",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Vaka Çalışmaları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Gerçek dünya veri mühendisliği sorunları analizi"
+    },
+    {
+      "hafta": 16,
+      "icerik": "Final Sınavı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm Konular",
+      "ogretimYontemleri": "Sınav",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Yazılı Sınav",
+      "odevVeCalisma": "-"
+    }
+  ],
+  "dersIsYuku": {
+    "etkinlikler": [
+      {
+        "etkinlik": "Derse Katılım",
+        "sayi": 14,
+        "sure": 5,
+        "toplamIsYuku": 70
+      },
+      {
+        "etkinlik": "Uygulama/Pratik",
+        "sayi": 7,
+        "sure": 2,
+        "toplamIsYuku": 14
+      },
+      {
+        "etkinlik": "Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 10,
+        "toplamIsYuku": 10
+      },
+      {
+        "etkinlik": "Ev Ödevi",
+        "sayi": 5,
+        "sure": 3,
+        "toplamIsYuku": 15
+      },
+      {
+        "etkinlik": "Ara Sınav İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 7,
+        "toplamIsYuku": 7
+      },
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "sure": 1,
+        "toplamIsYuku": 1
+      },
+      {
+        "etkinlik": "Final Sınavı İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 7,
+        "toplamIsYuku": 7
+      },
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "sure": 1,
+        "toplamIsYuku": 1
+      }
+    ],
+    "toplamIsYuku": 125,
+    "dersAKTSKredisi": 5,
+    "hesaplama": "Dersin AKTS Kredisi = Toplam İş Yükü (Saat) / 25 (yaklaşık) = 5",
+    "aktsHesaplama": "Toplam İş Yükü / 25"
+  },
+  "etkinlikTurleri": [
+    "Alan Çalışması",
+    "Alan Gezisi",
+    "Ara Sınav",
+    "Ara Sınav İçin Bireysel Çalışma",
+    "Beyin Fırtınası",
+    "Bireysel Çalışma",
+    "Bütünleme Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Derse Katılım",
+    "Ev Ödevi",
+    "Final Sınavı",
+    "Final Sınavı İçin Bireysel Çalışma",
+    "Gösterme",
+    "Gözlem",
+    "Laboratuvar",
+    "Laboratuvar Ara Sınavı",
+    "Laboratuvar Sınavı",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Multirom CD Çalışması",
+    "Ödev Problemleri İçin Çalışma",
+    "Okuma",
+    "Örnek Vaka İncelemesi",
+    "Performans",
+    "Problem Çözümü",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Quiz İçin Bireysel Çalışma",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Rehberli Problem Çözümü",
+    "Rol Oynama / Dramatizasyon",
+    "Seminer",
+    "Soru-Yanıt",
+    "Sözlü Sınav",
+    "Takım/Grup Çalışması",
+    "Tartışma",
+    "Toplantı Başkanlığı Yapma",
+    "Uygulama/Pratik"
+  ],
+  "dersDegerlendirme": {
+    "yariyilIciEtkinlikleri": [
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "katkiYuzdesi": 100
+      }
+    ],
+    "yariyilIciToplam": 100,
+    "yariyilSonuEtkinlikleri": [
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "katkiYuzdesi": 100
+      }
+    ],
+    "yariyilSonuToplam": 100,
+    "genelDegerlendirme": [
+      {
+        "degerlendirme": "Yarıyıl (Yıl) Sonu Etkinlikleri",
+        "katkiYuzdesi": 60
+      },
+      {
+        "degerlendirme": "Yarıyıl (Yıl) İçi Etkinlikleri",
+        "katkiYuzdesi": 40
+      }
+    ],
+    "genelDegerlendirmeToplam": 100
+  },
+  "yariyilIciOlasiEtkinlikler": [
+    "Ara Sınav",
+    "Laboratuvar Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Performans",
+    "Quiz",
+    "Rapor",
+    "Rapor Sunma",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Rehberli Problem Çözümü",
+    "Seminer",
+    "Sözlü Sınav",
+    "Ödev Problemleri İçin Çalışma",
+    "Proje Tasarımı/Yönetimi"
+  ],
+  "yariyilSonuOlasiEtkinlikler": [
+    "Final Sınavı",
+    "Laboratuvar Ara Sınavı",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Seminer",
+    "Sözlü Sınav",
+    "Gözlem"
+  ],
+  "programCiktilari": [
+    {
+      "id": "PÇ.1",
+      "kategori": "BİLGİ - Kuramsal Olgusal",
+      "aciklama": "TEMEL BİLGİ: Matematik, Fen Bilimleri ve Bilgisayar Mühendisliği konularında yeterli bilgi sahibidir; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanır."
+    },
+    {
+      "id": "PÇ.2",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "PROBLEM ÇÖZME: Karmaşık Bilgisayar Mühendisliği problemlerini saptar, tanımlar, formüle eder ve çözer; bu amaca uygun analiz ve modelleme yöntemlerini seçer ve uygular."
+    },
+    {
+      "id": "PÇ.3",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TASARIM: Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlar; bu amaçla modern tasarım yöntemlerini uygular."
+    },
+    {
+      "id": "PÇ.4",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TEKNOLOJİ: Bilgisayar Mühendisliği uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirir, seçer ve kullanır; bilişim teknolojilerini etkin bir şekilde kullanır."
+    },
+    {
+      "id": "PÇ.5",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "ARAŞTIRMA: Karmaşık Bilgisayar Mühendisliği problemlerinin veya araştırma konularının incelenmesi için deney tasarlar, deney yapar, veri toplar, sonuçları analiz eder ve yorumlar."
+    },
+    {
+      "id": "PÇ.6",
+      "kategori": "YETKİNLİKLER - Bağımsız Çalışabilme ve Sorumluluk Alabilme Yetkinliği",
+      "aciklama": "İŞBİRLİĞİ: Bilgisayar Mühendisliği disiplini içinde ve çok disiplinli takımlarda etkin biçimde çalışır; bireysel çalışma sergiler."
+    },
+    {
+      "id": "PÇ.7",
+      "kategori": "YETKİNLİKLER - Öğrenme Yetkinliği",
+      "aciklama": "GELİŞİM: Yaşam boyu öğrenmenin gerekliliğinin bilincindedir; bilgiye erişir, bilim ve teknolojideki gelişmeleri izler ve kendini sürekli yeniler; insanlık tarihi boyunca oluşan bilgi birikimini Bilgisayar Mühendisliği alanıyla ilişkilendirir."
+    },
+    {
+      "id": "PÇ.8",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "İLETİŞİM: Türkçe sözlü ve yazılı etkin iletişim kurar; etkin rapor yazar ve yazılı raporları anlar, tasarım ve üretim raporları hazırlar, etkin sunum yapar, açık ve anlaşılır talimat verir ve alır."
+    },
+    {
+      "id": "PÇ.9",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "TOPLUMSAL BİLİNÇ: Bilgisayar Mühendisliği uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi sahibidir; mühendislik çözümlerinin hukuksal sonuçlarının farkındadır."
+    },
+    {
+      "id": "PÇ.10",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "ULUSLARARASILIK: Bir yabancı dili kullanarak Bilgisayar Mühendisliği ile ilişkili konularda, bilgi toplar ve meslektaşları ile iletişim kurar."
+    },
+    {
+      "id": "PÇ.11",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "ETİK: Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilincine sahiptir; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi sahibidir."
+    },
+    {
+      "id": "PÇ.12",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "YÖNETİM: Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi sahibidir; girişimcilik, yenilikçilik hakkında bilinçlidir; sürdürülebilir kalkınma hakkında bilgi sahibidir."
+    }
+  ],
+  "programVeOgrenmeIliskisi": {
+    "iliskiOlcekleri": "0-5 arası değerler (0: İlişki yok, 5: Çok güçlü ilişki)",
+    "iliskiTablosu": [
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.1",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 5,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.2",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.3",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.4",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.5",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.6",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.7",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 3,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 3
+        }
+      }
+    ]
+  },
+  "toplumsalKatkiVeSurdurulebilirlik": {
+    "surdurulebilirKalkinmaAmaclari": [
+      {
+        "amac": "Yoksulluğa Son",
+        "secili": false
+      },
+      {
+        "amac": "Açlığa Son",
+        "secili": false
+      },
+      {
+        "amac": "Sağlık ve Kaliteli Yaşam",
+        "secili": true
+      },
+      {
+        "amac": "Nitelikli Eğitim",
+        "secili": true
+      },
+      {
+        "amac": "Toplumsal Cinsiyet Eşitliği",
+        "secili": false
+      },
+      {
+        "amac": "Temiz Su ve Sanitasyon",
+        "secili": false
+      },
+      {
+        "amac": "Erişilebilir ve Temiz Enerji",
+        "secili": false
+      },
+      {
+        "amac": "İnsana Yakışır İş ve Ekonomik Büyüme",
+        "secili": true
+      },
+      {
+        "amac": "Sanayi, Yenilikçilik ve Altyapı",
+        "secili": true
+      },
+      {
+        "amac": "Eşitsizliklerin Azaltılması",
+        "secili": false
+      },
+      {
+        "amac": "Sürdürülebilir Şehirler ve Topluluklar",
+        "secili": true
+      },
+      {
+        "amac": "Sorumlu Üretim ve Tüketim",
+        "secili": true
+      },
+      {
+        "amac": "İklim Eylemi",
+        "secili": false
+      },
+      {
+        "amac": "Sudaki Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Karasal Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Barış, Adalet ve Güçlü Kurumlar",
+        "secili": false
+      },
+      {
+        "amac": "Amaçlar İçin Ortaklıklar",
+        "secili": false
+      }
+    ],
+    "toplumsalKatkiAlanlari": [
+      {
+        "alan": "Eğitim ve Öğretim",
+        "secili": true
+      },
+      {
+        "alan": "Sağlık",
+        "secili": true
+      },
+      {
+        "alan": "Sosyal Hizmetler ve Toplumsal Eşitlik",
+        "secili": false
+      },
+      {
+        "alan": "Çevre ve Sürdürülebilirlik",
+        "secili": true
+      },
+      {
+        "alan": "Teknolojik ve Bilimsel Yenilikler",
+        "secili": true
+      },
+      {
+        "alan": "Ekonomik Kalkınma ve Girişimcilik",
+        "secili": true
+      },
+      {
+        "alan": "Kültürel ve Sanatsal Etkinlikler",
+        "secili": false
+      },
+      {
+        "alan": "Uluslararası İş birliği ve Diplomasi",
+        "secili": false
+      },
+      {
+        "alan": "Toplum yararına yapılacak diğer çalışmalar",
+        "secili": true
+      }
+    ]
+  },
+  "dersSekmeler": {
+    "dersGenel": true,
+    "dersOgrenmeÇiktilari": true,
+    "haftalikDersIcerikleri": true,
+    "dersIsYuku": true,
+    "dersDegerlendirme": true,
+    "programVeOgrenmeÇiktilariIliskisi": true,
+    "toplumsalKatkiVeSurdurulebilirlik": true
+  },
+  "denetimBilgileri": {
+    "olusturmaTarihi": "2025-05-10 18:09:46",
+    "olusturan": "json_processor_script",
+    "sonGuncellenmeTarihi": "2025-05-10 18:09:46",
+    "guncelleyen": "json_processor_script",
+    "durum": "Taslak"
+  },
+  "numaralandirmaDegerleri": {
+    "dersTurleri": [
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dersSeviyesi": [
+      "Lisans",
+      "Yüksek Lisans",
+      "Doktora"
+    ],
+    "ogretimSistemi": [
+      "Birinci Öğretim",
+      "İkinci Öğretim",
+      "Uzaktan Öğretim"
+    ],
+    "egitimDili": [
+      "Türkçe",
+      "İngilizce"
+    ],
+    "stajDurumu": [
+      "Mevcut Değil",
+      "Mevcut",
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dokumanDurumu": [
+      "Taslak",
+      "Onaylandı",
+      "Yayınlandı",
+      "Revize Edildi"
+    ]
+  }
+}

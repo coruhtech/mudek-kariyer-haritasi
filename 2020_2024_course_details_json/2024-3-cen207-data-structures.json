@@ -1,0 +1,799 @@
+{
+  "dersGenel": {
+    "dersTuru": "Zorunlu",
+    "dersinSeviyesi": "Lisans",
+    "dersinAKTSKredisi": 5,
+    "haftalikDersSaatiKuramsal": 3,
+    "haftalikUygulamaSaati": 0,
+    "haftalikLaboratuarSaati": 0,
+    "dersinVerildigiYariyil": 3,
+    "ogretimSistemi": "Birinci Öğretim",
+    "egitimDili": "İngilizce",
+    "universite": "Recep Tayyip Erdoğan Üniversitesi",
+    "ulke": "Türkiye",
+    "il": "Rize",
+    "ilce": "Merkez",
+    "mahalle": "Fener Mah",
+    "fakulte": "Mühendislik Ve Mimarlık Fakültesi",
+    "bolum": "Bilgisayar Mühendisliği",
+    "dersKodu": "CEN207",
+    "dersAdi": "Data Structures",
+    "ogretimYiliDonemi": "2024-2025 Güz",
+    "dersAKTSKredisi": 5,
+    "dilSecimi": "İngilizce",
+    "mufredatOlusturulmaYili": "2024",
+    "akademikYil": ""
+  },
+  "dersIcerik": {
+    "dersinAmaci": "To introduce fundamental data structures, performance analysis, and file organization methods used in modern software systems.",
+    "dersinOnKosuluOlanDersler": "CE103, CE100",
+    "dersinIcerigi": "Covers concepts such as arrays, linked lists, trees, graphs, hashing, searching, sorting, file structures, and real-life data organization techniques.",
+    "dersinIcinOnerilenHususlar": "Students are expected to be comfortable with C/C++ programming and pointer management.",
+    "ogretimTuru": "Birinci Öğretim",
+    "stajDurumu": "Mevcut Değil",
+    "dersinKitabiMalzemesiOnerilenKaynaklar": "C How to Program, 7/E. Deitel & Deitel. 2013, Prentice-Hall.; Introduction to Algorithms, Third Edition, Cormen et al.; Robert Sedgewick and Kevin Wayne. Algorithms (4th ed.), Addison-Wesley.",
+    "dersiVerenOgretimUyesiOgretimGorevlisi": "Asst. Prof. Dr. Uğur ÇORUH",
+    "hazirlanmaTarihi": "2024-05-03"
+  },
+  "dersOgrenmeÇiktilari": [
+    {
+      "id": "ÖÇ.1",
+      "aciklama": "Describe how common linear and non-linear data structures are represented and used."
+    },
+    {
+      "id": "ÖÇ.2",
+      "aciklama": "Compare dynamic vs static data structure implementations."
+    },
+    {
+      "id": "ÖÇ.3",
+      "aciklama": "Understand industry-standard representations like ASN.1 / BER TLV."
+    },
+    {
+      "id": "ÖÇ.4",
+      "aciklama": "Organize run-time application data into files."
+    },
+    {
+      "id": "ÖÇ.5",
+      "aciklama": "Design and implement data structure-based solutions in C++, Java, or C#."
+    },
+    {
+      "id": "ÖÇ.6",
+      "aciklama": "Analyze and compare data structure performance."
+    },
+    {
+      "id": "ÖÇ.7",
+      "aciklama": "Explain sorting, searching, hashing, indexing techniques."
+    },
+    {
+      "id": "ÖÇ.8",
+      "aciklama": "Develop real-world efficient data solutions using programming and data structures."
+    }
+  ],
+  "haftalikDersIcerikleri": [
+    {
+      "hafta": 1,
+      "icerik": "Ders Planı ve İletişim, Doğrusal ve Doğrusal Olmayan Veri Yapısına ve Performans Analizine Giriş Veriler ve Değişkenler için İşaretçi ve Nesneleri Uygulama ASN.1 / BER TLV / PER TLV Temeli",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı, Bilgisayar Laboratuvarı",
+      "onHazirlik": "Temel programlama ve algoritma bilgisi",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, IDE",
+      "kaynakVeMateryal": "Ders Notları, Kaynak Kitaplar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Programlama Çalıştayı"
+    },
+    {
+      "hafta": 2,
+      "icerik": "Bağlantılı Listeler ve İlgili Algoritmalar Diziler ve Matrisler",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı, Bilgisayar Laboratuvarı",
+      "onHazirlik": "İşaretçiler/Referanslar",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, IDE",
+      "kaynakVeMateryal": "Ders Notları, Kaynak Kitaplar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Programlama Çalıştayı"
+    },
+    {
+      "hafta": 3,
+      "icerik": "Yığınlar, Kuyruk Yapıları ve İlgili Algoritmalar ve Problemler.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı, Bilgisayar Laboratuvarı",
+      "onHazirlik": "Bağlantılı listeler ve diziler",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, IDE",
+      "kaynakVeMateryal": "Ders Notları, Kaynak Kitaplar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Programlama Çalıştayı"
+    },
+    {
+      "hafta": 4,
+      "icerik": "Ağaç Veri Yapısı Türleri ve Uygulamaları (İkili Ağaç, Ağaç Geçişleri, Yığınlar)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.4, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı, Bilgisayar Laboratuvarı",
+      "onHazirlik": "Yığınlar ve kuyruklar",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, IDE",
+      "kaynakVeMateryal": "Ders Notları, Kaynak Kitaplar",
+      "degerlendirmeYontemleri": "Quiz",
+      "odevVeCalisma": "Programlama Çalıştayı"
+    },
+    {
+      "hafta": 5,
+      "icerik": "Çizge Veri Yapısı ve Geçişler",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.5, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı, Bilgisayar Laboratuvarı",
+      "onHazirlik": "Ağaç yapıları",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, IDE",
+      "kaynakVeMateryal": "Ders Notları, Kaynak Kitaplar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Programlama Çalıştayı"
+    },
+    {
+      "hafta": 6,
+      "icerik": "Grafik MST, Geri İzleme, Topolojik Sıralama, En Kısa Yollar, Bağlantı, Maksimum Akış ve Döngü Algılama Algoritmaları.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.5, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı, Bilgisayar Laboratuvarı",
+      "onHazirlik": "Graf geçişleri",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, IDE",
+      "kaynakVeMateryal": "Ders Notları, Kaynak Kitaplar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Programlama Çalıştayı"
+    },
+    {
+      "hafta": 7,
+      "icerik": "Doğrusal, İkili ve Fibonacci Araması Mükemmel Hashing ile Hashing ve Hash Tabloları",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.4, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı, Bilgisayar Laboratuvarı",
+      "onHazirlik": "Karmaşıklık analizi",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, IDE",
+      "kaynakVeMateryal": "Ders Notları, Kaynak Kitaplar",
+      "degerlendirmeYontemleri": "Quiz",
+      "odevVeCalisma": "Programlama Çalıştayı"
+    },
+    {
+      "hafta": 8,
+      "icerik": "Vize",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "1-7 hafta konuları",
+      "ogretimYontemleri": "Ölçme Değerlendirme",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Yazılı Sınav/Proje",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 9,
+      "icerik": "Sıralama Algoritmaları, Taksonomi ve Karşılaştırmalar",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı, Bilgisayar Laboratuvarı",
+      "onHazirlik": "Karmaşıklık analizi",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, IDE",
+      "kaynakVeMateryal": "Ders Notları, Kaynak Kitaplar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Programlama Çalıştayı"
+    },
+    {
+      "hafta": 10,
+      "icerik": "Gelişmiş Ağaç Veri Yapıları (İkili Arama Ağacı, AVL Ağacı, B Ağaçları vb.) ve Karşılaştırmalar.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı, Bilgisayar Laboratuvarı",
+      "onHazirlik": "Temel ağaç yapıları",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, IDE",
+      "kaynakVeMateryal": "Ders Notları, Kaynak Kitaplar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Programlama Çalıştayı"
+    },
+    {
+      "hafta": 11,
+      "icerik": "String Veri Yapısı, Ardışık Arama, Hizalama ve Karşılaştırma Algoritmaları.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.3, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı, Bilgisayar Laboratuvarı",
+      "onHazirlik": "Temel string işlemleri",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, IDE",
+      "kaynakVeMateryal": "Ders Notları, Kaynak Kitaplar",
+      "degerlendirmeYontemleri": "Quiz",
+      "odevVeCalisma": "Programlama Çalıştayı"
+    },
+    {
+      "hafta": 12,
+      "icerik": "Ayrık Kümeler İçin Dizi Arama Algoritmaları, Denemeler, Veri Yapıları.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.4, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı, Bilgisayar Laboratuvarı",
+      "onHazirlik": "String algoritmaları",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, IDE",
+      "kaynakVeMateryal": "Ders Notları, Kaynak Kitaplar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Programlama Çalıştayı"
+    },
+    {
+      "hafta": 13,
+      "icerik": "Dosya Organizasyonuna Giriş ve İşleme Sıralı Dosya Organizasyonu, Doğrudan Dosya Organizasyonu Hash Yöntemleri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Hashing",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, Kaynak Kitaplar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Dosya organizasyon yöntemleri karşılaştırması"
+    },
+    {
+      "hafta": 14,
+      "icerik": "Doğrudan Dosya Organizasyonu Dosya için İkili ve B Ağacı Yapılarını İndeksler.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Temel ağaç yapıları",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, Kaynak Kitaplar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "B-Ağaçları uygulamaları araştırması"
+    },
+    {
+      "hafta": 15,
+      "icerik": "Genişletilebilir Dosyalar için Hashing Teknikleri, Denemeler Yaklaşık Dize Eşleştirme Gerçek Hashing İkincil Anahtar Alma. Dosya Sıralama",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.4, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Hashing, String algoritmaları",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, Kaynak Kitaplar",
+      "degerlendirmeYontemleri": "Quiz",
+      "odevVeCalisma": "Genişletilebilir hashing analizi"
+    },
+    {
+      "hafta": 16,
+      "icerik": "Final",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm konular",
+      "ogretimYontemleri": "Ölçme Değerlendirme",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Yazılı Sınav/Proje",
+      "odevVeCalisma": "-"
+    }
+  ],
+  "dersIsYuku": {
+    "etkinlikler": [
+      {
+        "etkinlik": "Derse Katılım",
+        "toplamIsYuku": 35.0,
+        "sayi": 14,
+        "sure": 2.5
+      },
+      {
+        "etkinlik": "Laboratuvar",
+        "toplamIsYuku": 20.4,
+        "sayi": 12,
+        "sure": 1.7
+      },
+      {
+        "etkinlik": "Quiz İçin Bireysel Çalışma",
+        "toplamIsYuku": 10.0,
+        "sayi": 2,
+        "sure": 5.0
+      },
+      {
+        "etkinlik": "Proje Hazırlama",
+        "toplamIsYuku": 16.6,
+        "sayi": 2,
+        "sure": 8.3
+      },
+      {
+        "etkinlik": "Proje Sunma",
+        "toplamIsYuku": 5.0,
+        "sayi": 1,
+        "sure": 5.0
+      },
+      {
+        "etkinlik": "Bireysel Çalışma",
+        "toplamIsYuku": 35.0,
+        "sayi": 14,
+        "sure": 2.5
+      },
+      {
+        "etkinlik": "Bireysel Çalışma",
+        "toplamIsYuku": 3.4,
+        "sayi": 2,
+        "sure": 1.7
+      }
+    ],
+    "toplamIsYuku": 125,
+    "dersAKTSKredisi": 5,
+    "hesaplama": "Dersin AKTS Kredisi = Toplam İş Yükü (Saat) / 25 = 5",
+    "aktsHesaplama": "Toplam İş Yükü / 25"
+  },
+  "etkinlikTurleri": [
+    "Alan Çalışması",
+    "Alan Gezisi",
+    "Ara Sınav",
+    "Ara Sınav İçin Bireysel Çalışma",
+    "Beyin Fırtınası",
+    "Bireysel Çalışma",
+    "Bütünleme Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Derse Katılım",
+    "Ev Ödevi",
+    "Final Sınavı",
+    "Final Sınavı İçin Bireysel Çalışma",
+    "Gösterme",
+    "Gözlem",
+    "Laboratuvar",
+    "Laboratuvar Ara Sınavı",
+    "Laboratuvar Sınavı",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Multirom CD Çalışması",
+    "Ödev Problemleri İçin Çalışma",
+    "Okuma",
+    "Örnek Vaka İncelemesi",
+    "Performans",
+    "Problem Çözümü",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Quiz İçin Bireysel Çalışma",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Rehberli Problem Çözümü",
+    "Rol Oynama / Dramatizasyon",
+    "Seminer",
+    "Soru-Yanıt",
+    "Sözlü Sınav",
+    "Takım/Grup Çalışması",
+    "Tartışma",
+    "Toplantı Başkanlığı Yapma",
+    "Uygulama/Pratik"
+  ],
+  "dersDegerlendirme": {
+    "yariyilIciEtkinlikleri": [
+      {
+        "etkinlik": "Rapor Hazırlama",
+        "kod": "RAP1",
+        "sayi": 1,
+        "katkiYuzdesi": 60
+      },
+      {
+        "etkinlik": "Quiz",
+        "kod": "QUIZ1",
+        "sayi": 1,
+        "katkiYuzdesi": 40
+      }
+    ],
+    "yariyilIciToplam": 100,
+    "yariyilSonuEtkinlikleri": [
+      {
+        "etkinlik": "Rapor Hazırlama",
+        "kod": "RAP2",
+        "sayi": 1,
+        "katkiYuzdesi": 70
+      },
+      {
+        "etkinlik": "Quiz",
+        "kod": "QUIZ2",
+        "sayi": 1,
+        "katkiYuzdesi": 30
+      }
+    ],
+    "yariyilSonuToplam": 100,
+    "genelDegerlendirme": [
+      {
+        "degerlendirme": "Yarıyıl (Yıl) İçi Etkinlikleri",
+        "katkiYuzdesi": 40
+      },
+      {
+        "degerlendirme": "Yarıyıl (Yıl) Sonu Etkinlikleri",
+        "katkiYuzdesi": 60
+      }
+    ],
+    "genelDegerlendirmeToplam": 100
+  },
+  "yariyilIciOlasiEtkinlikler": [
+    "Ara Sınav",
+    "Laboratuvar Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Performans",
+    "Quiz",
+    "Rapor",
+    "Rapor Sunma",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Rehberli Problem Çözümü",
+    "Seminer",
+    "Sözlü Sınav",
+    "Ödev Problemleri İçin Çalışma",
+    "Proje Tasarımı/Yönetimi"
+  ],
+  "yariyilSonuOlasiEtkinlikler": [
+    "Final Sınavı",
+    "Laboratuvar Ara Sınavı",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Seminer",
+    "Sözlü Sınav",
+    "Gözlem"
+  ],
+  "programCiktilari": [
+    {
+      "id": "PÇ.1",
+      "kategori": "BİLGİ - Kuramsal Olgusal",
+      "aciklama": "TEMEL BİLGİ: Matematik, Fen Bilimleri ve Bilgisayar Mühendisliği konularında yeterli bilgi sahibidir; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanır."
+    },
+    {
+      "id": "PÇ.2",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "PROBLEM ÇÖZME: Karmaşık Bilgisayar Mühendisliği problemlerini saptar, tanımlar, formüle eder ve çözer; bu amaca uygun analiz ve modelleme yöntemlerini seçer ve uygular."
+    },
+    {
+      "id": "PÇ.3",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TASARIM: Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlar; bu amaçla modern tasarım yöntemlerini uygular."
+    },
+    {
+      "id": "PÇ.4",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TEKNOLOJİ: Bilgisayar Mühendisliği uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirir, seçer ve kullanır; bilişim teknolojilerini etkin bir şekilde kullanır."
+    },
+    {
+      "id": "PÇ.5",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "ARAŞTIRMA: Karmaşık Bilgisayar Mühendisliği problemlerinin veya araştırma konularının incelenmesi için deney tasarlar, deney yapar, veri toplar, sonuçları analiz eder ve yorumlar."
+    },
+    {
+      "id": "PÇ.6",
+      "kategori": "YETKİNLİKLER - Bağımsız Çalışabilme ve Sorumluluk Alabilme Yetkinliği",
+      "aciklama": "İŞBİRLİĞİ: Bilgisayar Mühendisliği disiplini içinde ve çok disiplinli takımlarda etkin biçimde çalışır; bireysel çalışma sergiler."
+    },
+    {
+      "id": "PÇ.7",
+      "kategori": "YETKİNLİKLER - Öğrenme Yetkinliği",
+      "aciklama": "GELİŞİM: Yaşam boyu öğrenmenin gerekliliğinin bilincindedir; bilgiye erişir, bilim ve teknolojideki gelişmeleri izler ve kendini sürekli yeniler; insanlık tarihi boyunca oluşan bilgi birikimini Bilgisayar Mühendisliği alanıyla ilişkilendirir."
+    },
+    {
+      "id": "PÇ.8",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "İLETİŞİM: Türkçe sözlü ve yazılı etkin iletişim kurar; etkin rapor yazar ve yazılı raporları anlar, tasarım ve üretim raporları hazırlar, etkin sunum yapar, açık ve anlaşılır talimat verir ve alır."
+    },
+    {
+      "id": "PÇ.9",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "TOPLUMSAL BİLİNÇ: Bilgisayar Mühendisliği uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi sahibidir; mühendislik çözümlerinin hukuksal sonuçlarının farkındadır."
+    },
+    {
+      "id": "PÇ.10",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "ULUSLARARASILIK: Bir yabancı dili kullanarak Bilgisayar Mühendisliği ile ilişkili konularda, bilgi toplar ve meslektaşları ile iletişim kurar."
+    },
+    {
+      "id": "PÇ.11",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "ETİK: Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilincine sahiptir; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi sahibidir."
+    },
+    {
+      "id": "PÇ.12",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "YÖNETİM: Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi sahibidir; girişimcilik, yenilikçilik hakkında bilinçlidir; sürdürülebilir kalkınma hakkında bilgi sahibidir."
+    }
+  ],
+  "programVeOgrenmeIliskisi": {
+    "iliskiOlcekleri": "0-5 arası değerler (0: İlişki yok, 5: Çok güçlü ilişki)",
+    "iliskiTablosu": [
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.1",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 5,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.2",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.3",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.4",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.5",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.6",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 3,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.7",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.8",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 0,
+          "PÇ.5": 3,
+          "PÇ.6": 3,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 3
+        }
+      }
+    ]
+  },
+  "toplumsalKatkiVeSurdurulebilirlik": {
+    "surdurulebilirKalkinmaAmaclari": [
+      {
+        "amac": "Yoksulluğa Son",
+        "secili": false
+      },
+      {
+        "amac": "Açlığa Son",
+        "secili": false
+      },
+      {
+        "amac": "Sağlık ve Kaliteli Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Nitelikli Eğitim",
+        "secili": true
+      },
+      {
+        "amac": "Toplumsal Cinsiyet Eşitliği",
+        "secili": false
+      },
+      {
+        "amac": "Temiz Su ve Sanitasyon",
+        "secili": false
+      },
+      {
+        "amac": "Erişilebilir ve Temiz Enerji",
+        "secili": false
+      },
+      {
+        "amac": "İnsana Yakışır İş ve Ekonomik Büyüme",
+        "secili": true
+      },
+      {
+        "amac": "Sanayi, Yenilikçilik ve Altyapı",
+        "secili": true
+      },
+      {
+        "amac": "Eşitsizliklerin Azaltılması",
+        "secili": false
+      },
+      {
+        "amac": "Sürdürülebilir Şehirler ve Topluluklar",
+        "secili": false
+      },
+      {
+        "amac": "Sorumlu Üretim ve Tüketim",
+        "secili": true
+      },
+      {
+        "amac": "İklim Eylemi",
+        "secili": false
+      },
+      {
+        "amac": "Sudaki Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Karasal Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Barış, Adalet ve Güçlü Kurumlar",
+        "secili": false
+      },
+      {
+        "amac": "Amaçlar İçin Ortaklıklar",
+        "secili": false
+      }
+    ],
+    "toplumsalKatkiAlanlari": [
+      {
+        "alan": "Eğitim ve Öğretim",
+        "secili": true
+      },
+      {
+        "alan": "Sağlık",
+        "secili": false
+      },
+      {
+        "alan": "Sosyal Hizmetler ve Toplumsal Eşitlik",
+        "secili": false
+      },
+      {
+        "alan": "Çevre ve Sürdürülebilirlik",
+        "secili": true
+      },
+      {
+        "alan": "Teknolojik ve Bilimsel Yenilikler",
+        "secili": true
+      },
+      {
+        "alan": "Ekonomik Kalkınma ve Girişimcilik",
+        "secili": true
+      },
+      {
+        "alan": "Kültürel ve Sanatsal Etkinlikler",
+        "secili": false
+      },
+      {
+        "alan": "Uluslararası İş birliği ve Diplomasi",
+        "secili": false
+      },
+      {
+        "alan": "Toplum yararına yapılacak diğer çalışmalar",
+        "secili": true
+      }
+    ]
+  },
+  "dersSekmeler": {
+    "dersGenel": true,
+    "dersOgrenmeÇiktilari": true,
+    "haftalikDersIcerikleri": true,
+    "dersIsYuku": true,
+    "dersDegerlendirme": true,
+    "programVeOgrenmeÇiktilariIliskisi": true,
+    "toplumsalKatkiVeSurdurulebilirlik": true
+  },
+  "denetimBilgileri": {
+    "olusturmaTarihi": "2025-05-10 18:09:33",
+    "olusturan": "json_processor_script",
+    "sonGuncellenmeTarihi": "2025-05-10 18:09:33",
+    "guncelleyen": "json_processor_script",
+    "durum": "Taslak"
+  },
+  "numaralandirmaDegerleri": {
+    "dersTurleri": [
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dersSeviyesi": [
+      "Lisans",
+      "Yüksek Lisans",
+      "Doktora"
+    ],
+    "ogretimSistemi": [
+      "Birinci Öğretim",
+      "İkinci Öğretim",
+      "Uzaktan Öğretim"
+    ],
+    "egitimDili": [
+      "Türkçe",
+      "İngilizce"
+    ],
+    "stajDurumu": [
+      "Mevcut Değil",
+      "Mevcut",
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dokumanDurumu": [
+      "Taslak",
+      "Onaylandı",
+      "Yayınlandı",
+      "Revize Edildi"
+    ]
+  }
+}

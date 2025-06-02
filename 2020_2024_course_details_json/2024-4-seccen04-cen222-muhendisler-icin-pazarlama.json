@@ -1,0 +1,690 @@
+{
+  "dersGenel": {
+    "dersTuru": "Seçmeli",
+    "dersinSeviyesi": "Lisans",
+    "dersinAKTSKredisi": 3,
+    "haftalikDersSaatiKuramsal": 3,
+    "haftalikUygulamaSaati": 0,
+    "haftalikLaboratuarSaati": 0,
+    "dersinVerildigiYariyil": 4,
+    "ogretimSistemi": "Birinci Öğretim",
+    "egitimDili": "Türkçe",
+    "secmeliDersGrubuKodu": "SECCEN04",
+    "universite": "Recep Tayyip Erdoğan Üniversitesi",
+    "ulke": "Türkiye",
+    "il": "Rize",
+    "ilce": "Merkez",
+    "mahalle": "Fener Mah",
+    "fakulte": "Mühendislik Ve Mimarlık Fakültesi",
+    "bolum": "Bilgisayar Mühendisliği",
+    "dersKodu": "CEN222",
+    "dersAdi": "Mühendisler İçin Pazarlama",
+    "ogretimYiliDonemi": "Bahar",
+    "dersAKTSKredisi": 3,
+    "dilSecimi": "Türkçe",
+    "mufredatOlusturulmaYili": "2024",
+    "akademikYil": ""
+  },
+  "dersIcerik": {
+    "dersinAmaci": "Bu dersin amacı, bilgisayar mühendisliği öğrencilerine pazarlama kavramları, stratejileri ve uygulamaları konusunda temel bilgileri kazandırmaktır. Teknoloji ürünleri ve hizmetleri için pazarlama stratejilerinin geliştirilmesi, analiz edilmesi ve uygulanması süreçleri incelenecektir. Öğrenciler, mühendislik perspektifiyle pazarlama faaliyetlerini değerlendirmeyi ve etkin pazarlama stratejileri geliştirmeyi öğreneceklerdir. Bu ders, mühendislik ve pazarlama arasındaki bağlantıları kurarak, öğrencilerin gelecekteki kariyerlerinde teknik becerileri ile iş dünyası anlayışını birleştirmelerine yardımcı olacaktır.",
+    "dersinOnKosuluOlanDersler": "Mevcut Değil",
+    "dersinIcerigi": "• Pazarlama kavramı ve mühendislik ile ilişkisi\n• Pazar araştırması ve veri analizi\n• Tüketici davranışları ve müşteri segmentasyonu\n• Ürün geliştirme ve yönetimi\n• Fiyatlandırma stratejileri\n• Dağıtım kanalları ve tedarik zinciri yönetimi\n• Pazarlama iletişimi ve tanıtım\n• Dijital pazarlama ve sosyal medya\n• Teknoloji ve mühendislik ürünleri için pazarlama\n• İnovasyon ve yeni ürün pazarlaması\n• Uluslararası pazarlama\n• Mühendislik hizmetlerinin pazarlanması\n• Pazarlama planı geliştirme ve uygulama",
+    "dersinIcinOnerilenHususlar": "Öğrencilerin güncel pazarlama örneklerini ve vaka çalışmalarını takip etmeleri, pazarlama stratejilerini eleştirel düşünce ile analiz edebilmeleri önerilir. Derslere aktif katılım ve grup çalışmalarına dahil olunması, konuların daha iyi anlaşılmasını sağlayacaktır.",
+    "ogretimTuru": "Birinci Öğretim",
+    "stajDurumu": "Mevcut Değil",
+    "dersinKitabiMalzemesiOnerilenKaynaklar": "Kotler, P., & Armstrong, G. (2021). Pazarlama İlkeleri. Pearson.\nRees, M., & Breen, C. (2018). Engineering Your Marketing Success. CRC Press.\nMohr, J., Sengupta, S., & Slater, S. (2019). Marketing of High-Technology Products and Innovations. Pearson.\nMoore, G. A. (2014). Crossing the Chasm: Marketing and Selling Disruptive Products to Mainstream Customers. Harper Business.\nRees, D. (2018). Principles of Technology Marketing. Cengage Learning.\nStratten, S. (2019). UnMarketing: Everything Has Changed and Nothing is Different. Wiley.\nŞatır, O. (2015). Teknoloji Pazarlaması: Pazarlama 5.0. Beta Basım Yayım Dağıtım.",
+    "dersiVerenOgretimUyesiOgretimGorevlisi": "Dr. Öğr. Üyesi",
+    "hazirlanmaTarihi": "27.04.2025"
+  },
+  "dersOgrenmeÇiktilari": [
+    {
+      "id": "ÖÇ.1",
+      "aciklama": "Pazarlama kavramlarını, temel prensiplerini ve teknoloji ürünleri için pazarlama stratejilerinin önemini açıklar."
+    },
+    {
+      "id": "ÖÇ.2",
+      "aciklama": "Pazar araştırması yöntemlerini kullanarak müşteri ihtiyaçlarını belirler ve veri analizi ile tüketici davranışlarını yorumlar."
+    },
+    {
+      "id": "ÖÇ.3",
+      "aciklama": "Mühendislik ürünleri ve teknoloji çözümleri için pazarlama stratejileri ve pazarlama karması (ürün, fiyat, dağıtım, tutundurma) geliştirir."
+    },
+    {
+      "id": "ÖÇ.4",
+      "aciklama": "Dijital pazarlama kanallarını ve teknolojilerini değerlendirir, teknik ürünler için etkili dijital pazarlama kampanyaları tasarlar."
+    }
+  ],
+  "haftalikDersIcerikleri": [
+    {
+      "hafta": 1,
+      "icerik": "Pazarlama kavramı, gelişimi ve mühendislik ile ilişkisi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Anlatım, Tartışma",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Kotler & Armstrong",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Pazarlama kavramları hakkında okuma"
+    },
+    {
+      "hafta": 2,
+      "icerik": "Pazarlama çevresi, iç ve dış çevre faktörleri, PEST analizi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Hafta 1 notları",
+      "ogretimYontemleri": "Anlatım, Vaka Çalışması",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Vaka Örnekleri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "PEST analizi uygulama ödevi"
+    },
+    {
+      "hafta": 3,
+      "icerik": "Pazar araştırması, veri toplama yöntemleri ve analizi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Pazar araştırma örnekleri",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, Araştırma Örnekleri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Mini pazar araştırması projesi"
+    },
+    {
+      "hafta": 4,
+      "icerik": "Tüketici davranışları, B2B ve B2C pazarlar",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Tüketici davranış modelleri",
+      "ogretimYontemleri": "Anlatım, Tartışma",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Örnek Vakalar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "B2B ve B2C örnek analizi"
+    },
+    {
+      "hafta": 5,
+      "icerik": "Pazar segmentasyonu, hedef pazarlar ve konumlandırma",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Segmentasyon örnekleri",
+      "ogretimYontemleri": "Anlatım, Grup Çalışması",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Vaka Örnekleri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Teknoloji ürünü için segmentasyon ödevi"
+    },
+    {
+      "hafta": 6,
+      "icerik": "Ürün stratejileri, ürün yaşam döngüsü, yeni ürün geliştirme",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Ürün örnekleri",
+      "ogretimYontemleri": "Anlatım, Vaka Çalışması",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Moore (Crossing the Chasm)",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Yazılım ürünü yaşam döngüsü analizi"
+    },
+    {
+      "hafta": 7,
+      "icerik": "Fiyatlandırma stratejileri ve teknoloji ürünleri için fiyatlandırma modelleri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Fiyatlandırma örnekleri",
+      "ogretimYontemleri": "Anlatım, Örnek Olay İncelemesi",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Vaka Örnekleri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "SaaS ürünü için fiyatlandırma stratejisi"
+    },
+    {
+      "hafta": 8,
+      "icerik": "Ara Sınav",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "1-7 Haftalar arası konular",
+      "ogretimYontemleri": "Sınav",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Ara Sınav",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 9,
+      "icerik": "Dağıtım kanalları, tedarik zinciri yönetimi ve teknoloji ürünlerinin dağıtımı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Dağıtım kanali örnekleri",
+      "ogretimYontemleri": "Anlatım, Tartışma",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Örnek Vakalar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Dijital ürünler için dağıtım stratejisi"
+    },
+    {
+      "hafta": 10,
+      "icerik": "Pazarlama iletişimi, reklam ve tanıtım stratejileri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.4",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "İletişim kampanyası örnekleri",
+      "ogretimYontemleri": "Anlatım, Vaka Çalışması",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Stratten (UnMarketing)",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Teknoloji ürünü için iletişim planı"
+    },
+    {
+      "hafta": 11,
+      "icerik": "Dijital pazarlama, içerik pazarlaması ve sosyal medya stratejileri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Dijital pazarlama örnekleri",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, Dijital Kampanya Örnekleri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Sosyal medya kampanya tasarımı"
+    },
+    {
+      "hafta": 12,
+      "icerik": "Teknoloji ve mühendislik ürünlerinin pazarlanması, ürün adaptasyonu",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.3",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Teknoloji pazarlama örnekleri",
+      "ogretimYontemleri": "Anlatım, Örnek Olay İncelemesi",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Mohr et al.",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Mühendislik ürünü için pazarlama stratejisi"
+    },
+    {
+      "hafta": 13,
+      "icerik": "İnovasyon pazarlaması ve yenilikçi ürünlerin lansmanı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.4",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Yenilikçi ürün örnekleri",
+      "ogretimYontemleri": "Anlatım, Grup Çalışması",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Moore (Crossing the Chasm)",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Yenilikçi ürün lansman planı"
+    },
+    {
+      "hafta": 14,
+      "icerik": "Uluslararası pazarlama ve kültürlerarası yaklaşımlar",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.3",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Uluslararası pazarlama örnekleri",
+      "ogretimYontemleri": "Anlatım, Tartışma",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Kotler & Armstrong",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Uluslararası pazarlama stratejisi"
+    },
+    {
+      "hafta": 15,
+      "icerik": "Pazarlama planı geliştirme ve dönem projesi sunumları",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Proje hazırlığı",
+      "ogretimYontemleri": "Sunum, Tartışma",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Öğrenci Projeleri",
+      "degerlendirmeYontemleri": "Proje Değerlendirme",
+      "odevVeCalisma": "Final sınavına hazırlık"
+    },
+    {
+      "hafta": 16,
+      "icerik": "Final Sınavı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Tüm konular",
+      "ogretimYontemleri": "Sınav",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Final Sınavı",
+      "odevVeCalisma": "-"
+    }
+  ],
+  "dersIsYuku": {
+    "etkinlikler": [
+      {
+        "etkinlik": "Derse Katılım",
+        "sayi": 14,
+        "sure": 3,
+        "toplamIsYuku": 42
+      },
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "sure": 2,
+        "toplamIsYuku": 2
+      },
+      {
+        "etkinlik": "Ara Sınav İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 10,
+        "toplamIsYuku": 10
+      },
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "sure": 2,
+        "toplamIsYuku": 2
+      },
+      {
+        "etkinlik": "Final Sınavı İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 19,
+        "toplamIsYuku": 19
+      }
+    ],
+    "toplamIsYuku": 75,
+    "dersAKTSKredisi": 3,
+    "hesaplama": "Dersin AKTS Kredisi = Toplam İş Yükü (Saat) / 25 = 3",
+    "aktsHesaplama": "Toplam İş Yükü / 25"
+  },
+  "etkinlikTurleri": [
+    "Alan Çalışması",
+    "Alan Gezisi",
+    "Ara Sınav",
+    "Ara Sınav İçin Bireysel Çalışma",
+    "Beyin Fırtınası",
+    "Bireysel Çalışma",
+    "Bütünleme Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Derse Katılım",
+    "Ev Ödevi",
+    "Final Sınavı",
+    "Final Sınavı İçin Bireysel Çalışma",
+    "Gösterme",
+    "Gözlem",
+    "Laboratuvar",
+    "Laboratuvar Ara Sınavı",
+    "Laboratuvar Sınavı",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Multirom CD Çalışması",
+    "Ödev Problemleri İçin Çalışma",
+    "Okuma",
+    "Örnek Vaka İncelemesi",
+    "Performans",
+    "Problem Çözümü",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Quiz İçin Bireysel Çalışma",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Rehberli Problem Çözümü",
+    "Rol Oynama / Dramatizasyon",
+    "Seminer",
+    "Soru-Yanıt",
+    "Sözlü Sınav",
+    "Takım/Grup Çalışması",
+    "Tartışma",
+    "Toplantı Başkanlığı Yapma",
+    "Uygulama/Pratik"
+  ],
+  "dersDegerlendirme": {
+    "yariyilIciEtkinlikleri": [
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "katkiYuzdesi": 100
+      }
+    ],
+    "yariyilIciToplam": 100,
+    "yariyilSonuEtkinlikleri": [
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "katkiYuzdesi": 100
+      }
+    ],
+    "yariyilSonuToplam": 100,
+    "genelDegerlendirme": [
+      {
+        "degerlendirme": "Yarıyıl (Yıl) İçi Etkinlikleri",
+        "katkiYuzdesi": 40
+      },
+      {
+        "degerlendirme": "Yarıyıl (Yıl) Sonu Etkinlikleri",
+        "katkiYuzdesi": 60
+      }
+    ],
+    "genelDegerlendirmeToplam": 100
+  },
+  "yariyilIciOlasiEtkinlikler": [
+    "Ara Sınav",
+    "Laboratuvar Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Performans",
+    "Quiz",
+    "Rapor",
+    "Rapor Sunma",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Rehberli Problem Çözümü",
+    "Seminer",
+    "Sözlü Sınav",
+    "Ödev Problemleri İçin Çalışma",
+    "Proje Tasarımı/Yönetimi"
+  ],
+  "yariyilSonuOlasiEtkinlikler": [
+    "Final Sınavı",
+    "Laboratuvar Ara Sınavı",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Seminer",
+    "Sözlü Sınav",
+    "Gözlem"
+  ],
+  "programCiktilari": [
+    {
+      "id": "PÇ.1",
+      "kategori": "BİLGİ - Kuramsal Olgusal",
+      "aciklama": "TEMEL BİLGİ: Matematik, Fen Bilimleri ve Bilgisayar Mühendisliği konularında yeterli bilgi sahibidir; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanır."
+    },
+    {
+      "id": "PÇ.2",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "PROBLEM ÇÖZME: Karmaşık Bilgisayar Mühendisliği problemlerini saptar, tanımlar, formüle eder ve çözer; bu amaca uygun analiz ve modelleme yöntemlerini seçer ve uygular."
+    },
+    {
+      "id": "PÇ.3",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TASARIM: Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlar; bu amaçla modern tasarım yöntemlerini uygular."
+    },
+    {
+      "id": "PÇ.4",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TEKNOLOJİ: Bilgisayar Mühendisliği uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirir, seçer ve kullanır; bilişim teknolojilerini etkin bir şekilde kullanır."
+    },
+    {
+      "id": "PÇ.5",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "ARAŞTIRMA: Karmaşık Bilgisayar Mühendisliği problemlerinin veya araştırma konularının incelenmesi için deney tasarlar, deney yapar, veri toplar, sonuçları analiz eder ve yorumlar."
+    },
+    {
+      "id": "PÇ.6",
+      "kategori": "YETKİNLİKLER - Bağımsız Çalışabilme ve Sorumluluk Alabilme Yetkinliği",
+      "aciklama": "İŞBİRLİĞİ: Bilgisayar Mühendisliği disiplini içinde ve çok disiplinli takımlarda etkin biçimde çalışır; bireysel çalışma sergiler."
+    },
+    {
+      "id": "PÇ.7",
+      "kategori": "YETKİNLİKLER - Öğrenme Yetkinliği",
+      "aciklama": "GELİŞİM: Yaşam boyu öğrenmenin gerekliliğinin bilincindedir; bilgiye erişir, bilim ve teknolojideki gelişmeleri izler ve kendini sürekli yeniler; insanlık tarihi boyunca oluşan bilgi birikimini Bilgisayar Mühendisliği alanıyla ilişkilendirir."
+    },
+    {
+      "id": "PÇ.8",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "İLETİŞİM: Türkçe sözlü ve yazılı etkin iletişim kurar; etkin rapor yazar ve yazılı raporları anlar, tasarım ve üretim raporları hazırlar, etkin sunum yapar, açık ve anlaşılır talimat verir ve alır."
+    },
+    {
+      "id": "PÇ.9",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "TOPLUMSAL BİLİNÇ: Bilgisayar Mühendisliği uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi sahibidir; mühendislik çözümlerinin hukuksal sonuçlarının farkındadır."
+    },
+    {
+      "id": "PÇ.10",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "ULUSLARARASILIK: Bir yabancı dili kullanarak Bilgisayar Mühendisliği ile ilişkili konularda, bilgi toplar ve meslektaşları ile iletişim kurar."
+    },
+    {
+      "id": "PÇ.11",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "ETİK: Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilincine sahiptir; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi sahibidir."
+    },
+    {
+      "id": "PÇ.12",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "YÖNETİM: Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi sahibidir; girişimcilik, yenilikçilik hakkında bilinçlidir; sürdürülebilir kalkınma hakkında bilgi sahibidir."
+    }
+  ],
+  "programVeOgrenmeIliskisi": {
+    "iliskiOlcekleri": "0-5 arası değerler (0: İlişki yok, 5: Çok güçlü ilişki)",
+    "iliskiTablosu": [
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.1",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 5
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.2",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 3
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.3",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 3,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 3,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 3
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.4",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 3,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 3,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 3
+        }
+      }
+    ]
+  },
+  "toplumsalKatkiVeSurdurulebilirlik": {
+    "surdurulebilirKalkinmaAmaclari": [
+      {
+        "amac": "Yoksulluğa Son",
+        "secili": false
+      },
+      {
+        "amac": "Açlığa Son",
+        "secili": false
+      },
+      {
+        "amac": "Sağlık ve Kaliteli Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Nitelikli Eğitim",
+        "secili": true
+      },
+      {
+        "amac": "Toplumsal Cinsiyet Eşitliği",
+        "secili": false
+      },
+      {
+        "amac": "Temiz Su ve Sanitasyon",
+        "secili": false
+      },
+      {
+        "amac": "Erişilebilir ve Temiz Enerji",
+        "secili": false
+      },
+      {
+        "amac": "İnsana Yakışır İş ve Ekonomik Büyüme",
+        "secili": true
+      },
+      {
+        "amac": "Sanayi, Yenilikçilik ve Altyapı",
+        "secili": true
+      },
+      {
+        "amac": "Eşitsizliklerin Azaltılması",
+        "secili": false
+      },
+      {
+        "amac": "Sürdürülebilir Şehirler ve Topluluklar",
+        "secili": false
+      },
+      {
+        "amac": "Sorumlu Üretim ve Tüketim",
+        "secili": true
+      },
+      {
+        "amac": "İklim Eylemi",
+        "secili": false
+      },
+      {
+        "amac": "Sudaki Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Karasal Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Barış, Adalet ve Güçlü Kurumlar",
+        "secili": false
+      },
+      {
+        "amac": "Amaçlar İçin Ortaklıklar",
+        "secili": false
+      }
+    ],
+    "toplumsalKatkiAlanlari": [
+      {
+        "alan": "Eğitim ve Öğretim",
+        "secili": true
+      },
+      {
+        "alan": "Sağlık",
+        "secili": false
+      },
+      {
+        "alan": "Sosyal Hizmetler ve Toplumsal Eşitlik",
+        "secili": false
+      },
+      {
+        "alan": "Çevre ve Sürdürülebilirlik",
+        "secili": false
+      },
+      {
+        "alan": "Teknolojik ve Bilimsel Yenilikler",
+        "secili": true
+      },
+      {
+        "alan": "Ekonomik Kalkınma ve Girişimcilik",
+        "secili": true
+      },
+      {
+        "alan": "Kültürel ve Sanatsal Etkinlikler",
+        "secili": false
+      },
+      {
+        "alan": "Uluslararası İş birliği ve Diplomasi",
+        "secili": true
+      },
+      {
+        "alan": "Toplum yararına yapılacak diğer çalışmalar",
+        "secili": false
+      }
+    ]
+  },
+  "dersSekmeler": {
+    "dersGenel": true,
+    "dersOgrenmeÇiktilari": true,
+    "haftalikDersIcerikleri": true,
+    "dersIsYuku": true,
+    "dersDegerlendirme": true,
+    "programVeOgrenmeÇiktilariIliskisi": true,
+    "toplumsalKatkiVeSurdurulebilirlik": true
+  },
+  "denetimBilgileri": {
+    "olusturmaTarihi": "2025-05-10 18:09:37",
+    "olusturan": "json_processor_script",
+    "sonGuncellenmeTarihi": "2025-05-10 18:09:37",
+    "guncelleyen": "json_processor_script",
+    "durum": "Taslak"
+  },
+  "numaralandirmaDegerleri": {
+    "dersTurleri": [
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dersSeviyesi": [
+      "Lisans",
+      "Yüksek Lisans",
+      "Doktora"
+    ],
+    "ogretimSistemi": [
+      "Birinci Öğretim",
+      "İkinci Öğretim",
+      "Uzaktan Öğretim"
+    ],
+    "egitimDili": [
+      "Türkçe",
+      "İngilizce"
+    ],
+    "stajDurumu": [
+      "Mevcut Değil",
+      "Mevcut",
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dokumanDurumu": [
+      "Taslak",
+      "Onaylandı",
+      "Yayınlandı",
+      "Revize Edildi"
+    ]
+  }
+}

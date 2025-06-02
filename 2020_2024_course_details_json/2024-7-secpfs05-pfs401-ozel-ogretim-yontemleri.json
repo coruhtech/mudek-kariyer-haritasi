@@ -1,0 +1,793 @@
+{
+  "dersGenel": {
+    "dersTuru": "Seçmeli",
+    "dersinSeviyesi": "Lisans",
+    "dersKredisi": 3,
+    "dersinAKTSKredisi": 4,
+    "haftalikDersSaatiKuramsal": 3,
+    "haftalikUygulamaSaati": 0,
+    "haftalikLaboratuarSaati": 0,
+    "dersinVerildigiYariyil": 7,
+    "ogretimSistemi": "Birinci Öğretim",
+    "egitimDili": "Türkçe",
+    "secmeliDersGrubuKodu": "SECPFS05",
+    "universite": "Recep Tayyip Erdoğan Üniversitesi",
+    "ulke": "Türkiye",
+    "il": "Rize",
+    "ilce": "Merkez",
+    "mahalle": "Fener Mah",
+    "fakulte": "Mühendislik Ve Mimarlık Fakültesi",
+    "bolum": "Bilgisayar Mühendisliği",
+    "dersKodu": "PFS401",
+    "dersAdi": "Özel Öğretim Yöntemleri",
+    "ogretimYiliDonemi": "Güz",
+    "dersAKTSKredisi": 4,
+    "dilSecimi": "Türkçe",
+    "mufredatOlusturulmaYili": "2024",
+    "akademikYil": ""
+  },
+  "dersIcerik": {
+    "dersinAmaci": "Bu dersin amacı, öğrencilere bilgisayar ve teknoloji eğitiminde kullanılan özel öğretim yöntem ve tekniklerini tanıtmak, farklı öğrenme stillerine ve öğrenen gruplarına uygun öğretim stratejileri geliştirme becerileri kazandırmaktır. Ders boyunca, bilgisayar ve bilişim teknolojileri alanında öğretim yapacak eğitimcilerin ihtiyaç duyacağı pedagojik yaklaşımlar, teknik konuların öğretilmesinde karşılaşılan zorluklar, aktif öğrenme stratejileri, ölçme ve değerlendirme yöntemleri ele alınacaktır. Öğrenciler, bilgisayar mühendisliği ve bilişim teknolojileri konularını farklı seviye ve özelliklerdeki öğrenen gruplarına nasıl aktaracaklarını öğrenecek, öğretim materyalleri tasarlayacak ve uygulama deneyimi kazanacaklardır.",
+    "dersinOnKosuluOlanDersler": "PFS201 Eğitime Giriş, PFS303 Öğretim İlke ve Yöntemleri (Önerilir)",
+    "dersinIcerigi": "Bilgisayar Bilimlerinde Öğretim Yöntemleri ve Pedagojik Yaklaşımlar; Programlama Öğretiminde Yöntem ve Teknikler; Problem Çözme ve Algoritmik Düşünme Öğretimi; Proje Tabanlı Öğrenme ve Bilgisayar Eğitimi; İşbirlikli Öğrenme ve Takım Çalışması; Bilgisayar Destekli Eğitim Materyalleri Tasarımı; Dijital Araçlar ve Platformların Eğitimde Kullanımı; Ters-Yüz Sınıf Modeli ve Harmanlanmış Öğrenme; Bilişim Teknolojileri Eğitiminde Ölçme ve Değerlendirme; Farklılaştırılmış Öğretim Stratejileri; Öğrenme Zorluklarına Yönelik Yaklaşımlar; Akran Öğretimi ve Mentorluk; Meslek Eğitiminde Teknoloji Kullanımı; STEM Eğitimi ve Bilgisayar Bilimi; Yapay Zeka ve Kodlama Eğitiminde Güncel Yaklaşımlar.",
+    "dersinIcinOnerilenHususlar": "Öğrencilerin, öğretim yöntemleri ve eğitim psikolojisi konularında temel bilgilere sahip olmaları önerilir. Ders kapsamında yapılacak mikro öğretim uygulamaları ve materyal geliştirme etkinlikleri için öğrencilerin bilgisayar donanımı, yazılımlar ve çevrimiçi platformlar konusunda bilgi sahibi olmaları gerekmektedir. Dersin etkileşimli doğası gereği, aktif katılım ve düzenli ders çalışması önemlidir.",
+    "ogretimTuru": "Birinci Öğretim",
+    "stajDurumu": "Mevcut Değil",
+    "dersinKitabiMalzemesiOnerilenKaynaklar": "Hazzan, O., Lapidot, T., & Ragonis, N. (2020). Guide to Teaching Computer Science: An Activity-Based Approach. Springer.\nFellows, M. R., & Parberry, I. (2022). SIGACT: Try to Learn from Teaching Computer Science. Communications of the ACM.\nBaysal, Z. (2021). Öğretim Yöntem ve Teknikleri. Nobel Akademik Yayıncılık.\nGüneş, F. (2019). Eğitimde Öğretim Stratejileri, Yöntemleri ve Teknikleri. Pegem Akademi Yayıncılık.\nYıldırım, A., & Şimşek, H. (2018). Sosyal Bilimlerde Nitel Araştırma Yöntemleri. Seçkin Yayıncılık.\nGürol, M. (2019). Öğretim Teknolojileri ve Materyal Tasarımı. Nobel Akademik Yayıncılık.\nNational Research Council. (2018). How People Learn: Brain, Mind, Experience, and School. National Academies Press.\nFriesen, N. (2021). The Textbook and the Lecture: Education in the Age of New Media. Johns Hopkins University Press.",
+    "dersiVerenOgretimUyesiOgretimGorevlisi": "Dr. Öğr. Üyesi [İsim]",
+    "hazirlanmaTarihi": "2024-05-08"
+  },
+  "dersOgrenmeÇiktilari": [
+    {
+      "id": "ÖÇ.1",
+      "aciklama": "Bilgisayar ve bilişim teknolojileri eğitiminde kullanılan çağdaş öğretim yöntem ve tekniklerini açıklar ve karşılaştırır."
+    },
+    {
+      "id": "ÖÇ.2",
+      "aciklama": "Farklı bilgisayar mühendisliği ve bilişim teknolojileri konularının öğretimine uygun öğretim stratejileri geliştirir ve uygular."
+    },
+    {
+      "id": "ÖÇ.3",
+      "aciklama": "Bilgisayar programlama ve algoritmik düşünme becerileri kazandırmak için uygun öğretim yöntemlerini seçer ve planlama yapar."
+    },
+    {
+      "id": "ÖÇ.4",
+      "aciklama": "Bilgisayar bilimleri alanında öğrenen merkezli, etkileşimli ve kapsayıcı öğrenme ortamları tasarlar."
+    },
+    {
+      "id": "ÖÇ.5",
+      "aciklama": "Bilişim teknolojileri eğitiminde kullanılabilecek öğretim materyalleri ve dijital kaynaklar geliştirir."
+    },
+    {
+      "id": "ÖÇ.6",
+      "aciklama": "Öğrenci öğrenmesini değerlendirebilecek ölçme ve değerlendirme araçları tasarlar ve uygular."
+    },
+    {
+      "id": "ÖÇ.7",
+      "aciklama": "Bilgisayar bilimleri alanında hazırladığı ders planlarını mikro öğretim yöntemiyle uygular ve öz değerlendirme yapar."
+    }
+  ],
+  "haftalikDersIcerikleri": [
+    {
+      "hafta": 1,
+      "icerik": "Ders Tanıtımı ve Bilgisayar Bilimlerinde Pedagojik Yaklaşımlar",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Anlatım, Tartışma",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Hazzan et al. Guide to Teaching Computer Science, Bölüm 1",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Bilgisayar bilimleri eğitimindeki zorluklar üzerine yansıtıcı yazı"
+    },
+    {
+      "hafta": 2,
+      "icerik": "Bilişsel Öğrenme Kuramları ve Bilgisayar Eğitiminde Uygulamaları",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Yansıtıcı yazı hazırlama",
+      "ogretimYontemleri": "Anlatım, Grup Çalışması",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "National Research Council, How People Learn, Bölüm 2-3",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Bilişsel yük teorisi perspektifinden bir programlama konusu analizi"
+    },
+    {
+      "hafta": 3,
+      "icerik": "Programlama Öğretiminde Temel Yaklaşımlar ve Stratejiler",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Belirlenen bilişsel öğrenme kuramının incelenmesi",
+      "ogretimYontemleri": "Anlatım, Örnek Olay İncelemesi",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Fellows & Parberry, SIGACT, Bölüm 2",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Bir programlama konusu için kavram yanılgıları analizi"
+    },
+    {
+      "hafta": 4,
+      "icerik": "Problem Çözme ve Algoritmik Düşünme Öğretimi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Kavram yanılgıları analizi",
+      "ogretimYontemleri": "Anlatım, Uygulama, Problem Çözme",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Hazzan et al. Guide to Teaching Computer Science, Bölüm 4",
+      "degerlendirmeYontemleri": "Quiz",
+      "odevVeCalisma": "Algoritmik düşünme etkinliği tasarlama"
+    },
+    {
+      "hafta": 5,
+      "icerik": "Proje Tabanlı Öğrenme ve Bilgisayar Eğitiminde Uygulamaları",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Algoritmik düşünme etkinliği",
+      "ogretimYontemleri": "Anlatım, Grup Çalışması",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Baysal, Öğretim Yöntem ve Teknikleri, Bölüm 5",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Proje tabanlı öğrenme senaryosu geliştirme"
+    },
+    {
+      "hafta": 6,
+      "icerik": "İşbirlikli Öğrenme Teknikleri ve Takım Çalışması",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Proje senaryosu",
+      "ogretimYontemleri": "Anlatım, Rol Oynama, Grup Çalışması",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Güneş, Eğitimde Öğretim Stratejileri, Bölüm 4",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "İşbirlikli öğrenme etkinliği tasarlama"
+    },
+    {
+      "hafta": 7,
+      "icerik": "Bilgisayar Destekli Eğitim Materyalleri Tasarımı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı / Laboratuvar",
+      "onHazirlik": "İşbirlikli öğrenme etkinliği",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar, Tasarım Yazılımları",
+      "kaynakVeMateryal": "Gürol, Öğretim Teknolojileri ve Materyal Tasarımı, Bölüm 3-4",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Ders materyali tasarımı ve hazırlanması"
+    },
+    {
+      "hafta": 8,
+      "icerik": "Ara Sınav",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "1-7 Hafta Konuları",
+      "ogretimYontemleri": "Sınav",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Ara Sınav",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 9,
+      "icerik": "Dijital Platformlar ve Araçların Eğitimde Kullanımı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4, ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı / Laboratuvar",
+      "onHazirlik": "Dijital eğitim platformları araştırması",
+      "ogretimYontemleri": "Anlatım, Uygulama, Gösterim",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar, Dijital Platformlar",
+      "kaynakVeMateryal": "Friesen, The Textbook and the Lecture, Bölüm 4-5",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Dijital araç kullanarak ders etkinliği tasarlama"
+    },
+    {
+      "hafta": 10,
+      "icerik": "Ters-Yüz Sınıf Modeli ve Harmanlanmış Öğrenme",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Dijital ders etkinliği",
+      "ogretimYontemleri": "Anlatım, Grup Çalışması, Tartışma",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Baysal, Öğretim Yöntem ve Teknikleri, Bölüm 8",
+      "degerlendirmeYontemleri": "Quiz",
+      "odevVeCalisma": "Ters-yüz sınıf modelinde bir ders planı hazırlama"
+    },
+    {
+      "hafta": 11,
+      "icerik": "Bilişim Teknolojileri Eğitiminde Ölçme ve Değerlendirme",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.6",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Ters-yüz sınıf ders planı",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Yıldırım & Şimşek, Sosyal Bilimlerde Nitel Araştırma Yöntemleri, Bölüm 7",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Değerlendirme aracı geliştirme (rubrik/kontrol listesi)"
+    },
+    {
+      "hafta": 12,
+      "icerik": "Farklılaştırılmış Öğretim ve Öğrenme Zorluklarına Yaklaşımlar",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Değerlendirme aracı",
+      "ogretimYontemleri": "Anlatım, Örnek Olay İncelemesi",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "National Research Council, How People Learn, Bölüm 6",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Farklılaştırılmış öğretim planı hazırlama"
+    },
+    {
+      "hafta": 13,
+      "icerik": "STEM Eğitimi ve Bilgisayar Bilimi Entegrasyonu",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.4, ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Farklılaştırılmış öğretim planı",
+      "ogretimYontemleri": "Anlatım, Grup Çalışması, Proje Tasarımı",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Hazzan et al. Guide to Teaching Computer Science, Bölüm 7",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "STEM entegrasyonlu bir bilgisayar dersi tasarlama"
+    },
+    {
+      "hafta": 14,
+      "icerik": "Yapay Zeka ve Kodlama Eğitiminde Güncel Yaklaşımlar",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "STEM entegrasyonlu ders",
+      "ogretimYontemleri": "Anlatım, Tartışma",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Fellows & Parberry, SIGACT, Bölüm 6",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Final projesi için ders planı hazırlama"
+    },
+    {
+      "hafta": 15,
+      "icerik": "Mikro Öğretim Uygulamaları ve Değerlendirme",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Ders planı ve materyaller",
+      "ogretimYontemleri": "Mikro Öğretim, Akran Değerlendirmesi",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar, Kamera",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Proje Sunumu",
+      "odevVeCalisma": "Mikro öğretim öz değerlendirmesi"
+    },
+    {
+      "hafta": 16,
+      "icerik": "Final Sınavı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm Konular",
+      "ogretimYontemleri": "Sınav",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Final Sınavı",
+      "odevVeCalisma": "-"
+    }
+  ],
+  "dersIsYuku": {
+    "etkinlikler": [
+      {
+        "etkinlik": "Derse Katılım",
+        "sayi": 14,
+        "sure": 3,
+        "toplamIsYuku": 42
+      },
+      {
+        "etkinlik": "Bireysel Çalışma",
+        "sayi": 14,
+        "sure": 1,
+        "toplamIsYuku": 14
+      },
+      {
+        "etkinlik": "Ev Ödevi",
+        "sayi": 7,
+        "sure": 3,
+        "toplamIsYuku": 21
+      },
+      {
+        "etkinlik": "Quiz",
+        "sayi": 2,
+        "sure": 1,
+        "toplamIsYuku": 2
+      },
+      {
+        "etkinlik": "Ara Sınav İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 6,
+        "toplamIsYuku": 6
+      },
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "sure": 2,
+        "toplamIsYuku": 2
+      },
+      {
+        "etkinlik": "Proje Hazırlama",
+        "sayi": 1,
+        "sure": 8,
+        "toplamIsYuku": 8
+      },
+      {
+        "etkinlik": "Final Sınavı İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 8,
+        "toplamIsYuku": 8
+      },
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "sure": 2,
+        "toplamIsYuku": 2
+      }
+    ],
+    "toplamIsYuku": 105,
+    "dersAKTSKredisi": 4,
+    "hesaplama": "Dersin AKTS Kredisi = Toplam İş Yükü (Saat) / 25.25 = 4",
+    "aktsHesaplama": "Toplam İş Yükü / 25"
+  },
+  "etkinlikTurleri": [
+    "Alan Çalışması",
+    "Alan Gezisi",
+    "Ara Sınav",
+    "Ara Sınav İçin Bireysel Çalışma",
+    "Beyin Fırtınası",
+    "Bireysel Çalışma",
+    "Bütünleme Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Derse Katılım",
+    "Ev Ödevi",
+    "Final Sınavı",
+    "Final Sınavı İçin Bireysel Çalışma",
+    "Gösterme",
+    "Gözlem",
+    "Laboratuvar",
+    "Laboratuvar Ara Sınavı",
+    "Laboratuvar Sınavı",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Multirom CD Çalışması",
+    "Ödev Problemleri İçin Çalışma",
+    "Okuma",
+    "Örnek Vaka İncelemesi",
+    "Performans",
+    "Problem Çözümü",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Quiz İçin Bireysel Çalışma",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Rehberli Problem Çözümü",
+    "Rol Oynama / Dramatizasyon",
+    "Seminer",
+    "Soru-Yanıt",
+    "Sözlü Sınav",
+    "Takım/Grup Çalışması",
+    "Tartışma",
+    "Toplantı Başkanlığı Yapma",
+    "Uygulama/Pratik"
+  ],
+  "dersDegerlendirme": {
+    "yariyilIciEtkinlikleri": [
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "katkiYuzdesi": 50
+      },
+      {
+        "etkinlik": "Ev Ödevi",
+        "sayi": 7,
+        "katkiYuzdesi": 25
+      },
+      {
+        "etkinlik": "Quiz",
+        "sayi": 2,
+        "katkiYuzdesi": 25
+      }
+    ],
+    "yariyilIciToplam": 100,
+    "yariyilSonuEtkinlikleri": [
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "katkiYuzdesi": 50
+      },
+      {
+        "etkinlik": "Proje Hazırlama",
+        "sayi": 1,
+        "katkiYuzdesi": 50
+      }
+    ],
+    "yariyilSonuToplam": 100,
+    "genelDegerlendirme": [
+      {
+        "degerlendirme": "Yarıyıl (Yıl) İçi Etkinlikleri",
+        "katkiYuzdesi": 40
+      },
+      {
+        "degerlendirme": "Yarıyıl (Yıl) Sonu Etkinlikleri",
+        "katkiYuzdesi": 60
+      }
+    ],
+    "genelDegerlendirmeToplam": 100
+  },
+  "yariyilIciOlasiEtkinlikler": [
+    "Ara Sınav",
+    "Laboratuvar Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Performans",
+    "Quiz",
+    "Rapor",
+    "Rapor Sunma",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Rehberli Problem Çözümü",
+    "Seminer",
+    "Sözlü Sınav",
+    "Ödev Problemleri İçin Çalışma",
+    "Proje Tasarımı/Yönetimi"
+  ],
+  "yariyilSonuOlasiEtkinlikler": [
+    "Final Sınavı",
+    "Laboratuvar Ara Sınavı",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Seminer",
+    "Sözlü Sınav",
+    "Gözlem"
+  ],
+  "programCiktilari": [
+    {
+      "id": "PÇ.1",
+      "kategori": "BİLGİ - Kuramsal Olgusal",
+      "aciklama": "TEMEL BİLGİ: Matematik, Fen Bilimleri ve Bilgisayar Mühendisliği konularında yeterli bilgi sahibidir; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanır."
+    },
+    {
+      "id": "PÇ.2",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "PROBLEM ÇÖZME: Karmaşık Bilgisayar Mühendisliği problemlerini saptar, tanımlar, formüle eder ve çözer; bu amaca uygun analiz ve modelleme yöntemlerini seçer ve uygular."
+    },
+    {
+      "id": "PÇ.3",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TASARIM: Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlar; bu amaçla modern tasarım yöntemlerini uygular."
+    },
+    {
+      "id": "PÇ.4",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TEKNOLOJİ: Bilgisayar Mühendisliği uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirir, seçer ve kullanır; bilişim teknolojilerini etkin bir şekilde kullanır."
+    },
+    {
+      "id": "PÇ.5",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "ARAŞTIRMA: Karmaşık Bilgisayar Mühendisliği problemlerinin veya araştırma konularının incelenmesi için deney tasarlar, deney yapar, veri toplar, sonuçları analiz eder ve yorumlar."
+    },
+    {
+      "id": "PÇ.6",
+      "kategori": "YETKİNLİKLER - Bağımsız Çalışabilme ve Sorumluluk Alabilme Yetkinliği",
+      "aciklama": "İŞBİRLİĞİ: Bilgisayar Mühendisliği disiplini içinde ve çok disiplinli takımlarda etkin biçimde çalışır; bireysel çalışma sergiler."
+    },
+    {
+      "id": "PÇ.7",
+      "kategori": "YETKİNLİKLER - Öğrenme Yetkinliği",
+      "aciklama": "GELİŞİM: Yaşam boyu öğrenmenin gerekliliğinin bilincindedir; bilgiye erişir, bilim ve teknolojideki gelişmeleri izler ve kendini sürekli yeniler; insanlık tarihi boyunca oluşan bilgi birikimini Bilgisayar Mühendisliği alanıyla ilişkilendirir."
+    },
+    {
+      "id": "PÇ.8",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "İLETİŞİM: Türkçe sözlü ve yazılı etkin iletişim kurar; etkin rapor yazar ve yazılı raporları anlar, tasarım ve üretim raporları hazırlar, etkin sunum yapar, açık ve anlaşılır talimat verir ve alır."
+    },
+    {
+      "id": "PÇ.9",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "TOPLUMSAL BİLİNÇ: Bilgisayar Mühendisliği uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi sahibidir; mühendislik çözümlerinin hukuksal sonuçlarının farkındadır."
+    },
+    {
+      "id": "PÇ.10",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "ULUSLARARASILIK: Bir yabancı dili kullanarak Bilgisayar Mühendisliği ile ilişkili konularda, bilgi toplar ve meslektaşları ile iletişim kurar."
+    },
+    {
+      "id": "PÇ.11",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "ETİK: Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilincine sahiptir; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi sahibidir."
+    },
+    {
+      "id": "PÇ.12",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "YÖNETİM: Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi sahibidir; girişimcilik, yenilikçilik hakkında bilinçlidir; sürdürülebilir kalkınma hakkında bilgi sahibidir."
+    }
+  ],
+  "programVeOgrenmeIliskisi": {
+    "iliskiOlcekleri": "0-5 arası değerler (0: İlişki yok, 5: Çok güçlü ilişki)",
+    "iliskiTablosu": [
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.1",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 5,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.2",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.3",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.4",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 3,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 3,
+          "PÇ.7": 3,
+          "PÇ.8": 3,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.5",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 3,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 3,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.6",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.7",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 3,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      }
+    ]
+  },
+  "toplumsalKatkiVeSurdurulebilirlik": {
+    "surdurulebilirKalkinmaAmaclari": [
+      {
+        "amac": "Yoksulluğa Son",
+        "secili": false
+      },
+      {
+        "amac": "Açlığa Son",
+        "secili": false
+      },
+      {
+        "amac": "Sağlık ve Kaliteli Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Nitelikli Eğitim",
+        "secili": true
+      },
+      {
+        "amac": "Toplumsal Cinsiyet Eşitliği",
+        "secili": true
+      },
+      {
+        "amac": "Temiz Su ve Sanitasyon",
+        "secili": false
+      },
+      {
+        "amac": "Erişilebilir ve Temiz Enerji",
+        "secili": false
+      },
+      {
+        "amac": "İnsana Yakışır İş ve Ekonomik Büyüme",
+        "secili": true
+      },
+      {
+        "amac": "Sanayi, Yenilikçilik ve Altyapı",
+        "secili": true
+      },
+      {
+        "amac": "Eşitsizliklerin Azaltılması",
+        "secili": true
+      },
+      {
+        "amac": "Sürdürülebilir Şehirler ve Topluluklar",
+        "secili": false
+      },
+      {
+        "amac": "Sorumlu Üretim ve Tüketim",
+        "secili": false
+      },
+      {
+        "amac": "İklim Eylemi",
+        "secili": false
+      },
+      {
+        "amac": "Sudaki Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Karasal Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Barış, Adalet ve Güçlü Kurumlar",
+        "secili": false
+      },
+      {
+        "amac": "Amaçlar İçin Ortaklıklar",
+        "secili": true
+      }
+    ],
+    "toplumsalKatkiAlanlari": [
+      {
+        "alan": "Eğitim ve Öğretim",
+        "secili": true
+      },
+      {
+        "alan": "Sağlık",
+        "secili": false
+      },
+      {
+        "alan": "Sosyal Hizmetler ve Toplumsal Eşitlik",
+        "secili": true
+      },
+      {
+        "alan": "Çevre ve Sürdürülebilirlik",
+        "secili": false
+      },
+      {
+        "alan": "Teknolojik ve Bilimsel Yenilikler",
+        "secili": true
+      },
+      {
+        "alan": "Ekonomik Kalkınma ve Girişimcilik",
+        "secili": true
+      },
+      {
+        "alan": "Kültürel ve Sanatsal Etkinlikler",
+        "secili": false
+      },
+      {
+        "alan": "Uluslararası İş birliği ve Diplomasi",
+        "secili": false
+      },
+      {
+        "alan": "Toplum yararına yapılacak diğer çalışmalar",
+        "secili": true
+      }
+    ]
+  },
+  "dersSekmeler": {
+    "dersGenel": true,
+    "dersOgrenmeÇiktilari": true,
+    "haftalikDersIcerikleri": true,
+    "dersIsYuku": true,
+    "dersDegerlendirme": true,
+    "programVeOgrenmeÇiktilariIliskisi": true,
+    "toplumsalKatkiVeSurdurulebilirlik": true
+  },
+  "denetimBilgileri": {
+    "olusturmaTarihi": "2025-05-10 18:09:52",
+    "olusturan": "json_processor_script",
+    "sonGuncellenmeTarihi": "2025-05-10 18:09:52",
+    "guncelleyen": "json_processor_script",
+    "durum": "Taslak"
+  },
+  "numaralandirmaDegerleri": {
+    "dersTurleri": [
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dersSeviyesi": [
+      "Lisans",
+      "Yüksek Lisans",
+      "Doktora"
+    ],
+    "ogretimSistemi": [
+      "Birinci Öğretim",
+      "İkinci Öğretim",
+      "Uzaktan Öğretim"
+    ],
+    "egitimDili": [
+      "Türkçe",
+      "İngilizce"
+    ],
+    "stajDurumu": [
+      "Mevcut Değil",
+      "Mevcut",
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dokumanDurumu": [
+      "Taslak",
+      "Onaylandı",
+      "Yayınlandı",
+      "Revize Edildi"
+    ]
+  }
+}

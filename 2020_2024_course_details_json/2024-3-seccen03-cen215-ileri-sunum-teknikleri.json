@@ -1,0 +1,770 @@
+{
+  "dersGenel": {
+    "dersTuru": "Seçmeli",
+    "dersinSeviyesi": "Lisans",
+    "dersinAKTSKredisi": 3,
+    "haftalikDersSaatiKuramsal": 3,
+    "haftalikUygulamaSaati": 0,
+    "haftalikLaboratuarSaati": 0,
+    "dersinVerildigiYariyil": 3,
+    "ogretimSistemi": "Birinci Öğretim",
+    "egitimDili": "Türkçe",
+    "secmeliDersGrubuKodu": "SECCEN03",
+    "universite": "Recep Tayyip Erdoğan Üniversitesi",
+    "ulke": "Türkiye",
+    "il": "Rize",
+    "ilce": "Merkez",
+    "mahalle": "Fener Mah",
+    "fakulte": "Mühendislik Ve Mimarlık Fakültesi",
+    "bolum": "Bilgisayar Mühendisliği",
+    "dersKodu": "CEN215",
+    "dersAdi": "İleri Sunum Teknikleri",
+    "ogretimYiliDonemi": "Güz",
+    "dersAKTSKredisi": 3,
+    "dilSecimi": "Türkçe",
+    "mufredatOlusturulmaYili": "2024",
+    "akademikYil": ""
+  },
+  "dersIcerik": {
+    "dersinAmaci": "Öğrencilerin profesyonel ve akademik hayatta karşılaşacakları farklı kitlelere yönelik etkili, ikna edici ve teknoloji destekli sunumlar hazırlama ve sunma becerilerini ileri düzeye taşımak.",
+    "dersinOnKosuluOlanDersler": "Mevcut Değil",
+    "dersinIcerigi": "Sunum planlama ve yapılandırma stratejileri, ileri düzey görsel materyal tasarımı (slaytlar, infografikler, videolar), teknoloji kullanımı (sunum yazılımları, interaktif araçlar), sözlü ve sözsüz iletişim teknikleri, hikaye anlatımı, ikna yöntemleri, zor sorularla başa çıkma, farklı kitlelere yönelik sunum adaptasyonu, sunum provası ve geri bildirim alma/verme.",
+    "dersinIcinOnerilenHususlar": "Öğrencilerin temel sunum becerilerine sahip olması ve ders içi uygulamalara aktif katılımı önerilir.",
+    "ogretimTuru": "Birinci Öğretim",
+    "stajDurumu": "Mevcut Değil",
+    "dersinKitabiMalzemesiOnerilenKaynaklar": "Öğretim üyesinin önereceği sunum teknikleri üzerine kitaplar, makaleler ve online kaynaklar.",
+    "dersiVerenOgretimUyesiOgretimGorevlisi": "",
+    "hazirlanmaTarihi": "27.04.2025"
+  },
+  "dersOgrenmeÇiktilari": [
+    {
+      "id": "ÖÇ.1",
+      "aciklama": "Farklı sunum amaçlarına (bilgilendirme, ikna etme, eğitme) uygun planlama yapar, hedef kitleyi analiz eder ve sunum içeriğini mantıksal bir yapıda oluşturur."
+    },
+    {
+      "id": "ÖÇ.2",
+      "aciklama": "Sunumun etkisini artırmak için slayt tasarım ilkelerini uygular; grafik, infografik, video gibi çeşitli görsel materyalleri profesyonelce tasarlar ve kullanır."
+    },
+    {
+      "id": "ÖÇ.3",
+      "aciklama": "Ses tonu, vurgu, akıcılık gibi sözlü iletişim öğelerini ve beden dili, göz teması, duruş gibi sözsüz iletişim öğelerini sunum hedefine ulaşmak için etkin bir şekilde kullanır."
+    },
+    {
+      "id": "ÖÇ.4",
+      "aciklama": "Sunum sırasında dinleyici etkileşimini yönetir (soru-cevap, tartışma), zamanı etkin kullanır ve yapıcı geri bildirimleri değerlendirerek sunum becerilerini geliştirir."
+    },
+    {
+      "id": "ÖÇ.5",
+      "aciklama": "Sunumun amacına ve içeriğine uygun teknolojik araçları (sunum yazılımları, interaktif araçlar) seçer ve kullanır."
+    },
+    {
+      "id": "ÖÇ.6",
+      "aciklama": "Hikaye anlatımı ve ikna tekniklerini kullanarak mesajını dinleyiciler üzerinde kalıcı ve etkili kılacak şekilde sunar."
+    },
+    {
+      "id": "ÖÇ.7",
+      "aciklama": "Sunum içeriğini ve sunuş tarzını farklı dinleyici kitlelerinin (teknik, genel vb.) beklenti ve bilgi düzeylerine göre uyarlar."
+    }
+  ],
+  "haftalikDersIcerikleri": [
+    {
+      "hafta": 1,
+      "icerik": "Derse Giriş, Etkili Sunumun Unsurları",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.3, ÖÇ.7",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Anlatım, Tartışma",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 2,
+      "icerik": "Sunum Planlama ve Hedef Kitle Analizi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.7",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Sunum konusu belirleme"
+    },
+    {
+      "hafta": 3,
+      "icerik": "İçerik Geliştirme ve Yapılandırma",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.7",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Planlama",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Sunum taslağı oluşturma"
+    },
+    {
+      "hafta": 4,
+      "icerik": "Görsel Tasarım İlkeleri ve Slayt Hazırlama",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.5, ÖÇ.7",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "İçerik",
+      "ogretimYontemleri": "Anlatım, Gösterme",
+      "aracVeGerecler": "Projeksiyon, Sunum Yazılımı",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Örnek slayt tasarımı"
+    },
+    {
+      "hafta": 5,
+      "icerik": "İleri Slayt Teknikleri ve Alternatif Görsel Araçlar",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.5, ÖÇ.7",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Temel Slayt Hazırlama",
+      "ogretimYontemleri": "Anlatım, Gösterme",
+      "aracVeGerecler": "Projeksiyon, Sunum Yazılımı",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "İnfografik/Video kullanımı"
+    },
+    {
+      "hafta": 6,
+      "icerik": "Sözlü İletişim: Ses Tonu, Vurgu, Akıcılık",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.7",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Sunum İçeriği",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Ses egzersizleri"
+    },
+    {
+      "hafta": 7,
+      "icerik": "Sözsüz İletişim: Beden Dili, Göz Teması, Duruş",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.7",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Sözlü İletişim",
+      "ogretimYontemleri": "Anlatım, Uygulama, Gözlem",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Beden dili egzersizleri"
+    },
+    {
+      "hafta": 8,
+      "icerik": "Ara Sınav (Genellikle Sunum)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.7",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "İlk 7 Hafta",
+      "ogretimYontemleri": "Ölçme-Değerlendirme",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Sunum Değerlendirme",
+      "odevVeCalisma": "Ara sınav sunumu"
+    },
+    {
+      "hafta": 9,
+      "icerik": "Hikaye Anlatımı ve İkna Teknikleri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Sunum Temelleri",
+      "ogretimYontemleri": "Anlatım, Örnekleme",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Kısa hikaye oluşturma"
+    },
+    {
+      "hafta": 10,
+      "icerik": "Teknoloji Destekli Sunumlar (Interaktif Araçlar)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.5, ÖÇ.7",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Görsel Tasarım",
+      "ogretimYontemleri": "Anlatım, Gösterme",
+      "aracVeGerecler": "Projeksiyon, Online Araçlar",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Interaktif araç denemesi"
+    },
+    {
+      "hafta": 11,
+      "icerik": "Farklı Kitlelere Yönelik Sunum Stratejileri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.7",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Hedef Kitle Analizi",
+      "ogretimYontemleri": "Anlatım, Tartışma",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Senaryo bazlı adaptasyon"
+    },
+    {
+      "hafta": 12,
+      "icerik": "Zor Sorularla Başa Çıkma ve Tartışma Yönetimi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4, ÖÇ.7",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Sunum Becerileri",
+      "ogretimYontemleri": "Anlatım, Rol Oynama",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Soru-cevap pratiği"
+    },
+    {
+      "hafta": 13,
+      "icerik": "Sunum Provası ve Zaman Yönetimi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.4, ÖÇ.7",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Sunum Taslağı",
+      "ogretimYontemleri": "Uygulama, Geri Bildirim",
+      "aracVeGerecler": "Kronometre",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Prova yapma"
+    },
+    {
+      "hafta": 14,
+      "icerik": "Geri Bildirim Alma ve Değerlendirme",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4, ÖÇ.7",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Sunum Provası",
+      "ogretimYontemleri": "Tartışma, Akran Değerlendirmesi",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "Değerlendirme Formları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Geri bildirim analizi"
+    },
+    {
+      "hafta": 15,
+      "icerik": "Final Sunumları İçin Hazırlık ve Danışmanlık",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Sunum Taslağı",
+      "ogretimYontemleri": "Soru-Cevap, Danışmanlık",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Final sunumu üzerinde çalışma"
+    },
+    {
+      "hafta": 16,
+      "icerik": "Final Sınavı (Genellikle Sunum)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Tüm konular",
+      "ogretimYontemleri": "Ölçme-Değerlendirme",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Sunum Değerlendirme",
+      "odevVeCalisma": "Final sunumu"
+    }
+  ],
+  "dersIsYuku": {
+    "etkinlikler": [
+      {
+        "etkinlik": "Derse Katılım",
+        "sayi": 15,
+        "sure": 3,
+        "toplamIsYuku": 45
+      },
+      {
+        "etkinlik": "Bireysel Çalışma",
+        "sayi": 15,
+        "sure": 1,
+        "toplamIsYuku": 15
+      },
+      {
+        "etkinlik": "Ara Sınav İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 6,
+        "toplamIsYuku": 6
+      },
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "sure": 1,
+        "toplamIsYuku": 1
+      },
+      {
+        "etkinlik": "Final Sınavı İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 6,
+        "toplamIsYuku": 6
+      },
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "sure": 1,
+        "toplamIsYuku": 1
+      },
+      {
+        "etkinlik": "Proje Hazırlama",
+        "sayi": 1,
+        "sure": 1,
+        "toplamIsYuku": 1
+      }
+    ],
+    "toplamIsYuku": 75,
+    "dersAKTSKredisi": 3,
+    "hesaplama": "Dersin AKTS Kredisi = Toplam İş Yükü (Saat) / 25 = 3",
+    "aktsHesaplama": "Toplam İş Yükü / 25"
+  },
+  "etkinlikTurleri": [
+    "Alan Çalışması",
+    "Alan Gezisi",
+    "Ara Sınav",
+    "Ara Sınav İçin Bireysel Çalışma",
+    "Beyin Fırtınası",
+    "Bireysel Çalışma",
+    "Bütünleme Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Derse Katılım",
+    "Ev Ödevi",
+    "Final Sınavı",
+    "Final Sınavı İçin Bireysel Çalışma",
+    "Gösterme",
+    "Gözlem",
+    "Laboratuvar",
+    "Laboratuvar Ara Sınavı",
+    "Laboratuvar Sınavı",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Multirom CD Çalışması",
+    "Ödev Problemleri İçin Çalışma",
+    "Okuma",
+    "Örnek Vaka İncelemesi",
+    "Performans",
+    "Problem Çözümü",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Quiz İçin Bireysel Çalışma",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Rehberli Problem Çözümü",
+    "Rol Oynama / Dramatizasyon",
+    "Seminer",
+    "Soru-Yanıt",
+    "Sözlü Sınav",
+    "Takım/Grup Çalışması",
+    "Tartışma",
+    "Toplantı Başkanlığı Yapma",
+    "Uygulama/Pratik"
+  ],
+  "dersDegerlendirme": {
+    "yariyilIciEtkinlikleri": [
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "katkiYuzdesi": 80
+      },
+      {
+        "etkinlik": "Derse Katılım",
+        "sayi": 15,
+        "katkiYuzdesi": 20
+      }
+    ],
+    "yariyilIciToplam": 100,
+    "yariyilSonuEtkinlikleri": [
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "katkiYuzdesi": 100
+      }
+    ],
+    "yariyilSonuToplam": 100,
+    "genelDegerlendirme": [
+      {
+        "degerlendirme": "Yarıyıl (Yıl) İçi Etkinlikleri",
+        "katkiYuzdesi": 40
+      },
+      {
+        "degerlendirme": "Yarıyıl (Yıl) Sonu Etkinlikleri",
+        "katkiYuzdesi": 60
+      }
+    ],
+    "genelDegerlendirmeToplam": 100
+  },
+  "yariyilIciOlasiEtkinlikler": [
+    "Ara Sınav",
+    "Laboratuvar Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Performans",
+    "Quiz",
+    "Rapor",
+    "Rapor Sunma",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Rehberli Problem Çözümü",
+    "Seminer",
+    "Sözlü Sınav",
+    "Ödev Problemleri İçin Çalışma",
+    "Proje Tasarımı/Yönetimi"
+  ],
+  "yariyilSonuOlasiEtkinlikler": [
+    "Final Sınavı",
+    "Laboratuvar Ara Sınavı",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Seminer",
+    "Sözlü Sınav",
+    "Gözlem"
+  ],
+  "programCiktilari": [
+    {
+      "id": "PÇ.1",
+      "kategori": "BİLGİ - Kuramsal Olgusal",
+      "aciklama": "TEMEL BİLGİ: Matematik, Fen Bilimleri ve Bilgisayar Mühendisliği konularında yeterli bilgi sahibidir; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanır."
+    },
+    {
+      "id": "PÇ.2",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "PROBLEM ÇÖZME: Karmaşık Bilgisayar Mühendisliği problemlerini saptar, tanımlar, formüle eder ve çözer; bu amaca uygun analiz ve modelleme yöntemlerini seçer ve uygular."
+    },
+    {
+      "id": "PÇ.3",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TASARIM: Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlar; bu amaçla modern tasarım yöntemlerini uygular."
+    },
+    {
+      "id": "PÇ.4",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TEKNOLOJİ: Bilgisayar Mühendisliği uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirir, seçer ve kullanır; bilişim teknolojilerini etkin bir şekilde kullanır."
+    },
+    {
+      "id": "PÇ.5",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "ARAŞTIRMA: Karmaşık Bilgisayar Mühendisliği problemlerinin veya araştırma konularının incelenmesi için deney tasarlar, deney yapar, veri toplar, sonuçları analiz eder ve yorumlar."
+    },
+    {
+      "id": "PÇ.6",
+      "kategori": "YETKİNLİKLER - Bağımsız Çalışabilme ve Sorumluluk Alabilme Yetkinliği",
+      "aciklama": "İŞBİRLİĞİ: Bilgisayar Mühendisliği disiplini içinde ve çok disiplinli takımlarda etkin biçimde çalışır; bireysel çalışma sergiler."
+    },
+    {
+      "id": "PÇ.7",
+      "kategori": "YETKİNLİKLER - Öğrenme Yetkinliği",
+      "aciklama": "GELİŞİM: Yaşam boyu öğrenmenin gerekliliğinin bilincindedir; bilgiye erişir, bilim ve teknolojideki gelişmeleri izler ve kendini sürekli yeniler; insanlık tarihi boyunca oluşan bilgi birikimini Bilgisayar Mühendisliği alanıyla ilişkilendirir."
+    },
+    {
+      "id": "PÇ.8",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "İLETİŞİM: Türkçe sözlü ve yazılı etkin iletişim kurar; etkin rapor yazar ve yazılı raporları anlar, tasarım ve üretim raporları hazırlar, etkin sunum yapar, açık ve anlaşılır talimat verir ve alır."
+    },
+    {
+      "id": "PÇ.9",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "TOPLUMSAL BİLİNÇ: Bilgisayar Mühendisliği uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi sahibidir; mühendislik çözümlerinin hukuksal sonuçlarının farkındadır."
+    },
+    {
+      "id": "PÇ.10",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "ULUSLARARASILIK: Bir yabancı dili kullanarak Bilgisayar Mühendisliği ile ilişkili konularda, bilgi toplar ve meslektaşları ile iletişim kurar."
+    },
+    {
+      "id": "PÇ.11",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "ETİK: Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilincine sahiptir; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi sahibidir."
+    },
+    {
+      "id": "PÇ.12",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "YÖNETİM: Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi sahibidir; girişimcilik, yenilikçilik hakkında bilinçlidir; sürdürülebilir kalkınma hakkında bilgi sahibidir."
+    }
+  ],
+  "programVeOgrenmeIliskisi": {
+    "iliskiOlcekleri": "0-5 arası değerler (0: İlişki yok, 5: Çok güçlü ilişki)",
+    "iliskiTablosu": [
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.1",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 5,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.2",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 3,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 3,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.3",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 3,
+          "PÇ.9": 0,
+          "PÇ.10": 3,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.4",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 3,
+          "PÇ.7": 0,
+          "PÇ.8": 3,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.5",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 3,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.6",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 3,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.7",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 3,
+          "PÇ.7": 0,
+          "PÇ.8": 3,
+          "PÇ.9": 3,
+          "PÇ.10": 3,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      }
+    ]
+  },
+  "toplumsalKatkiVeSurdurulebilirlik": {
+    "surdurulebilirKalkinmaAmaclari": [
+      {
+        "amac": "Yoksulluğa Son",
+        "secili": false
+      },
+      {
+        "amac": "Açlığa Son",
+        "secili": false
+      },
+      {
+        "amac": "Sağlık ve Kaliteli Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Nitelikli Eğitim",
+        "secili": true
+      },
+      {
+        "amac": "Toplumsal Cinsiyet Eşitliği",
+        "secili": false
+      },
+      {
+        "amac": "Temiz Su ve Sanitasyon",
+        "secili": false
+      },
+      {
+        "amac": "Erişilebilir ve Temiz Enerji",
+        "secili": false
+      },
+      {
+        "amac": "İnsana Yakışır İş ve Ekonomik Büyüme",
+        "secili": true
+      },
+      {
+        "amac": "Sanayi, Yenilikçilik ve Altyapı",
+        "secili": false
+      },
+      {
+        "amac": "Eşitsizliklerin Azaltılması",
+        "secili": false
+      },
+      {
+        "amac": "Sürdürülebilir Şehirler ve Topluluklar",
+        "secili": false
+      },
+      {
+        "amac": "Sorumlu Üretim ve Tüketim",
+        "secili": false
+      },
+      {
+        "amac": "İklim Eylemi",
+        "secili": false
+      },
+      {
+        "amac": "Sudaki Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Karasal Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Barış, Adalet ve Güçlü Kurumlar",
+        "secili": true
+      },
+      {
+        "amac": "Amaçlar İçin Ortaklıklar",
+        "secili": true
+      }
+    ],
+    "toplumsalKatkiAlanlari": [
+      {
+        "alan": "Eğitim ve Öğretim",
+        "secili": true
+      },
+      {
+        "alan": "Sağlık",
+        "secili": false
+      },
+      {
+        "alan": "Sosyal Hizmetler ve Toplumsal Eşitlik",
+        "secili": false
+      },
+      {
+        "alan": "Çevre ve Sürdürülebilirlik",
+        "secili": false
+      },
+      {
+        "alan": "Teknolojik ve Bilimsel Yenilikler",
+        "secili": true
+      },
+      {
+        "alan": "Ekonomik Kalkınma ve Girişimcilik",
+        "secili": true
+      },
+      {
+        "alan": "Kültürel ve Sanatsal Etkinlikler",
+        "secili": true
+      },
+      {
+        "alan": "Uluslararası İş birliği ve Diplomasi",
+        "secili": true
+      },
+      {
+        "alan": "Toplum yararına yapılacak diğer çalışmalar",
+        "secili": true
+      }
+    ]
+  },
+  "dersSekmeler": {
+    "dersGenel": true,
+    "dersOgrenmeÇiktilari": true,
+    "haftalikDersIcerikleri": true,
+    "dersIsYuku": true,
+    "dersDegerlendirme": true,
+    "programVeOgrenmeÇiktilariIliskisi": true,
+    "toplumsalKatkiVeSurdurulebilirlik": true
+  },
+  "denetimBilgileri": {
+    "olusturmaTarihi": "2025-05-10 18:09:34",
+    "olusturan": "json_processor_script",
+    "sonGuncellenmeTarihi": "2025-05-10 18:09:34",
+    "guncelleyen": "json_processor_script",
+    "durum": "Taslak"
+  },
+  "numaralandirmaDegerleri": {
+    "dersTurleri": [
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dersSeviyesi": [
+      "Lisans",
+      "Yüksek Lisans",
+      "Doktora"
+    ],
+    "ogretimSistemi": [
+      "Birinci Öğretim",
+      "İkinci Öğretim",
+      "Uzaktan Öğretim"
+    ],
+    "egitimDili": [
+      "Türkçe",
+      "İngilizce"
+    ],
+    "stajDurumu": [
+      "Mevcut Değil",
+      "Mevcut",
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dokumanDurumu": [
+      "Taslak",
+      "Onaylandı",
+      "Yayınlandı",
+      "Revize Edildi"
+    ]
+  }
+}

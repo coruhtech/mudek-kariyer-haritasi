@@ -1,0 +1,733 @@
+{
+  "dersGenel": {
+    "dersTuru": "Seçmeli",
+    "dersinSeviyesi": "Lisans",
+    "dersinAKTSKredisi": 5,
+    "haftalikDersSaatiKuramsal": 3,
+    "haftalikUygulamaSaati": 0,
+    "haftalikLaboratuarSaati": 0,
+    "dersinVerildigiYariyil": 7,
+    "ogretimSistemi": "Birinci Öğretim",
+    "egitimDili": "İngilizce",
+    "secmeliDersGrubuKodu": "SECCEN07-1",
+    "universite": "Recep Tayyip Erdoğan Üniversitesi",
+    "ulke": "Türkiye",
+    "il": "Rize",
+    "ilce": "Merkez",
+    "mahalle": "Fener Mah",
+    "fakulte": "Mühendislik Ve Mimarlık Fakültesi",
+    "bolum": "Bilgisayar Mühendisliği",
+    "dersKodu": "CEN421",
+    "dersAdi": "5G Networks And Applications",
+    "ogretimYiliDonemi": "Güz",
+    "dersAKTSKredisi": 5,
+    "dilSecimi": "Türkçe",
+    "mufredatOlusturulmaYili": "2024",
+    "akademikYil": ""
+  },
+  "dersIcerik": {
+    "dersinAmaci": "Bu dersin amacı, öğrencilere 5G mobil ağ teknolojilerinin temel kavramlarını, mimarisini, protokollerini ve uygulamalarını öğretmektir. Öğrenciler, 5G ağlarının temel bileşenlerini, altyapısını, servis kalitesi gereksinimlerini ve güvenlik özelliklerini anlayacaklardır. Ders ayrıca, 5G teknolojisinin Nesnelerin İnterneti (IoT), akıllı şehirler, otonom araçlar, artırılmış gerçeklik ve diğer ileri teknoloji uygulamalarıyla entegrasyonunu inceleyecektir. Öğrenciler, 5G ağlarının tasarımı, planlanması ve optimizasyonu konularında pratik becerileri kazanacaklardır.",
+    "dersinOnKosuluOlanDersler": "CEN209 (Computer Networks) önerilir.",
+    "dersinIcerigi": "Mobil ağların evrimi (1G-5G), 5G mimarisi ve bileşenleri, 5G radyo erişim ağı (RAN), 5G çekirdek ağı, ağ fonksiyonu sanallaştırması (NFV), yazılım tanımlı ağlar (SDN), ağ dilimleme (Network Slicing), milimetre dalga teknolojisi, masif MIMO, ultra güvenilir düşük gecikmeli iletişim (URLLC), gelişmiş mobil geniş bant (eMBB), masif makine tipi iletişim (mMTC), 5G güvenliği ve gizliliği, 5G standardizasyonu ve düzenleyici konular, 5G uygulamaları (Nesnelerin İnterneti, Akıllı Şehirler, Otonom Araçlar, Sanayi 4.0, Artırılmış/Sanal Gerçeklik), 5G ağ performansı analizi ve optimizasyonu, 5G ekonomisi ve iş modelleri, gelecek trendleri (Beyond 5G ve 6G).",
+    "dersinIcinOnerilenHususlar": "Temel bilgisayar ağları ve kablosuz iletişim bilgisi gereklidir. Öğrencilerin ağ simülasyon araçları (NS-3, OMNET++, MATLAB vb.) ve temel programlama becerileri konusunda bilgi sahibi olmaları önerilir. Ders, hem teorik hem de pratik uygulamaları içermektedir.",
+    "ogretimTuru": "Birinci Öğretim",
+    "stajDurumu": "Mevcut Değil",
+    "dersinKitabiMalzemesiOnerilenKaynaklar": "1. 5G NR: The Next Generation Wireless Access Technology - Erik Dahlman, Stefan Parkvall, Johan Skold\n2. 5G Mobile and Wireless Communications Technology - Afif Osseiran, Jose F. Monserrat, Patrick Marsch\n3. 5G System Design: Architectural and Functional Considerations and Long Term Research - Patrick Marsch, Ömer Bulakci, Olav Queseth, Mauro Boldi\n4. The 5G Myth: When Vision Decoupled from Reality - William Webb\n5. 5G Networks: Planning, Design and Optimization - Christos Bouras\n6. 5G for the Connected World - Devaki Chandramouli, Rainer Liebhart, Juho Pirskanen\n7. Fundamentals of 5G Mobile Networks - Jonathan Rodriguez\n8. 5G and Beyond: Fundamentals and Standards - Xingqin Lin, et al.",
+    "dersiVerenOgretimUyesiOgretimGorevlisi": "Dr. Öğr. Üyesi Ahmet KAYA",
+    "hazirlanmaTarihi": "28.04.2025"
+  },
+  "dersOgrenmeÇiktilari": [
+    {
+      "id": "ÖÇ.1",
+      "aciklama": "5G mobil ağ teknolojilerinin temel kavramlarını, mimarisini ve protokollerini açıklar."
+    },
+    {
+      "id": "ÖÇ.2",
+      "aciklama": "5G ağlarının farklı bileşenlerini (radyo erişim ağı, çekirdek ağ) ve teknolojilerini (SDN, NFV, ağ dilimleme) analiz eder."
+    },
+    {
+      "id": "ÖÇ.3",
+      "aciklama": "5G ağlarının tasarımı, planlanması ve optimizasyonu için uygun yöntem ve araçları kullanır."
+    },
+    {
+      "id": "ÖÇ.4",
+      "aciklama": "5G uygulamalarını (IoT, akıllı şehirler, otonom araçlar vb.) ve bunların endüstriyel etkileri değerlendirir."
+    },
+    {
+      "id": "ÖÇ.5",
+      "aciklama": "5G teknolojisinin geleceği, güvenlik sorunları ve düzenleyici konuları eleştirel bir bakış açısıyla tartışır."
+    }
+  ],
+  "haftalikDersIcerikleri": [
+    {
+      "hafta": 1,
+      "icerik": "Mobil Ağların Evrimi: 1G'den 5G'ye ve Ötesine",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Anlatım, Tartışma",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, Kitaplar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Mobil ağların tarihsel gelişimi araştırması"
+    },
+    {
+      "hafta": 2,
+      "icerik": "5G Mimarisi ve Temel Bileşenleri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Mobil ağlar hakkında temel bilgiler",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, 3GPP Spesifikasyonları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "5G mimari bileşenleri şeması oluşturma"
+    },
+    {
+      "hafta": 3,
+      "icerik": "5G Radyo Erişim Ağı (RAN) ve Milimetre Dalga Teknolojisi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "5G mimarisi",
+      "ogretimYontemleri": "Anlatım, Problem Çözme",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, Kitaplar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Milimetre dalga propagasyon hesaplamaları"
+    },
+    {
+      "hafta": 4,
+      "icerik": "5G Çekirdek Ağı ve Servis-Tabanlı Mimari",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "5G RAN kavramları",
+      "ogretimYontemleri": "Anlatım, Örnek Olay",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, 5G Core Spesifikasyonları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "5G çekirdek ağ fonksiyonları analizi"
+    },
+    {
+      "hafta": 5,
+      "icerik": "Ağ Fonksiyonu Sanallaştırması (NFV) ve Yazılım Tanımlı Ağlar (SDN)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "5G çekirdek ağı",
+      "ogretimYontemleri": "Anlatım, Problem Çözme",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, NFV/SDN Dokümantasyonu",
+      "degerlendirmeYontemleri": "Quiz",
+      "odevVeCalisma": "NFV/SDN karşılaştırmalı analizi"
+    },
+    {
+      "hafta": 6,
+      "icerik": "Ağ Dilimleme (Network Slicing) ve Masif MIMO Teknolojileri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "NFV/SDN kavramları",
+      "ogretimYontemleri": "Anlatım, Problem Çözme",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, Kitaplar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Ağ dilimi tasarımı örneği"
+    },
+    {
+      "hafta": 7,
+      "icerik": "5G Kullanım Senaryoları: eMBB, URLLC ve mMTC",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "5G temel teknolojileri",
+      "ogretimYontemleri": "Anlatım, Örnek Olay",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, Kullanım Senaryoları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Kullanım senaryosu analizi"
+    },
+    {
+      "hafta": 8,
+      "icerik": "Ara Sınav / Tekrar",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "1-7 hafta konuları",
+      "ogretimYontemleri": "Sınav",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Ara Sınav",
+      "odevVeCalisma": "Ara sınav hazırlığı"
+    },
+    {
+      "hafta": 9,
+      "icerik": "5G ve Nesnelerin İnterneti (IoT) Entegrasyonu",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "5G kullanım senaryoları",
+      "ogretimYontemleri": "Anlatım, Örnek Olay",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, IoT Çalışmaları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "IoT-5G örnek uygulama tasarımı"
+    },
+    {
+      "hafta": 10,
+      "icerik": "5G ve Akıllı Şehirler, Otonom Araçlar Uygulamaları",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "5G-IoT entegrasyonu",
+      "ogretimYontemleri": "Anlatım, Tartışma",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, Örnek Uygulamalar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Akıllı şehir uygulaması tasarlama"
+    },
+    {
+      "hafta": 11,
+      "icerik": "5G ve Endüstriyel Uygulamalar: Sanayi 4.0, AR/VR",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "5G ve akıllı şehirler",
+      "ogretimYontemleri": "Anlatım, Örnek Olay",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, Endüstriyel Örnekler",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Endüstriyel IoT analizi"
+    },
+    {
+      "hafta": 12,
+      "icerik": "5G Ağ Performansı Analizi ve Optimizasyonu",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "5G mimari bileşenleri",
+      "ogretimYontemleri": "Anlatım, Problem Çözme",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, Simülasyon Araçları",
+      "degerlendirmeYontemleri": "Ödev",
+      "odevVeCalisma": "5G ağ performans analizi"
+    },
+    {
+      "hafta": 13,
+      "icerik": "5G Güvenliği, Gizliliği ve Düzenleyici Konular",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "5G ağ performansı",
+      "ogretimYontemleri": "Anlatım, Tartışma",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, Güvenlik Standartları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "5G güvenlik analizi"
+    },
+    {
+      "hafta": 14,
+      "icerik": "5G Ekonomisi, İş Modelleri ve Gelecek Trendleri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4, ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "5G güvenlik konuları",
+      "ogretimYontemleri": "Anlatım, Tartışma",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, Pazar Raporları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "5G pazar analizi"
+    },
+    {
+      "hafta": 15,
+      "icerik": "Beyond 5G ve 6G Teknolojileri, Final Tekrarı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm dönem konuları",
+      "ogretimYontemleri": "Tartışma, Sunum",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, Araştırma Makaleleri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Final hazırlığı"
+    },
+    {
+      "hafta": 16,
+      "icerik": "Final Sınavı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm dönem konuları",
+      "ogretimYontemleri": "Sınav",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Final Sınavı",
+      "odevVeCalisma": "-"
+    }
+  ],
+  "dersIsYuku": {
+    "etkinlikler": [
+      {
+        "etkinlik": "Derse Katılım",
+        "sayi": 14,
+        "sure": 5,
+        "toplamIsYuku": 70
+      },
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "sure": 2,
+        "toplamIsYuku": 2
+      },
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "sure": 2,
+        "toplamIsYuku": 2
+      },
+      {
+        "etkinlik": "Ara Sınav İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 20,
+        "toplamIsYuku": 20
+      },
+      {
+        "etkinlik": "Final Sınavı İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 20,
+        "toplamIsYuku": 20
+      },
+      {
+        "etkinlik": "Ev Ödevi",
+        "sayi": 2,
+        "sure": 8,
+        "toplamIsYuku": 16
+      },
+      {
+        "etkinlik": "Quiz",
+        "sayi": 1,
+        "sure": 5,
+        "toplamIsYuku": 5
+      }
+    ],
+    "toplamIsYuku": 135,
+    "dersAKTSKredisi": 5,
+    "hesaplama": "Dersin AKTS Kredisi = Toplam İş Yükü (Saat) / 25 = 5",
+    "aktsHesaplama": "Toplam İş Yükü / 25"
+  },
+  "etkinlikTurleri": [
+    "Alan Çalışması",
+    "Alan Gezisi",
+    "Ara Sınav",
+    "Ara Sınav İçin Bireysel Çalışma",
+    "Beyin Fırtınası",
+    "Bireysel Çalışma",
+    "Bütünleme Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Derse Katılım",
+    "Ev Ödevi",
+    "Final Sınavı",
+    "Final Sınavı İçin Bireysel Çalışma",
+    "Gösterme",
+    "Gözlem",
+    "Laboratuvar",
+    "Laboratuvar Ara Sınavı",
+    "Laboratuvar Sınavı",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Multirom CD Çalışması",
+    "Ödev Problemleri İçin Çalışma",
+    "Okuma",
+    "Örnek Vaka İncelemesi",
+    "Performans",
+    "Problem Çözümü",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Quiz İçin Bireysel Çalışma",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Rehberli Problem Çözümü",
+    "Rol Oynama / Dramatizasyon",
+    "Seminer",
+    "Soru-Yanıt",
+    "Sözlü Sınav",
+    "Takım/Grup Çalışması",
+    "Tartışma",
+    "Toplantı Başkanlığı Yapma",
+    "Uygulama/Pratik"
+  ],
+  "dersDegerlendirme": {
+    "yariyilIciEtkinlikleri": [
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "katkiYuzdesi": 70
+      },
+      {
+        "etkinlik": "Quiz",
+        "sayi": 1,
+        "katkiYuzdesi": 10
+      },
+      {
+        "etkinlik": "Ev Ödevi",
+        "sayi": 2,
+        "katkiYuzdesi": 20
+      }
+    ],
+    "yariyilIciToplam": 100,
+    "yariyilSonuEtkinlikleri": [
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "katkiYuzdesi": 100
+      }
+    ],
+    "yariyilSonuToplam": 100,
+    "genelDegerlendirme": [
+      {
+        "degerlendirme": "Yarıyıl (Yıl) İçi Etkinlikleri",
+        "katkiYuzdesi": 40
+      },
+      {
+        "degerlendirme": "Yarıyıl (Yıl) Sonu Etkinlikleri",
+        "katkiYuzdesi": 60
+      }
+    ],
+    "genelDegerlendirmeToplam": 100
+  },
+  "yariyilIciOlasiEtkinlikler": [
+    "Ara Sınav",
+    "Laboratuvar Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Performans",
+    "Quiz",
+    "Rapor",
+    "Rapor Sunma",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Rehberli Problem Çözümü",
+    "Seminer",
+    "Sözlü Sınav",
+    "Ödev Problemleri İçin Çalışma",
+    "Proje Tasarımı/Yönetimi"
+  ],
+  "yariyilSonuOlasiEtkinlikler": [
+    "Final Sınavı",
+    "Laboratuvar Ara Sınavı",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Seminer",
+    "Sözlü Sınav",
+    "Gözlem"
+  ],
+  "programCiktilari": [
+    {
+      "id": "PÇ.1",
+      "kategori": "BİLGİ - Kuramsal Olgusal",
+      "aciklama": "TEMEL BİLGİ: Matematik, Fen Bilimleri ve Bilgisayar Mühendisliği konularında yeterli bilgi sahibidir; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanır."
+    },
+    {
+      "id": "PÇ.2",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "PROBLEM ÇÖZME: Karmaşık Bilgisayar Mühendisliği problemlerini saptar, tanımlar, formüle eder ve çözer; bu amaca uygun analiz ve modelleme yöntemlerini seçer ve uygular."
+    },
+    {
+      "id": "PÇ.3",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TASARIM: Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlar; bu amaçla modern tasarım yöntemlerini uygular."
+    },
+    {
+      "id": "PÇ.4",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TEKNOLOJİ: Bilgisayar Mühendisliği uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirir, seçer ve kullanır; bilişim teknolojilerini etkin bir şekilde kullanır."
+    },
+    {
+      "id": "PÇ.5",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "ARAŞTIRMA: Karmaşık Bilgisayar Mühendisliği problemlerinin veya araştırma konularının incelenmesi için deney tasarlar, deney yapar, veri toplar, sonuçları analiz eder ve yorumlar."
+    },
+    {
+      "id": "PÇ.6",
+      "kategori": "YETKİNLİKLER - Bağımsız Çalışabilme ve Sorumluluk Alabilme Yetkinliği",
+      "aciklama": "İŞBİRLİĞİ: Bilgisayar Mühendisliği disiplini içinde ve çok disiplinli takımlarda etkin biçimde çalışır; bireysel çalışma sergiler."
+    },
+    {
+      "id": "PÇ.7",
+      "kategori": "YETKİNLİKLER - Öğrenme Yetkinliği",
+      "aciklama": "GELİŞİM: Yaşam boyu öğrenmenin gerekliliğinin bilincindedir; bilgiye erişir, bilim ve teknolojideki gelişmeleri izler ve kendini sürekli yeniler; insanlık tarihi boyunca oluşan bilgi birikimini Bilgisayar Mühendisliği alanıyla ilişkilendirir."
+    },
+    {
+      "id": "PÇ.8",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "İLETİŞİM: Türkçe sözlü ve yazılı etkin iletişim kurar; etkin rapor yazar ve yazılı raporları anlar, tasarım ve üretim raporları hazırlar, etkin sunum yapar, açık ve anlaşılır talimat verir ve alır."
+    },
+    {
+      "id": "PÇ.9",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "TOPLUMSAL BİLİNÇ: Bilgisayar Mühendisliği uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi sahibidir; mühendislik çözümlerinin hukuksal sonuçlarının farkındadır."
+    },
+    {
+      "id": "PÇ.10",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "ULUSLARARASILIK: Bir yabancı dili kullanarak Bilgisayar Mühendisliği ile ilişkili konularda, bilgi toplar ve meslektaşları ile iletişim kurar."
+    },
+    {
+      "id": "PÇ.11",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "ETİK: Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilincine sahiptir; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi sahibidir."
+    },
+    {
+      "id": "PÇ.12",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "YÖNETİM: Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi sahibidir; girişimcilik, yenilikçilik hakkında bilinçlidir; sürdürülebilir kalkınma hakkında bilgi sahibidir."
+    }
+  ],
+  "programVeOgrenmeIliskisi": {
+    "iliskiOlcekleri": "0-5 arası değerler (0: İlişki yok, 5: Çok güçlü ilişki)",
+    "iliskiTablosu": [
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.1",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 5,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 3,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.2",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.3",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 3,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.4",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.5",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 3,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      }
+    ]
+  },
+  "toplumsalKatkiVeSurdurulebilirlik": {
+    "surdurulebilirKalkinmaAmaclari": [
+      {
+        "amac": "Yoksulluğa Son",
+        "secili": false
+      },
+      {
+        "amac": "Açlığa Son",
+        "secili": false
+      },
+      {
+        "amac": "Sağlık ve Kaliteli Yaşam",
+        "secili": true
+      },
+      {
+        "amac": "Nitelikli Eğitim",
+        "secili": true
+      },
+      {
+        "amac": "Toplumsal Cinsiyet Eşitliği",
+        "secili": false
+      },
+      {
+        "amac": "Temiz Su ve Sanitasyon",
+        "secili": false
+      },
+      {
+        "amac": "Erişilebilir ve Temiz Enerji",
+        "secili": true
+      },
+      {
+        "amac": "İnsana Yakışır İş ve Ekonomik Büyüme",
+        "secili": true
+      },
+      {
+        "amac": "Sanayi, Yenilikçilik ve Altyapı",
+        "secili": true
+      },
+      {
+        "amac": "Eşitsizliklerin Azaltılması",
+        "secili": true
+      },
+      {
+        "amac": "Sürdürülebilir Şehirler ve Topluluklar",
+        "secili": true
+      },
+      {
+        "amac": "Sorumlu Üretim ve Tüketim",
+        "secili": true
+      },
+      {
+        "amac": "İklim Eylemi",
+        "secili": false
+      },
+      {
+        "amac": "Sudaki Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Karasal Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Barış, Adalet ve Güçlü Kurumlar",
+        "secili": false
+      },
+      {
+        "amac": "Amaçlar İçin Ortaklıklar",
+        "secili": true
+      }
+    ],
+    "toplumsalKatkiAlanlari": [
+      {
+        "alan": "Eğitim ve Öğretim",
+        "secili": true
+      },
+      {
+        "alan": "Sağlık",
+        "secili": true
+      },
+      {
+        "alan": "Sosyal Hizmetler ve Toplumsal Eşitlik",
+        "secili": true
+      },
+      {
+        "alan": "Çevre ve Sürdürülebilirlik",
+        "secili": true
+      },
+      {
+        "alan": "Teknolojik ve Bilimsel Yenilikler",
+        "secili": true
+      },
+      {
+        "alan": "Ekonomik Kalkınma ve Girişimcilik",
+        "secili": true
+      },
+      {
+        "alan": "Kültürel ve Sanatsal Etkinlikler",
+        "secili": false
+      },
+      {
+        "alan": "Uluslararası İş birliği ve Diplomasi",
+        "secili": true
+      },
+      {
+        "alan": "Toplum yararına yapılacak diğer çalışmalar",
+        "secili": true
+      }
+    ]
+  },
+  "dersSekmeler": {
+    "dersGenel": true,
+    "dersOgrenmeÇiktilari": true,
+    "haftalikDersIcerikleri": true,
+    "dersIsYuku": true,
+    "dersDegerlendirme": true,
+    "programVeOgrenmeÇiktilariIliskisi": true,
+    "toplumsalKatkiVeSurdurulebilirlik": true
+  },
+  "denetimBilgileri": {
+    "olusturmaTarihi": "2025-05-10 18:09:50",
+    "olusturan": "json_processor_script",
+    "sonGuncellenmeTarihi": "2025-05-10 18:09:50",
+    "guncelleyen": "json_processor_script",
+    "durum": "Taslak"
+  },
+  "numaralandirmaDegerleri": {
+    "dersTurleri": [
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dersSeviyesi": [
+      "Lisans",
+      "Yüksek Lisans",
+      "Doktora"
+    ],
+    "ogretimSistemi": [
+      "Birinci Öğretim",
+      "İkinci Öğretim",
+      "Uzaktan Öğretim"
+    ],
+    "egitimDili": [
+      "Türkçe",
+      "İngilizce"
+    ],
+    "stajDurumu": [
+      "Mevcut Değil",
+      "Mevcut",
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dokumanDurumu": [
+      "Taslak",
+      "Onaylandı",
+      "Yayınlandı",
+      "Revize Edildi"
+    ]
+  }
+}

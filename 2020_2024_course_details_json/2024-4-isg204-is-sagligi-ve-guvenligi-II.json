@@ -1,0 +1,696 @@
+{
+  "dersGenel": {
+    "dersTuru": "Zorunlu",
+    "dersinSeviyesi": "Lisans",
+    "dersinAKTSKredisi": 2,
+    "haftalikDersSaatiKuramsal": 2,
+    "haftalikUygulamaSaati": 0,
+    "haftalikLaboratuarSaati": 0,
+    "dersinVerildigiYariyil": 4,
+    "ogretimSistemi": "Birinci Öğretim",
+    "egitimDili": "Türkçe",
+    "universite": "Recep Tayyip Erdoğan Üniversitesi",
+    "ulke": "Türkiye",
+    "il": "Rize",
+    "ilce": "Merkez",
+    "mahalle": "Fener Mah",
+    "fakulte": "Mühendislik Ve Mimarlık Fakültesi",
+    "bolum": "Bilgisayar Mühendisliği",
+    "dersKodu": "ISG204",
+    "dersAdi": "İş Sağlığı ve Güvenliği-II",
+    "ogretimYiliDonemi": "Bahar",
+    "dersAKTSKredisi": 2,
+    "dilSecimi": "Türkçe",
+    "mufredatOlusturulmaYili": "2024",
+    "akademikYil": ""
+  },
+  "dersIcerik": {
+    "dersinAmaci": "Bilgisayar Mühendisinin İSG konusundaki görev yetki ve sorumluluklarının öğretilmesi. Güvenlik ve Sağlık işaretleri, Acil Durum Planları, İlk Yardım, Kişisel Donanımlar konularında bilgi verilmesi. Kapalı Alanlarda Çalışmalarda İSG, Ergonomi, Basınçlı Kaplarda Güvenlik, Elektrikle Çalışmalarda İSG, Motorlu Araçlarda Güvenlik, Yangın, Bakım ve Onarımda İSG ve Korunma Politikaları gibi özel başlıklarda İSG uygulamalarının incelenmesi. İşyerlerinde meydana gelen kazalara örnekler verilerek, kazaların temel nedenleri ve önleme çalışmaları konusunda bilgilendirme yapılması ve Risk Değerlendirme Adımları ve Yöntemlerinin öğretilmesi.",
+    "dersinOnKosuluOlanDersler": "İş Sağlığı ve Güvenliği-I",
+    "dersinIcerigi": "Yangın, patlama ve korunma. İşyerinde yürütülen çeşitli çalışmalarda İSG. Değişik iş koluna özgü risk belirleme ve İSG. Risk değerlendirme ve risk yönetimi. Alana özgü örnek iş ve iş yerinde İSG yaklaşımı. Elektrikle Çalışmalarda iş sağlığı ve güvenliği. Kimyasal risk etmenleri, Malzeme Güvenlik Bilgi Formu. Risk değerlendirme metodları, Ergonomi, Kişisel koruyucu donanımlar ve korunma politikaları.",
+    "dersinIcinOnerilenHususlar": "Öğrencilerin derse düzenli katılımı, öğretilen kavramların iş hayatında nasıl uygulanacağını anlamaları ve güncel İSG yönetmeliklerini takip etmeleri önerilmektedir.",
+    "ogretimTuru": "Birinci Öğretim",
+    "stajDurumu": "Mevcut Değil",
+    "dersinKitabiMalzemesiOnerilenKaynaklar": "1. İş Güvenliği, Abdülvahap YİĞİT, Aktüel Yayınevi.\n2. Anadolu Üniversitesi İş Sağlığı ve Güvenliği (Açıköğretim Fakültesi Yayını No: 2020).\n3. Anadolu Üniversitesi İş Sağlığı Ve Güvenliğinin Temelleri (Açıköğretim Fakültesi Yayını No: 2740).\n4. İş Sağlığı Ve Güvenliği, Nazmi Bilir, Ali Naci Yıldız, Hacettepe Üniversitesi Yayınları.",
+    "dersiVerenOgretimUyesiOgretimGorevlisi": "Dr. Öğr. Üyesi Abdulgani Kahraman",
+    "hazirlanmaTarihi": "21.04.2025"
+  },
+  "dersOgrenmeÇiktilari": [
+    {
+      "id": "ÖÇ.1",
+      "aciklama": "İşyerindeki güvenlik ve sağlık işaretlerini, acil durum planlarını, temel ilkyardım uygulamalarını ve kişisel koruyucu donanımların (KKD) kullanımını bilir ve açıklar."
+    },
+    {
+      "id": "ÖÇ.2",
+      "aciklama": "Mühendislik alanına özgü (elektrik, kapalı alan, basınçlı kap, bakım-onarım vb.) riskleri tanır, ilgili İSG önlemlerini bilir ve risk yönetimi yaklaşımını kavrar."
+    },
+    {
+      "id": "ÖÇ.3",
+      "aciklama": "Ergonomi, yangın, patlamadan korunma gibi özel İSG konularında temel bilgilere sahip olur ve korunma politikalarının önemini bilir."
+    }
+  ],
+  "haftalikDersIcerikleri": [
+    {
+      "hafta": 1,
+      "icerik": "Genel Bilgi ve Yönetmelikler",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "İSG-I dersi bilgileri",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, Kaynak Kitaplar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "İSG yönetmelikleri araştırması"
+    },
+    {
+      "hafta": 2,
+      "icerik": "Kimyasal Risk Etmenleri ve Malzeme Güvenlik Bilgi Formu",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Temel risk kavramları",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Örnek İnceleme",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, Örnek MSDS'ler",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "MSDS inceleme çalışması"
+    },
+    {
+      "hafta": 3,
+      "icerik": "Acil Durum Planları, İlkyardım",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Yönetmelikler",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Gösterme",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar, İlkyardım Malzemeleri (Opsiyonel)",
+      "kaynakVeMateryal": "Ders Notları, Kaynak Kitaplar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Acil durum planı hazırlama"
+    },
+    {
+      "hafta": 4,
+      "icerik": "Risk Değerlendirmesi ve Risk Algılaması",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Risk kavramı",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Tartışma",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, Kaynak Kitaplar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Risk algılama çalışması"
+    },
+    {
+      "hafta": 5,
+      "icerik": "Kapalı Alanlarda Çalışmalarda İSG",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Risk değerlendirme",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Örnek Olay",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, Kaynak Kitaplar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Kapalı alan risk değerlendirmesi"
+    },
+    {
+      "hafta": 6,
+      "icerik": "Risk Değerlendirme Metotları ve Ön Tehlike Analizi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Risk değerlendirme temelleri",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Uygulama",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, Kaynak Kitaplar",
+      "degerlendirmeYontemleri": "Quiz",
+      "odevVeCalisma": "Ön tehlike analizi uygulama"
+    },
+    {
+      "hafta": 7,
+      "icerik": "Elektrikle Çalışmalarda İSG",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Elektrik temel kavramları",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Örnek Olay",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, Kaynak Kitaplar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Elektrik kazaları araştırması"
+    },
+    {
+      "hafta": 8,
+      "icerik": "Ara Sınav",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "1-7 Hafta konuları",
+      "ogretimYontemleri": "Ölçme Değerlendirme",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Yazılı Sınav",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 9,
+      "icerik": "Fine Kinney Metodu ve Statik Elektrik, Topraklama",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Elektrikle Çalışmalarda İSG",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Uygulama",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, Kaynak Kitaplar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Fine Kinney metodu uygulama"
+    },
+    {
+      "hafta": 10,
+      "icerik": "Motorlu Araçlarda Güvenlik ve Ridley Metodu",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Risk değerlendirme metotları",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Örnek Olay",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, Kaynak Kitaplar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Motorlu araç kaza analizi"
+    },
+    {
+      "hafta": 11,
+      "icerik": "İş Kazalarının Önlenmesinde Kişisel Donanımlar ve Hata Modu ve Etkileri Analizi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "İş kazası istatistikleri",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Gösterme",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar, Örnek KKD'ler",
+      "kaynakVeMateryal": "Ders Notları, Kaynak Kitaplar",
+      "degerlendirmeYontemleri": "Quiz",
+      "odevVeCalisma": "KKD inceleme raporu"
+    },
+    {
+      "hafta": 12,
+      "icerik": "Büyük Endüstriyel Kazaların Kontrolü Hakkında Yönetmelik ve Tesislerde Bakım Onarım",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Büyük endüstriyel kaza örnekleri",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Örnek Olay",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, Kaynak Kitaplar, Yönetmelik",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Bakım onarım İSG analizi"
+    },
+    {
+      "hafta": 13,
+      "icerik": "Ergonomi ve Basınçlı Kaplarda Çalışmalarda İSG",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Ergonomi temel kavramları",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Uygulama",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, Kaynak Kitaplar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Ergonomik risk değerlendirmesi"
+    },
+    {
+      "hafta": 14,
+      "icerik": "Yangın ve Risk Yönetimi Yaklaşımı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm risk konuları",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Tartışma",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, Kaynak Kitaplar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Yangın önleme planı"
+    },
+    {
+      "hafta": 15,
+      "icerik": "Risk Değerlendirme Karar Matrisi ve Alana Özgü Örnek İş Yerinde İSG Yaklaşımı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm konular",
+      "ogretimYontemleri": "Örnek Olay İncelemesi, Tartışma",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları, Örnek Vaka",
+      "degerlendirmeYontemleri": "Ödev Değerlendirme",
+      "odevVeCalisma": "Kapsamlı risk değerlendirme raporu"
+    },
+    {
+      "hafta": 16,
+      "icerik": "Final sınavı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm konular",
+      "ogretimYontemleri": "Ölçme Değerlendirme",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Yazılı Sınav",
+      "odevVeCalisma": "-"
+    }
+  ],
+  "dersIsYuku": {
+    "etkinlikler": [
+      {
+        "etkinlik": "Derse Katılım",
+        "sayi": 14,
+        "sure": 2,
+        "toplamIsYuku": 28
+      },
+      {
+        "etkinlik": "Bireysel Çalışma",
+        "sayi": 10,
+        "sure": 1,
+        "toplamIsYuku": 10
+      },
+      {
+        "etkinlik": "Ev Ödevi",
+        "sayi": 3,
+        "sure": 2,
+        "toplamIsYuku": 6
+      },
+      {
+        "etkinlik": "Quiz",
+        "sayi": 2,
+        "sure": 0.5,
+        "toplamIsYuku": 1
+      },
+      {
+        "etkinlik": "Ara Sınav İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 4,
+        "toplamIsYuku": 4
+      },
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "sure": 1,
+        "toplamIsYuku": 1
+      },
+      {
+        "etkinlik": "Final Sınavı İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 4,
+        "toplamIsYuku": 4
+      },
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "sure": 1,
+        "toplamIsYuku": 1
+      }
+    ],
+    "toplamIsYuku": 55,
+    "dersAKTSKredisi": 2,
+    "hesaplama": "Dersin AKTS Kredisi = Toplam İş Yükü (Saat) / 25.5 = 2",
+    "aktsHesaplama": "Toplam İş Yükü / 25"
+  },
+  "etkinlikTurleri": [
+    "Alan Çalışması",
+    "Alan Gezisi",
+    "Ara Sınav",
+    "Ara Sınav İçin Bireysel Çalışma",
+    "Beyin Fırtınası",
+    "Bireysel Çalışma",
+    "Bütünleme Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Derse Katılım",
+    "Ev Ödevi",
+    "Final Sınavı",
+    "Final Sınavı İçin Bireysel Çalışma",
+    "Gösterme",
+    "Gözlem",
+    "Laboratuvar",
+    "Laboratuvar Ara Sınavı",
+    "Laboratuvar Sınavı",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Multirom CD Çalışması",
+    "Ödev Problemleri İçin Çalışma",
+    "Okuma",
+    "Örnek Vaka İncelemesi",
+    "Performans",
+    "Problem Çözümü",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Quiz İçin Bireysel Çalışma",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Rehberli Problem Çözümü",
+    "Rol Oynama / Dramatizasyon",
+    "Seminer",
+    "Soru-Yanıt",
+    "Sözlü Sınav",
+    "Takım/Grup Çalışması",
+    "Tartışma",
+    "Toplantı Başkanlığı Yapma",
+    "Uygulama/Pratik"
+  ],
+  "dersDegerlendirme": {
+    "yariyilIciEtkinlikleri": [
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "katkiYuzdesi": 70
+      },
+      {
+        "etkinlik": "Quiz",
+        "sayi": 2,
+        "katkiYuzdesi": 10
+      },
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 3,
+        "katkiYuzdesi": 20
+      }
+    ],
+    "yariyilIciToplam": 100,
+    "yariyilSonuEtkinlikleri": [
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "katkiYuzdesi": 100
+      }
+    ],
+    "yariyilSonuToplam": 100,
+    "genelDegerlendirme": [
+      {
+        "degerlendirme": "Yarıyıl (Yıl) İçi Etkinlikleri",
+        "katkiYuzdesi": 40
+      },
+      {
+        "degerlendirme": "Yarıyıl (Yıl) Sonu Etkinlikleri",
+        "katkiYuzdesi": 60
+      }
+    ],
+    "genelDegerlendirmeToplam": 100
+  },
+  "yariyilIciOlasiEtkinlikler": [
+    "Ara Sınav",
+    "Laboratuvar Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Performans",
+    "Quiz",
+    "Rapor",
+    "Rapor Sunma",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Rehberli Problem Çözümü",
+    "Seminer",
+    "Sözlü Sınav",
+    "Ödev Problemleri İçin Çalışma",
+    "Proje Tasarımı/Yönetimi"
+  ],
+  "yariyilSonuOlasiEtkinlikler": [
+    "Final Sınavı",
+    "Laboratuvar Ara Sınavı",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Seminer",
+    "Sözlü Sınav",
+    "Gözlem"
+  ],
+  "programCiktilari": [
+    {
+      "id": "PÇ.1",
+      "kategori": "BİLGİ - Kuramsal Olgusal",
+      "aciklama": "TEMEL BİLGİ: Matematik, Fen Bilimleri ve Bilgisayar Mühendisliği konularında yeterli bilgi sahibidir; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanır."
+    },
+    {
+      "id": "PÇ.2",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "PROBLEM ÇÖZME: Karmaşık Bilgisayar Mühendisliği problemlerini saptar, tanımlar, formüle eder ve çözer; bu amaca uygun analiz ve modelleme yöntemlerini seçer ve uygular."
+    },
+    {
+      "id": "PÇ.3",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TASARIM: Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlar; bu amaçla modern tasarım yöntemlerini uygular."
+    },
+    {
+      "id": "PÇ.4",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TEKNOLOJİ: Bilgisayar Mühendisliği uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirir, seçer ve kullanır; bilişim teknolojilerini etkin bir şekilde kullanır."
+    },
+    {
+      "id": "PÇ.5",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "ARAŞTIRMA: Karmaşık Bilgisayar Mühendisliği problemlerinin veya araştırma konularının incelenmesi için deney tasarlar, deney yapar, veri toplar, sonuçları analiz eder ve yorumlar."
+    },
+    {
+      "id": "PÇ.6",
+      "kategori": "YETKİNLİKLER - Bağımsız Çalışabilme ve Sorumluluk Alabilme Yetkinliği",
+      "aciklama": "İŞBİRLİĞİ: Bilgisayar Mühendisliği disiplini içinde ve çok disiplinli takımlarda etkin biçimde çalışır; bireysel çalışma sergiler."
+    },
+    {
+      "id": "PÇ.7",
+      "kategori": "YETKİNLİKLER - Öğrenme Yetkinliği",
+      "aciklama": "GELİŞİM: Yaşam boyu öğrenmenin gerekliliğinin bilincindedir; bilgiye erişir, bilim ve teknolojideki gelişmeleri izler ve kendini sürekli yeniler; insanlık tarihi boyunca oluşan bilgi birikimini Bilgisayar Mühendisliği alanıyla ilişkilendirir."
+    },
+    {
+      "id": "PÇ.8",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "İLETİŞİM: Türkçe sözlü ve yazılı etkin iletişim kurar; etkin rapor yazar ve yazılı raporları anlar, tasarım ve üretim raporları hazırlar, etkin sunum yapar, açık ve anlaşılır talimat verir ve alır."
+    },
+    {
+      "id": "PÇ.9",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "TOPLUMSAL BİLİNÇ: Bilgisayar Mühendisliği uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi sahibidir; mühendislik çözümlerinin hukuksal sonuçlarının farkındadır."
+    },
+    {
+      "id": "PÇ.10",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "ULUSLARARASILIK: Bir yabancı dili kullanarak Bilgisayar Mühendisliği ile ilişkili konularda, bilgi toplar ve meslektaşları ile iletişim kurar."
+    },
+    {
+      "id": "PÇ.11",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "ETİK: Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilincine sahiptir; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi sahibidir."
+    },
+    {
+      "id": "PÇ.12",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "YÖNETİM: Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi sahibidir; girişimcilik, yenilikçilik hakkında bilinçlidir; sürdürülebilir kalkınma hakkında bilgi sahibidir."
+    }
+  ],
+  "programVeOgrenmeIliskisi": {
+    "iliskiOlcekleri": "0-5 arası değerler (0: İlişki yok, 5: Çok güçlü ilişki)",
+    "iliskiTablosu": [
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.1",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 3,
+          "PÇ.9": 5,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.2",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 3
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.3",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 3
+        }
+      }
+    ]
+  },
+  "toplumsalKatkiVeSurdurulebilirlik": {
+    "surdurulebilirKalkinmaAmaclari": [
+      {
+        "amac": "Yoksulluğa Son",
+        "secili": false
+      },
+      {
+        "amac": "Açlığa Son",
+        "secili": false
+      },
+      {
+        "amac": "Sağlık ve Kaliteli Yaşam",
+        "secili": true
+      },
+      {
+        "amac": "Nitelikli Eğitim",
+        "secili": true
+      },
+      {
+        "amac": "Toplumsal Cinsiyet Eşitliği",
+        "secili": false
+      },
+      {
+        "amac": "Temiz Su ve Sanitasyon",
+        "secili": false
+      },
+      {
+        "amac": "Erişilebilir ve Temiz Enerji",
+        "secili": false
+      },
+      {
+        "amac": "İnsana Yakışır İş ve Ekonomik Büyüme",
+        "secili": true
+      },
+      {
+        "amac": "Sanayi, Yenilikçilik ve Altyapı",
+        "secili": true
+      },
+      {
+        "amac": "Eşitsizliklerin Azaltılması",
+        "secili": false
+      },
+      {
+        "amac": "Sürdürülebilir Şehirler ve Topluluklar",
+        "secili": false
+      },
+      {
+        "amac": "Sorumlu Üretim ve Tüketim",
+        "secili": true
+      },
+      {
+        "amac": "İklim Eylemi",
+        "secili": false
+      },
+      {
+        "amac": "Sudaki Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Karasal Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Barış, Adalet ve Güçlü Kurumlar",
+        "secili": false
+      },
+      {
+        "amac": "Amaçlar İçin Ortaklıklar",
+        "secili": false
+      }
+    ],
+    "toplumsalKatkiAlanlari": [
+      {
+        "alan": "Eğitim ve Öğretim",
+        "secili": true
+      },
+      {
+        "alan": "Sağlık",
+        "secili": true
+      },
+      {
+        "alan": "Sosyal Hizmetler ve Toplumsal Eşitlik",
+        "secili": true
+      },
+      {
+        "alan": "Çevre ve Sürdürülebilirlik",
+        "secili": true
+      },
+      {
+        "alan": "Teknolojik ve Bilimsel Yenilikler",
+        "secili": false
+      },
+      {
+        "alan": "Ekonomik Kalkınma ve Girişimcilik",
+        "secili": true
+      },
+      {
+        "alan": "Kültürel ve Sanatsal Etkinlikler",
+        "secili": false
+      },
+      {
+        "alan": "Uluslararası İş birliği ve Diplomasi",
+        "secili": false
+      },
+      {
+        "alan": "Toplum yararına yapılacak diğer çalışmalar",
+        "secili": true
+      }
+    ]
+  },
+  "dersSekmeler": {
+    "dersGenel": true,
+    "dersOgrenmeÇiktilari": true,
+    "haftalikDersIcerikleri": true,
+    "dersIsYuku": true,
+    "dersDegerlendirme": true,
+    "programVeOgrenmeÇiktilariIliskisi": true,
+    "toplumsalKatkiVeSurdurulebilirlik": true
+  },
+  "denetimBilgileri": {
+    "olusturmaTarihi": "2025-05-10 18:09:36",
+    "olusturan": "json_processor_script",
+    "sonGuncellenmeTarihi": "2025-05-10 18:09:36",
+    "guncelleyen": "json_processor_script",
+    "durum": "Taslak"
+  },
+  "numaralandirmaDegerleri": {
+    "dersTurleri": [
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dersSeviyesi": [
+      "Lisans",
+      "Yüksek Lisans",
+      "Doktora"
+    ],
+    "ogretimSistemi": [
+      "Birinci Öğretim",
+      "İkinci Öğretim",
+      "Uzaktan Öğretim"
+    ],
+    "egitimDili": [
+      "Türkçe",
+      "İngilizce"
+    ],
+    "stajDurumu": [
+      "Mevcut Değil",
+      "Mevcut",
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dokumanDurumu": [
+      "Taslak",
+      "Onaylandı",
+      "Yayınlandı",
+      "Revize Edildi"
+    ]
+  }
+}

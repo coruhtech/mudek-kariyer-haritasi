@@ -1,0 +1,788 @@
+{
+  "dersGenel": {
+    "dersTuru": "Seçmeli",
+    "dersinSeviyesi": "Lisans",
+    "dersKredisi": 3,
+    "dersinAKTSKredisi": 5,
+    "haftalikDersSaatiKuramsal": 3,
+    "haftalikUygulamaSaati": 0,
+    "haftalikLaboratuarSaati": 0,
+    "dersinVerildigiYariyil": 7,
+    "ogretimSistemi": "Birinci Öğretim",
+    "egitimDili": "İngilizce",
+    "secmeliDersGrubuKodu": "SECCEN07-1",
+    "universite": "Recep Tayyip Erdoğan Üniversitesi",
+    "ulke": "Türkiye",
+    "il": "Rize",
+    "ilce": "Merkez",
+    "mahalle": "Fener Mah",
+    "fakulte": "Mühendislik Ve Mimarlık Fakültesi",
+    "bolum": "Bilgisayar Mühendisliği",
+    "dersKodu": "CEN441",
+    "dersAdi": "Deep Learning",
+    "ogretimYiliDonemi": "Güz",
+    "dersAKTSKredisi": 5,
+    "dilSecimi": "Türkçe",
+    "mufredatOlusturulmaYili": "2024",
+    "akademikYil": ""
+  },
+  "dersIcerik": {
+    "dersinAmaci": "Bu dersin amacı, öğrencilere derin öğrenme alanının temel prensiplerini, mimarilerini ve uygulamalarını öğretmektir. Derin sinir ağlarının çalışma mekanizmalarını, farklı model mimarilerini ve bu modellerin gerçek dünya problemlerine nasıl uygulanacağını anlamalarını sağlamaktır. Öğrenciler, derin öğrenme modellerini tasarlama, eğitme, değerlendirme ve optimize etme becerilerini kazanacaklardır.",
+    "dersinOnKosuluOlanDersler": "Temel Programlama ve Algoritma Bilgisi, CEN317 Yapay Zeka (Önerilir)",
+    "dersinIcerigi": "Yapay Sinir Ağlarına Giriş, Derin Öğrenmenin Temelleri, Geri Yayılım Algoritması, Optimizasyon Teknikleri, Konvolüsyonel Sinir Ağları (CNN), Tekrarlayan Sinir Ağları (RNN), LSTM ve GRU, Transfer Öğrenme, Otokodlayıcılar ve Varyasyonel Otokodlayıcılar, Üretici Çekişmeli Ağlar (GAN), Pekiştirmeli Öğrenme ve Derin Pekiştirmeli Öğrenme, Transformerler ve Dikkat Mekanizmaları, Büyük Dil Modelleri, Derin Öğrenmenin Endüstriyel Uygulamaları, Etik ve Toplumsal Etkiler.",
+    "dersinIcinOnerilenHususlar": "Python programlama dili, temel matematik (kalkülüs, lineer cebir, olasılık) ve makine öğrenmesi bilgisi derse hazırlık için faydalı olacaktır. TensorFlow veya PyTorch kütüphanelerinden en az biriyle temel seviyede deneyim önerilir.",
+    "ogretimTuru": "Birinci Öğretim",
+    "stajDurumu": "Mevcut Değil",
+    "dersinKitabiMalzemesiOnerilenKaynaklar": "Deep Learning by Ian Goodfellow, Yoshua Bengio, and Aaron Courville (MIT Press).\nDeep Learning with Python by François Chollet.\nHands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow by Aurélien Géron.",
+    "dersiVerenOgretimUyesiOgretimGorevlisi": "",
+    "hazirlanmaTarihi": "2024-04-27"
+  },
+  "dersOgrenmeÇiktilari": [
+    {
+      "id": "ÖÇ.1",
+      "aciklama": "Derin öğrenmenin temel kavramlarını, tarihsel gelişimini ve klasik makine öğrenmesi yöntemlerinden farkını açıklar; bu teknolojinin bilimsel, endüstriyel ve toplumsal etki alanlarını analiz eder."
+    },
+    {
+      "id": "ÖÇ.2",
+      "aciklama": "Yapay sinir ağlarının matematiksel temellerini, ileri beslemeli ağların yapısını ve geri yayılım algoritmasının çalışma prensiplerini tanımlar; derin öğrenme problemlerinde optimizasyon tekniklerini ve düzenlileştirme yöntemlerini sistematik şekilde uygular."
+    },
+    {
+      "id": "ÖÇ.3",
+      "aciklama": "Farklı derin öğrenme mimarilerinin (CNN, RNN, LSTM, GAN, Transformer vb.) çalışma prensiplerini ve kullanım alanlarını karşılaştırır; belirli problem tiplerine uygun mimarileri seçerek performans analizleri yapar."
+    },
+    {
+      "id": "ÖÇ.4",
+      "aciklama": "Popüler derin öğrenme çerçevelerini (TensorFlow, PyTorch vb.) kullanarak derin öğrenme modellerini tasarlar, eğitir ve değerlendirir; süreç ve sonuçları açık ve anlaşılır şekilde dokümante eder, gerektiğinde uluslararası literatüre ve terminolojiye referans verir."
+    },
+    {
+      "id": "ÖÇ.5",
+      "aciklama": "Derin öğrenme modellerinin farklı uygulama alanlarında (bilgisayarlı görü, doğal dil işleme, ses tanıma vb.) kullanımını ve karşılaşılan zorlukları analiz eder; hiperparametre optimizasyonu, model seçimi ve değerlendirme metrikleri açısından çözüm önerileri geliştirir."
+    },
+    {
+      "id": "ÖÇ.6",
+      "aciklama": "Derin öğrenme projelerinin geliştirilmesinde ekip çalışması gerektiren problem çözme yöntemlerini uygular; veri toplama, ön işleme, model geliştirme ve dağıtım süreçlerinde farklı disiplinlerden uzmanlarla işbirliği yaparak projeleri planlar ve yürütür."
+    },
+    {
+      "id": "ÖÇ.7",
+      "aciklama": "Güncel derin öğrenme trendlerini, araştırma yönlerini ve açık problemleri araştırır; yaşam boyu öğrenmenin gerekliliği bilinciyle etik ilkeler doğrultusunda derin öğrenme teknolojilerinin adil ve sorumlu kullanımına yönelik çözümler geliştirir."
+    }
+  ],
+  "haftalikDersIcerikleri": [
+    {
+      "hafta": 1,
+      "icerik": "Derin Öğrenmeye Giriş ve Tarihsel Gelişim",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Anlatım",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Goodfellow et al. Ch. 1",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Derin Öğrenmenin Tarihsel Gelişimi Üzerine Araştırma"
+    },
+    {
+      "hafta": 2,
+      "icerik": "Yapay Sinir Ağlarının Matematiksel Temelleri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Lineer Cebir ve Kalkülüs Tekrarı",
+      "ogretimYontemleri": "Anlatım",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Goodfellow et al. Ch. 2-3",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 3,
+      "icerik": "İleri Beslemeli Ağlar ve Geri Yayılım Algoritması",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Sinir Ağı Matematiksel Temelleri",
+      "ogretimYontemleri": "Anlatım, Problem Çözme",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar Laboratuvarı",
+      "kaynakVeMateryal": "Ders Notları, Goodfellow et al. Ch. 4",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Basit Sinir Ağı Implementasyonu"
+    },
+    {
+      "hafta": 4,
+      "icerik": "Optimizasyon Teknikleri ve Düzenlileştirme",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Geri Yayılım Algoritması",
+      "ogretimYontemleri": "Anlatım, Problem Çözme",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar Laboratuvarı",
+      "kaynakVeMateryal": "Ders Notları, Goodfellow et al. Ch. 7-8",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Farklı Optimizasyon Algoritmalarının Karşılaştırması"
+    },
+    {
+      "hafta": 5,
+      "icerik": "Konvolüsyonel Sinir Ağları (CNN) ve Bilgisayarlı Görü",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Optimizasyon Teknikleri",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar Laboratuvarı",
+      "kaynakVeMateryal": "Ders Notları, Goodfellow et al. Ch. 9",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "CNN Tabanlı Görüntü Sınıflandırma Uygulaması"
+    },
+    {
+      "hafta": 6,
+      "icerik": "Tekrarlayan Sinir Ağları (RNN) ve Dizilere Dayalı Problemler",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "CNN Mimarisi",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar Laboratuvarı",
+      "kaynakVeMateryal": "Ders Notları, Goodfellow et al. Ch. 10",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "RNN ile Dizi Tahmini Uygulaması"
+    },
+    {
+      "hafta": 7,
+      "icerik": "LSTM ve GRU Modelleri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "RNN Temelleri",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar Laboratuvarı",
+      "kaynakVeMateryal": "Ders Notları, İlgili Makaleler",
+      "degerlendirmeYontemleri": "Quiz",
+      "odevVeCalisma": "LSTM ve RNN Performans Karşılaştırması"
+    },
+    {
+      "hafta": 8,
+      "icerik": "Ara Sınav",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "1-7 Hafta Konuları",
+      "ogretimYontemleri": "Sınav",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Ara Sınav",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 9,
+      "icerik": "Otokodlayıcılar ve Varyasyonel Otokodlayıcılar",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Derin Sinir Ağları",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar Laboratuvarı",
+      "kaynakVeMateryal": "Ders Notları, İlgili Makaleler",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Otokodlayıcı Uygulaması"
+    },
+    {
+      "hafta": 10,
+      "icerik": "Üretici Çekişmeli Ağlar (GAN)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.4, ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Otokodlayıcılar",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar Laboratuvarı",
+      "kaynakVeMateryal": "Ders Notları, İlgili Makaleler",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "GAN ile Görüntü Üretimi"
+    },
+    {
+      "hafta": 11,
+      "icerik": "Transfer Öğrenme ve Ön-Eğitimli Modeller",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.4, ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Derin Öğrenme Mimarileri",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar Laboratuvarı",
+      "kaynakVeMateryal": "Ders Notları, İlgili Makaleler",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Transfer Öğrenme Projesi"
+    },
+    {
+      "hafta": 12,
+      "icerik": "Transformerler ve Dikkat Mekanizmaları",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.4, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "RNN ve LSTM",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar Laboratuvarı",
+      "kaynakVeMateryal": "Ders Notları, Transformer Makalesi",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Transformer Tabanlı Model İncelemesi"
+    },
+    {
+      "hafta": 13,
+      "icerik": "Büyük Dil Modelleri ve Modern NLP",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.5, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Transformerler",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar Laboratuvarı",
+      "kaynakVeMateryal": "Ders Notları, İlgili Makaleler",
+      "degerlendirmeYontemleri": "Proje",
+      "odevVeCalisma": "Derin Öğrenme Final Projesi"
+    },
+    {
+      "hafta": 14,
+      "icerik": "Derin Pekiştirmeli Öğrenme",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Derin Öğrenme Temelleri",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar Laboratuvarı",
+      "kaynakVeMateryal": "Ders Notları, İlgili Makaleler",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Derin RL Örnek Uygulaması"
+    },
+    {
+      "hafta": 15,
+      "icerik": "Derin Öğrenmenin Etik Boyutları ve Endüstriyel Uygulamaları",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Derin Öğrenme Temelleri",
+      "ogretimYontemleri": "Anlatım, Tartışma, Proje Sunumu",
+      "aracVeGerecler": "Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Güncel Makaleler",
+      "degerlendirmeYontemleri": "Proje Sunumu",
+      "odevVeCalisma": "Final Sınavına Hazırlık"
+    },
+    {
+      "hafta": 16,
+      "icerik": "Final Sınavı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm Konular",
+      "ogretimYontemleri": "Sınav",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Final Sınavı",
+      "odevVeCalisma": "-"
+    }
+  ],
+  "dersIsYuku": {
+    "etkinlikler": [
+      {
+        "etkinlik": "Derse Katılım",
+        "sayi": 14,
+        "sure": 3,
+        "toplamIsYuku": 42
+      },
+      {
+        "etkinlik": "Ev Ödevi",
+        "sayi": 4,
+        "sure": 5,
+        "toplamIsYuku": 20
+      },
+      {
+        "etkinlik": "Uygulama/Pratik",
+        "sayi": 7,
+        "sure": 2,
+        "toplamIsYuku": 14
+      },
+      {
+        "etkinlik": "Bireysel Çalışma",
+        "sayi": 14,
+        "sure": 1,
+        "toplamIsYuku": 14
+      },
+      {
+        "etkinlik": "Proje Hazırlama",
+        "sayi": 1,
+        "sure": 9,
+        "toplamIsYuku": 9
+      },
+      {
+        "etkinlik": "Ara Sınav İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 10,
+        "toplamIsYuku": 10
+      },
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "sure": 2,
+        "toplamIsYuku": 2
+      },
+      {
+        "etkinlik": "Final Sınavı İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 12,
+        "toplamIsYuku": 12
+      },
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "sure": 2,
+        "toplamIsYuku": 2
+      }
+    ],
+    "toplamIsYuku": 125,
+    "dersAKTSKredisi": 5,
+    "hesaplama": "Dersin AKTS Kredisi = Toplam İş Yükü (Saat) / 25 = 5",
+    "aktsHesaplama": "Toplam İş Yükü / 25"
+  },
+  "etkinlikTurleri": [
+    "Alan Çalışması",
+    "Alan Gezisi",
+    "Ara Sınav",
+    "Ara Sınav İçin Bireysel Çalışma",
+    "Beyin Fırtınası",
+    "Bireysel Çalışma",
+    "Bütünleme Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Derse Katılım",
+    "Ev Ödevi",
+    "Final Sınavı",
+    "Final Sınavı İçin Bireysel Çalışma",
+    "Gösterme",
+    "Gözlem",
+    "Laboratuvar",
+    "Laboratuvar Ara Sınavı",
+    "Laboratuvar Sınavı",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Multirom CD Çalışması",
+    "Ödev Problemleri İçin Çalışma",
+    "Okuma",
+    "Örnek Vaka İncelemesi",
+    "Performans",
+    "Problem Çözümü",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Quiz İçin Bireysel Çalışma",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Rehberli Problem Çözümü",
+    "Rol Oynama / Dramatizasyon",
+    "Seminer",
+    "Soru-Yanıt",
+    "Sözlü Sınav",
+    "Takım/Grup Çalışması",
+    "Tartışma",
+    "Toplantı Başkanlığı Yapma",
+    "Uygulama/Pratik"
+  ],
+  "dersDegerlendirme": {
+    "yariyilIciEtkinlikleri": [
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "katkiYuzdesi": 50
+      },
+      {
+        "etkinlik": "Ev Ödevi",
+        "sayi": 5,
+        "katkiYuzdesi": 20
+      },
+      {
+        "etkinlik": "Proje Hazırlama",
+        "sayi": 1,
+        "katkiYuzdesi": 30
+      }
+    ],
+    "yariyilIciToplam": 100,
+    "yariyilSonuEtkinlikleri": [
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "katkiYuzdesi": 100
+      }
+    ],
+    "yariyilSonuToplam": 100,
+    "genelDegerlendirme": [
+      {
+        "degerlendirme": "Yarıyıl (Yıl) Sonu Etkinlikleri",
+        "katkiYuzdesi": 60
+      },
+      {
+        "degerlendirme": "Yarıyıl (Yıl) İçi Etkinlikleri",
+        "katkiYuzdesi": 40
+      }
+    ],
+    "genelDegerlendirmeToplam": 100
+  },
+  "yariyilIciOlasiEtkinlikler": [
+    "Ara Sınav",
+    "Laboratuvar Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Performans",
+    "Quiz",
+    "Rapor",
+    "Rapor Sunma",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Rehberli Problem Çözümü",
+    "Seminer",
+    "Sözlü Sınav",
+    "Ödev Problemleri İçin Çalışma",
+    "Proje Tasarımı/Yönetimi"
+  ],
+  "yariyilSonuOlasiEtkinlikler": [
+    "Final Sınavı",
+    "Laboratuvar Ara Sınavı",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Seminer",
+    "Sözlü Sınav",
+    "Gözlem"
+  ],
+  "programCiktilari": [
+    {
+      "id": "PÇ.1",
+      "kategori": "BİLGİ - Kuramsal Olgusal",
+      "aciklama": "TEMEL BİLGİ: Matematik, Fen Bilimleri ve Bilgisayar Mühendisliği konularında yeterli bilgi sahibidir; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanır."
+    },
+    {
+      "id": "PÇ.2",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "PROBLEM ÇÖZME: Karmaşık Bilgisayar Mühendisliği problemlerini saptar, tanımlar, formüle eder ve çözer; bu amaca uygun analiz ve modelleme yöntemlerini seçer ve uygular."
+    },
+    {
+      "id": "PÇ.3",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TASARIM: Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlar; bu amaçla modern tasarım yöntemlerini uygular."
+    },
+    {
+      "id": "PÇ.4",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TEKNOLOJİ: Bilgisayar Mühendisliği uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirir, seçer ve kullanır; bilişim teknolojilerini etkin bir şekilde kullanır."
+    },
+    {
+      "id": "PÇ.5",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "ARAŞTIRMA: Karmaşık Bilgisayar Mühendisliği problemlerinin veya araştırma konularının incelenmesi için deney tasarlar, deney yapar, veri toplar, sonuçları analiz eder ve yorumlar."
+    },
+    {
+      "id": "PÇ.6",
+      "kategori": "YETKİNLİKLER - Bağımsız Çalışabilme ve Sorumluluk Alabilme Yetkinliği",
+      "aciklama": "İŞBİRLİĞİ: Bilgisayar Mühendisliği disiplini içinde ve çok disiplinli takımlarda etkin biçimde çalışır; bireysel çalışma sergiler."
+    },
+    {
+      "id": "PÇ.7",
+      "kategori": "YETKİNLİKLER - Öğrenme Yetkinliği",
+      "aciklama": "GELİŞİM: Yaşam boyu öğrenmenin gerekliliğinin bilincindedir; bilgiye erişir, bilim ve teknolojideki gelişmeleri izler ve kendini sürekli yeniler; insanlık tarihi boyunca oluşan bilgi birikimini Bilgisayar Mühendisliği alanıyla ilişkilendirir."
+    },
+    {
+      "id": "PÇ.8",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "İLETİŞİM: Türkçe sözlü ve yazılı etkin iletişim kurar; etkin rapor yazar ve yazılı raporları anlar, tasarım ve üretim raporları hazırlar, etkin sunum yapar, açık ve anlaşılır talimat verir ve alır."
+    },
+    {
+      "id": "PÇ.9",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "TOPLUMSAL BİLİNÇ: Bilgisayar Mühendisliği uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi sahibidir; mühendislik çözümlerinin hukuksal sonuçlarının farkındadır."
+    },
+    {
+      "id": "PÇ.10",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "ULUSLARARASILIK: Bir yabancı dili kullanarak Bilgisayar Mühendisliği ile ilişkili konularda, bilgi toplar ve meslektaşları ile iletişim kurar."
+    },
+    {
+      "id": "PÇ.11",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "ETİK: Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilincine sahiptir; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi sahibidir."
+    },
+    {
+      "id": "PÇ.12",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "YÖNETİM: Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi sahibidir; girişimcilik, yenilikçilik hakkında bilinçlidir; sürdürülebilir kalkınma hakkında bilgi sahibidir."
+    }
+  ],
+  "programVeOgrenmeIliskisi": {
+    "iliskiOlcekleri": "0-5 arası değerler (0: İlişki yok, 5: Çok güçlü ilişki)",
+    "iliskiTablosu": [
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.1",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 5,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.2",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.3",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 3,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.4",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 3,
+          "PÇ.4": 3,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 3,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.5",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.6",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 3,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.7",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      }
+    ]
+  },
+  "toplumsalKatkiVeSurdurulebilirlik": {
+    "surdurulebilirKalkinmaAmaclari": [
+      {
+        "amac": "Yoksulluğa Son",
+        "secili": false
+      },
+      {
+        "amac": "Açlığa Son",
+        "secili": false
+      },
+      {
+        "amac": "Sağlık ve Kaliteli Yaşam",
+        "secili": true
+      },
+      {
+        "amac": "Nitelikli Eğitim",
+        "secili": true
+      },
+      {
+        "amac": "Toplumsal Cinsiyet Eşitliği",
+        "secili": false
+      },
+      {
+        "amac": "Temiz Su ve Sanitasyon",
+        "secili": false
+      },
+      {
+        "amac": "Erişilebilir ve Temiz Enerji",
+        "secili": false
+      },
+      {
+        "amac": "İnsana Yakışır İş ve Ekonomik Büyüme",
+        "secili": true
+      },
+      {
+        "amac": "Sanayi, Yenilikçilik ve Altyapı",
+        "secili": true
+      },
+      {
+        "amac": "Eşitsizliklerin Azaltılması",
+        "secili": true
+      },
+      {
+        "amac": "Sürdürülebilir Şehirler ve Topluluklar",
+        "secili": true
+      },
+      {
+        "amac": "Sorumlu Üretim ve Tüketim",
+        "secili": true
+      },
+      {
+        "amac": "İklim Eylemi",
+        "secili": true
+      },
+      {
+        "amac": "Sudaki Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Karasal Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Barış, Adalet ve Güçlü Kurumlar",
+        "secili": false
+      },
+      {
+        "amac": "Amaçlar İçin Ortaklıklar",
+        "secili": true
+      }
+    ],
+    "toplumsalKatkiAlanlari": [
+      {
+        "alan": "Eğitim ve Öğretim",
+        "secili": true
+      },
+      {
+        "alan": "Sağlık",
+        "secili": true
+      },
+      {
+        "alan": "Sosyal Hizmetler ve Toplumsal Eşitlik",
+        "secili": true
+      },
+      {
+        "alan": "Çevre ve Sürdürülebilirlik",
+        "secili": true
+      },
+      {
+        "alan": "Teknolojik ve Bilimsel Yenilikler",
+        "secili": true
+      },
+      {
+        "alan": "Ekonomik Kalkınma ve Girişimcilik",
+        "secili": true
+      },
+      {
+        "alan": "Kültürel ve Sanatsal Etkinlikler",
+        "secili": false
+      },
+      {
+        "alan": "Uluslararası İş birliği ve Diplomasi",
+        "secili": false
+      },
+      {
+        "alan": "Toplum yararına yapılacak diğer çalışmalar",
+        "secili": true
+      }
+    ]
+  },
+  "dersSekmeler": {
+    "dersGenel": true,
+    "dersOgrenmeÇiktilari": true,
+    "haftalikDersIcerikleri": true,
+    "dersIsYuku": true,
+    "dersDegerlendirme": true,
+    "programVeOgrenmeÇiktilariIliskisi": true,
+    "toplumsalKatkiVeSurdurulebilirlik": true
+  },
+  "denetimBilgileri": {
+    "olusturmaTarihi": "2025-05-10 18:09:50",
+    "olusturan": "json_processor_script",
+    "sonGuncellenmeTarihi": "2025-05-10 18:09:50",
+    "guncelleyen": "json_processor_script",
+    "durum": "Taslak"
+  },
+  "numaralandirmaDegerleri": {
+    "dersTurleri": [
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dersSeviyesi": [
+      "Lisans",
+      "Yüksek Lisans",
+      "Doktora"
+    ],
+    "ogretimSistemi": [
+      "Birinci Öğretim",
+      "İkinci Öğretim",
+      "Uzaktan Öğretim"
+    ],
+    "egitimDili": [
+      "Türkçe",
+      "İngilizce"
+    ],
+    "stajDurumu": [
+      "Mevcut Değil",
+      "Mevcut",
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dokumanDurumu": [
+      "Taslak",
+      "Onaylandı",
+      "Yayınlandı",
+      "Revize Edildi"
+    ]
+  }
+}

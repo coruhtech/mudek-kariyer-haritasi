@@ -1,0 +1,767 @@
+{
+  "dersGenel": {
+    "dersTuru": "Seçmeli",
+    "dersinSeviyesi": "Lisans",
+    "dersKredisi": 3,
+    "dersinAKTSKredisi": 4,
+    "haftalikDersSaatiKuramsal": 3,
+    "haftalikUygulamaSaati": 0,
+    "haftalikLaboratuarSaati": 0,
+    "dersinVerildigiYariyil": 3,
+    "ogretimSistemi": "Birinci Öğretim",
+    "egitimDili": "Türkçe",
+    "secmeliDersKodu": "SECPFS01",
+    "universite": "Recep Tayyip Erdoğan Üniversitesi",
+    "ulke": "Türkiye",
+    "il": "Rize",
+    "ilce": "Merkez",
+    "mahalle": "Fener Mah",
+    "fakulte": "Mühendislik Ve Mimarlık Fakültesi",
+    "bolum": "Bilgisayar Mühendisliği",
+    "dersKodu": "PFS201",
+    "dersAdi": "Eğitime Giriş",
+    "ogretimYiliDonemi": "Güz",
+    "dersAKTSKredisi": 4,
+    "dilSecimi": "Türkçe",
+    "mufredatOlusturulmaYili": "2024",
+    "akademikYil": "",
+    "secmeliDersGrubuKodu": "SECPFS01"
+  },
+  "dersIcerik": {
+    "dersinAmaci": "Öğrencilere eğitimin temel kavramlarını, amaçlarını, tarihsel gelişimini ve Türk eğitim sisteminin yapısını tanıtmak, eğitim biliminin temel alanları hakkında genel bir bakış açısı sunmak ve öğretmenlik mesleğine yönelik temel bilgi ve becerileri kazandırmaktır.",
+    "dersinOnKosuluOlanDersler": "Mevcut Değil",
+    "dersinIcerigi": "Eğitimin temel kavramları (eğitim, öğretim, öğrenme vb.), eğitimin amaçları ve işlevleri, eğitimin diğer bilimlerle ilişkisi, eğitimin felsefi, sosyal, hukuki, psikolojik, ekonomik ve politik temelleri, Türk eğitim sisteminin yapısı ve özellikleri, öğretmenlik mesleği ve güncel eğitim sorunları.",
+    "dersinIcinOnerilenHususlar": "Derse düzenli katılım, belirtilen okumaların yapılması ve eğitim kurumlarındaki gözlem çalışmalarına aktif katılım önerilir. Öğrencilerin güncel eğitim sorunlarını takip etmeleri ve sınıf içi tartışmalara hazırlıklı gelmeleri beklenmektedir.",
+    "ogretimTuru": "Birinci Öğretim",
+    "stajDurumu": "Mevcut Değil",
+    "dersinKitabiMalzemesiOnerilenKaynaklar": "Sönmez, V. (2022). Eğitim Felsefesi. Ankara: Anı Yayıncılık.\nÖzden, Y. (2023). Eğitimde Yeni Değerler. Ankara: Pegem Akademi.\nAydın, A. (2021). Eğitim Bilimine Giriş. İstanbul: Pegem A Yayıncılık.\nTezcan, M. (2022). Eğitim Sosyolojisi. Ankara: Anı Yayıncılık.\nHarris, K. (2021). Eğitim ve Bilgi. İstanbul: Ayrıntı Yayınları.\nErden, M. (2023). Eğitim Bilimlerine Giriş. İstanbul: Arkadaş Yayınevi.\nMilli Eğitim Bakanlığı. (2024). Türk Milli Eğitim Sistemine İlişkin Mevzuat ve Yönetmelikler.\nAyrıca öğretim üyesi tarafından ders süresince sağlanacak güncel makaleler ve raporlar.",
+    "dersiVerenOgretimUyesiOgretimGorevlisi": "Dr. Öğr. Üyesi",
+    "hazirlanmaTarihi": "27.04.2025"
+  },
+  "dersOgrenmeÇiktilari": [
+    {
+      "id": "ÖÇ.1",
+      "aciklama": "Eğitimin temel kavramlarını (eğitim, öğretim, öğrenme, kültür), amaçlarını ve bireysel/toplumsal işlevlerini tanımlar."
+    },
+    {
+      "id": "ÖÇ.2",
+      "aciklama": "Eğitimin felsefi (eğitim felsefesi akımları), sosyal, hukuki ve tarihsel temellerini ve eğitimin diğer bilimlerle ilişkisini açıklar."
+    },
+    {
+      "id": "ÖÇ.3",
+      "aciklama": "Eğitimin psikolojik (gelişim, öğrenme) ve ekonomik temellerini analiz eder."
+    },
+    {
+      "id": "ÖÇ.4",
+      "aciklama": "Türk Milli Eğitim Sisteminin amaçlarını, temel ilkelerini, yapısını (örgün/yaygın eğitim kademeleri) ve işleyişini açıklar."
+    },
+    {
+      "id": "ÖÇ.5",
+      "aciklama": "Öğretmenlik mesleğinin özelliklerini, yeterliklerini, etik ilkelerini ve Türkiye'deki öğretmen yetiştirme sürecini değerlendirir."
+    },
+    {
+      "id": "ÖÇ.6",
+      "aciklama": "Okulun toplumsal bir sistem olarak yapısını, işleyişini ve toplumla olan ilişkisini analiz eder."
+    },
+    {
+      "id": "ÖÇ.7",
+      "aciklama": "Eğitimde fırsat eşitliği, güncel eğitim sorunları ve yaklaşımları hakkında bilgi sahibi olur ve yaşam boyu öğrenme bağlamında değerlendirir."
+    }
+  ],
+  "haftalikDersIcerikleri": [
+    {
+      "hafta": 1,
+      "icerik": "Dersin Tanıtımı ve Genel Bilgilendirme; Eğitimin Temel Kavramları (eğitim, öğretim, öğrenme, kültür, sosyalleşme vb.)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Tartışma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Temel Kaynak Kitaplar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Eğitim kavramlarının incelenmesi"
+    },
+    {
+      "hafta": 2,
+      "icerik": "Eğitimin Amaçları ve İşlevleri: Bireysel ve toplumsal işlevler, eğitimin resmi ve örtük işlevleri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "İlgili bölümlerin okunması",
+      "ogretimYontemleri": "Anlatım, Tartışma, Grup Çalışması",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Makaleler",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Toplumsal hedefler analizi"
+    },
+    {
+      "hafta": 3,
+      "icerik": "Eğitimin Diğer Bilimlerle İlişkisi: Psikoloji, sosyoloji, felsefe, ekonomi, siyaset bilimi ile ilişkiler",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "İlgili bölümlerin okunması",
+      "ogretimYontemleri": "Anlatım, Tartışma, Beyin Fırtınası",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Bilimsel Makaleler",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Disiplinlerarası ilişki haritası oluşturma"
+    },
+    {
+      "hafta": 4,
+      "icerik": "Eğitimin Felsefi Temelleri: İdealizm, realizm, pragmatizm, varoluşçuluk, yapılandırmacılık gibi felsefi akımlar ve eğitim",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "İlgili bölümlerin okunması",
+      "ogretimYontemleri": "Anlatım, Tartışma, Örnek Olay İncelemesi",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Felsefi Metinler",
+      "degerlendirmeYontemleri": "Laboratuvar Çalışması",
+      "odevVeCalisma": "Felsefi akımların eğitime yansımaları araştırması"
+    },
+    {
+      "hafta": 5,
+      "icerik": "Eğitimin Sosyal ve Tarihsel Temelleri: Eğitimin toplumsallaşma süreci, tarihsel gelişimi, toplumsal değişim ve eğitim",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.6",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "İlgili bölümlerin okunması",
+      "ogretimYontemleri": "Anlatım, Panel, Video Analizi",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Tarihsel Dokümanlar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Toplumsal değişim ve eğitim ilişkisi incelemesi"
+    },
+    {
+      "hafta": 6,
+      "icerik": "Eğitimin Hukuki ve Politik Temelleri: Eğitim hukuku, eğitim politikaları, eğitimde yasal düzenlemeler",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "İlgili bölümlerin okunması",
+      "ogretimYontemleri": "Anlatım, Tartışma, Örnek Olay İncelemesi",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Yasal Metinler",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Eğitim mevzuatı analizi"
+    },
+    {
+      "hafta": 7,
+      "icerik": "Eğitimin Psikolojik ve Ekonomik Temelleri: Öğrenme kuramları, gelişim psikolojisi, insan sermayesi, eğitimin ekonomik getirisi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "İlgili bölümlerin okunması",
+      "ogretimYontemleri": "Anlatım, Grup Çalışması, Vaka Analizi",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Araştırma Makaleleri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Eğitim ekonomisi veri analizi"
+    },
+    {
+      "hafta": 8,
+      "icerik": "Ara Sınav",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "1-7 hafta konuları",
+      "ogretimYontemleri": "Sınav",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Yazılı Sınav",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 9,
+      "icerik": "Türk Eğitim Sisteminin Yapısı: Örgün ve yaygın eğitim, eğitim kademeleri, okul türleri ve örgütsel yapı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "İlgili bölümlerin okunması",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Şema Çalışması",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, MEB Yayınları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Sistem şeması hazırlama"
+    },
+    {
+      "hafta": 10,
+      "icerik": "Türk Eğitim Sisteminin İşleyişi: Eğitim mevzuatı, merkezi ve yerel yönetim, okul yönetimi, öğretim programları",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "İlgili bölümlerin okunması",
+      "ogretimYontemleri": "Anlatım, Vaka Analizi, Grup Tartışması",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Yönetmelikler",
+      "degerlendirmeYontemleri": "Laboratuvar Çalışması",
+      "odevVeCalisma": "Mevzuat analizi raporu"
+    },
+    {
+      "hafta": 11,
+      "icerik": "Öğretmenlik Mesleği ve Özellikleri: Öğretmenlik mesleğinin tarihçesi, öğretmen rolleri, yeterlikleri ve hak/sorumlulukları",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.5, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "İlgili bölümlerin okunması",
+      "ogretimYontemleri": "Anlatım, Tartışma, Örnek Olay İncelemesi",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, MEB Öğretmen Yeterlikleri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Öğretmen röportajı hazırlama"
+    },
+    {
+      "hafta": 12,
+      "icerik": "Öğretmenlik Mesleğinde Etik İlkeler ve Mesleki Gelişim: Etik kurallar, öğretmen yetiştirme ve geliştirme",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.5, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "İlgili bölümlerin okunması",
+      "ogretimYontemleri": "Anlatım, Tartışma, Rol Oynama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Etik İlkeler Dokümanları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Etik vaka analizi"
+    },
+    {
+      "hafta": 13,
+      "icerik": "Eğitimde Güncel Yaklaşımlar ve Eğilimler: Yenilikçi eğitim modelleri, bilgi toplumunda eğitim, uzaktan eğitim",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "İlgili bölümlerin okunması",
+      "ogretimYontemleri": "Anlatım, Panel, Örnek Uygulama İncelemesi",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Güncel Akademik Makaleler",
+      "degerlendirmeYontemleri": "Laboratuvar Çalışması",
+      "odevVeCalisma": "Yenilikçi eğitim modeli incelemesi"
+    },
+    {
+      "hafta": 14,
+      "icerik": "Okul ve Toplum İlişkisi: Okulun toplumsal rolleri, okul-aile-toplum işbirliği, topluma hizmet uygulamaları",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "İlgili bölümlerin okunması",
+      "ogretimYontemleri": "Anlatım, Grup Çalışması, Örnek Olay İncelemesi",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Vaka Çalışmaları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Toplumsal katılım projesi tasarımı"
+    },
+    {
+      "hafta": 15,
+      "icerik": "Eğitimde Fırsat Eşitliği ve Sorunlar: Eğitimde eşitsizlikler, kapsayıcı eğitim, güncel sorunlar ve çözüm önerileri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "İlgili bölümlerin okunması",
+      "ogretimYontemleri": "Anlatım, Forum, Tartışma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, İstatistiksel Veriler",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Final çalışması hazırlığı"
+    },
+    {
+      "hafta": 16,
+      "icerik": "Final Sınavı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm konular",
+      "ogretimYontemleri": "Sınav",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Yazılı Sınav",
+      "odevVeCalisma": "-"
+    }
+  ],
+  "dersIsYuku": {
+    "etkinlikler": [
+      {
+        "etkinlik": "Derse Katılım",
+        "sayi": 15,
+        "sure": 3,
+        "toplamIsYuku": 45
+      },
+      {
+        "etkinlik": "Bireysel Çalışma",
+        "sayi": 15,
+        "sure": 1.5,
+        "toplamIsYuku": 22.5
+      },
+      {
+        "etkinlik": "Ev Ödevi",
+        "sayi": 2,
+        "sure": 4,
+        "toplamIsYuku": 8
+      },
+      {
+        "etkinlik": "Ara Sınav İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 8,
+        "toplamIsYuku": 8
+      },
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "sure": 2,
+        "toplamIsYuku": 2
+      },
+      {
+        "etkinlik": "Final Sınavı İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 12.5,
+        "toplamIsYuku": 12.5
+      },
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "sure": 2,
+        "toplamIsYuku": 2
+      }
+    ],
+    "toplamIsYuku": 100,
+    "dersAKTSKredisi": 4,
+    "hesaplama": "Dersin AKTS Kredisi = Toplam İş Yükü (Saat) / 25 = 4",
+    "aktsHesaplama": "Toplam İş Yükü / 25"
+  },
+  "etkinlikTurleri": [
+    "Alan Çalışması",
+    "Alan Gezisi",
+    "Ara Sınav",
+    "Ara Sınav İçin Bireysel Çalışma",
+    "Beyin Fırtınası",
+    "Bireysel Çalışma",
+    "Bütünleme Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Derse Katılım",
+    "Ev Ödevi",
+    "Final Sınavı",
+    "Final Sınavı İçin Bireysel Çalışma",
+    "Gösterme",
+    "Gözlem",
+    "Laboratuvar",
+    "Laboratuvar Ara Sınavı",
+    "Laboratuvar Sınavı",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Multirom CD Çalışması",
+    "Ödev Problemleri İçin Çalışma",
+    "Okuma",
+    "Örnek Vaka İncelemesi",
+    "Performans",
+    "Problem Çözümü",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Quiz İçin Bireysel Çalışma",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Rehberli Problem Çözümü",
+    "Rol Oynama / Dramatizasyon",
+    "Seminer",
+    "Soru-Yanıt",
+    "Sözlü Sınav",
+    "Takım/Grup Çalışması",
+    "Tartışma",
+    "Toplantı Başkanlığı Yapma",
+    "Uygulama/Pratik"
+  ],
+  "dersDegerlendirme": {
+    "yariyilIciEtkinlikleri": [
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "katkiYuzdesi": 100
+      }
+    ],
+    "yariyilIciToplam": 100,
+    "yariyilSonuEtkinlikleri": [
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "katkiYuzdesi": 100
+      }
+    ],
+    "yariyilSonuToplam": 100,
+    "genelDegerlendirme": [
+      {
+        "degerlendirme": "Yarıyıl (Yıl) İçi Etkinlikleri",
+        "katkiYuzdesi": 40
+      },
+      {
+        "degerlendirme": "Yarıyıl (Yıl) Sonu Etkinlikleri",
+        "katkiYuzdesi": 60
+      }
+    ],
+    "genelDegerlendirmeToplam": 100
+  },
+  "yariyilIciOlasiEtkinlikler": [
+    "Ara Sınav",
+    "Laboratuvar Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Performans",
+    "Quiz",
+    "Rapor",
+    "Rapor Sunma",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Rehberli Problem Çözümü",
+    "Seminer",
+    "Sözlü Sınav",
+    "Ödev Problemleri İçin Çalışma",
+    "Proje Tasarımı/Yönetimi"
+  ],
+  "yariyilSonuOlasiEtkinlikler": [
+    "Final Sınavı",
+    "Laboratuvar Ara Sınavı",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Seminer",
+    "Sözlü Sınav",
+    "Gözlem"
+  ],
+  "programCiktilari": [
+    {
+      "id": "PÇ.1",
+      "kategori": "BİLGİ - Kuramsal Olgusal",
+      "aciklama": "TEMEL BİLGİ: Matematik, Fen Bilimleri ve Bilgisayar Mühendisliği konularında yeterli bilgi sahibidir; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanır."
+    },
+    {
+      "id": "PÇ.2",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "PROBLEM ÇÖZME: Karmaşık Bilgisayar Mühendisliği problemlerini saptar, tanımlar, formüle eder ve çözer; bu amaca uygun analiz ve modelleme yöntemlerini seçer ve uygular."
+    },
+    {
+      "id": "PÇ.3",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TASARIM: Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlar; bu amaçla modern tasarım yöntemlerini uygular."
+    },
+    {
+      "id": "PÇ.4",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TEKNOLOJİ: Bilgisayar Mühendisliği uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirir, seçer ve kullanır; bilişim teknolojilerini etkin bir şekilde kullanır."
+    },
+    {
+      "id": "PÇ.5",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "ARAŞTIRMA: Karmaşık Bilgisayar Mühendisliği problemlerinin veya araştırma konularının incelenmesi için deney tasarlar, deney yapar, veri toplar, sonuçları analiz eder ve yorumlar."
+    },
+    {
+      "id": "PÇ.6",
+      "kategori": "YETKİNLİKLER - Bağımsız Çalışabilme ve Sorumluluk Alabilme Yetkinliği",
+      "aciklama": "İŞBİRLİĞİ: Bilgisayar Mühendisliği disiplini içinde ve çok disiplinli takımlarda etkin biçimde çalışır; bireysel çalışma sergiler."
+    },
+    {
+      "id": "PÇ.7",
+      "kategori": "YETKİNLİKLER - Öğrenme Yetkinliği",
+      "aciklama": "GELİŞİM: Yaşam boyu öğrenmenin gerekliliğinin bilincindedir; bilgiye erişir, bilim ve teknolojideki gelişmeleri izler ve kendini sürekli yeniler; insanlık tarihi boyunca oluşan bilgi birikimini Bilgisayar Mühendisliği alanıyla ilişkilendirir."
+    },
+    {
+      "id": "PÇ.8",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "İLETİŞİM: Türkçe sözlü ve yazılı etkin iletişim kurar; etkin rapor yazar ve yazılı raporları anlar, tasarım ve üretim raporları hazırlar, etkin sunum yapar, açık ve anlaşılır talimat verir ve alır."
+    },
+    {
+      "id": "PÇ.9",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "TOPLUMSAL BİLİNÇ: Bilgisayar Mühendisliği uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi sahibidir; mühendislik çözümlerinin hukuksal sonuçlarının farkındadır."
+    },
+    {
+      "id": "PÇ.10",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "ULUSLARARASILIK: Bir yabancı dili kullanarak Bilgisayar Mühendisliği ile ilişkili konularda, bilgi toplar ve meslektaşları ile iletişim kurar."
+    },
+    {
+      "id": "PÇ.11",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "ETİK: Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilincine sahiptir; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi sahibidir."
+    },
+    {
+      "id": "PÇ.12",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "YÖNETİM: Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi sahibidir; girişimcilik, yenilikçilik hakkında bilinçlidir; sürdürülebilir kalkınma hakkında bilgi sahibidir."
+    }
+  ],
+  "programVeOgrenmeIliskisi": {
+    "iliskiOlcekleri": "0-5 arası değerler (0: İlişki yok, 5: Çok güçlü ilişki)",
+    "iliskiTablosu": [
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.1",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 5,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.2",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.3",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.4",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 3,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.5",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 3,
+          "PÇ.7": 3,
+          "PÇ.8": 3,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.6",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 3,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 3
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.7",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 3,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      }
+    ]
+  },
+  "toplumsalKatkiVeSurdurulebilirlik": {
+    "surdurulebilirKalkinmaAmaclari": [
+      {
+        "amac": "Yoksulluğa Son",
+        "secili": false
+      },
+      {
+        "amac": "Açlığa Son",
+        "secili": false
+      },
+      {
+        "amac": "Sağlık ve Kaliteli Yaşam",
+        "secili": true
+      },
+      {
+        "amac": "Nitelikli Eğitim",
+        "secili": true
+      },
+      {
+        "amac": "Toplumsal Cinsiyet Eşitliği",
+        "secili": true
+      },
+      {
+        "amac": "Temiz Su ve Sanitasyon",
+        "secili": false
+      },
+      {
+        "amac": "Erişilebilir ve Temiz Enerji",
+        "secili": false
+      },
+      {
+        "amac": "İnsana Yakışır İş ve Ekonomik Büyüme",
+        "secili": true
+      },
+      {
+        "amac": "Sanayi, Yenilikçilik ve Altyapı",
+        "secili": false
+      },
+      {
+        "amac": "Eşitsizliklerin Azaltılması",
+        "secili": true
+      },
+      {
+        "amac": "Sürdürülebilir Şehirler ve Topluluklar",
+        "secili": true
+      },
+      {
+        "amac": "Sorumlu Üretim ve Tüketim",
+        "secili": false
+      },
+      {
+        "amac": "İklim Eylemi",
+        "secili": false
+      },
+      {
+        "amac": "Sudaki Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Karasal Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Barış, Adalet ve Güçlü Kurumlar",
+        "secili": true
+      },
+      {
+        "amac": "Amaçlar İçin Ortaklıklar",
+        "secili": true
+      }
+    ],
+    "toplumsalKatkiAlanlari": [
+      {
+        "alan": "Eğitim ve Öğretim",
+        "secili": true
+      },
+      {
+        "alan": "Sağlık",
+        "secili": false
+      },
+      {
+        "alan": "Sosyal Hizmetler ve Toplumsal Eşitlik",
+        "secili": true
+      },
+      {
+        "alan": "Çevre ve Sürdürülebilirlik",
+        "secili": false
+      },
+      {
+        "alan": "Teknolojik ve Bilimsel Yenilikler",
+        "secili": true
+      },
+      {
+        "alan": "Ekonomik Kalkınma ve Girişimcilik",
+        "secili": true
+      },
+      {
+        "alan": "Kültürel ve Sanatsal Etkinlikler",
+        "secili": true
+      },
+      {
+        "alan": "Uluslararası İş birliği ve Diplomasi",
+        "secili": false
+      },
+      {
+        "alan": "Toplum yararına yapılacak diğer çalışmalar",
+        "secili": true
+      }
+    ]
+  },
+  "dersSekmeler": {
+    "dersGenel": true,
+    "dersOgrenmeÇiktilari": true,
+    "haftalikDersIcerikleri": true,
+    "dersIsYuku": true,
+    "dersDegerlendirme": true,
+    "programVeOgrenmeÇiktilariIliskisi": true,
+    "toplumsalKatkiVeSurdurulebilirlik": true
+  },
+  "denetimBilgileri": {
+    "olusturmaTarihi": "2025-05-10 18:09:35",
+    "olusturan": "json_processor_script",
+    "sonGuncellenmeTarihi": "2025-05-10 18:09:35",
+    "guncelleyen": "json_processor_script",
+    "durum": "Taslak"
+  },
+  "numaralandirmaDegerleri": {
+    "dersTurleri": [
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dersSeviyesi": [
+      "Lisans",
+      "Yüksek Lisans",
+      "Doktora"
+    ],
+    "ogretimSistemi": [
+      "Birinci Öğretim",
+      "İkinci Öğretim",
+      "Uzaktan Öğretim"
+    ],
+    "egitimDili": [
+      "Türkçe",
+      "İngilizce"
+    ],
+    "stajDurumu": [
+      "Mevcut Değil",
+      "Mevcut",
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dokumanDurumu": [
+      "Taslak",
+      "Onaylandı",
+      "Yayınlandı",
+      "Revize Edildi"
+    ]
+  }
+}

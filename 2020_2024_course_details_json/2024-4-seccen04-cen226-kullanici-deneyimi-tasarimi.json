@@ -1,0 +1,765 @@
+{
+  "dersGenel": {
+    "secmeliDersKodu": "SECCEN04",
+    "dersTuru": "Seçmeli",
+    "dersinSeviyesi": "Lisans",
+    "dersKredisi": 3,
+    "dersinAKTSKredisi": 3,
+    "haftalikDersSaatiKuramsal": 3,
+    "haftalikUygulamaSaati": 0,
+    "haftalikLaboratuarSaati": 0,
+    "dersinVerildigiYariyil": 4,
+    "ogretimSistemi": "Birinci Öğretim",
+    "egitimDili": "Türkçe",
+    "universite": "Recep Tayyip Erdoğan Üniversitesi",
+    "ulke": "Türkiye",
+    "il": "Rize",
+    "ilce": "Merkez",
+    "mahalle": "Fener Mah",
+    "fakulte": "Mühendislik Ve Mimarlık Fakültesi",
+    "bolum": "Bilgisayar Mühendisliği",
+    "dersKodu": "CEN226",
+    "dersAdi": "Kullanıcı Deneyimi Tasarımı",
+    "ogretimYiliDonemi": "Bahar",
+    "dersAKTSKredisi": 3,
+    "dilSecimi": "Türkçe",
+    "mufredatOlusturulmaYili": "2024",
+    "akademikYil": "",
+    "secmeliDersGrubuKodu": "SECCEN04"
+  },
+  "dersIcerik": {
+    "dersinAmaci": "Bu dersin amacı, öğrencilere kullanıcı deneyimi tasarımı prensiplerini, yöntemlerini ve uygulamalarını öğretmektir. Ders, kullanıcı odaklı tasarım yaklaşımları, kullanılabilirlik testleri, etkileşim tasarımı ve arayüz geliştirme konularını kapsar. Öğrenciler, kullanıcı araştırmaları yapma, kişi (persona) oluşturma, kullanıcı yolculuk haritaları çıkarma ve prototip geliştirme becerilerini kazanacaklardır.",
+    "dersinOnKosuluOlanDersler": "Mevcut Değil",
+    "dersinIcerigi": "Kullanıcı Deneyimi Kavramı ve Tarihi: UX'in temel kavramları, gelişimi ve günümüzdeki önemi\nKullanıcı Odaklı Tasarım Süreci: UX tasarım sürecinin aşamaları ve metodolojileri\nKullanıcı Araştırması ve Analizi: Kullanıcı ihtiyaçlarını belirleme, veri toplama ve analiz yöntemleri\nPersona Oluşturma ve Kullanıcı Senaryoları: Hedef kitle tanımlama, kullanıcı profillerini oluşturma\nBilgi Mimarisi: İçerik organizasyonu, navigasyon yapıları ve etiketleme sistemleri\nEtkileşim Tasarımı: Kullanıcı etkileşim modelleri, mikro-etkileşimler ve feedback mekanizmaları\nArayüz Tasarımı Prensipleri: Layout, tipografi, renk teorisi ve görsel hiyerarşi\nPrototipleme: Düşük ve yüksek sadakatli prototip oluşturma teknikleri ve araçları\nKullanılabilirlik Testleri: Test metodolojileri, kullanıcı geribildirimi toplama ve analiz etme\nErişilebilirlik ve Kapsayıcı Tasarım: Farklı kullanıcı ihtiyaçlarına cevap veren tasarım yaklaşımları\nMobil UX Tasarımı: Mobil platformlara özgü UX prensipleri ve uygulamaları\nUX Tasarımında Etik: Kullanıcı verisi, gizlilik ve etik tasarım prensipleri\nUX Stratejisi ve Ölçümleme: Tasarım kararlarını desteklemek için metrik belirleme ve analiz",
+    "dersinIcinOnerilenHususlar": "Öğrencilerin derslere düzenli katılımı, proje çalışmalarına aktif katılımı ve verilen tasarım ödevlerini zamanında tamamlaması beklenmektedir. Teorik bilgilerden ziyade pratik uygulamalara ağırlık verilecektir. Öğrencilerin ders dışında da kendi UX projelerini geliştirerek öğrendiklerini pekiştirmeleri önerilir.",
+    "ogretimTuru": "Birinci Öğretim",
+    "stajDurumu": "Mevcut Değil",
+    "dersinKitabiMalzemesiOnerilenKaynaklar": "Don Norman. The Design of Everyday Things\nJesse James Garrett. The Elements of User Experience\nSteve Krug. Don't Make Me Think\nIndi Young. Mental Models: Aligning Design Strategy with Human Behavior\nAlan Cooper. About Face: The Essentials of Interaction Design\nNielsen Norman Group web sitesi (www.nngroup.com)\nDers slaytları ve örnek incelemeler düzenli olarak ders portalında paylaşılacaktır.",
+    "dersiVerenOgretimUyesiOgretimGorevlisi": "Dr. Öğr. Üyesi",
+    "hazirlanmaTarihi": "27.04.2025"
+  },
+  "dersOgrenmeÇiktilari": [
+    {
+      "id": "ÖÇ.1",
+      "aciklama": "Kullanıcı deneyimi tasarımının temel prensiplerini, kavramlarını ve tarihsel gelişimini açıklar."
+    },
+    {
+      "id": "ÖÇ.2",
+      "aciklama": "Kullanıcı odaklı tasarım sürecini ve aşamalarını tanımlayarak uygun metodolojileri seçer ve uygular."
+    },
+    {
+      "id": "ÖÇ.3",
+      "aciklama": "Kullanıcı araştırması yöntemlerini kullanarak veri toplar, analiz eder ve persona, kullanıcı senaryoları gibi çıktılar oluşturur."
+    },
+    {
+      "id": "ÖÇ.4",
+      "aciklama": "Bilgi mimarisi, etkileşim tasarımı ve arayüz tasarımı prensiplerini uygulayarak kullanılabilir dijital ürünler tasarlar."
+    },
+    {
+      "id": "ÖÇ.5",
+      "aciklama": "Düşük ve yüksek sadakatli prototipler oluşturarak tasarım fikirlerini görselleştirir ve test eder."
+    },
+    {
+      "id": "ÖÇ.6",
+      "aciklama": "Kullanılabilirlik testleri planlayarak uygular, kullanıcı geri bildirimlerini analiz eder ve tasarım iyileştirmeleri önerir."
+    },
+    {
+      "id": "ÖÇ.7",
+      "aciklama": "Erişilebilirlik standartlarını ve kapsayıcı tasarım yaklaşımlarını dijital ürün tasarımlarına entegre eder."
+    }
+  ],
+  "haftalikDersIcerikleri": [
+    {
+      "hafta": 1,
+      "icerik": "Kullanıcı Deneyimi Kavramı ve Tarihi: UX'in tanımı, önemi ve tarihsel gelişimi. UX disiplininin diğer alanlarla ilişkisi.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Tartışma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Sunumları, Online Kaynaklar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "UX kavramı hakkında araştırma"
+    },
+    {
+      "hafta": 2,
+      "icerik": "Kullanıcı Odaklı Tasarım Süreci: UX tasarım sürecinin aşamaları, kullanıcı odaklı tasarım metodolojileri ve yaklaşımlar.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "UX kavramlarını inceleme",
+      "ogretimYontemleri": "Anlatım, Örnek Olay İncelemesi",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Sunumları, Örnek Projeler",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Kullanıcı odaklı bir problem tanımlama"
+    },
+    {
+      "hafta": 3,
+      "icerik": "Kullanıcı Araştırması - I: Kullanıcı ihtiyaçlarını belirleme, kullanıcı araştırma yöntemleri (görüşmeler, anketler).",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Araştırma yöntemleri inceleme",
+      "ogretimYontemleri": "Anlatım, Grup Çalışması",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Araştırma Metodolojileri Kaynakları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Mini kullanıcı araştırması planı hazırlama"
+    },
+    {
+      "hafta": 4,
+      "icerik": "Kullanıcı Araştırması - II: Gözlemsel araştırma teknikleri, bağlamsal sorgulamalar, kullanıcı gölgeleme.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Araştırma planı",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Kayıt Cihazları",
+      "kaynakVeMateryal": "Gözlemsel Araştırma Kılavuzları",
+      "degerlendirmeYontemleri": "Ödev Değerlendirme",
+      "odevVeCalisma": "Kullanıcı araştırması uygulama ve raporlama"
+    },
+    {
+      "hafta": 5,
+      "icerik": "Persona Oluşturma ve Kullanıcı Senaryoları: Hedef kitle tanımlama, kullanıcı profillerini oluşturma ve kullanıcı yolculuk haritaları.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Kullanıcı araştırması verileri",
+      "ogretimYontemleri": "Anlatım, Atölye Çalışması",
+      "aracVeGerecler": "Bilgisayar, Tasarım Araçları",
+      "kaynakVeMateryal": "Persona Örnekleri, Şablonlar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Persona ve kullanıcı senaryosu oluşturma"
+    },
+    {
+      "hafta": 6,
+      "icerik": "Bilgi Mimarisi: İçerik organizasyonu, navigasyon yapıları, etiketleme sistemleri ve kart sıralama tekniği.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Persona ve senaryolar",
+      "ogretimYontemleri": "Anlatım, Atölye Çalışması",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Bilgi Mimarisi Kaynakları",
+      "degerlendirmeYontemleri": "Ödev Değerlendirme",
+      "odevVeCalisma": "Bir web sitesi için bilgi mimarisi oluşturma"
+    },
+    {
+      "hafta": 7,
+      "icerik": "Etkileşim Tasarımı: Kullanıcı etkileşim modelleri, mikro-etkileşimler, feedback mekanizmaları ve hareket tasarımı.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Etkileşim örnekleri inceleme",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Etkileşim Tasarım Araçları",
+      "kaynakVeMateryal": "Etkileşim Tasarımı Örnekleri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Etkileşim tasarımı örnekleri oluşturma"
+    },
+    {
+      "hafta": 8,
+      "icerik": "Ara Sınav: Dönem Projesi Sunum ve Değerlendirmesi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Proje hazırlığı",
+      "ogretimYontemleri": "Sunum, Değerlendirme",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Proje Değerlendirme",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 9,
+      "icerik": "Arayüz Tasarımı Prensipleri: Layout, tipografi, renk teorisi, görsel hiyerarşi ve UI tasarım sistemleri.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Arayüz örnekleri inceleme",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Tasarım Yazılımları",
+      "kaynakVeMateryal": "UI Tasarım Kaynakları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Arayüz tasarım çalışması"
+    },
+    {
+      "hafta": 10,
+      "icerik": "Prototipler - I: Düşük sadakatli prototip teknikleri, kağıt prototipleme, wireframe oluşturma.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Prototip örnekleri",
+      "ogretimYontemleri": "Anlatım, Atölye Çalışması",
+      "aracVeGerecler": "Kağıt, Kalem, Wireframe Araçları",
+      "kaynakVeMateryal": "Prototipleme Kılavuzları",
+      "degerlendirmeYontemleri": "Ödev Değerlendirme",
+      "odevVeCalisma": "Düşük sadakatli prototip oluşturma"
+    },
+    {
+      "hafta": 11,
+      "icerik": "Prototipler - II: Yüksek sadakatli prototip teknikleri, etkileşimli prototipler, prototipler için araçlar.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Düşük sadakatli prototip",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Prototip Yazılımları",
+      "kaynakVeMateryal": "Prototip Araçları Dokümantasyonu",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Yüksek sadakatli prototip oluşturma"
+    },
+    {
+      "hafta": 12,
+      "icerik": "Kullanılabilirlik Testleri: Test metodolojileri, kullanıcı geribildirimi toplama ve analiz etme.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.6",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Prototip hazırlama",
+      "ogretimYontemleri": "Anlatım, Demonstrasyon",
+      "aracVeGerecler": "Bilgisayar, Test Ekipmanları",
+      "kaynakVeMateryal": "Kullanılabilirlik Testi Kılavuzları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Kullanılabilirlik testi planlama"
+    },
+    {
+      "hafta": 13,
+      "icerik": "Erişilebilirlik ve Kapsayıcı Tasarım: Farklı kullanıcı ihtiyaçlarına cevap veren tasarım yaklaşımları, WCAG standartları.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Erişilebilirlik standartları",
+      "ogretimYontemleri": "Anlatım, Örnek İnceleme",
+      "aracVeGerecler": "Bilgisayar, Erişilebilirlik Test Araçları",
+      "kaynakVeMateryal": "WCAG Kaynakları",
+      "degerlendirmeYontemleri": "Ödev Değerlendirme",
+      "odevVeCalisma": "Erişilebilirlik analizi yapma"
+    },
+    {
+      "hafta": 14,
+      "icerik": "Mobil UX Tasarımı: Mobil platformlara özgü UX prensipleri ve uygulamaları, responsive tasarım.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Mobil uygulamaları inceleme",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Mobil Tasarım Araçları",
+      "kaynakVeMateryal": "Mobil UX Kaynakları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Mobil arayüz tasarımı"
+    },
+    {
+      "hafta": 15,
+      "icerik": "UX Tasarımında Etik ve Ölçümleme: Kullanıcı verisi, gizlilik, etik tasarım prensipleri ve UX metrikleri.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.6",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Etik vaka çalışmaları",
+      "ogretimYontemleri": "Anlatım, Tartışma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "UX Etik Kaynakları",
+      "degerlendirmeYontemleri": "Ödev Değerlendirme",
+      "odevVeCalisma": "Etik analiz çalışması"
+    },
+    {
+      "hafta": 16,
+      "icerik": "Final: Dönem Sonu Projesi Değerlendirmesi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Final projesi hazırlama",
+      "ogretimYontemleri": "Sunum, Değerlendirme",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Proje Değerlendirme",
+      "odevVeCalisma": "-"
+    }
+  ],
+  "dersIsYuku": {
+    "etkinlikler": [
+      {
+        "etkinlik": "Derse Katılım",
+        "sayi": 14,
+        "sure": 3,
+        "toplamIsYuku": 42
+      },
+      {
+        "etkinlik": "Proje Hazırlama",
+        "sayi": 2,
+        "sure": 8,
+        "toplamIsYuku": 16
+      },
+      {
+        "etkinlik": "Ev Ödevi",
+        "sayi": 5,
+        "sure": 2,
+        "toplamIsYuku": 10
+      },
+      {
+        "etkinlik": "Ara Sınav İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 5,
+        "toplamIsYuku": 5
+      },
+      {
+        "etkinlik": "Final Sınavı İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 5,
+        "toplamIsYuku": 5
+      }
+    ],
+    "toplamIsYuku": 78,
+    "dersAKTSKredisi": 3,
+    "hesaplama": "Dersin AKTS Kredisi = Toplam İş Yükü (Saat) / 25 = 3",
+    "aktsHesaplama": "Toplam İş Yükü / 25"
+  },
+  "etkinlikTurleri": [
+    "Alan Çalışması",
+    "Alan Gezisi",
+    "Ara Sınav",
+    "Ara Sınav İçin Bireysel Çalışma",
+    "Beyin Fırtınası",
+    "Bireysel Çalışma",
+    "Bütünleme Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Derse Katılım",
+    "Ev Ödevi",
+    "Final Sınavı",
+    "Final Sınavı İçin Bireysel Çalışma",
+    "Gösterme",
+    "Gözlem",
+    "Laboratuvar",
+    "Laboratuvar Ara Sınavı",
+    "Laboratuvar Sınavı",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Multirom CD Çalışması",
+    "Ödev Problemleri İçin Çalışma",
+    "Okuma",
+    "Örnek Vaka İncelemesi",
+    "Performans",
+    "Problem Çözümü",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Quiz İçin Bireysel Çalışma",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Rehberli Problem Çözümü",
+    "Rol Oynama / Dramatizasyon",
+    "Seminer",
+    "Soru-Yanıt",
+    "Sözlü Sınav",
+    "Takım/Grup Çalışması",
+    "Tartışma",
+    "Toplantı Başkanlığı Yapma",
+    "Uygulama/Pratik"
+  ],
+  "dersDegerlendirme": {
+    "yariyilIciEtkinlikleri": [
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "katkiYuzdesi": 50
+      },
+      {
+        "etkinlik": "Ev Ödevi",
+        "sayi": 2,
+        "katkiYuzdesi": 50
+      }
+    ],
+    "yariyilIciToplam": 100,
+    "yariyilSonuEtkinlikleri": [
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "katkiYuzdesi": 50
+      },
+      {
+        "etkinlik": "Proje Hazırlama",
+        "sayi": 1,
+        "katkiYuzdesi": 50
+      }
+    ],
+    "yariyilSonuToplam": 100,
+    "genelDegerlendirme": [
+      {
+        "degerlendirme": "Yarıyıl (Yıl) İçi Etkinlikleri",
+        "katkiYuzdesi": 40
+      },
+      {
+        "degerlendirme": "Yarıyıl (Yıl) Sonu Etkinlikleri",
+        "katkiYuzdesi": 60
+      }
+    ],
+    "genelDegerlendirmeToplam": 100
+  },
+  "yariyilIciOlasiEtkinlikler": [
+    "Ara Sınav",
+    "Laboratuvar Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Performans",
+    "Quiz",
+    "Rapor",
+    "Rapor Sunma",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Rehberli Problem Çözümü",
+    "Seminer",
+    "Sözlü Sınav",
+    "Ödev Problemleri İçin Çalışma",
+    "Proje Tasarımı/Yönetimi"
+  ],
+  "yariyilSonuOlasiEtkinlikler": [
+    "Final Sınavı",
+    "Laboratuvar Ara Sınavı",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Seminer",
+    "Sözlü Sınav",
+    "Gözlem"
+  ],
+  "programCiktilari": [
+    {
+      "id": "PÇ.1",
+      "kategori": "BİLGİ - Kuramsal Olgusal",
+      "aciklama": "TEMEL BİLGİ: Matematik, Fen Bilimleri ve Bilgisayar Mühendisliği konularında yeterli bilgi sahibidir; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanır."
+    },
+    {
+      "id": "PÇ.2",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "PROBLEM ÇÖZME: Karmaşık Bilgisayar Mühendisliği problemlerini saptar, tanımlar, formüle eder ve çözer; bu amaca uygun analiz ve modelleme yöntemlerini seçer ve uygular."
+    },
+    {
+      "id": "PÇ.3",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TASARIM: Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlar; bu amaçla modern tasarım yöntemlerini uygular."
+    },
+    {
+      "id": "PÇ.4",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TEKNOLOJİ: Bilgisayar Mühendisliği uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirir, seçer ve kullanır; bilişim teknolojilerini etkin bir şekilde kullanır."
+    },
+    {
+      "id": "PÇ.5",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "ARAŞTIRMA: Karmaşık Bilgisayar Mühendisliği problemlerinin veya araştırma konularının incelenmesi için deney tasarlar, deney yapar, veri toplar, sonuçları analiz eder ve yorumlar."
+    },
+    {
+      "id": "PÇ.6",
+      "kategori": "YETKİNLİKLER - Bağımsız Çalışabilme ve Sorumluluk Alabilme Yetkinliği",
+      "aciklama": "İŞBİRLİĞİ: Bilgisayar Mühendisliği disiplini içinde ve çok disiplinli takımlarda etkin biçimde çalışır; bireysel çalışma sergiler."
+    },
+    {
+      "id": "PÇ.7",
+      "kategori": "YETKİNLİKLER - Öğrenme Yetkinliği",
+      "aciklama": "GELİŞİM: Yaşam boyu öğrenmenin gerekliliğinin bilincindedir; bilgiye erişir, bilim ve teknolojideki gelişmeleri izler ve kendini sürekli yeniler; insanlık tarihi boyunca oluşan bilgi birikimini Bilgisayar Mühendisliği alanıyla ilişkilendirir."
+    },
+    {
+      "id": "PÇ.8",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "İLETİŞİM: Türkçe sözlü ve yazılı etkin iletişim kurar; etkin rapor yazar ve yazılı raporları anlar, tasarım ve üretim raporları hazırlar, etkin sunum yapar, açık ve anlaşılır talimat verir ve alır."
+    },
+    {
+      "id": "PÇ.9",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "TOPLUMSAL BİLİNÇ: Bilgisayar Mühendisliği uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi sahibidir; mühendislik çözümlerinin hukuksal sonuçlarının farkındadır."
+    },
+    {
+      "id": "PÇ.10",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "ULUSLARARASILIK: Bir yabancı dili kullanarak Bilgisayar Mühendisliği ile ilişkili konularda, bilgi toplar ve meslektaşları ile iletişim kurar."
+    },
+    {
+      "id": "PÇ.11",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "ETİK: Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilincine sahiptir; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi sahibidir."
+    },
+    {
+      "id": "PÇ.12",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "YÖNETİM: Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi sahibidir; girişimcilik, yenilikçilik hakkında bilinçlidir; sürdürülebilir kalkınma hakkında bilgi sahibidir."
+    }
+  ],
+  "programVeOgrenmeIliskisi": {
+    "iliskiOlcekleri": "0-5 arası değerler (0: İlişki yok, 5: Çok güçlü ilişki)",
+    "iliskiTablosu": [
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.1",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 5,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.2",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.3",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 0,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 3,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.4",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 3,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.5",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 3,
+          "PÇ.4": 3,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 3,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.6",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 3,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.7",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 3,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      }
+    ]
+  },
+  "toplumsalKatkiVeSurdurulebilirlik": {
+    "surdurulebilirKalkinmaAmaclari": [
+      {
+        "amac": "Yoksulluğa Son",
+        "secili": false
+      },
+      {
+        "amac": "Açlığa Son",
+        "secili": false
+      },
+      {
+        "amac": "Sağlık ve Kaliteli Yaşam",
+        "secili": true
+      },
+      {
+        "amac": "Nitelikli Eğitim",
+        "secili": true
+      },
+      {
+        "amac": "Toplumsal Cinsiyet Eşitliği",
+        "secili": false
+      },
+      {
+        "amac": "Temiz Su ve Sanitasyon",
+        "secili": false
+      },
+      {
+        "amac": "Erişilebilir ve Temiz Enerji",
+        "secili": false
+      },
+      {
+        "amac": "İnsana Yakışır İş ve Ekonomik Büyüme",
+        "secili": true
+      },
+      {
+        "amac": "Sanayi, Yenilikçilik ve Altyapı",
+        "secili": true
+      },
+      {
+        "amac": "Eşitsizliklerin Azaltılması",
+        "secili": true
+      },
+      {
+        "amac": "Sürdürülebilir Şehirler ve Topluluklar",
+        "secili": true
+      },
+      {
+        "amac": "Sorumlu Üretim ve Tüketim",
+        "secili": false
+      },
+      {
+        "amac": "İklim Eylemi",
+        "secili": false
+      },
+      {
+        "amac": "Sudaki Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Karasal Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Barış, Adalet ve Güçlü Kurumlar",
+        "secili": false
+      },
+      {
+        "amac": "Amaçlar İçin Ortaklıklar",
+        "secili": false
+      }
+    ],
+    "toplumsalKatkiAlanlari": [
+      {
+        "alan": "Eğitim ve Öğretim",
+        "secili": true
+      },
+      {
+        "alan": "Sağlık",
+        "secili": true
+      },
+      {
+        "alan": "Sosyal Hizmetler ve Toplumsal Eşitlik",
+        "secili": true
+      },
+      {
+        "alan": "Çevre ve Sürdürülebilirlik",
+        "secili": false
+      },
+      {
+        "alan": "Teknolojik ve Bilimsel Yenilikler",
+        "secili": true
+      },
+      {
+        "alan": "Ekonomik Kalkınma ve Girişimcilik",
+        "secili": true
+      },
+      {
+        "alan": "Kültürel ve Sanatsal Etkinlikler",
+        "secili": false
+      },
+      {
+        "alan": "Uluslararası İş birliği ve Diplomasi",
+        "secili": false
+      },
+      {
+        "alan": "Toplum yararına yapılacak diğer çalışmalar",
+        "secili": true
+      }
+    ]
+  },
+  "dersSekmeler": {
+    "dersGenel": true,
+    "dersOgrenmeÇiktilari": true,
+    "haftalikDersIcerikleri": true,
+    "dersIsYuku": true,
+    "dersDegerlendirme": true,
+    "programVeOgrenmeÇiktilariIliskisi": true,
+    "toplumsalKatkiVeSurdurulebilirlik": true
+  },
+  "denetimBilgileri": {
+    "olusturmaTarihi": "2025-05-10 18:09:38",
+    "olusturan": "json_processor_script",
+    "sonGuncellenmeTarihi": "2025-05-10 18:09:38",
+    "guncelleyen": "json_processor_script",
+    "durum": "Taslak"
+  },
+  "numaralandirmaDegerleri": {
+    "dersTurleri": [
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dersSeviyesi": [
+      "Lisans",
+      "Yüksek Lisans",
+      "Doktora"
+    ],
+    "ogretimSistemi": [
+      "Birinci Öğretim",
+      "İkinci Öğretim",
+      "Uzaktan Öğretim"
+    ],
+    "egitimDili": [
+      "Türkçe",
+      "İngilizce"
+    ],
+    "stajDurumu": [
+      "Mevcut Değil",
+      "Mevcut",
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dokumanDurumu": [
+      "Taslak",
+      "Onaylandı",
+      "Yayınlandı",
+      "Revize Edildi"
+    ]
+  }
+}

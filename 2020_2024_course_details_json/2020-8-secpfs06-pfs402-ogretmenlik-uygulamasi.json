@@ -1,0 +1,769 @@
+{
+  "dersGenel": {
+    "dersTuru": "Seçmeli",
+    "dersinSeviyesi": "Lisans",
+    "dersinAKTSKredisi": 8,
+    "haftalikDersSaatiKuramsal": 1,
+    "haftalikUygulamaSaati": 8,
+    "haftalikLaboratuarSaati": 0,
+    "dersinVerildigiYariyil": 8,
+    "ogretimSistemi": "Birinci Öğretim",
+    "egitimDili": "Türkçe",
+    "secmeliDersGrubuKodu": "SECPFS06",
+    "universite": "Recep Tayyip Erdoğan Üniversitesi",
+    "ulke": "Türkiye",
+    "il": "Rize",
+    "ilce": "Merkez",
+    "mahalle": "Fener Mah",
+    "fakulte": "Mühendislik Ve Mimarlık Fakültesi",
+    "bolum": "Bilgisayar Mühendisliği",
+    "dersKodu": "PFS402",
+    "dersAdi": "Öğretmenlik Uygulaması",
+    "ogretimYiliDonemi": "Bahar",
+    "dersAKTSKredisi": 8,
+    "dilSecimi": "Türkçe",
+    "mufredatOlusturulmaYili": "2020",
+    "akademikYil": ""
+  },
+  "dersIcerik": {
+    "dersinAmaci": "Öğretmen adaylarının, uygulama okullarında gözlem ve fiili ders anlatımı yaparak öğretmenlik mesleği için gerekli olan bilgi, beceri ve tutumları kazanmalarını sağlamak. Teorik bilgileri pratikle birleştirerek mesleğe hazırlamak ve eğitim alanındaki mesleki etik ilkeleri benimsemelerini desteklemek.",
+    "dersinOnKosuluOlanDersler": "PFS401 Özel Öğretim Yöntemleri (Veya benzeri formasyon dersleri)",
+    "dersinIcerigi": "Uygulama okulunda gözlem yapma, ders planı hazırlama ve uygulama, sınıf yönetimi becerilerini sergileme, ölçme ve değerlendirme araçlarını kullanma, öğrenci gelişimini izleme, okul yönetimi ve meslektaşlarla iletişim kurma, öğretmenlik mesleğinin etik ilkelerine uygun davranma, uygulama deneyimlerini yansıtan portfolyo/rapor hazırlama, eğitimde teknoloji entegrasyonu ve yenilikçi öğretim yaklaşımlarını uygulama.",
+    "dersinIcinOnerilenHususlar": "Uygulama okulundaki danışman öğretmen ve üniversitedeki akademik danışman ile düzenli iletişim halinde olunması, gözlem ve uygulamalara aktif katılım, yansıtıcı düşünme becerilerinin kullanılması, alan bilgisiyle pedagojik bilgiyi bütünleştiren uygulamalar geliştirmesi, eğitimde teknoloji kullanımı konusunda güncel yaklaşımları takip etmesi önemlidir.",
+    "ogretimTuru": "Birinci Öğretim",
+    "stajDurumu": "Mevcut",
+    "dersinKitabiMalzemesiOnerilenKaynaklar": "Öğretmenlik Uygulaması Kılavuzu, ilgili ders kitapları ve materyaller, eğitimde teknoloji entegrasyonu kaynakları, sınıf yönetimi ve ölçme-değerlendirme literatürü.",
+    "dersiVerenOgretimUyesiOgretimGorevlisi": "Akademik Danışman / Uygulama Öğretmeni",
+    "hazirlanmaTarihi": "2024-04-28"
+  },
+  "dersOgrenmeÇiktilari": [
+    {
+      "id": "ÖÇ.1",
+      "aciklama": "Alan bilgisini pedagojik ilkelerle bütünleştirerek, öğrenci seviyesine ve müfredata uygun ders planları hazırlar, uygular ve değerlendirir."
+    },
+    {
+      "id": "ÖÇ.2",
+      "aciklama": "Etkili sınıf yönetimi stratejilerini kullanarak, olumlu öğrenme ortamı oluşturur ve problem çözme yaklaşımıyla sınıf içi zorlukları yönetir."
+    },
+    {
+      "id": "ÖÇ.3",
+      "aciklama": "Öğrencilerin öğrenmelerini çeşitli yöntemlerle ölçer ve değerlendirir, sonuçları analiz ederek öğretim sürecini iyileştirir."
+    },
+    {
+      "id": "ÖÇ.4",
+      "aciklama": "Öğrenciler, veliler, yöneticiler ve meslektaşları ile etkili iletişim kurarak, eğitim sürecinde işbirliği ve koordinasyonu sağlar."
+    },
+    {
+      "id": "ÖÇ.5",
+      "aciklama": "Öğretmenlik mesleğinin gerektirdiği etik ilkelere ve sorumluluklara uygun davranarak, toplumsal değerleri gözetir ve mesleki profesyonellik sergiler."
+    },
+    {
+      "id": "ÖÇ.6",
+      "aciklama": "Uygulama sürecindeki deneyimlerini yansıtıcı düşünme yoluyla değerlendirir, mesleki gelişim alanlarını belirler ve sürekli öğrenmeye açık bir tutum geliştirir."
+    },
+    {
+      "id": "ÖÇ.7",
+      "aciklama": "Eğitimde teknoloji entegrasyonu ve yenilikçi öğretim tasarımları geliştirerek, bilgi ve iletişim teknolojilerini öğrenme-öğretme sürecinde etkili şekilde kullanır."
+    }
+  ],
+  "haftalikDersIcerikleri": [
+    {
+      "hafta": 1,
+      "icerik": "Uygulama Sürecine Giriş, Okul ve Sınıf Ortamını Tanıma",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4, ÖÇ.5",
+      "ogretimOrtami": "Uygulama Okulu / Seminer",
+      "onHazirlik": "Formasyon Bilgisi",
+      "ogretimYontemleri": "Gözlem, Tanışma",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "Uygulama Kılavuzu",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Gözlem Raporu"
+    },
+    {
+      "hafta": 2,
+      "icerik": "Danışman Öğretmen Gözlemi ve Ders İzleme",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.6",
+      "ogretimOrtami": "Uygulama Okulu",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Gözlem",
+      "aracVeGerecler": "Gözlem Formu",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Gözlem Raporu"
+    },
+    {
+      "hafta": 3,
+      "icerik": "Ders Planı Hazırlama ve Danışman Onayı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.7",
+      "ogretimOrtami": "Bireysel Çalışma / Danışman Görüşmesi",
+      "onHazirlik": "Gözlemler",
+      "ogretimYontemleri": "Planlama",
+      "aracVeGerecler": "Ders Planı Şablonu",
+      "kaynakVeMateryal": "Müfredat, Ders Kitapları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Ders Planı Taslağı"
+    },
+    {
+      "hafta": 4,
+      "icerik": "İlk Ders Anlatım Uygulaması ve Geri Bildirim",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.5, ÖÇ.6",
+      "ogretimOrtami": "Uygulama Okulu",
+      "onHazirlik": "Onaylı Ders Planı",
+      "ogretimYontemleri": "Uygulama",
+      "aracVeGerecler": "Öğretim Materyalleri",
+      "kaynakVeMateryal": "Ders Planı",
+      "degerlendirmeYontemleri": "Danışman Değerlendirmesi",
+      "odevVeCalisma": "Yansıtma Yazısı"
+    },
+    {
+      "hafta": 5,
+      "icerik": "Sınıf Yönetimi Gözlemi ve Stratejileri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.4, ÖÇ.5",
+      "ogretimOrtami": "Uygulama Okulu",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Gözlem, Tartışma",
+      "aracVeGerecler": "Gözlem Formu",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Sınıf Yönetimi Raporu"
+    },
+    {
+      "hafta": 6,
+      "icerik": "Ders Anlatım Uygulaması - 2",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.5, ÖÇ.7",
+      "ogretimOrtami": "Uygulama Okulu",
+      "onHazirlik": "Ders Planı",
+      "ogretimYontemleri": "Uygulama",
+      "aracVeGerecler": "Öğretim Materyalleri, Teknoloji",
+      "kaynakVeMateryal": "Ders Planı",
+      "degerlendirmeYontemleri": "Danışman Değerlendirmesi",
+      "odevVeCalisma": "Yansıtma Yazısı"
+    },
+    {
+      "hafta": 7,
+      "icerik": "Ölçme ve Değerlendirme Teknikleri Gözlemi/Uygulaması",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.6",
+      "ogretimOrtami": "Uygulama Okulu",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Gözlem, Uygulama",
+      "aracVeGerecler": "Değerlendirme Araçları",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Ölçme Aracı İncelemesi"
+    },
+    {
+      "hafta": 8,
+      "icerik": "Ders Anlatım Uygulaması - 3 / Portfolyo Geliştirme",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Uygulama Okulu / Bireysel Çalışma",
+      "onHazirlik": "Ders Planı",
+      "ogretimYontemleri": "Uygulama",
+      "aracVeGerecler": "Öğretim Materyalleri, Teknoloji",
+      "kaynakVeMateryal": "Ders Planı, Toplanan Belgeler",
+      "degerlendirmeYontemleri": "Danışman Değerlendirmesi",
+      "odevVeCalisma": "Portfolyo Düzenleme"
+    },
+    {
+      "hafta": 9,
+      "icerik": "Okul İçi Etkinliklere Katılım ve Gözlem",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4, ÖÇ.5, ÖÇ.6",
+      "ogretimOrtami": "Uygulama Okulu",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Gözlem, Katılım",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Etkinlik Raporu"
+    },
+    {
+      "hafta": 10,
+      "icerik": "Ders Anlatım Uygulaması - 4",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.5, ÖÇ.7",
+      "ogretimOrtami": "Uygulama Okulu",
+      "onHazirlik": "Ders Planı",
+      "ogretimYontemleri": "Uygulama",
+      "aracVeGerecler": "Öğretim Materyalleri, Ölçme Araçları, Teknoloji",
+      "kaynakVeMateryal": "Ders Planı",
+      "degerlendirmeYontemleri": "Danışman Değerlendirmesi",
+      "odevVeCalisma": "Yansıtma Yazısı"
+    },
+    {
+      "hafta": 11,
+      "icerik": "Veli ve Meslektaşlarla İletişim Gözlemi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4, ÖÇ.5",
+      "ogretimOrtami": "Uygulama Okulu",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Gözlem, Katılım",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "İletişim Stratejileri Raporu"
+    },
+    {
+      "hafta": 12,
+      "icerik": "Ders Anlatım Uygulaması - 5 (Final Uygulaması)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.5, ÖÇ.7",
+      "ogretimOrtami": "Uygulama Okulu",
+      "onHazirlik": "Ders Planı",
+      "ogretimYontemleri": "Uygulama",
+      "aracVeGerecler": "Öğretim Materyalleri, Ölçme Araçları, Teknoloji",
+      "kaynakVeMateryal": "Ders Planı",
+      "degerlendirmeYontemleri": "Danışman Değerlendirmesi",
+      "odevVeCalisma": "Portfolyo Tamamlama"
+    },
+    {
+      "hafta": 13,
+      "icerik": "Portfolyo Teslimi ve Genel Değerlendirme Toplantısı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Üniversite / Danışman Görüşmesi",
+      "onHazirlik": "Tamamlanmış Portfolyo",
+      "ogretimYontemleri": "Sunum, Tartışma",
+      "aracVeGerecler": "Dijital Portfolyo",
+      "kaynakVeMateryal": "Portfolyo",
+      "degerlendirmeYontemleri": "Portfolyo Değerlendirmesi",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 14,
+      "icerik": "Uygulama Sürecinin Değerlendirilmesi ve Mesleki Gelişim Planı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Seminer / Sınıf Ortamı",
+      "onHazirlik": "Uygulama Deneyimleri",
+      "ogretimYontemleri": "Tartışma, Yansıtma",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Mesleki Gelişim Planı"
+    },
+    {
+      "hafta": 15,
+      "icerik": "Mesleğe Hazırlık ve Teknolojik Pedagojik Alan Bilgisi Değerlendirmesi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Seminer / Sınıf Ortamı",
+      "onHazirlik": "Tüm Uygulama Deneyimleri",
+      "ogretimYontemleri": "Tartışma, Değerlendirme",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Son Yansıtma Raporu"
+    },
+    {
+      "hafta": 16,
+      "icerik": "Final Değerlendirmesi (Notların İlanı)",
+      "iliskiliOgrenmeÇiktisi": "-",
+      "ogretimOrtami": "-",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "-",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Final Notu",
+      "odevVeCalisma": "-"
+    }
+  ],
+  "dersIsYuku": {
+    "etkinlikler": [
+      {
+        "etkinlik": "Seminer",
+        "sayi": 14,
+        "sure": 1,
+        "toplamIsYuku": 14
+      },
+      {
+        "etkinlik": "Gözlem",
+        "sayi": 12,
+        "sure": 8,
+        "toplamIsYuku": 96
+      },
+      {
+        "etkinlik": "Proje Hazırlama",
+        "sayi": 5,
+        "sure": 4,
+        "toplamIsYuku": 20
+      },
+      {
+        "etkinlik": "Proje Hazırlama",
+        "sayi": 5,
+        "sure": 2,
+        "toplamIsYuku": 10
+      },
+      {
+        "etkinlik": "Bireysel Çalışma",
+        "sayi": 5,
+        "sure": 2,
+        "toplamIsYuku": 10
+      },
+      {
+        "etkinlik": "Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 40,
+        "toplamIsYuku": 40
+      },
+      {
+        "etkinlik": "Bireysel Çalışma",
+        "sayi": 10,
+        "sure": 1,
+        "toplamIsYuku": 10
+      }
+    ],
+    "toplamIsYuku": 200,
+    "dersAKTSKredisi": 8,
+    "hesaplama": "Dersin AKTS Kredisi = Toplam İş Yükü (Saat) / 25 (Not: Kaynaktaki 10 AKTS değeri korunmuştur, saat/AKTS oranı farklıdır)",
+    "aktsHesaplama": "Toplam İş Yükü / 25"
+  },
+  "etkinlikTurleri": [
+    "Alan Çalışması",
+    "Alan Gezisi",
+    "Ara Sınav",
+    "Ara Sınav İçin Bireysel Çalışma",
+    "Beyin Fırtınası",
+    "Bireysel Çalışma",
+    "Bütünleme Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Derse Katılım",
+    "Ev Ödevi",
+    "Final Sınavı",
+    "Final Sınavı İçin Bireysel Çalışma",
+    "Gösterme",
+    "Gözlem",
+    "Laboratuvar",
+    "Laboratuvar Ara Sınavı",
+    "Laboratuvar Sınavı",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Multirom CD Çalışması",
+    "Ödev Problemleri İçin Çalışma",
+    "Okuma",
+    "Örnek Vaka İncelemesi",
+    "Performans",
+    "Problem Çözümü",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Quiz İçin Bireysel Çalışma",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Rehberli Problem Çözümü",
+    "Rol Oynama / Dramatizasyon",
+    "Seminer",
+    "Soru-Yanıt",
+    "Sözlü Sınav",
+    "Takım/Grup Çalışması",
+    "Tartışma",
+    "Toplantı Başkanlığı Yapma",
+    "Uygulama/Pratik"
+  ],
+  "dersDegerlendirme": {
+    "yariyilIciEtkinlikleri": [],
+    "yariyilIciToplam": 0,
+    "yariyilSonuEtkinlikleri": [
+      {
+        "etkinlik": "Sözlü Sınav",
+        "sayi": 1,
+        "katkiYuzdesi": 40
+      },
+      {
+        "etkinlik": "Sözlü Sınav",
+        "sayi": 1,
+        "katkiYuzdesi": 30
+      },
+      {
+        "etkinlik": "Sözlü Sınav",
+        "sayi": 1,
+        "katkiYuzdesi": 30
+      }
+    ],
+    "yariyilSonuToplam": 100,
+    "genelDegerlendirme": [
+      {
+        "degerlendirme": "Yarıyıl İçi Etkinlikleri",
+        "katkiYuzdesi": 40
+      },
+      {
+        "degerlendirme": "Yarıyıl Sonu Etkinlikleri",
+        "katkiYuzdesi": 60
+      }
+    ],
+    "genelDegerlendirmeToplam": 100
+  },
+  "yariyilIciOlasiEtkinlikler": [
+    "Ara Sınav",
+    "Laboratuvar Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Performans",
+    "Quiz",
+    "Rapor",
+    "Rapor Sunma",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Rehberli Problem Çözümü",
+    "Seminer",
+    "Sözlü Sınav",
+    "Ödev Problemleri İçin Çalışma",
+    "Proje Tasarımı/Yönetimi"
+  ],
+  "yariyilSonuOlasiEtkinlikler": [
+    "Final Sınavı",
+    "Laboratuvar Ara Sınavı",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Seminer",
+    "Sözlü Sınav",
+    "Gözlem"
+  ],
+  "programCiktilari": [
+    {
+      "id": "PÇ.1",
+      "kategori": "BİLGİ - Kuramsal Olgusal",
+      "aciklama": "TEMEL BİLGİ: Matematik, Fen Bilimleri ve Bilgisayar Mühendisliği konularında yeterli bilgi sahibidir; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanır."
+    },
+    {
+      "id": "PÇ.2",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "PROBLEM ÇÖZME: Karmaşık Bilgisayar Mühendisliği problemlerini saptar, tanımlar, formüle eder ve çözer; bu amaca uygun analiz ve modelleme yöntemlerini seçer ve uygular."
+    },
+    {
+      "id": "PÇ.3",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TASARIM: Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlar; bu amaçla modern tasarım yöntemlerini uygular."
+    },
+    {
+      "id": "PÇ.4",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TEKNOLOJİ: Bilgisayar Mühendisliği uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirir, seçer ve kullanır; bilişim teknolojilerini etkin bir şekilde kullanır."
+    },
+    {
+      "id": "PÇ.5",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "ARAŞTIRMA: Karmaşık Bilgisayar Mühendisliği problemlerinin veya araştırma konularının incelenmesi için deney tasarlar, deney yapar, veri toplar, sonuçları analiz eder ve yorumlar."
+    },
+    {
+      "id": "PÇ.6",
+      "kategori": "YETKİNLİKLER - Bağımsız Çalışabilme ve Sorumluluk Alabilme Yetkinliği",
+      "aciklama": "İŞBİRLİĞİ: Bilgisayar Mühendisliği disiplini içinde ve çok disiplinli takımlarda etkin biçimde çalışır; bireysel çalışma sergiler."
+    },
+    {
+      "id": "PÇ.7",
+      "kategori": "YETKİNLİKLER - Öğrenme Yetkinliği",
+      "aciklama": "GELİŞİM: Yaşam boyu öğrenmenin gerekliliğinin bilincindedir; bilgiye erişir, bilim ve teknolojideki gelişmeleri izler ve kendini sürekli yeniler; insanlık tarihi boyunca oluşan bilgi birikimini Bilgisayar Mühendisliği alanıyla ilişkilendirir."
+    },
+    {
+      "id": "PÇ.8",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "İLETİŞİM: Türkçe sözlü ve yazılı etkin iletişim kurar; etkin rapor yazar ve yazılı raporları anlar, tasarım ve üretim raporları hazırlar, etkin sunum yapar, açık ve anlaşılır talimat verir ve alır."
+    },
+    {
+      "id": "PÇ.9",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "TOPLUMSAL BİLİNÇ: Bilgisayar Mühendisliği uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi sahibidir; mühendislik çözümlerinin hukuksal sonuçlarının farkındadır."
+    },
+    {
+      "id": "PÇ.10",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "ULUSLARARASILIK: Bir yabancı dili kullanarak Bilgisayar Mühendisliği ile ilişkili konularda, bilgi toplar ve meslektaşları ile iletişim kurar."
+    },
+    {
+      "id": "PÇ.11",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "ETİK: Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilincine sahiptir; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi sahibidir."
+    },
+    {
+      "id": "PÇ.12",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "YÖNETİM: Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi sahibidir; girişimcilik, yenilikçilik hakkında bilinçlidir; sürdürülebilir kalkınma hakkında bilgi sahibidir."
+    }
+  ],
+  "programVeOgrenmeIliskisi": {
+    "iliskiOlcekleri": "0-5 arası değerler (0: İlişki yok, 5: Çok güçlü ilişki)",
+    "iliskiTablosu": [
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.1",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 5,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.2",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 3,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.3",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 3,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.4",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.5",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.6",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 3,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.7",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 3,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      }
+    ]
+  },
+  "toplumsalKatkiVeSurdurulebilirlik": {
+    "surdurulebilirKalkinmaAmaclari": [
+      {
+        "amac": "Yoksulluğa Son",
+        "secili": false
+      },
+      {
+        "amac": "Açlığa Son",
+        "secili": false
+      },
+      {
+        "amac": "Sağlık ve Kaliteli Yaşam",
+        "secili": true
+      },
+      {
+        "amac": "Nitelikli Eğitim",
+        "secili": true
+      },
+      {
+        "amac": "Toplumsal Cinsiyet Eşitliği",
+        "secili": true
+      },
+      {
+        "amac": "Temiz Su ve Sanitasyon",
+        "secili": false
+      },
+      {
+        "amac": "Erişilebilir ve Temiz Enerji",
+        "secili": false
+      },
+      {
+        "amac": "İnsana Yakışır İş ve Ekonomik Büyüme",
+        "secili": true
+      },
+      {
+        "amac": "Sanayi, Yenilikçilik ve Altyapı",
+        "secili": false
+      },
+      {
+        "amac": "Eşitsizliklerin Azaltılması",
+        "secili": true
+      },
+      {
+        "amac": "Sürdürülebilir Şehirler ve Topluluklar",
+        "secili": true
+      },
+      {
+        "amac": "Sorumlu Üretim ve Tüketim",
+        "secili": false
+      },
+      {
+        "amac": "İklim Eylemi",
+        "secili": false
+      },
+      {
+        "amac": "Sudaki Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Karasal Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Barış, Adalet ve Güçlü Kurumlar",
+        "secili": true
+      },
+      {
+        "amac": "Amaçlar İçin Ortaklıklar",
+        "secili": true
+      }
+    ],
+    "toplumsalKatkiAlanlari": [
+      {
+        "alan": "Eğitim ve Öğretim",
+        "secili": true
+      },
+      {
+        "alan": "Sağlık",
+        "secili": false
+      },
+      {
+        "alan": "Sosyal Hizmetler ve Toplumsal Eşitlik",
+        "secili": true
+      },
+      {
+        "alan": "Çevre ve Sürdürülebilirlik",
+        "secili": false
+      },
+      {
+        "alan": "Teknolojik ve Bilimsel Yenilikler",
+        "secili": true
+      },
+      {
+        "alan": "Ekonomik Kalkınma ve Girişimcilik",
+        "secili": false
+      },
+      {
+        "alan": "Kültürel ve Sanatsal Etkinlikler",
+        "secili": true
+      },
+      {
+        "alan": "Uluslararası İş birliği ve Diplomasi",
+        "secili": false
+      },
+      {
+        "alan": "Toplum yararına yapılacak diğer çalışmalar",
+        "secili": true
+      }
+    ]
+  },
+  "dersSekmeler": {
+    "dersGenel": true,
+    "dersOgrenmeÇiktilari": true,
+    "haftalikDersIcerikleri": true,
+    "dersIsYuku": true,
+    "dersDegerlendirme": true,
+    "programVeOgrenmeÇiktilariIliskisi": true,
+    "toplumsalKatkiVeSurdurulebilirlik": true
+  },
+  "denetimBilgileri": {
+    "olusturmaTarihi": "2025-05-10 18:09:28",
+    "olusturan": "json_processor_script",
+    "sonGuncellenmeTarihi": "2025-05-10 18:09:28",
+    "guncelleyen": "json_processor_script",
+    "durum": "Taslak"
+  },
+  "numaralandirmaDegerleri": {
+    "dersTurleri": [
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dersSeviyesi": [
+      "Lisans",
+      "Yüksek Lisans",
+      "Doktora"
+    ],
+    "ogretimSistemi": [
+      "Birinci Öğretim",
+      "İkinci Öğretim",
+      "Uzaktan Öğretim"
+    ],
+    "egitimDili": [
+      "Türkçe",
+      "İngilizce"
+    ],
+    "stajDurumu": [
+      "Mevcut Değil",
+      "Mevcut",
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dokumanDurumu": [
+      "Taslak",
+      "Onaylandı",
+      "Yayınlandı",
+      "Revize Edildi"
+    ]
+  }
+}

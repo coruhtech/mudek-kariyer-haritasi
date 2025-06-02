@@ -1,0 +1,788 @@
+{
+  "dersGenel": {
+    "dersTuru": "Seçmeli",
+    "dersinSeviyesi": "Lisans",
+    "dersKredisi": 3,
+    "dersinAKTSKredisi": 5,
+    "haftalikDersSaatiKuramsal": 3,
+    "haftalikUygulamaSaati": 0,
+    "haftalikLaboratuarSaati": 0,
+    "dersinVerildigiYariyil": 5,
+    "ogretimSistemi": "Birinci Öğretim",
+    "egitimDili": "Türkçe",
+    "secmeliDersKodu": "SECCEN05-2",
+    "universite": "Recep Tayyip Erdoğan Üniversitesi",
+    "ulke": "Türkiye",
+    "il": "Rize",
+    "ilce": "Merkez",
+    "mahalle": "Fener Mah",
+    "fakulte": "Mühendislik Ve Mimarlık Fakültesi",
+    "bolum": "Bilgisayar Mühendisliği",
+    "dersKodu": "CEN319",
+    "dersAdi": "Matlab Programlama",
+    "ogretimYiliDonemi": "Güz",
+    "dersAKTSKredisi": 5,
+    "dilSecimi": "Türkçe",
+    "mufredatOlusturulmaYili": "2024",
+    "akademikYil": "",
+    "secmeliDersGrubuKodu": "SECCEN05-2"
+  },
+  "dersIcerik": {
+    "dersinAmaci": "Öğrencilere Matlab programlama ortamını tanıtmak, temel komutları, veri yapılarını ve programlama yapılarını öğretmek, mühendislik problemlerinin çözümü için Matlab'ı etkin bir şekilde kullanma becerisi kazandırmak. Ders kapsamında öğrenciler, matematiksel hesaplamalar, veri analizi, algoritma geliştirme ve görselleştirme yeteneklerini Matlab ortamında kullanmayı öğreneceklerdir.",
+    "dersinOnKosuluOlanDersler": "Mevcut Değil",
+    "dersinIcerigi": "Matlab arayüzü ve temel komutlar, değişkenler ve veri tipleri, vektör ve matris işlemleri, M-dosyaları (script ve fonksiyon), kontrol yapıları (if-else, switch-case), döngüler (for, while), grafik çizimi (2D ve 3D), sembolik matematik işlemleri, temel dosya işlemleri, Matlab araç kutularına (toolbox) giriş, sinyal ve görüntü işleme uygulamaları, nümerik analiz ve optimizasyon, güncel mühendislik problemlerinde Matlab uygulamaları.",
+    "dersinIcinOnerilenHususlar": "Temel algoritma ve programlama mantığına sahip olmak faydalı olacaktır. Öğrencilerin derslere dizüstü bilgisayarlarıyla gelmeleri ve Matlab yazılımını kurmaları önerilir. Düzenli uygulama yapılması ve verilen ödevlerin zamanında tamamlanması, dersten maksimum verim alınması için önemlidir.",
+    "ogretimTuru": "Birinci Öğretim",
+    "stajDurumu": "Mevcut Değil",
+    "dersinKitabiMalzemesiOnerilenKaynaklar": "Amos Gilat, \"MATLAB: An Introduction with Applications\", 6. Baskı, Wiley, 2021.\nStormy Attaway, \"Matlab: A Practical Introduction to Programming and Problem Solving\", 5. Baskı, Butterworth-Heinemann, 2018.\nRudra Pratap, \"Getting Started with MATLAB: A Quick Introduction for Scientists and Engineers\", Oxford University Press, 2019.\nDuane Hanselman ve Bruce Littlefield, \"Mastering MATLAB\", Pearson, 2011.\nMathWorks Resmi Dokümantasyonu ve Öğretici Materyaller (https://www.mathworks.com/help/matlab/).\nDers için hazırlanan özel notlar ve örnek uygulamalar.",
+    "dersiVerenOgretimUyesiOgretimGorevlisi": "Dr. Öğr. Üyesi",
+    "hazirlanmaTarihi": "01.05.2025"
+  },
+  "dersOgrenmeÇiktilari": [
+    {
+      "id": "ÖÇ.1",
+      "aciklama": "Matlab programlama ortamının arayüzünü, temel komutlarını, değişkenlerini ve veri tiplerini açıklar ve kullanır."
+    },
+    {
+      "id": "ÖÇ.2",
+      "aciklama": "Vektörler ve matrisler oluşturur, indeksleme ve manipülasyon yapar, temel matematiksel ve mantıksal işlemleri uygular."
+    },
+    {
+      "id": "ÖÇ.3",
+      "aciklama": "Matlab M-dosyalarını (scriptler ve fonksiyonlar) kullanarak algoritmaları uygular; kontrol yapılarını (if-else, switch) ve döngüleri (for, while) etkin bir şekilde kullanır."
+    },
+    {
+      "id": "ÖÇ.4",
+      "aciklama": "Matlab'ın 2B ve 3B grafik çizim komutlarını kullanarak mühendislik verilerini görselleştirir ve grafik özelliklerini düzenler."
+    },
+    {
+      "id": "ÖÇ.5",
+      "aciklama": "Sembolik matematik işlemleri ve temel dosya G/Ç işlemleri gibi Matlab yeteneklerini mühendislik problemlerinin çözümünde kullanır."
+    },
+    {
+      "id": "ÖÇ.6",
+      "aciklama": "Belirli mühendislik alanlarına yönelik Matlab araç kutularının (örn: Signal Processing, Image Processing) temel işlevlerini tanır ve basit uygulamalar geliştirir."
+    },
+    {
+      "id": "ÖÇ.7",
+      "aciklama": "Matlab kullanarak mühendislik problemlerine çözümler geliştirme ve sonuçları raporlama becerisi kazanır."
+    }
+  ],
+  "haftalikDersIcerikleri": [
+    {
+      "hafta": 1,
+      "icerik": "Matlab'a Giriş: Matlab tarihçesi, arayüz tanıtımı, çalışma ortamı, komut penceresi kullanımı, temel hesaplama komutları, değişkenlerin tanımlanması ve kullanımı, yardım menüsü ve dokümantasyon erişimi.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Anlatım, Demonstrasyon, Soru-Cevap",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, Matlab Yazılımı",
+      "kaynakVeMateryal": "Ders Sunumları, Matlab Giriş Dokümanları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Temel Matlab komutlarını uygulama"
+    },
+    {
+      "hafta": 2,
+      "icerik": "Değişkenler, Veri Tipleri ve Operatörler: Sayısal değişkenler, metin değişkenleri, mantıksal değişkenler, hücreler ve yapılar, aritmetik operatörler, ilişkisel operatörler, mantıksal operatörler, öncelik sırası.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "1. Hafta konuları",
+      "ogretimYontemleri": "Anlatım, Demonstrasyon, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, Matlab Yazılımı",
+      "kaynakVeMateryal": "Ders Sunumları, Alıştırma Problemleri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Çeşitli değişken türlerini kullanma"
+    },
+    {
+      "hafta": 3,
+      "icerik": "Vektörler ve Matrisler I: Vektör oluşturma, matris oluşturma, dizi işlemleri, özel matrisler (eye, ones, zeros, rand, diag), boyut belirleme ve değiştirme, temel matris işlemleri.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Değişken türleri",
+      "ogretimYontemleri": "Anlatım, Demonstrasyon, Problem Çözme",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, Matlab Yazılımı",
+      "kaynakVeMateryal": "Ders Sunumları, Matris İşlem Örnekleri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Matris oluşturma ve manipülasyon uygulamaları"
+    },
+    {
+      "hafta": 4,
+      "icerik": "Vektörler ve Matrisler II: İndeksleme yöntemleri, alt-matris çıkarma, matris birleştirme, vektörizasyon, eleman bazlı işlemler vs. matris işlemleri, ileri matris işlemleri (tersini alma, determinant, özdeğerler).",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Temel matris işlemleri",
+      "ogretimYontemleri": "Anlatım, Demonstrasyon, Problem Çözme",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, Matlab Yazılımı",
+      "kaynakVeMateryal": "Ders Sunumları, İleri Matris İşlemleri Örnekleri",
+      "degerlendirmeYontemleri": "Quiz",
+      "odevVeCalisma": "İndeksleme ve ileri matris işlemleri alıştırmaları"
+    },
+    {
+      "hafta": 5,
+      "icerik": "M-Dosyaları ve Script Programlama: M-dosyalarının yapısı, script dosyası oluşturma, script içinde açıklama ekleme, script çalıştırma, komut geçmişinden script oluşturma, hata ayıklama, script organizasyonu.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Matris işlemleri",
+      "ogretimYontemleri": "Anlatım, Demonstrasyon, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, Matlab Yazılımı",
+      "kaynakVeMateryal": "Ders Sunumları, Script Örnekleri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Çeşitli hesaplamalar için script dosyaları oluşturma"
+    },
+    {
+      "hafta": 6,
+      "icerik": "Kontrol Yapıları: if-else yapısı, nested if-else, switch-case yapısı, mantıksal operatörler ve koşullar, try-catch hata yakalama, program akış kontrolü ve optimizasyon.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Script yazma",
+      "ogretimYontemleri": "Anlatım, Demonstrasyon, Problem Çözme",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, Matlab Yazılımı",
+      "kaynakVeMateryal": "Ders Sunumları, Kontrol Yapıları Örnekleri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Koşullu ifadelerle script yazma"
+    },
+    {
+      "hafta": 7,
+      "icerik": "Döngüler: for döngüsü, while döngüsü, iç içe döngüler, break ve continue kullanımı, döngü optimizasyonu, vektörizasyon ve döngüler arası tercihler, uygulama örnekleri.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Kontrol yapıları",
+      "ogretimYontemleri": "Anlatım, Demonstrasyon, Problem Çözme",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, Matlab Yazılımı",
+      "kaynakVeMateryal": "Ders Sunumları, Döngü Örnekleri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Döngülerle algoritma uygulamaları"
+    },
+    {
+      "hafta": 8,
+      "icerik": "Ara Sınav: Hafta 1-7 konularını kapsayan teorik ve uygulamalı değerlendirme.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Hafta 1-7 konuları",
+      "ogretimYontemleri": "Ölçme-Değerlendirme",
+      "aracVeGerecler": "Bilgisayar, Matlab Yazılımı",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Yazılı Sınav",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 9,
+      "icerik": "Fonksiyonlar: Fonksiyon dosyası oluşturma, giriş ve çıkış parametreleri, local ve global değişkenler, fonksiyon içinde fonksiyon, anonim fonksiyonlar, fonksiyon handle'ları, recursive fonksiyonlar.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Döngüler ve kontrol yapıları",
+      "ogretimYontemleri": "Anlatım, Demonstrasyon, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, Matlab Yazılımı",
+      "kaynakVeMateryal": "Ders Sunumları, Fonksiyon Örnekleri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Çeşitli matematiksel ve mühendislik fonksiyonları yazma"
+    },
+    {
+      "hafta": 10,
+      "icerik": "2B Grafik Çizimi: plot fonksiyonu, grafik düzenleme (başlık, eksen isimleri, grid, legend), çoklu grafik çizimi, subplot kullanımı, farklı grafik türleri (çizgi, çubuk, pasta vb.), grafik kaydetme ve dışa aktarma.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Vektör işlemleri",
+      "ogretimYontemleri": "Anlatım, Demonstrasyon, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, Matlab Yazılımı",
+      "kaynakVeMateryal": "Ders Sunumları, 2B Grafik Örnekleri",
+      "degerlendirmeYontemleri": "Quiz",
+      "odevVeCalisma": "Çeşitli 2B grafik çizim alıştırmaları"
+    },
+    {
+      "hafta": 11,
+      "icerik": "3B Grafik Çizimi: surf, mesh, contour fonksiyonları, 3B grafik döndürme ve görünüm ayarları, yüzey ve hacim grafikleri, çoklu 3B grafikler, animasyon oluşturma, veri görselleştirme teknikleri.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "2B grafik çizimi",
+      "ogretimYontemleri": "Anlatım, Demonstrasyon, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, Matlab Yazılımı",
+      "kaynakVeMateryal": "Ders Sunumları, 3B Grafik Örnekleri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Çeşitli 3B grafik çizim alıştırmaları"
+    },
+    {
+      "hafta": 12,
+      "icerik": "Sembolik Matematik: Symbolic Math Toolbox kullanımı, sembolik değişkenler, sembolik ifadeler, türev alma, integral hesaplama, denklem çözme, seri açılımları, Laplace ve Fourier dönüşümleri.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Temel matematik bilgisi",
+      "ogretimYontemleri": "Anlatım, Demonstrasyon, Problem Çözme",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, Matlab Yazılımı",
+      "kaynakVeMateryal": "Ders Sunumları, Sembolik İşlem Örnekleri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Sembolik matematik uygulamaları"
+    },
+    {
+      "hafta": 13,
+      "icerik": "Dosya İşlemleri ve Veri Analizi: Dosya okuma/yazma teknikleri, farklı formatlarda veri (CSV, Excel, text) okuma, veri ön işleme, temel istatistiksel analiz, veri filtreleme, veri görselleştirme, sonuçları dosyaya yazma.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Matris işlemleri, fonksiyonlar",
+      "ogretimYontemleri": "Anlatım, Demonstrasyon, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, Matlab Yazılımı",
+      "kaynakVeMateryal": "Ders Sunumları, Örnek Veri Setleri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Veri analizi uygulaması"
+    },
+    {
+      "hafta": 14,
+      "icerik": "Matlab Araç Kutuları: Image Processing Toolbox, Signal Processing Toolbox, Optimization Toolbox, Control System Toolbox, Statistics and Machine Learning Toolbox tanıtımı ve temel uygulamalar.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.6",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Temel Matlab becerileri",
+      "ogretimYontemleri": "Anlatım, Demonstrasyon, Örnek Vaka İncelemesi",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, Matlab Yazılımı",
+      "kaynakVeMateryal": "Ders Sunumları, Araç Kutusu Örnekleri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Seçilen bir araç kutusuyla uygulama geliştirme"
+    },
+    {
+      "hafta": 15,
+      "icerik": "Mühendislik Problemleri Çözümü: Diferansiyel denklemler, lineer cebir problemleri, optimizasyon problemleri, sinyal işleme, görüntü işleme gibi mühendislik alanlarında Matlab uygulamaları ve proje sunumları.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm konular",
+      "ogretimYontemleri": "Problem Çözme, Proje Sunumu, Tartışma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, Matlab Yazılımı",
+      "kaynakVeMateryal": "Proje Yönergeleri, Örnek Projeler",
+      "degerlendirmeYontemleri": "Proje Değerlendirme",
+      "odevVeCalisma": "Final projesi tamamlama"
+    },
+    {
+      "hafta": 16,
+      "icerik": "Final Sınavı: Tüm konuları kapsayan teorik ve uygulamalı değerlendirme.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm konular",
+      "ogretimYontemleri": "Ölçme-Değerlendirme",
+      "aracVeGerecler": "Bilgisayar, Matlab Yazılımı",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Yazılı Sınav, Proje Değerlendirme",
+      "odevVeCalisma": "-"
+    }
+  ],
+  "dersIsYuku": {
+    "etkinlikler": [
+      {
+        "etkinlik": "Derse Katılım",
+        "sayi": 14,
+        "sure": 3,
+        "toplamIsYuku": 42
+      },
+      {
+        "etkinlik": "Laboratuvar",
+        "sayi": 7,
+        "sure": 2,
+        "toplamIsYuku": 14
+      },
+      {
+        "etkinlik": "Ödev Problemleri İçin Çalışma",
+        "sayi": 10,
+        "sure": 2,
+        "toplamIsYuku": 20
+      },
+      {
+        "etkinlik": "Ara Sınav İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 15,
+        "toplamIsYuku": 15
+      },
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "sure": 2,
+        "toplamIsYuku": 2
+      },
+      {
+        "etkinlik": "Final Sınavı İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 20,
+        "toplamIsYuku": 20
+      },
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "sure": 2,
+        "toplamIsYuku": 2
+      },
+      {
+        "etkinlik": "Proje Hazırlama",
+        "sayi": 1,
+        "sure": 10,
+        "toplamIsYuku": 10
+      }
+    ],
+    "toplamIsYuku": 125,
+    "dersAKTSKredisi": 5,
+    "hesaplama": "Dersin AKTS Kredisi = Toplam İş Yükü (Saat) / 25 = 5",
+    "aktsHesaplama": "Toplam İş Yükü / 25"
+  },
+  "etkinlikTurleri": [
+    "Alan Çalışması",
+    "Alan Gezisi",
+    "Ara Sınav",
+    "Ara Sınav İçin Bireysel Çalışma",
+    "Beyin Fırtınası",
+    "Bireysel Çalışma",
+    "Bütünleme Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Derse Katılım",
+    "Ev Ödevi",
+    "Final Sınavı",
+    "Final Sınavı İçin Bireysel Çalışma",
+    "Gösterme",
+    "Gözlem",
+    "Laboratuvar",
+    "Laboratuvar Ara Sınavı",
+    "Laboratuvar Sınavı",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Multirom CD Çalışması",
+    "Ödev Problemleri İçin Çalışma",
+    "Okuma",
+    "Örnek Vaka İncelemesi",
+    "Performans",
+    "Problem Çözümü",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Quiz İçin Bireysel Çalışma",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Rehberli Problem Çözümü",
+    "Rol Oynama / Dramatizasyon",
+    "Seminer",
+    "Soru-Yanıt",
+    "Sözlü Sınav",
+    "Takım/Grup Çalışması",
+    "Tartışma",
+    "Toplantı Başkanlığı Yapma",
+    "Uygulama/Pratik"
+  ],
+  "dersDegerlendirme": {
+    "yariyilIciEtkinlikleri": [
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "katkiYuzdesi": 70
+      },
+      {
+        "etkinlik": "Quiz",
+        "sayi": 2,
+        "katkiYuzdesi": 15
+      },
+      {
+        "etkinlik": "Ev Ödevi",
+        "sayi": 5,
+        "katkiYuzdesi": 15
+      }
+    ],
+    "yariyilIciToplam": 100,
+    "yariyilSonuEtkinlikleri": [
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "katkiYuzdesi": 70
+      },
+      {
+        "etkinlik": "Proje Hazırlama",
+        "sayi": 1,
+        "katkiYuzdesi": 30
+      }
+    ],
+    "yariyilSonuToplam": 100,
+    "genelDegerlendirme": [
+      {
+        "degerlendirme": "Yarıyıl (Yıl) İçi Etkinlikleri",
+        "katkiYuzdesi": 40
+      },
+      {
+        "degerlendirme": "Yarıyıl (Yıl) Sonu Etkinlikleri",
+        "katkiYuzdesi": 60
+      }
+    ],
+    "genelDegerlendirmeToplam": 100
+  },
+  "yariyilIciOlasiEtkinlikler": [
+    "Ara Sınav",
+    "Laboratuvar Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Performans",
+    "Quiz",
+    "Rapor",
+    "Rapor Sunma",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Rehberli Problem Çözümü",
+    "Seminer",
+    "Sözlü Sınav",
+    "Ödev Problemleri İçin Çalışma",
+    "Proje Tasarımı/Yönetimi"
+  ],
+  "yariyilSonuOlasiEtkinlikler": [
+    "Final Sınavı",
+    "Laboratuvar Ara Sınavı",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Seminer",
+    "Sözlü Sınav",
+    "Gözlem"
+  ],
+  "programCiktilari": [
+    {
+      "id": "PÇ.1",
+      "kategori": "BİLGİ - Kuramsal Olgusal",
+      "aciklama": "TEMEL BİLGİ: Matematik, Fen Bilimleri ve Bilgisayar Mühendisliği konularında yeterli bilgi sahibidir; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanır."
+    },
+    {
+      "id": "PÇ.2",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "PROBLEM ÇÖZME: Karmaşık Bilgisayar Mühendisliği problemlerini saptar, tanımlar, formüle eder ve çözer; bu amaca uygun analiz ve modelleme yöntemlerini seçer ve uygular."
+    },
+    {
+      "id": "PÇ.3",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TASARIM: Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlar; bu amaçla modern tasarım yöntemlerini uygular."
+    },
+    {
+      "id": "PÇ.4",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TEKNOLOJİ: Bilgisayar Mühendisliği uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirir, seçer ve kullanır; bilişim teknolojilerini etkin bir şekilde kullanır."
+    },
+    {
+      "id": "PÇ.5",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "ARAŞTIRMA: Karmaşık Bilgisayar Mühendisliği problemlerinin veya araştırma konularının incelenmesi için deney tasarlar, deney yapar, veri toplar, sonuçları analiz eder ve yorumlar."
+    },
+    {
+      "id": "PÇ.6",
+      "kategori": "YETKİNLİKLER - Bağımsız Çalışabilme ve Sorumluluk Alabilme Yetkinliği",
+      "aciklama": "İŞBİRLİĞİ: Bilgisayar Mühendisliği disiplini içinde ve çok disiplinli takımlarda etkin biçimde çalışır; bireysel çalışma sergiler."
+    },
+    {
+      "id": "PÇ.7",
+      "kategori": "YETKİNLİKLER - Öğrenme Yetkinliği",
+      "aciklama": "GELİŞİM: Yaşam boyu öğrenmenin gerekliliğinin bilincindedir; bilgiye erişir, bilim ve teknolojideki gelişmeleri izler ve kendini sürekli yeniler; insanlık tarihi boyunca oluşan bilgi birikimini Bilgisayar Mühendisliği alanıyla ilişkilendirir."
+    },
+    {
+      "id": "PÇ.8",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "İLETİŞİM: Türkçe sözlü ve yazılı etkin iletişim kurar; etkin rapor yazar ve yazılı raporları anlar, tasarım ve üretim raporları hazırlar, etkin sunum yapar, açık ve anlaşılır talimat verir ve alır."
+    },
+    {
+      "id": "PÇ.9",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "TOPLUMSAL BİLİNÇ: Bilgisayar Mühendisliği uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi sahibidir; mühendislik çözümlerinin hukuksal sonuçlarının farkındadır."
+    },
+    {
+      "id": "PÇ.10",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "ULUSLARARASILIK: Bir yabancı dili kullanarak Bilgisayar Mühendisliği ile ilişkili konularda, bilgi toplar ve meslektaşları ile iletişim kurar."
+    },
+    {
+      "id": "PÇ.11",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "ETİK: Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilincine sahiptir; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi sahibidir."
+    },
+    {
+      "id": "PÇ.12",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "YÖNETİM: Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi sahibidir; girişimcilik, yenilikçilik hakkında bilinçlidir; sürdürülebilir kalkınma hakkında bilgi sahibidir."
+    }
+  ],
+  "programVeOgrenmeIliskisi": {
+    "iliskiOlcekleri": "0-5 arası değerler (0: İlişki yok, 5: Çok güçlü ilişki)",
+    "iliskiTablosu": [
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.1",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 5,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.2",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.3",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.4",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 3,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 3,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.5",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 3,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.6",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 3,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.7",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 3,
+          "PÇ.5": 3,
+          "PÇ.6": 3,
+          "PÇ.7": 3,
+          "PÇ.8": 3,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      }
+    ]
+  },
+  "toplumsalKatkiVeSurdurulebilirlik": {
+    "surdurulebilirKalkinmaAmaclari": [
+      {
+        "amac": "Yoksulluğa Son",
+        "secili": false
+      },
+      {
+        "amac": "Açlığa Son",
+        "secili": false
+      },
+      {
+        "amac": "Sağlık ve Kaliteli Yaşam",
+        "secili": true
+      },
+      {
+        "amac": "Nitelikli Eğitim",
+        "secili": true
+      },
+      {
+        "amac": "Toplumsal Cinsiyet Eşitliği",
+        "secili": false
+      },
+      {
+        "amac": "Temiz Su ve Sanitasyon",
+        "secili": false
+      },
+      {
+        "amac": "Erişilebilir ve Temiz Enerji",
+        "secili": true
+      },
+      {
+        "amac": "İnsana Yakışır İş ve Ekonomik Büyüme",
+        "secili": true
+      },
+      {
+        "amac": "Sanayi, Yenilikçilik ve Altyapı",
+        "secili": true
+      },
+      {
+        "amac": "Eşitsizliklerin Azaltılması",
+        "secili": false
+      },
+      {
+        "amac": "Sürdürülebilir Şehirler ve Topluluklar",
+        "secili": true
+      },
+      {
+        "amac": "Sorumlu Üretim ve Tüketim",
+        "secili": false
+      },
+      {
+        "amac": "İklim Eylemi",
+        "secili": false
+      },
+      {
+        "amac": "Sudaki Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Karasal Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Barış, Adalet ve Güçlü Kurumlar",
+        "secili": false
+      },
+      {
+        "amac": "Amaçlar İçin Ortaklıklar",
+        "secili": false
+      }
+    ],
+    "toplumsalKatkiAlanlari": [
+      {
+        "alan": "Eğitim ve Öğretim",
+        "secili": true
+      },
+      {
+        "alan": "Sağlık",
+        "secili": true
+      },
+      {
+        "alan": "Sosyal Hizmetler ve Toplumsal Eşitlik",
+        "secili": false
+      },
+      {
+        "alan": "Çevre ve Sürdürülebilirlik",
+        "secili": true
+      },
+      {
+        "alan": "Teknolojik ve Bilimsel Yenilikler",
+        "secili": true
+      },
+      {
+        "alan": "Ekonomik Kalkınma ve Girişimcilik",
+        "secili": true
+      },
+      {
+        "alan": "Kültürel ve Sanatsal Etkinlikler",
+        "secili": false
+      },
+      {
+        "alan": "Uluslararası İş birliği ve Diplomasi",
+        "secili": false
+      },
+      {
+        "alan": "Toplum yararına yapılacak diğer çalışmalar",
+        "secili": true
+      }
+    ]
+  },
+  "dersSekmeler": {
+    "dersGenel": true,
+    "dersOgrenmeÇiktilari": true,
+    "haftalikDersIcerikleri": true,
+    "dersIsYuku": true,
+    "dersDegerlendirme": true,
+    "programVeOgrenmeÇiktilariIliskisi": true,
+    "toplumsalKatkiVeSurdurulebilirlik": true
+  },
+  "denetimBilgileri": {
+    "olusturmaTarihi": "2025-05-10 18:09:41",
+    "olusturan": "json_processor_script",
+    "sonGuncellenmeTarihi": "2025-05-10 18:09:41",
+    "guncelleyen": "json_processor_script",
+    "durum": "Taslak"
+  },
+  "numaralandirmaDegerleri": {
+    "dersTurleri": [
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dersSeviyesi": [
+      "Lisans",
+      "Yüksek Lisans",
+      "Doktora"
+    ],
+    "ogretimSistemi": [
+      "Birinci Öğretim",
+      "İkinci Öğretim",
+      "Uzaktan Öğretim"
+    ],
+    "egitimDili": [
+      "Türkçe",
+      "İngilizce"
+    ],
+    "stajDurumu": [
+      "Mevcut Değil",
+      "Mevcut",
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dokumanDurumu": [
+      "Taslak",
+      "Onaylandı",
+      "Yayınlandı",
+      "Revize Edildi"
+    ]
+  }
+}

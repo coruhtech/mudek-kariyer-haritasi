@@ -1,0 +1,95 @@
+/* ÖÇ-PÇ İlişki Matrisi (MUDEK) Stilleri */
+.mudek-matrix th,
+.mudek-matrix td {
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+.mudek-matrix th:first-child,
+.mudek-matrix td:first-child {
+    text-align: left;
+    font-weight: bold;
+}
+
+/* İlişki düzeylerine göre renklendirme */
+.relation-level-0 {
+    background-color: #f8f9fa;
+    color: #adb5bd;
+}
+
+.relation-level-1 {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.relation-level-2 {
+    background-color: #ffe6b8;
+    color: #856404;
+}
+
+.relation-level-3 {
+    background-color: #d1ecf1;
+    color: #0c5460;
+}
+
+.relation-level-4 {
+    background-color: #c3e6cb;
+    color: #155724;
+}
+
+.relation-level-5 {
+    background-color: #28a745;
+    color: white;
+}
+
+/* MUDEK Analiz Paneli */
+#mudek-analysis-panel {
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin-bottom: 2rem;
+}
+
+#mudek-analysis-panel .card-header {
+    border-radius: 0.5rem 0.5rem 0 0;
+    padding: 1rem;
+}
+
+#pc-summary-table th,
+#pc-summary-table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#pc-summary-table th:first-child,
+#pc-summary-table td:first-child {
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Grafikler */
+#ocPcRadarChart,
+#pcCoverageChart,
+#curriculum-pc-coverage-chart,
+#pc-weight-distribution-chart {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+/* Tooltip stilleri */
+.apexcharts-tooltip {
+    background: #ffffff;
+    border: 1px solid #e2e2e2;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 8px 12px;
+}
+
+.apexcharts-tooltip-title {
+    background: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+    padding: 4px 8px;
+    margin-bottom: 4px;
+    font-weight: bold;
+} 

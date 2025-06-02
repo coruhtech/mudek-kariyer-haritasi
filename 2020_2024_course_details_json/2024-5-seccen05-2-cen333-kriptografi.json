@@ -1,0 +1,799 @@
+{
+  "dersGenel": {
+    "dersTuru": "Seçmeli",
+    "dersinSeviyesi": "Lisans",
+    "dersKredisi": 3,
+    "dersinAKTSKredisi": 5,
+    "haftalikDersSaatiKuramsal": 3,
+    "haftalikUygulamaSaati": 0,
+    "haftalikLaboratuarSaati": 0,
+    "dersinVerildigiYariyil": 5,
+    "ogretimSistemi": "Birinci Öğretim",
+    "egitimDili": "Türkçe",
+    "secmeliDersKodu": "SECCEN05-2",
+    "universite": "Recep Tayyip Erdoğan Üniversitesi",
+    "ulke": "Türkiye",
+    "il": "Rize",
+    "ilce": "Merkez",
+    "mahalle": "Fener Mah",
+    "fakulte": "Mühendislik Ve Mimarlık Fakültesi",
+    "bolum": "Bilgisayar Mühendisliği",
+    "dersKodu": "CEN333",
+    "dersAdi": "Kriptografi",
+    "ogretimYiliDonemi": "Güz",
+    "dersAKTSKredisi": 5,
+    "dilSecimi": "Türkçe",
+    "mufredatOlusturulmaYili": "2024",
+    "akademikYil": "",
+    "secmeliDersGrubuKodu": "SECCEN05-2"
+  },
+  "dersIcerik": {
+    "dersinAmaci": "Bu dersin amacı, öğrencilere bir mesajın anlamını gizleme bilimi olan Kriptografi kavramını ve sırları analiz eden (kıran) Kriptanaliz kavramlarını kapsamlı bir şekilde tanıtmaktır. Ders, kriptografik sistemlerin matematiksel temellerini, temel şifreleme ve deşifreleme yöntemlerini, modern kriptografik algoritmaları ve uygulamalarını öğretmeyi hedeflemektedir. Öğrenciler, kriptografinin temel ilkelerini, simetrik ve asimetrik şifreleme sistemlerini, dijital imzaları ve kriptografik protokolleri teorik ve pratik olarak öğreneceklerdir.",
+    "dersinOnKosuluOlanDersler": "Mevcut Değil",
+    "dersinIcerigi": "Kriptografiye giriş ve temel kavramlar\nKlasik şifreleme teknikleri ve tarihi gelişimi\nKlasik şifrelerin kriptanalizi\nSimetrik anahtar kriptosistemleri (DES, 3DES, AES)\nBlok şifreleme modları ve akış şifreleri\nKriptografik hash fonksiyonları ve uygulamaları\nAsimetrik anahtar kriptosistemleri (RSA, ElGamal, Eliptik Eğri)\nAnahtar yönetimi ve dağıtımı\nMesaj doğrulama ve bütünlük kontrolleri\nDijital imzalar ve sertifikalar\nModüler aritmetik ve grup teorisi\nRastgele sayı üretimi ve kriptografide kullanımı\nKuantum kriptografisi ve post-kuantum kriptosistemleri\nKriptografik protokoller ve uygulamaları\nKriptografide güncel araştırma konuları ve eğilimler",
+    "dersinIcinOnerilenHususlar": "Dönem boyunca haftalık ders yükümlülüklerini (okuma ve ödevler) yerine getirerek derslere zamanında katılmanız beklenir. Öğretim üyesi ve öğrenciler arasındaki ana iletişim aracı e-posta olacaktır. Dersle ilgili sorularınız için üniversite tarafından sağlanan e-posta adresinizi kullanınız. Öğrencilerin temel matematik bilgisi (özellikle sayı teorisi ve modüler aritmetik) ve bilgisayar bilimlerinde temel programlama deneyimine sahip olması önerilir. Ayrıca, ders kapsamında yapılacak uygulamalar için öğrencilerin kendi bilgisayarlarına erişimi önem taşımaktadır.",
+    "ogretimTuru": "Birinci Öğretim",
+    "stajDurumu": "Mevcut Değil",
+    "dersinKitabiMalzemesiOnerilenKaynaklar": "William Stallings, \"Cryptography and Network Security: Principles and Practice\", Pearson, 2017.\nBruce Schneier, \"Applied Cryptography: Protocols, Algorithms, and Source Code in C\", Wiley, 2015.\nNiels Ferguson, Bruce Schneier, \"Practical Cryptography\", Wiley, 2003.\nJonathan Katz, Yehuda Lindell, \"Introduction to Modern Cryptography\", Chapman and Hall/CRC, 2014.\nJason Andress, \"The Basics of Information Security: Understanding the Fundamentals of InfoSec in Theory and Practice\", Syngress, 2014.\nAyrıca, ders kapsamında çevrimiçi açık kaynak materyaller, NIST standartları ve akademik makaleler kullanılacaktır.",
+    "dersiVerenOgretimUyesiOgretimGorevlisi": "Dr. Öğr. Üyesi",
+    "hazirlanmaTarihi": "27.04.2025"
+  },
+  "dersOgrenmeÇiktilari": [
+    {
+      "id": "ÖÇ.1",
+      "aciklama": "Kriptografinin temel kavramlarını, tarihsel gelişimini ve güncel önemi açıklar."
+    },
+    {
+      "id": "ÖÇ.2",
+      "aciklama": "Klasik şifreleme tekniklerini ve bunların kriptanaliz yöntemlerini uygular."
+    },
+    {
+      "id": "ÖÇ.3",
+      "aciklama": "Simetrik anahtar şifreleme sistemlerini (DES, 3DES, AES) analiz eder ve uygular."
+    },
+    {
+      "id": "ÖÇ.4",
+      "aciklama": "Asimetrik anahtar şifreleme sistemlerini (RSA, ElGamal, Eliptik Eğri) analiz eder ve uygular."
+    },
+    {
+      "id": "ÖÇ.5",
+      "aciklama": "Hash fonksiyonlarını, dijital imzaları ve mesaj doğrulama yöntemlerini tasarlar ve değerlendirir."
+    },
+    {
+      "id": "ÖÇ.6",
+      "aciklama": "Kriptografik protokolleri ve bunların güvenlik değerlendirmelerini gerçekleştirir."
+    },
+    {
+      "id": "ÖÇ.7",
+      "aciklama": "Kuantum kriptografisi ve post-kuantum kriptosistemleri hakkında bilgi sahibi olur ve bu alandaki gelişmeleri değerlendirir."
+    }
+  ],
+  "haftalikDersIcerikleri": [
+    {
+      "hafta": 1,
+      "icerik": "Ders Tanımı ve Kriptografiye Giriş: Temel kavramlar, kriptografinin tarihçesi ve önemi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Tartışma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Kitap Bölümleri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Kriptografi uygulamalarını araştırma"
+    },
+    {
+      "hafta": 2,
+      "icerik": "Klasik Şifreleme Teknikleri: Yer değiştirme ve yerine koyma şifreleri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Ders notlarının incelenmesi",
+      "ogretimYontemleri": "Anlatım, Örnek Çözümü",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Uygulama Örnekleri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Klasik şifreleme örneği"
+    },
+    {
+      "hafta": 3,
+      "icerik": "Klasik Şifreleme Zorlukları ve Kriptanaliz: Frekans analizi, istatistiksel yöntemler",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "Ders notlarının incelenmesi",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Python/Java",
+      "kaynakVeMateryal": "Ders Notları, Uygulama Kılavuzu",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Klasik şifreleri kırma uygulaması"
+    },
+    {
+      "hafta": 4,
+      "icerik": "Matematiksel Arka Plan: Modüler aritmetik, grup teorisi ve sayı teorisi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Matematiksel kavramların incelenmesi",
+      "ogretimYontemleri": "Anlatım, Problem Çözme",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Matematiksel Problemler",
+      "degerlendirmeYontemleri": "Quiz",
+      "odevVeCalisma": "Modüler aritmetik problem seti"
+    },
+    {
+      "hafta": 5,
+      "icerik": "Simetrik Anahtar Kriptosistemleri I: Blok şifreler, DES ve 3DES",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Ders notlarının incelenmesi",
+      "ogretimYontemleri": "Anlatım, Demonstrasyon",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Algoritma Şemaları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "DES algoritması analizi"
+    },
+    {
+      "hafta": 6,
+      "icerik": "Simetrik Anahtar Kriptosistemleri II: AES ve diğer modern blok şifreler",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "AES algoritması incelemesi",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Kriptografi Kütüphaneleri",
+      "kaynakVeMateryal": "Ders Notları, Algoritma Dokümantasyonu",
+      "degerlendirmeYontemleri": "Laboratuvar Çalışması",
+      "odevVeCalisma": "AES şifreleme uygulaması"
+    },
+    {
+      "hafta": 7,
+      "icerik": "Hash Fonksiyonları ve Mesaj Doğrulama: SHA aileleri, MAC, HMAC",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.5",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "Hash fonksiyonları incelemesi",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Kriptografi Araçları",
+      "kaynakVeMateryal": "Ders Notları, Protokol Dökümanları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Hash ve MAC uygulaması"
+    },
+    {
+      "hafta": 8,
+      "icerik": "Ara Sınav",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "1-7 hafta konuları",
+      "ogretimYontemleri": "Sınav",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Sınav",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 9,
+      "icerik": "Asimetrik Kriptografik Sistemler I: RSA algoritması ve uygulamaları",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "RSA algoritması incelemesi",
+      "ogretimYontemleri": "Anlatım, Problem Çözme",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Algoritma Şemaları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "RSA problemi çözümleri"
+    },
+    {
+      "hafta": 10,
+      "icerik": "Asimetrik Kriptografik Sistemler II: ElGamal ve Eliptik Eğri Kriptografisi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "Asimetrik şifreleme incelemesi",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Kriptografi Kütüphaneleri",
+      "kaynakVeMateryal": "Ders Notları, Uygulama Kılavuzu",
+      "degerlendirmeYontemleri": "Laboratuvar Çalışması",
+      "odevVeCalisma": "Eliptik eğri kriptografisi uygulaması"
+    },
+    {
+      "hafta": 11,
+      "icerik": "Dijital İmzalar ve Sertifikalar: İmza algoritmaları, X.509, PKI",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.5",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "Dijital imza konseptleri incelemesi",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Bilgisayar, OpenSSL",
+      "kaynakVeMateryal": "Ders Notları, Certificate Standards",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Dijital imza oluşturma ve doğrulama"
+    },
+    {
+      "hafta": 12,
+      "icerik": "Kriptografik Protokoller: SSL/TLS, SSH, VPN ve diğer güvenli iletişim protokolleri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.6",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Protokol standartları incelemesi",
+      "ogretimYontemleri": "Anlatım, Vaka Analizi",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Protokol Dökümanları",
+      "degerlendirmeYontemleri": "Quiz",
+      "odevVeCalisma": "Protokol güvenlik analizi"
+    },
+    {
+      "hafta": 13,
+      "icerik": "Kuantum Kriptografisi: Temel ilkeler ve kuantum anahtar dağıtımı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Kuantum fizik konseptleri incelemesi",
+      "ogretimYontemleri": "Anlatım, Tartışma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Bilimsel Makaleler",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Kuantum kriptografisi araştırması"
+    },
+    {
+      "hafta": 14,
+      "icerik": "Post-Kuantum Kriptosistemleri: Kuantum bilgisayarlara dirençli algoritmalar",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Post-kuantum algoritmaları incelemesi",
+      "ogretimYontemleri": "Anlatım, Grup Tartışması",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, NIST Standartları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Post-kuantum algoritma karşılaştırması"
+    },
+    {
+      "hafta": 15,
+      "icerik": "Kriptografide Uygulamalar ve Güncel Konular: Blockchain, homoformik şifreleme, sıfır bilgi ispatları",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.4, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Güncel kriptografi uygulamaları incelemesi",
+      "ogretimYontemleri": "Anlatım, Öğrenci Sunumları",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Güncel Araştırmalar",
+      "degerlendirmeYontemleri": "Proje",
+      "odevVeCalisma": "Final projesi hazırlığı"
+    },
+    {
+      "hafta": 16,
+      "icerik": "Final Sınavı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm konular",
+      "ogretimYontemleri": "Sınav",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Sınav",
+      "odevVeCalisma": "-"
+    }
+  ],
+  "dersIsYuku": {
+    "etkinlikler": [
+      {
+        "etkinlik": "Derse Katılım",
+        "sayi": 14,
+        "sure": 3,
+        "toplamIsYuku": 42
+      },
+      {
+        "etkinlik": "Laboratuvar",
+        "sayi": 5,
+        "sure": 2,
+        "toplamIsYuku": 10
+      },
+      {
+        "etkinlik": "Ödev Problemleri İçin Çalışma",
+        "sayi": 7,
+        "sure": 3,
+        "toplamIsYuku": 21
+      },
+      {
+        "etkinlik": "Quiz",
+        "sayi": 2,
+        "sure": 1,
+        "toplamIsYuku": 2
+      },
+      {
+        "etkinlik": "Quiz İçin Bireysel Çalışma",
+        "sayi": 2,
+        "sure": 3,
+        "toplamIsYuku": 6
+      },
+      {
+        "etkinlik": "Ara Sınav İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 15,
+        "toplamIsYuku": 15
+      },
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "sure": 2,
+        "toplamIsYuku": 2
+      },
+      {
+        "etkinlik": "Final Sınavı İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 25,
+        "toplamIsYuku": 25
+      },
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "sure": 2,
+        "toplamIsYuku": 2
+      }
+    ],
+    "toplamIsYuku": 125,
+    "dersAKTSKredisi": 5,
+    "hesaplama": "Dersin AKTS Kredisi = Toplam İş Yükü (Saat) / 25 = 5",
+    "aktsHesaplama": "Toplam İş Yükü / 25"
+  },
+  "dersDegerlendirme": {
+    "yariyilIciEtkinlikleri": [
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "katkiYuzdesi": 70
+      },
+      {
+        "etkinlik": "Quiz",
+        "sayi": 2,
+        "katkiYuzdesi": 10
+      },
+      {
+        "etkinlik": "Laboratuvar",
+        "sayi": 2,
+        "katkiYuzdesi": 10
+      },
+      {
+        "etkinlik": "Ev Ödevi",
+        "sayi": 4,
+        "katkiYuzdesi": 10
+      }
+    ],
+    "yariyilIciToplam": 100,
+    "yariyilSonuEtkinlikleri": [
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "katkiYuzdesi": 80
+      },
+      {
+        "etkinlik": "Proje Hazırlama",
+        "sayi": 1,
+        "katkiYuzdesi": 20
+      }
+    ],
+    "yariyilSonuToplam": 100,
+    "genelDegerlendirme": [
+      {
+        "degerlendirme": "Yarıyıl (Yıl) İçi Etkinlikleri",
+        "katkiYuzdesi": 40
+      },
+      {
+        "degerlendirme": "Yarıyıl (Yıl) Sonu Etkinlikleri",
+        "katkiYuzdesi": 60
+      }
+    ],
+    "genelDegerlendirmeToplam": 100
+  },
+  "programCiktilari": [
+    {
+      "id": "PÇ.1",
+      "kategori": "BİLGİ - Kuramsal Olgusal",
+      "aciklama": "Matematik, Fen Bilimleri ve Bilgisayar Mühendisliği konularında yeterli bilgi sahibidir; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanır."
+    },
+    {
+      "id": "PÇ.2",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "Karmaşık Bilgisayar Mühendisliği problemlerini saptar, tanımlar, formüle eder ve çözer; bu amaca uygun analiz ve modelleme yöntemlerini seçer ve uygular."
+    },
+    {
+      "id": "PÇ.3",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlar; bu amaçla modern tasarım yöntemlerini uygular."
+    },
+    {
+      "id": "PÇ.4",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "Bilgisayar Mühendisliği uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirir, seçer ve kullanır; bilişim teknolojilerini etkin bir şekilde kullanır."
+    },
+    {
+      "id": "PÇ.5",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "Karmaşık Bilgisayar Mühendisliği problemlerinin veya araştırma konularının incelenmesi için deney tasarlar, deney yapar, veri toplar, sonuçları analiz eder ve yorumlar."
+    },
+    {
+      "id": "PÇ.6",
+      "kategori": "YETKİNLİKLER - Bağımsız Çalışabilme ve Sorumluluk Alabilme Yetkinliği",
+      "aciklama": "Bilgisayar Mühendisliği disiplini içinde ve çok disiplinli takımlarda etkin biçimde çalışır; bireysel çalışma sergiler."
+    },
+    {
+      "id": "PÇ.7",
+      "kategori": "YETKİNLİKLER - Öğrenme Yetkinliği",
+      "aciklama": "Yaşam boyu öğrenmenin gerekliliğinin bilincindedir; bilgiye erişir, bilim ve teknolojideki gelişmeleri izler ve kendini sürekli yeniler; insanlık tarihi boyunca oluşan bilgi birikimini Bilgisayar Mühendisliği alanıyla ilişkilendirir."
+    },
+    {
+      "id": "PÇ.8",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "Türkçe sözlü ve yazılı etkin iletişim kurar; etkin rapor yazar ve yazılı raporları anlar, tasarım ve üretim raporları hazırlar, etkin sunum yapar, açık ve anlaşılır talimat verir ve alır."
+    },
+    {
+      "id": "PÇ.9",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "Bilgisayar Mühendisliği uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi sahibidir; mühendislik çözümlerinin hukuksal sonuçlarının farkındadır."
+    },
+    {
+      "id": "PÇ.10",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "Bir yabancı dili kullanarak Bilgisayar Mühendisliği ile ilişkili konularda, bilgi toplar ve meslektaşları ile iletişim kurar."
+    },
+    {
+      "id": "PÇ.11",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilincine sahiptir; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi sahibidir."
+    },
+    {
+      "id": "PÇ.12",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi sahibidir; girişimcilik, yenilikçilik hakkında bilinçlidir; sürdürülebilir kalkınma hakkında bilgi sahibidir."
+    }
+  ],
+  "programVeOgrenmeIliskisi": {
+    "iliskiOlcekleri": "0-5 arası değerler (0: İlişki yok, 5: Çok güçlü ilişki)",
+    "iliskiTablosu": [
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.1",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 5,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.2",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.3",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.4",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.5",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.6",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.7",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      }
+    ]
+  },
+  "toplumsalKatkiVeSurdurulebilirlik": {
+    "surdurulebilirKalkinmaAmaclari": [
+      {
+        "amac": "Yoksulluğa Son",
+        "secili": false
+      },
+      {
+        "amac": "Açlığa Son",
+        "secili": false
+      },
+      {
+        "amac": "Sağlık ve Kaliteli Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Nitelikli Eğitim",
+        "secili": true
+      },
+      {
+        "amac": "Toplumsal Cinsiyet Eşitliği",
+        "secili": false
+      },
+      {
+        "amac": "Temiz Su ve Sanitasyon",
+        "secili": false
+      },
+      {
+        "amac": "Erişilebilir ve Temiz Enerji",
+        "secili": false
+      },
+      {
+        "amac": "İnsana Yakışır İş ve Ekonomik Büyüme",
+        "secili": true
+      },
+      {
+        "amac": "Sanayi, Yenilikçilik ve Altyapı",
+        "secili": true
+      },
+      {
+        "amac": "Eşitsizliklerin Azaltılması",
+        "secili": false
+      },
+      {
+        "amac": "Sürdürülebilir Şehirler ve Topluluklar",
+        "secili": false
+      },
+      {
+        "amac": "Sorumlu Üretim ve Tüketim",
+        "secili": false
+      },
+      {
+        "amac": "İklim Eylemi",
+        "secili": false
+      },
+      {
+        "amac": "Sudaki Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Karasal Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Barış, Adalet ve Güçlü Kurumlar",
+        "secili": true
+      },
+      {
+        "amac": "Amaçlar İçin Ortaklıklar",
+        "secili": false
+      }
+    ],
+    "toplumsalKatkiAlanlari": [
+      {
+        "alan": "Eğitim ve Öğretim",
+        "secili": true
+      },
+      {
+        "alan": "Sağlık",
+        "secili": false
+      },
+      {
+        "alan": "Sosyal Hizmetler ve Toplumsal Eşitlik",
+        "secili": false
+      },
+      {
+        "alan": "Çevre ve Sürdürülebilirlik",
+        "secili": false
+      },
+      {
+        "alan": "Teknolojik ve Bilimsel Yenilikler",
+        "secili": true
+      },
+      {
+        "alan": "Ekonomik Kalkınma ve Girişimcilik",
+        "secili": true
+      },
+      {
+        "alan": "Kültürel ve Sanatsal Etkinlikler",
+        "secili": false
+      },
+      {
+        "alan": "Uluslararası İş birliği ve Diplomasi",
+        "secili": false
+      },
+      {
+        "alan": "Toplum yararına yapılacak diğer çalışmalar",
+        "secili": true
+      }
+    ]
+  },
+  "dersSekmeler": {
+    "dersGenel": true,
+    "dersOgrenmeÇiktilari": true,
+    "haftalikDersIcerikleri": true,
+    "dersIsYuku": true,
+    "dersDegerlendirme": true,
+    "programVeOgrenmeÇiktilariIliskisi": true,
+    "toplumsalKatkiVeSurdurulebilirlik": true
+  },
+  "etkinlikTurleri": [
+    "Alan Çalışması",
+    "Alan Gezisi",
+    "Ara Sınav",
+    "Ara Sınav İçin Bireysel Çalışma",
+    "Beyin Fırtınası",
+    "Bireysel Çalışma",
+    "Bütünleme Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Derse Katılım",
+    "Ev Ödevi",
+    "Final Sınavı",
+    "Final Sınavı İçin Bireysel Çalışma",
+    "Gösterme",
+    "Gözlem",
+    "Laboratuvar",
+    "Laboratuvar Ara Sınavı",
+    "Laboratuvar Sınavı",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Multirom CD Çalışması",
+    "Ödev Problemleri İçin Çalışma",
+    "Okuma",
+    "Örnek Vaka İncelemesi",
+    "Performans",
+    "Problem Çözümü",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Quiz İçin Bireysel Çalışma",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Rehberli Problem Çözümü",
+    "Rol Oynama / Dramatizasyon",
+    "Seminer",
+    "Soru-Yanıt",
+    "Sözlü Sınav",
+    "Takım/Grup Çalışması",
+    "Tartışma",
+    "Toplantı Başkanlığı Yapma",
+    "Uygulama/Pratik"
+  ],
+  "yariyilIciOlasiEtkinlikler": [
+    "Ara Sınav",
+    "Laboratuvar Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Performans",
+    "Quiz",
+    "Rapor",
+    "Rapor Sunma",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Rehberli Problem Çözümü",
+    "Seminer",
+    "Sözlü Sınav",
+    "Ödev Problemleri İçin Çalışma",
+    "Proje Tasarımı/Yönetimi"
+  ],
+  "yariyilSonuOlasiEtkinlikler": [
+    "Final Sınavı",
+    "Laboratuvar Ara Sınavı",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Seminer",
+    "Sözlü Sınav",
+    "Gözlem"
+  ],
+  "denetimBilgileri": {
+    "olusturmaTarihi": "2025-05-10 18:09:42",
+    "olusturan": "json_processor_script",
+    "sonGuncellenmeTarihi": "2025-05-10 18:09:42",
+    "guncelleyen": "json_processor_script",
+    "durum": "Taslak"
+  },
+  "numaralandirmaDegerleri": {
+    "dersTurleri": [
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dersSeviyesi": [
+      "Lisans",
+      "Yüksek Lisans",
+      "Doktora"
+    ],
+    "ogretimSistemi": [
+      "Birinci Öğretim",
+      "İkinci Öğretim",
+      "Uzaktan Öğretim"
+    ],
+    "egitimDili": [
+      "Türkçe",
+      "İngilizce"
+    ],
+    "stajDurumu": [
+      "Mevcut Değil",
+      "Mevcut",
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dokumanDurumu": [
+      "Taslak",
+      "Onaylandı",
+      "Yayınlandı",
+      "Revize Edildi"
+    ]
+  }
+}

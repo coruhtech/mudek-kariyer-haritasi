@@ -1,0 +1,783 @@
+{
+  "dersGenel": {
+    "dersTuru": "Seçmeli",
+    "dersinSeviyesi": "Lisans",
+    "dersKredisi": 3,
+    "dersinAKTSKredisi": 5,
+    "haftalikDersSaatiKuramsal": 3,
+    "haftalikUygulamaSaati": 0,
+    "haftalikLaboratuarSaati": 0,
+    "dersinVerildigiYariyil": 5,
+    "ogretimSistemi": "Birinci Öğretim",
+    "egitimDili": "Türkçe",
+    "secmeliDersKodu": "SECCEN05-2",
+    "universite": "Recep Tayyip Erdoğan Üniversitesi",
+    "ulke": "Türkiye",
+    "il": "Rize",
+    "ilce": "Merkez",
+    "mahalle": "Fener Mah",
+    "fakulte": "Mühendislik Ve Mimarlık Fakültesi",
+    "bolum": "Bilgisayar Mühendisliği",
+    "dersKodu": "CEN321",
+    "dersAdi": "Biçimsel Diller Ve Otomata Teorisi",
+    "ogretimYiliDonemi": "Güz",
+    "dersAKTSKredisi": 5,
+    "dilSecimi": "Türkçe",
+    "mufredatOlusturulmaYili": "2024",
+    "akademikYil": "",
+    "secmeliDersGrubuKodu": "SECCEN05-2"
+  },
+  "dersIcerik": {
+    "dersinAmaci": "Öğrencilere hesaplama teorisinin temellerini oluşturan biçimsel diller, otomatlar ve gramerler hakkında teorik bilgi ve problem çözme becerisi kazandırmak. Bu ders, bilgisayar bilimlerinin matematiksel altyapısını anlamak, programlama dillerinin teorik temellerini kavramak ve hesaplanabilirlik sınırlarını öğrenmek için gerekli bilgileri sağlar.",
+    "dersinOnKosuluOlanDersler": "Mevcut Değil",
+    "dersinIcerigi": "Hesaplama teorisine giriş, alfabeler, diller, gramerler. Düzenli diller, sonlu otomatlar (DFA, NFA), düzenli ifadeler ve dönüşümleri. Düzenli dillerin özellikleri ve pompalama lemması. Bağlamdan bağımsız diller, bağlamdan bağımsız gramerler, itmeli yığınlı otomatlar (PDA) ve tasarımları. Normal formlar (Chomsky, Greibach). Bağlamdan bağımsız dillerin özellikleri ve pompalama lemması. Turing makineleri, varyasyonları ve hesaplama gücü. Karar verilebilirlik ve hesaplanabilirlik kavramları, durdurma problemi. Chomsky hiyerarşisi ve diller arası ilişkiler.",
+    "dersinIcinOnerilenHususlar": "Güçlü matematiksel düşünme ve ispat yeteneği gerektirir. Ayrık Matematik dersini almış olmak önemli bir avantaj sağlar. Düzenli ifadeler ve formal gramerlerin pratik uygulamaları için programlama geçmişi faydalı olacaktır. Öğrencilerin ders dışında düzenli alıştırma yapmaları ve teorik kavramları pekiştirmeleri için problem çözmeleri önerilir.",
+    "ogretimTuru": "Birinci Öğretim",
+    "stajDurumu": "Mevcut Değil",
+    "dersinKitabiMalzemesiOnerilenKaynaklar": "Michael Sipser, \"Introduction to the Theory of Computation\", 3. Baskı, Cengage Learning, 2012.\nJohn E. Hopcroft, Rajeev Motwani, Jeffrey D. Ullman, \"Introduction to Automata Theory, Languages, and Computation\", 3. Baskı, Pearson, 2006.\nPeter Linz, \"An Introduction to Formal Languages and Automata\", 6. Baskı, Jones & Bartlett Learning, 2016.\nHarry R. Lewis ve Christos H. Papadimitriou, \"Elements of the Theory of Computation\", 2. Baskı, Prentice Hall, 1997.\nDers notları ve öğretim üyesi tarafından sağlanan ek kaynaklar.",
+    "dersiVerenOgretimUyesiOgretimGorevlisi": "Dr. Öğr. Üyesi",
+    "hazirlanmaTarihi": "01.05.2025"
+  },
+  "dersOgrenmeÇiktilari": [
+    {
+      "id": "ÖÇ.1",
+      "aciklama": "Hesaplama teorisinin temelini oluşturan alfabe, dil, gramer ve otomat gibi biçimsel dil kavramlarını açıklar."
+    },
+    {
+      "id": "ÖÇ.2",
+      "aciklama": "Düzenli dilleri tanımlayan sonlu otomatları (DFA, NFA) ve düzenli ifadeleri tasarlar, analiz eder ve aralarındaki eşdeğerliği gösterir."
+    },
+    {
+      "id": "ÖÇ.3",
+      "aciklama": "Bağlamdan bağımsız gramerleri (CFG) kullanarak bağlamdan bağımsız dilleri tanımlar ve bu dilleri tanıyan itmeli-yığınlı otomatları (PDA) tasarlar."
+    },
+    {
+      "id": "ÖÇ.4",
+      "aciklama": "Turing makinesi modelini açıklar ve hesaplanabilirlik teorisinin temel kavramlarını (karar verilebilirlik) anlar."
+    },
+    {
+      "id": "ÖÇ.5",
+      "aciklama": "Chomsky hiyerarşisi içindeki farklı dil sınıflarının (düzenli, bağlamdan bağımsız vb.) özelliklerini, ilişkilerini ve tanınma yeteneklerini analiz eder."
+    },
+    {
+      "id": "ÖÇ.6",
+      "aciklama": "Düzenli dillerin ve bağlamdan bağımsız dillerin kapanma özelliklerini ve pompalama lemmalarını kullanarak dillerin sınıflandırılmasını yapar."
+    },
+    {
+      "id": "ÖÇ.7",
+      "aciklama": "Biçimsel diller ve otomata teorisinin bilgisayar bilimlerindeki (derleyici tasarımı, metin işleme vb.) uygulamalarını bilir ve bu alandaki teorik temelleri öğrenir."
+    }
+  ],
+  "haftalikDersIcerikleri": [
+    {
+      "hafta": 1,
+      "icerik": "Hesaplama Teorisine Giriş: Ders tanıtımı, hesaplama teorisinin tarihçesi ve önemi. Alfabeler, diziler, diller ve gramerlerin temel kavramları. Matematiksel gösterimler ve notasyonlar. Biçimsel dil kavramının tanımı ve örnekleri.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Küme teorisi ve mantık bilgisi",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Tartışma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Sunumları, Sipser kitabı Bölüm 0",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Temel kavramlar ve kümeler üzerinde alıştırmalar"
+    },
+    {
+      "hafta": 2,
+      "icerik": "Düzenli Diller ve Belirleyici Sonlu Otomatlar (DFA): Sonlu otomat kavramı, DFA'nın biçimsel tanımı ve gösterimi. Durum geçiş diyagramları ve tabloları. DFA tasarımı için yöntemler. Dil tanıma ve kabul etme kavramları. Örnek problem çözümleri.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Alfabe, dil ve gramer kavramları",
+      "ogretimYontemleri": "Anlatım, Uygulama, Problem Çözme",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Sunumları, Hopcroft kitabı Bölüm 2",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "DFA tasarımı problemleri"
+    },
+    {
+      "hafta": 3,
+      "icerik": "Belirleyici Olmayan Sonlu Otomatlar (NFA): NFA'nın biçimsel tanımı ve özellikleri. DFA ve NFA arasındaki farklar. Epsilon-NFA'lar ve epsilon geçişleri. NFA'ların tasarlanması için yöntemler. NFA'dan DFA'ya dönüşüm algoritması ve örnekleri.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "DFA kavramı ve tasarımı",
+      "ogretimYontemleri": "Anlatım, Uygulama, Problem Çözme",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Sunumları, Sipser kitabı Bölüm 1.2",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "NFA tasarımı ve DFA'ya dönüşüm problemleri"
+    },
+    {
+      "hafta": 4,
+      "icerik": "Düzenli İfadeler: Düzenli ifadelerin biçimsel tanımı ve gösterimi. Temel işlemler ve bileşik ifadeler. Düzenli ifadeler ve sonlu otomatlar arasındaki ilişki. Düzenli ifadeden NFA'ya dönüşüm (Thompson Algoritması). Regex kullanımına dair pratik uygulamalar.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "NFA kavramı",
+      "ogretimYontemleri": "Anlatım, Demonstrasyon, Problem Çözme",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Sunumları, Linz kitabı Bölüm 3",
+      "degerlendirmeYontemleri": "Quiz",
+      "odevVeCalisma": "Düzenli ifade yazma ve dönüşüm alıştırmaları"
+    },
+    {
+      "hafta": 5,
+      "icerik": "Düzenli Diller ve Özellikleri: Düzenli dillerde kapanma özellikleri (birleşim, kesişim, tümleme, vb.). Myhill-Nerode teoremi ve düzenli diller için minimizasyon algoritması. Düzenli diller için pompalama lemması. Düzenli olmayan dillerin ispatlanması.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.5, ÖÇ.6",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Düzenli diller ve otomatlar",
+      "ogretimYontemleri": "Anlatım, İspat Teknikleri, Problem Çözme",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Sunumları, Hopcroft kitabı Bölüm 4",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Pompalama lemması uygulamaları ve ispatlar"
+    },
+    {
+      "hafta": 6,
+      "icerik": "Bağlamdan Bağımsız Gramerler: CFG'nin biçimsel tanımı ve gösterimi. Türetme ağaçları ve türetme adımları. Belirsizlik kavramı. CFG örnekleri ve tasarım stratejileri. CFG'lerde dil işlemleri. Örnek diller için gramer tasarımı.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Gramer kavramı",
+      "ogretimYontemleri": "Anlatım, Uygulama, Problem Çözme",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Sunumları, Sipser kitabı Bölüm 2.1",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "CFG tasarımı ve türetme ağaçları çizimi"
+    },
+    {
+      "hafta": 7,
+      "icerik": "Bağlamdan Bağımsız Gramerlerde Normal Formlar: Gereksiz sembollerin ve boş üretimlerin eliminasyonu. Chomsky Normal Formu (CNF) ve Greibach Normal Formu (GNF). Normal formalara dönüşüm algoritmaları. Cocke-Younger-Kasami (CYK) ayrıştırma algoritması.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "CFG kavramı",
+      "ogretimYontemleri": "Anlatım, Algoritma Analizi, Problem Çözme",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Sunumları, Linz kitabı Bölüm 6",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Normal form dönüşümleri ve CYK algoritması"
+    },
+    {
+      "hafta": 8,
+      "icerik": "Ara Sınav: Düzenli diller, sonlu otomatlar, düzenli ifadeler, pompalama lemması ve bağlamdan bağımsız gramerler konularını kapsayan yazılı sınav.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.5, ÖÇ.6",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Hafta 1-7 konuları",
+      "ogretimYontemleri": "Ölçme-Değerlendirme",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Yazılı Sınav",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 9,
+      "icerik": "İtmeli Yığınlı Otomatlar (PDA): PDA'nın biçimsel tanımı ve bileşenleri. Yığın işlemleri ve geçiş fonksiyonu. Anlık tanımlama (ID) ve hareket ilişkisi. CFG'den PDA'ya dönüşüm. PDA örnekleri ve tasarım stratejileri.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "CFG kavramı",
+      "ogretimYontemleri": "Anlatım, Uygulama, Problem Çözme",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Sunumları, Sipser kitabı Bölüm 2.2",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "PDA tasarımı problem seti"
+    },
+    {
+      "hafta": 10,
+      "icerik": "Bağlamdan Bağımsız Dillerin Özellikleri: CFG ve PDA eşdeğerliği ispatı. CFG'lerde kapanma özellikleri. Bağlamdan bağımsız diller için pompalama lemması. Bağlamdan bağımsız olmayan dillerin ispatlanması. Karar verme algoritmaları.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.5, ÖÇ.6",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "PDA kavramı",
+      "ogretimYontemleri": "Anlatım, İspat Teknikleri, Problem Çözme",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Sunumları, Hopcroft kitabı Bölüm 7",
+      "degerlendirmeYontemleri": "Quiz",
+      "odevVeCalisma": "Pompalama lemması uygulamaları"
+    },
+    {
+      "hafta": 11,
+      "icerik": "Turing Makineleri I: Turing makinesi modeli ve biçimsel tanımı. Durum geçiş diyagramları ve konfigürasyonlar. Kabul, ret ve sonsuz döngü davranışları. Temel Turing makinelerinin tasarımı. Dil tanıma ve hesaplama kavramları.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Önceki otomat modelleri",
+      "ogretimYontemleri": "Anlatım, Demonstrasyon, Problem Çözme",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Sunumları, Sipser kitabı Bölüm 3.1",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Basit Turing makineleri tasarımı"
+    },
+    {
+      "hafta": 12,
+      "icerik": "Turing Makineleri II: Turing makinelerinin varyasyonları (çok-izli, çok-bantlı, çift-yönlü, non-deterministik). Turing makineleri arasında dönüşümler. Evrensel Turing makinesi kavramı. Turing makineleri için programlama teknikleri.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4, ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Temel Turing makinesi kavramı",
+      "ogretimYontemleri": "Anlatım, Karşılaştırmalı Analiz, Problem Çözme",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Sunumları, Hopcroft kitabı Bölüm 8",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "İleri Turing makinesi tasarımı"
+    },
+    {
+      "hafta": 13,
+      "icerik": "Hesaplanabilirlik Teorisi: Karar verilebilir ve karar verilemez problemler. Turing-hesaplanabilir fonksiyonlar. Durdurma problemi (Halting Problem) ve çözülemezlik ispatı. İndirgenebilirlik ve çözülemez problemlerin inşası. Church-Turing tezi.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4, ÖÇ.5, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Turing makineleri",
+      "ogretimYontemleri": "Anlatım, İspat Teknikleri, Tartışma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Sunumları, Sipser kitabı Bölüm 4",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Hesaplanabilirlik problemleri"
+    },
+    {
+      "hafta": 14,
+      "icerik": "Chomsky Hiyerarşisi ve Hesaplama Modelleri: Dil sınıfları ve bunların özellikleri (düzenli, bağlamdan bağımsız, bağlama duyarlı ve dil sınırsız diller). Farklı otomat modelleri ve tanıdıkları dil sınıfları arasındaki ilişkiler. Hiyerarşinin bilgisayar bilimindeki önemi.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.5, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm otomat modelleri",
+      "ogretimYontemleri": "Anlatım, Sentez, Tartışma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Sunumları, Lewis & Papadimitriou kitabı",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Dil sınıflandırma problemleri"
+    },
+    {
+      "hafta": 15,
+      "icerik": "Uygulamalar ve İleri Konular: Biçimsel diller ve otomata teorisinin bilgisayar bilimlerindeki pratik uygulamaları. Derleyici tasarımında gramerlerin rolü. Metin işleme ve örüntü eşleştirmede düzenli ifadeler. Hesaplanabilirlik sınırları ve algoritmik problemler. Kurs özeti ve genel değerlendirme.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm konular",
+      "ogretimYontemleri": "Anlatım, Örnek Vaka İncelemesi, Tartışma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Sunumları, Güncel Araştırma Makaleleri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Uygulama projesi"
+    },
+    {
+      "hafta": 16,
+      "icerik": "Final Sınavı: Tüm konuları kapsayan yazılı sınav.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm konular",
+      "ogretimYontemleri": "Ölçme-Değerlendirme",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Yazılı Sınav",
+      "odevVeCalisma": "-"
+    }
+  ],
+  "dersIsYuku": {
+    "etkinlikler": [
+      {
+        "etkinlik": "Derse Katılım",
+        "sayi": 14,
+        "sure": 3,
+        "toplamIsYuku": 42
+      },
+      {
+        "etkinlik": "Bireysel Çalışma",
+        "sayi": 14,
+        "sure": 2,
+        "toplamIsYuku": 28
+      },
+      {
+        "etkinlik": "Problem Çözümü",
+        "sayi": 6,
+        "sure": 3,
+        "toplamIsYuku": 18
+      },
+      {
+        "etkinlik": "Quiz",
+        "sayi": 2,
+        "sure": 1,
+        "toplamIsYuku": 2
+      },
+      {
+        "etkinlik": "Ara Sınav İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 12,
+        "toplamIsYuku": 12
+      },
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "sure": 2,
+        "toplamIsYuku": 2
+      },
+      {
+        "etkinlik": "Final Sınavı İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 18,
+        "toplamIsYuku": 18
+      },
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "sure": 3,
+        "toplamIsYuku": 3
+      }
+    ],
+    "toplamIsYuku": 125,
+    "dersAKTSKredisi": 5,
+    "hesaplama": "Dersin AKTS Kredisi = Toplam İş Yükü (Saat) / 25 = 5",
+    "aktsHesaplama": "Toplam İş Yükü / 25"
+  },
+  "etkinlikTurleri": [
+    "Alan Çalışması",
+    "Alan Gezisi",
+    "Ara Sınav",
+    "Ara Sınav İçin Bireysel Çalışma",
+    "Beyin Fırtınası",
+    "Bireysel Çalışma",
+    "Bütünleme Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Derse Katılım",
+    "Ev Ödevi",
+    "Final Sınavı",
+    "Final Sınavı İçin Bireysel Çalışma",
+    "Gösterme",
+    "Gözlem",
+    "Laboratuvar",
+    "Laboratuvar Ara Sınavı",
+    "Laboratuvar Sınavı",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Multirom CD Çalışması",
+    "Ödev Problemleri İçin Çalışma",
+    "Okuma",
+    "Örnek Vaka İncelemesi",
+    "Performans",
+    "Problem Çözümü",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Quiz İçin Bireysel Çalışma",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Rehberli Problem Çözümü",
+    "Rol Oynama / Dramatizasyon",
+    "Seminer",
+    "Soru-Yanıt",
+    "Sözlü Sınav",
+    "Takım/Grup Çalışması",
+    "Tartışma",
+    "Toplantı Başkanlığı Yapma",
+    "Uygulama/Pratik"
+  ],
+  "dersDegerlendirme": {
+    "yariyilIciEtkinlikleri": [
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "katkiYuzdesi": 70
+      },
+      {
+        "etkinlik": "Quiz",
+        "sayi": 2,
+        "katkiYuzdesi": 10
+      },
+      {
+        "etkinlik": "Ev Ödevi",
+        "sayi": 5,
+        "katkiYuzdesi": 20
+      }
+    ],
+    "yariyilIciToplam": 100,
+    "yariyilSonuEtkinlikleri": [
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "katkiYuzdesi": 100
+      }
+    ],
+    "yariyilSonuToplam": 100,
+    "genelDegerlendirme": [
+      {
+        "degerlendirme": "Yarıyıl (Yıl) İçi Etkinlikleri",
+        "katkiYuzdesi": 40
+      },
+      {
+        "degerlendirme": "Yarıyıl (Yıl) Sonu Etkinlikleri",
+        "katkiYuzdesi": 60
+      }
+    ],
+    "genelDegerlendirmeToplam": 100
+  },
+  "yariyilIciOlasiEtkinlikler": [
+    "Ara Sınav",
+    "Laboratuvar Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Performans",
+    "Quiz",
+    "Rapor",
+    "Rapor Sunma",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Rehberli Problem Çözümü",
+    "Seminer",
+    "Sözlü Sınav",
+    "Ödev Problemleri İçin Çalışma",
+    "Proje Tasarımı/Yönetimi"
+  ],
+  "yariyilSonuOlasiEtkinlikler": [
+    "Final Sınavı",
+    "Laboratuvar Ara Sınavı",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Seminer",
+    "Sözlü Sınav",
+    "Gözlem"
+  ],
+  "programCiktilari": [
+    {
+      "id": "PÇ.1",
+      "kategori": "BİLGİ - Kuramsal Olgusal",
+      "aciklama": "TEMEL BİLGİ: Matematik, Fen Bilimleri ve Bilgisayar Mühendisliği konularında yeterli bilgi sahibidir; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanır."
+    },
+    {
+      "id": "PÇ.2",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "PROBLEM ÇÖZME: Karmaşık Bilgisayar Mühendisliği problemlerini saptar, tanımlar, formüle eder ve çözer; bu amaca uygun analiz ve modelleme yöntemlerini seçer ve uygular."
+    },
+    {
+      "id": "PÇ.3",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TASARIM: Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlar; bu amaçla modern tasarım yöntemlerini uygular."
+    },
+    {
+      "id": "PÇ.4",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TEKNOLOJİ: Bilgisayar Mühendisliği uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirir, seçer ve kullanır; bilişim teknolojilerini etkin bir şekilde kullanır."
+    },
+    {
+      "id": "PÇ.5",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "ARAŞTIRMA: Karmaşık Bilgisayar Mühendisliği problemlerinin veya araştırma konularının incelenmesi için deney tasarlar, deney yapar, veri toplar, sonuçları analiz eder ve yorumlar."
+    },
+    {
+      "id": "PÇ.6",
+      "kategori": "YETKİNLİKLER - Bağımsız Çalışabilme ve Sorumluluk Alabilme Yetkinliği",
+      "aciklama": "İŞBİRLİĞİ: Bilgisayar Mühendisliği disiplini içinde ve çok disiplinli takımlarda etkin biçimde çalışır; bireysel çalışma sergiler."
+    },
+    {
+      "id": "PÇ.7",
+      "kategori": "YETKİNLİKLER - Öğrenme Yetkinliği",
+      "aciklama": "GELİŞİM: Yaşam boyu öğrenmenin gerekliliğinin bilincindedir; bilgiye erişir, bilim ve teknolojideki gelişmeleri izler ve kendini sürekli yeniler; insanlık tarihi boyunca oluşan bilgi birikimini Bilgisayar Mühendisliği alanıyla ilişkilendirir."
+    },
+    {
+      "id": "PÇ.8",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "İLETİŞİM: Türkçe sözlü ve yazılı etkin iletişim kurar; etkin rapor yazar ve yazılı raporları anlar, tasarım ve üretim raporları hazırlar, etkin sunum yapar, açık ve anlaşılır talimat verir ve alır."
+    },
+    {
+      "id": "PÇ.9",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "TOPLUMSAL BİLİNÇ: Bilgisayar Mühendisliği uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi sahibidir; mühendislik çözümlerinin hukuksal sonuçlarının farkındadır."
+    },
+    {
+      "id": "PÇ.10",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "ULUSLARARASILIK: Bir yabancı dili kullanarak Bilgisayar Mühendisliği ile ilişkili konularda, bilgi toplar ve meslektaşları ile iletişim kurar."
+    },
+    {
+      "id": "PÇ.11",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "ETİK: Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilincine sahiptir; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi sahibidir."
+    },
+    {
+      "id": "PÇ.12",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "YÖNETİM: Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi sahibidir; girişimcilik, yenilikçilik hakkında bilinçlidir; sürdürülebilir kalkınma hakkında bilgi sahibidir."
+    }
+  ],
+  "programVeOgrenmeIliskisi": {
+    "iliskiOlcekleri": "0-5 arası değerler (0: İlişki yok, 5: Çok güçlü ilişki)",
+    "iliskiTablosu": [
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.1",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 5,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.2",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.3",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.4",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.5",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.6",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.7",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 3,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      }
+    ]
+  },
+  "toplumsalKatkiVeSurdurulebilirlik": {
+    "surdurulebilirKalkinmaAmaclari": [
+      {
+        "amac": "Yoksulluğa Son",
+        "secili": false
+      },
+      {
+        "amac": "Açlığa Son",
+        "secili": false
+      },
+      {
+        "amac": "Sağlık ve Kaliteli Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Nitelikli Eğitim",
+        "secili": true
+      },
+      {
+        "amac": "Toplumsal Cinsiyet Eşitliği",
+        "secili": false
+      },
+      {
+        "amac": "Temiz Su ve Sanitasyon",
+        "secili": false
+      },
+      {
+        "amac": "Erişilebilir ve Temiz Enerji",
+        "secili": false
+      },
+      {
+        "amac": "İnsana Yakışır İş ve Ekonomik Büyüme",
+        "secili": true
+      },
+      {
+        "amac": "Sanayi, Yenilikçilik ve Altyapı",
+        "secili": true
+      },
+      {
+        "amac": "Eşitsizliklerin Azaltılması",
+        "secili": false
+      },
+      {
+        "amac": "Sürdürülebilir Şehirler ve Topluluklar",
+        "secili": false
+      },
+      {
+        "amac": "Sorumlu Üretim ve Tüketim",
+        "secili": false
+      },
+      {
+        "amac": "İklim Eylemi",
+        "secili": false
+      },
+      {
+        "amac": "Sudaki Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Karasal Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Barış, Adalet ve Güçlü Kurumlar",
+        "secili": false
+      },
+      {
+        "amac": "Amaçlar İçin Ortaklıklar",
+        "secili": false
+      }
+    ],
+    "toplumsalKatkiAlanlari": [
+      {
+        "alan": "Eğitim ve Öğretim",
+        "secili": true
+      },
+      {
+        "alan": "Sağlık",
+        "secili": false
+      },
+      {
+        "alan": "Sosyal Hizmetler ve Toplumsal Eşitlik",
+        "secili": false
+      },
+      {
+        "alan": "Çevre ve Sürdürülebilirlik",
+        "secili": false
+      },
+      {
+        "alan": "Teknolojik ve Bilimsel Yenilikler",
+        "secili": true
+      },
+      {
+        "alan": "Ekonomik Kalkınma ve Girişimcilik",
+        "secili": true
+      },
+      {
+        "alan": "Kültürel ve Sanatsal Etkinlikler",
+        "secili": false
+      },
+      {
+        "alan": "Uluslararası İş birliği ve Diplomasi",
+        "secili": false
+      },
+      {
+        "alan": "Toplum yararına yapılacak diğer çalışmalar",
+        "secili": false
+      }
+    ]
+  },
+  "dersSekmeler": {
+    "dersGenel": true,
+    "dersOgrenmeÇiktilari": true,
+    "haftalikDersIcerikleri": true,
+    "dersIsYuku": true,
+    "dersDegerlendirme": true,
+    "programVeOgrenmeÇiktilariIliskisi": true,
+    "toplumsalKatkiVeSurdurulebilirlik": true
+  },
+  "denetimBilgileri": {
+    "olusturmaTarihi": "2025-05-10 18:09:41",
+    "olusturan": "json_processor_script",
+    "sonGuncellenmeTarihi": "2025-05-10 18:09:41",
+    "guncelleyen": "json_processor_script",
+    "durum": "Taslak"
+  },
+  "numaralandirmaDegerleri": {
+    "dersTurleri": [
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dersSeviyesi": [
+      "Lisans",
+      "Yüksek Lisans",
+      "Doktora"
+    ],
+    "ogretimSistemi": [
+      "Birinci Öğretim",
+      "İkinci Öğretim",
+      "Uzaktan Öğretim"
+    ],
+    "egitimDili": [
+      "Türkçe",
+      "İngilizce"
+    ],
+    "stajDurumu": [
+      "Mevcut Değil",
+      "Mevcut",
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dokumanDurumu": [
+      "Taslak",
+      "Onaylandı",
+      "Yayınlandı",
+      "Revize Edildi"
+    ]
+  }
+}

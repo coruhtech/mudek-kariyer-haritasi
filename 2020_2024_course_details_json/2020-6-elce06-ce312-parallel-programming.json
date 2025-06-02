@@ -1,0 +1,675 @@
+{
+  "dersGenel": {
+    "dersTuru": "Seçmeli",
+    "dersinSeviyesi": "Lisans",
+    "dersinAKTSKredisi": 5,
+    "haftalikDersSaatiKuramsal": 3,
+    "haftalikUygulamaSaati": 2,
+    "haftalikLaboratuarSaati": 0,
+    "dersinVerildigiYariyil": 6,
+    "ogretimSistemi": "Birinci Öğretim",
+    "egitimDili": "İngilizce",
+    "secmeliDersGrubuKodu": "ELCE06",
+    "universite": "Recep Tayyip Erdoğan Üniversitesi",
+    "ulke": "Türkiye",
+    "il": "Rize",
+    "ilce": "Merkez",
+    "mahalle": "Fener Mah",
+    "fakulte": "Mühendislik Ve Mimarlık Fakültesi",
+    "bolum": "Bilgisayar Mühendisliği",
+    "dersKodu": "CE312",
+    "dersAdi": "Parallel Programming",
+    "ogretimYiliDonemi": "Bahar",
+    "dersAKTSKredisi": 5,
+    "dilSecimi": "Türkçe",
+    "mufredatOlusturulmaYili": "2020",
+    "akademikYil": ""
+  },
+  "dersIcerik": {
+    "dersinAmaci": "This course introduces fundamental concepts and practices of parallel programming, focusing on designing and implementing efficient parallel algorithms using modern programming frameworks and architectures. Students will learn to analyze sequential algorithms and transform them into parallel solutions, understanding key concepts such as parallelization strategies, load balancing, synchronization, and performance optimization.",
+    "dersinOnKosuluOlanDersler": "Mevcut Değil",
+    "dersinIcerigi": "Introduction to parallel computing concepts and architecture. Parallel algorithm design and performance analysis principles. Shared memory programming using OpenMP framework. Distributed memory programming with Message Passing Interface (MPI). Performance optimization and profiling tools in parallel systems. GPU computing and heterogeneous parallel architecture. Advanced parallel programming patterns and synchronization techniques. Real-world parallel computing applications and case studies.",
+    "dersinIcinOnerilenHususlar": "Gerekli Donanım: Çok çekirdekli işlemcili, tercihen 16GB RAM ve 100GB boş disk alanına sahip Windows 10/11 bilgisayar.\nGerekli Yazılım: Visual Studio Community 2022 ('Desktop development with C++', 'Linux development with C++' iş yükleri), WSL2 üzerinde Ubuntu dağıtımı, Git for Windows.\nKurulum: Geliştirme ortamının kurulumu ilk hafta derste desteklenecektir.\nİletişim: Ana iletişim e-posta üzerinden yapılacaktır (Microsoft Teams ve Github destekleyici olarak kullanılabilir). Geç ödev kabul edilmez (beklenmedik durumlar hariç). Akademik dürüstlük ilkelerine uyulması beklenmektedir.",
+    "ogretimTuru": "Birinci Öğretim",
+    "stajDurumu": "Mevcut Değil",
+    "dersinKitabiMalzemesiOnerilenKaynaklar": "Bu ders için zorunlu bir ders kitabı bulunmamaktadır. Başvuru için kullanılabilecek kaynaklar:\nPeter S. Pacheco, An Introduction to Parallel Programming, Morgan Kaufmann\nMichael J. Quinn, Parallel Programming in C with MPI and OpenMP, McGraw-Hill\nBarbara Chapman, Using OpenMP: Portable Shared Memory Parallel Programming, MIT Press\nEk kaynaklar ders sırasında sağlanacaktır.",
+    "dersiVerenOgretimUyesiOgretimGorevlisi": "Asst. Prof. Dr. Uğur CORUH",
+    "hazirlanmaTarihi": "27.04.2025"
+  },
+  "dersOgrenmeÇiktilari": [
+    {
+      "id": "ÖÇ.1",
+      "aciklama": "Paralel programlama kavramlarını, mimarilerini, paralelleştirme stratejilerini ve performans metriklerini açıklar."
+    },
+    {
+      "id": "ÖÇ.2",
+      "aciklama": "Paylaşımlı bellek (OpenMP) ve dağıtık bellek (MPI) programlama modellerini kullanarak paralel algoritmalar tasarlar ve uygular."
+    },
+    {
+      "id": "ÖÇ.3",
+      "aciklama": "Paralel programlarda senkronizasyon (synchronization) ve veri yapıları yönetimi tekniklerini uygular."
+    },
+    {
+      "id": "ÖÇ.4",
+      "aciklama": "Paralel programların performansını (verimlilik, ölçeklenebilirlik) analiz eder, darboğazları belirler ve optimizasyon tekniklerini uygular."
+    },
+    {
+      "id": "ÖÇ.5",
+      "aciklama": "Grafik İşlem Birimi (GPU) hesaplama temellerini (CUDA) ve heterojen paralel mimarileri anlar."
+    },
+    {
+      "id": "ÖÇ.6",
+      "aciklama": "Paralel hesaplama kavramlarını kullanarak gerçek dünya problemlerine (bilimsel hesaplama, veri işleme) uygun çözümler geliştirir ve uygular."
+    },
+    {
+      "id": "ÖÇ.7",
+      "aciklama": "Problem gereksinimlerine göre uygun paralel hesaplama yaklaşımlarını (mimari, programlama modeli, araçlar) seçer ve değerlendirir."
+    }
+  ],
+  "haftalikDersIcerikleri": [
+    {
+      "hafta": 1,
+      "icerik": "Course Introduction and Overview (Course plan, requirements, Introduction to parallel computing, Setting up development environment)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1",
+      "ogretimOrtami": "Sınıf Ortamı, Laboratuvar",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Anlatım, Demonstrasyon",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, VS Code, WSL",
+      "kaynakVeMateryal": "Ders Sunumları, Kurulum Kılavuzları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Geliştirme ortamı kurulumu (3 saat)"
+    },
+    {
+      "hafta": 2,
+      "icerik": "Parallel Computing Fundamentals (Types of parallelism, Architecture overview, Performance metrics, Analysis of parallel systems)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Geliştirme ortamı kurulumu",
+      "ogretimYontemleri": "Anlatım, Tartışma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Sunumları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "İlk kod egzersizi (3 saat)"
+    },
+    {
+      "hafta": 3,
+      "icerik": "Introduction to OpenMP (Shared memory programming, Basic directives, Thread management, Data parallelism concepts)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3",
+      "ogretimOrtami": "Sınıf Ortamı, Laboratuvar",
+      "onHazirlik": "Parallel Computing Fundamentals",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, C/C++ Derleyici (OpenMP destekli)",
+      "kaynakVeMateryal": "Ders Sunumları, OpenMP Dokümantasyonu",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "OpenMP Alıştırması (3 saat)"
+    },
+    {
+      "hafta": 4,
+      "icerik": "Advanced OpenMP (Parallel loops, Synchronization, Data sharing, Performance optimization strategies)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3, ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı, Laboratuvar",
+      "onHazirlik": "Introduction to OpenMP",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, C/C++ Derleyici (OpenMP destekli)",
+      "kaynakVeMateryal": "Ders Sunumları, OpenMP Dokümantasyonu",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "OpenMP Alıştırması (3 saat)"
+    },
+    {
+      "hafta": 5,
+      "icerik": "Performance Analysis & MPI Introduction (Profiling tools, Debugging techniques, Distributed memory concepts, Basic MPI concepts)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4, ÖÇ.2",
+      "ogretimOrtami": "Sınıf Ortamı, Laboratuvar",
+      "onHazirlik": "OpenMP",
+      "ogretimYontemleri": "Anlatım, Demonstrasyon",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, Profiling Araçları",
+      "kaynakVeMateryal": "Ders Sunumları, MPI Dokümantasyonu",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Performans Laboratuvarı (3 saat)"
+    },
+    {
+      "hafta": 6,
+      "icerik": "Advanced MPI & Parallel Patterns (Point-to-point communication, Collective operations, Common parallel patterns, Design strategies)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3",
+      "ogretimOrtami": "Sınıf Ortamı, Laboratuvar",
+      "onHazirlik": "MPI Introduction",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, MPI Kütüphanesi",
+      "kaynakVeMateryal": "Ders Sunumları, MPI Dokümantasyonu",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "MPI Kurulumu ve Uygulama (3 saat)"
+    },
+    {
+      "hafta": 7,
+      "icerik": "Quiz-1 (Written examination)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "İlk 6 Hafta Konuları",
+      "ogretimYontemleri": "Sınav",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Quiz",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 8,
+      "icerik": "Midterm Project Review (Project presentations, Performance analysis discussions)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Proje Planı ve İlk Uygulamalar",
+      "ogretimYontemleri": "Sunum, Tartışma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Öğrenci Projeleri",
+      "degerlendirmeYontemleri": "Proje Sunumu",
+      "odevVeCalisma": "Sunuma Hazırlık (Tam Gün)"
+    },
+    {
+      "hafta": 9,
+      "icerik": "Midterm Examination Period",
+      "iliskiliOgrenmeÇiktisi": "-",
+      "ogretimOrtami": "-",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "-",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Midterm Project Report Due",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 10,
+      "icerik": "Parallel Algorithm Design & GPU Basics (Decomposition strategies, Load balancing, GPU architecture Fundamentals, CUDA introduction)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı, Laboratuvar",
+      "onHazirlik": "MPI, Algoritma Tasarım İlkeleri",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Sunumları, CUDA Dokümantasyonu",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Algoritma Tasarım Laboratuvarı (3 saat)"
+    },
+    {
+      "hafta": 11,
+      "icerik": "Advanced GPU Programming (CUDA programming model, Memory hierarchy, Optimization techniques, Performance considerations)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.4, ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı, Laboratuvar",
+      "onHazirlik": "GPU Basics, CUDA Introduction",
+      "ogretimYontemleri": "Anlatım, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, CUDA Uyumlu GPU, CUDA Toolkit",
+      "kaynakVeMateryal": "Ders Sunumları, CUDA Dokümantasyonu",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "CUDA Uygulaması (3 saat)"
+    },
+    {
+      "hafta": 12,
+      "icerik": "Real-world Applications I (Scientific computing, Data processing applications, Performance optimization, Case studies)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "OpenMP, MPI, CUDA",
+      "ogretimYontemleri": "Vaka Analizi, Tartışma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Makaleler, Ders Sunumları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Uygulama Geliştirme (3 saat)"
+    },
+    {
+      "hafta": 13,
+      "icerik": "Real-world Applications II (Advanced parallel patterns, N-body simulations, Matrix computations, Big data processing)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı, Laboratuvar",
+      "onHazirlik": "Real-world Applications I",
+      "ogretimYontemleri": "Vaka Analizi, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Makaleler, Ders Sunumları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Vaka Çalışması Uygulaması (3 saat)"
+    },
+    {
+      "hafta": 14,
+      "icerik": "Quiz-2 (Written examination)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "8-13 Hafta Konuları",
+      "ogretimYontemleri": "Sınav",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Quiz",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 15,
+      "icerik": "Final Project Review (Project presentations, Performance analysis discussions)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tamamlanmış Proje ve Rapor",
+      "ogretimYontemleri": "Sunum, Tartışma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Öğrenci Projeleri",
+      "degerlendirmeYontemleri": "Proje Sunumu",
+      "odevVeCalisma": "Sunuma Hazırlık (Tam Gün)"
+    },
+    {
+      "hafta": 16,
+      "icerik": "Final Examination Period",
+      "iliskiliOgrenmeÇiktisi": "-",
+      "ogretimOrtami": "-",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "-",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Final Project Report Due",
+      "odevVeCalisma": "-"
+    }
+  ],
+  "dersIsYuku": {
+    "etkinlikler": [
+      {
+        "etkinlik": "Derse Katılım",
+        "sayi": 14,
+        "sure": 5,
+        "toplamIsYuku": 70
+      },
+      {
+        "etkinlik": "Proje Hazırlama",
+        "sayi": 2,
+        "sure": 15,
+        "toplamIsYuku": 30
+      },
+      {
+        "etkinlik": "Quiz İçin Bireysel Çalışma",
+        "sayi": 2,
+        "sure": 4,
+        "toplamIsYuku": 8
+      },
+      {
+        "etkinlik": "Proje Sunma",
+        "sayi": 2,
+        "sure": 6,
+        "toplamIsYuku": 12
+      },
+      {
+        "etkinlik": "Quiz",
+        "sayi": 2,
+        "sure": 3,
+        "toplamIsYuku": 6
+      }
+    ],
+    "toplamIsYuku": 126,
+    "dersAKTSKredisi": 5,
+    "hesaplama": "Dersin AKTS Kredisi = Toplam İş Yükü (Saat) / 25 = 5",
+    "aktsHesaplama": "Toplam İş Yükü / 25"
+  },
+  "etkinlikTurleri": [
+    "Alan Çalışması",
+    "Alan Gezisi",
+    "Ara Sınav",
+    "Ara Sınav İçin Bireysel Çalışma",
+    "Beyin Fırtınası",
+    "Bireysel Çalışma",
+    "Bütünleme Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Derse Katılım",
+    "Ev Ödevi",
+    "Final Sınavı",
+    "Final Sınavı İçin Bireysel Çalışma",
+    "Gösterme",
+    "Gözlem",
+    "Laboratuvar",
+    "Laboratuvar Ara Sınavı",
+    "Laboratuvar Sınavı",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Multirom CD Çalışması",
+    "Ödev Problemleri İçin Çalışma",
+    "Okuma",
+    "Örnek Vaka İncelemesi",
+    "Performans",
+    "Problem Çözümü",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Quiz İçin Bireysel Çalışma",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Rehberli Problem Çözümü",
+    "Rol Oynama / Dramatizasyon",
+    "Seminer",
+    "Soru-Yanıt",
+    "Sözlü Sınav",
+    "Takım/Grup Çalışması",
+    "Tartışma",
+    "Toplantı Başkanlığı Yapma",
+    "Uygulama/Pratik"
+  ],
+  "dersDegerlendirme": {
+    "yariyilIciEtkinlikleri": [
+      {
+        "etkinlik": "Proje Hazırlama",
+        "sayi": 1,
+        "katkiYuzdesi": 60
+      },
+      {
+        "etkinlik": "Quiz",
+        "sayi": 1,
+        "katkiYuzdesi": 40
+      }
+    ],
+    "yariyilIciToplam": 100,
+    "yariyilSonuEtkinlikleri": [
+      {
+        "etkinlik": "Proje Hazırlama",
+        "sayi": 1,
+        "katkiYuzdesi": 70
+      },
+      {
+        "etkinlik": "Quiz",
+        "sayi": 1,
+        "katkiYuzdesi": 30
+      }
+    ],
+    "yariyilSonuToplam": 100,
+    "genelDegerlendirme": [
+      {
+        "degerlendirme": "Yarıyıl (Yıl) Sonu Etkinlikleri",
+        "katkiYuzdesi": 60
+      },
+      {
+        "degerlendirme": "Yarıyıl (Yıl) İçi Etkinlikleri",
+        "katkiYuzdesi": 40
+      }
+    ],
+    "genelDegerlendirmeToplam": 100
+  },
+  "yariyilIciOlasiEtkinlikler": [
+    "Ara Sınav",
+    "Laboratuvar Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Performans",
+    "Quiz",
+    "Rapor",
+    "Rapor Sunma",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Rehberli Problem Çözümü",
+    "Seminer",
+    "Sözlü Sınav",
+    "Ödev Problemleri İçin Çalışma",
+    "Proje Tasarımı/Yönetimi"
+  ],
+  "yariyilSonuOlasiEtkinlikler": [
+    "Final Sınavı",
+    "Laboratuvar Ara Sınavı",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Seminer",
+    "Sözlü Sınav",
+    "Gözlem"
+  ],
+  "programCiktilari": [
+    {
+      "id": "PÇ.1",
+      "kategori": "BİLGİ - Kuramsal Olgusal",
+      "aciklama": "TEMEL BİLGİ: Matematik, Fen Bilimleri ve Bilgisayar Mühendisliği konularında yeterli bilgi sahibidir; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanır."
+    },
+    {
+      "id": "PÇ.2",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "PROBLEM ÇÖZME: Karmaşık Bilgisayar Mühendisliği problemlerini saptar, tanımlar, formüle eder ve çözer; bu amaca uygun analiz ve modelleme yöntemlerini seçer ve uygular."
+    },
+    {
+      "id": "PÇ.3",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TASARIM: Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlar; bu amaçla modern tasarım yöntemlerini uygular."
+    },
+    {
+      "id": "PÇ.4",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TEKNOLOJİ: Bilgisayar Mühendisliği uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirir, seçer ve kullanır; bilişim teknolojilerini etkin bir şekilde kullanır."
+    },
+    {
+      "id": "PÇ.5",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "ARAŞTIRMA: Karmaşık Bilgisayar Mühendisliği problemlerinin veya araştırma konularının incelenmesi için deney tasarlar, deney yapar, veri toplar, sonuçları analiz eder ve yorumlar."
+    },
+    {
+      "id": "PÇ.6",
+      "kategori": "YETKİNLİKLER - Bağımsız Çalışabilme ve Sorumluluk Alabilme Yetkinliği",
+      "aciklama": "İŞBİRLİĞİ: Bilgisayar Mühendisliği disiplini içinde ve çok disiplinli takımlarda etkin biçimde çalışır; bireysel çalışma sergiler."
+    },
+    {
+      "id": "PÇ.7",
+      "kategori": "YETKİNLİKLER - Öğrenme Yetkinliği",
+      "aciklama": "GELİŞİM: Yaşam boyu öğrenmenin gerekliliğinin bilincindedir; bilgiye erişir, bilim ve teknolojideki gelişmeleri izler ve kendini sürekli yeniler; insanlık tarihi boyunca oluşan bilgi birikimini Bilgisayar Mühendisliği alanıyla ilişkilendirir."
+    },
+    {
+      "id": "PÇ.8",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "İLETİŞİM: Türkçe sözlü ve yazılı etkin iletişim kurar; etkin rapor yazar ve yazılı raporları anlar, tasarım ve üretim raporları hazırlar, etkin sunum yapar, açık ve anlaşılır talimat verir ve alır."
+    },
+    {
+      "id": "PÇ.9",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "TOPLUMSAL BİLİNÇ: Bilgisayar Mühendisliği uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi sahibidir; mühendislik çözümlerinin hukuksal sonuçlarının farkındadır."
+    },
+    {
+      "id": "PÇ.10",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "ULUSLARARASILIK: Bir yabancı dili kullanarak Bilgisayar Mühendisliği ile ilişkili konularda, bilgi toplar ve meslektaşları ile iletişim kurar."
+    },
+    {
+      "id": "PÇ.11",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "ETİK: Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilincine sahiptir; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi sahibidir."
+    },
+    {
+      "id": "PÇ.12",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "YÖNETİM: Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi sahibidir; girişimcilik, yenilikçilik hakkında bilinçlidir; sürdürülebilir kalkınma hakkında bilgi sahibidir."
+    }
+  ],
+  "programVeOgrenmeIliskisi": {
+    "iliskiOlcekleri": "0-5 arası değerler (0: İlişki yok, 5: Çok güçlü ilişki)",
+    "iliskiTablosu": [
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.1",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 5,
+          "PÇ.3": 3,
+          "PÇ.4": 0,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.2",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 3,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.3",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.4",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.5",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 0,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.6",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 3,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.7",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      }
+    ]
+  },
+  "toplumsalKatkiVeSurdurulebilirlik": {
+    "surdurulebilirKalkinmaAmaclari": [
+      {
+        "amac": "Nitelikli Eğitim",
+        "secili": true
+      },
+      {
+        "amac": "Sanayi, Yenilikçilik ve Altyapı",
+        "secili": true
+      }
+    ],
+    "toplumsalKatkiAlanlari": [
+      {
+        "alan": "Eğitim ve Öğretim",
+        "secili": true
+      },
+      {
+        "alan": "Teknolojik ve Bilimsel Yenilikler",
+        "secili": true
+      }
+    ]
+  },
+  "dersSekmeler": {
+    "dersGenel": true,
+    "dersOgrenmeÇiktilari": true,
+    "haftalikDersIcerikleri": true,
+    "dersIsYuku": true,
+    "dersDegerlendirme": true,
+    "programVeOgrenmeÇiktilariIliskisi": true,
+    "toplumsalKatkiVeSurdurulebilirlik": true
+  },
+  "denetimBilgileri": {
+    "olusturmaTarihi": "2025-05-10 18:09:23",
+    "olusturan": "json_processor_script",
+    "sonGuncellenmeTarihi": "2025-05-10 18:09:23",
+    "guncelleyen": "json_processor_script",
+    "durum": "Taslak"
+  },
+  "numaralandirmaDegerleri": {
+    "dersTurleri": [
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dersSeviyesi": [
+      "Lisans",
+      "Yüksek Lisans",
+      "Doktora"
+    ],
+    "ogretimSistemi": [
+      "Birinci Öğretim",
+      "İkinci Öğretim",
+      "Uzaktan Öğretim"
+    ],
+    "egitimDili": [
+      "Türkçe",
+      "İngilizce"
+    ],
+    "stajDurumu": [
+      "Mevcut Değil",
+      "Mevcut",
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dokumanDurumu": [
+      "Taslak",
+      "Onaylandı",
+      "Yayınlandı",
+      "Revize Edildi"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+Course Code,Course Name,Semester,Type,Group,Language,ECTS,Career Paths
+CE101,Introduction To Computer Engineering,1,Mandatory,,English,5,software;web;systems
+CE103,Algorithms And Programming I,1,Mandatory,,English,5,software;web;ai
+CE105,Fundamental Information Technologies,1,Mandatory,,English,3,software;web
+FZK161,Mühendislik Fiziği I,1,Mandatory,,Turkish,5,systems
+MAT181,Mühendislik Matematiği-I,1,Mandatory,,Turkish,6,data;ai
+TDL101,Türk Dili-I,1,Mandatory,,Turkish,2,
+ATA101,Atatürk İlkeleri ve İnkılap Tarihi-I,1,Mandatory,,Turkish,2,
+YBD109,Yabancı Dil-I,1,Mandatory,,Turkish,2,
+CE100,Algorithms And Programming II,2,Mandatory,,English,5,software;web;ai
+CE102,Digital Logic Design,2,Mandatory,,English,5,systems
+MAT184,Mühendislik Matematiği-II,2,Mandatory,,Turkish,5,data;ai
+MAT156,Lineer Cebir,2,Mandatory,,Turkish,4,data;ai
+FZK162,Mühendislik Fiziği II,2,Mandatory,,Turkish,5,systems
+TDL102,Türk Dili-II,2,Mandatory,,Turkish,2,
+ATA102,Atatürk İlkeleri ve İnkılap Tarihi-II,2,Mandatory,,Turkish,2,
+YBD110,Yabancı Dil-II,2,Mandatory,,Turkish,2,
+CE201,Ayrık Matematik,3,Mandatory,,Turkish,5,software;ai
+MAT243,Diferansiyel Denklemler,3,Mandatory,,Turkish,6,data
+ISG203,İş Sağlığı ve Güvenliği-I,3,Mandatory,,Turkish,2,
+CE205,Data Structures,3,Mandatory,,English,5,software;ai;web
+CE203,İşletim Sistemleri,3,Mandatory,,Turkish,4,cyber;networks;systems
+CE207,Computer Networks,3,Mandatory,,English,5,cyber;networks
+CE209,İşletme Yönetimi,3,Elective,SECS03,Turkish,3,
+CE211,Bilişim Hukuku,3,Elective,SECS03,Turkish,3,cyber
+CE213,İleri Sunum Teknikleri,3,Elective,SECS03,Turkish,3,
+PFS201,Eğitime Giriş,3,Elective,SECPFS01,Turkish,4,
+ISG204,İş Sağlığı ve Güvenliği-II,4,Mandatory,,Turkish,2,
+STJ202,Staj,4,Mandatory,,Turkish,3,
+CE208,Database Management Systems,4,Mandatory,,English,5,software;web;data;cyber
+CE204,Object Oriented Programming,4,Mandatory,,English,5,software;web;cyber
+CE202,Sinyaller Ve Sistemler,4,Mandatory,,Turkish,4,systems
+CE206,Probability And Statistics,4,Mandatory,,English,4,data;ai
+CE200,Mikroişlemciler,4,Mandatory,,Turkish,4,systems;networks
+CE210,Advance Academic Writing,4,Elective,SECS04,English,3,software
+CE212,Girişimcilik Ve Proje Yönetimi,4,Elective,SECS04,Turkish,3,
+CE214,Latex Ile Akademik Yazım Ve Dokümantasyon,4,Elective,SECS04,Turkish,3,
+PFS202,Eğitim Psikolojisi,4,Elective,SECPFS02,Turkish,4,
+CE303,Web And Mobile Programming,5,Mandatory,,English,5,web
+CE305,Veri Analizi,5,Mandatory,,Turkish,5,data;ai
+CE301,Bilgisayar Mimarileri,5,Mandatory,,Turkish,5,systems
+CE307,Graph Theory,5,Elective,ELCE05,English,5,data
+CE309,Fuzzy Logic,5,Elective,ELCE05,English,5,ai;data
+CE311,Robotics,5,Elective,ELCE05,English,5,ai;systems
+CE313,System And Software Analysis And Design,5,Elective,ELCE05,English,5,software
+CE315,Matlab Programlama,5,Elective,SECCE05,Turkish,5,ai;data
+CE317,Kriptografi,5,Elective,SECCE05,Turkish,5,cyber
+CE319,Biçimsel Diller Ve Otomata Teorisi,5,Elective,SECCE05,Turkish,5,systems
+PFS301,Öğretim Teknolojileri,5,Elective,SECPFS03-1,Turkish,3,
+PFS303,Öğretim İlke Ve Yöntemleri,5,Elective,SECPFS03-2,Turkish,4,
+CE302,Uygulamalı İstatistik,6,Mandatory,,Turkish,4,data;ai
+CE300,Proje Yönetimi,6,Mandatory,,Turkish,4,software
+CE304,Sistem Programlama,6,Mandatory,,Turkish,4,software;systems
+STJ302,Staj,6,Mandatory,,Turkish,3,
+CE306,Cyber Security,6,Elective,ELCE06,English,5,cyber;blockchain
+CE308,Detection And Estimation,6,Elective,ELCE06,English,5,systems
+CE310,Formal Methods For Software Engineering,6,Elective,ELCE06,English,5,software
+CE312,Parallel Programming,6,Elective,ELCE06,English,5,software;web;systems
+CE314,Image-Video Processing,6,Elective,ELCE06,English,5,web;data
+CE320,Fundamentals of Data Visualization,6,Elective,ELCE06,English,5,data
+CE316,Yapay Zeka,6,Elective,SECCE06,Turkish,5,ai;web
+CE318,Finansal Teknolojiler,6,Elective,SECCE06,Turkish,5,web;blockchain
+CE322,Gömülü Sistemler,6,Elective,SECCE06,Turkish,5,systems
+PFS304,Eğitimde Ölçme Ve Değerlendirme,6,Elective,SECPFS004-1,Turkish,4,
+PFS306,Sınıf Yönetimi,6,Elective,SECPFS04-2,Turkish,3,
+CE401,Bitirme Tezi 1,7,Mandatory,,Turkish,8,
+CE403,Network Security,7,Elective,ELCE07,English,5,cyber;networks
+CE405,Data Mining,7,Elective,ELCE07,English,5,data;ai
+CE407,Güvenli Programlama,7,Elective,SECCE07,Turkish,5,cyber
+CE409,Derin Öğrenme,7,Elective,SECCE07,Turkish,5,ai;data
+PFS401,Özel Öğretim Yöntemleri,7,Elective,SECPFS05,Turkish,4,
+PFS403,Rehberlik Ve Özel Eğitim,7,Elective,SECPFS05,Turkish,4,
+CE400,Bitirme Tezi 2,8,Mandatory,,Turkish,8,
+CE402,Software Defined Networking,8,Elective,ELCE08,English,5,networks
+CE404,Fuzzy Systems,8,Elective,ELCE08,English,5,ai
+CE406,Postquantum Crytography,8,Elective,ELCE08,English,5,cyber
+CE412,Software Engineering,8,Elective,ELCE08,English,5,software
+CE414,Tiny Machine Learning,8,Elective,ELCE08,English,5,ai
+CE408,Dağıtık Sistemler Ve Güvenlik,8,Elective,SECCE08,Turkish,5,cyber;networks;cloud
+CE410,Bilgi Güvenliği,8,Elective,SECCE08,Turkish,5,cyber
+CE416,Nesnelerin İnterneti,8,Elective,SECCE08,Turkish,5,networks;web
+PFS402,Öğretmenlik Uygulaması,8,Elective,SECPFS06,Turkish,10,

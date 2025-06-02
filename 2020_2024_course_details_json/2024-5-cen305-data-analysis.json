@@ -1,0 +1,781 @@
+{
+  "dersGenel": {
+    "dersTuru": "Zorunlu",
+    "dersinSeviyesi": "Lisans",
+    "dersKredisi": 3,
+    "dersinAKTSKredisi": 5,
+    "haftalikDersSaatiKuramsal": 3,
+    "haftalikUygulamaSaati": 0,
+    "haftalikLaboratuarSaati": 0,
+    "dersinVerildigiYariyil": 5,
+    "ogretimSistemi": "Birinci Öğretim",
+    "egitimDili": "İngilizce",
+    "universite": "Recep Tayyip Erdoğan Üniversitesi",
+    "ulke": "Türkiye",
+    "il": "Rize",
+    "ilce": "Merkez",
+    "mahalle": "Fener Mah",
+    "fakulte": "Mühendislik Ve Mimarlık Fakültesi",
+    "bolum": "Bilgisayar Mühendisliği",
+    "dersKodu": "CEN305",
+    "dersAdi": "Data Analysis",
+    "ogretimYiliDonemi": "Güz",
+    "dersAKTSKredisi": 5,
+    "dilSecimi": "İngilizce",
+    "mufredatOlusturulmaYili": "2024",
+    "akademikYil": ""
+  },
+  "dersIcerik": {
+    "dersinAmaci": "R, ücretsiz kullanılabilen bir bilgi işlem ortamı ve programlama dilidir. Son yıllarda modern veri bilimi uygulamaları için yaygın bir programlama ortamı haline gelen R, endüstriyel veri analitiğinde de yaygın olarak benimsenimiştir. Dersin öncelikli amacı öğrencilere R'ı veri analizi için nasıl kullanacaklarını öğretmektir. Bu amaç kapsamında öğrenciler R ortamının verimli kullanımını ve R dilinde etkili programlamayı öğreneceklerdir.",
+    "dersinOnKosuluOlanDersler": "Mevcut Değil",
+    "dersinIcerigi": "R, R Studio ve R Markdown\nR'da veri içe aktarma, işleme ve özetleme\nR paketleri\nR programları ve işlevleri\nR'daki veri türleri\nR'da veri görselleştirme",
+    "dersinIcinOnerilenHususlar": "Derste başarılı olmak için temel istatistik ve programlama bilgisine sahip olmak faydalıdır. Öğrencilerin kendi bilgisayarlarına RStudio kurarak ders dışında da çalışmalar yapmaları ve örnekleri uygulamaları önerilir. Ders materyallerini düzenli takip etmeleri ve verilen ödevleri zamanında tamamlamaları dersin kavranması açısından önemlidir.",
+    "ogretimTuru": "Birinci Öğretim",
+    "stajDurumu": "Mevcut Değil",
+    "dersinKitabiMalzemesiOnerilenKaynaklar": "1. Grolemund, G. & Wickham, H. (2023). R for Data Science (2nd ed.). O'Reilly Media. Electronic version: https://r4ds.hadley.nz/\n2. Grolemund, G. (2014). Hands-On Programming with R. O'Reilly Media. Electronic version: https://rstudio-education.github.io/hopr/\n3. Wickham, H. (2016). ggplot2: Elegant Graphics for Data Analysis. Springer.\n4. Xie, Y., Allaire, J.J., & Grolemund, G. (2019). R Markdown: The Definitive Guide. Chapman and Hall/CRC.",
+    "dersiVerenOgretimUyesiOgretimGorevlisi": "Dr. Öğr. Üyesi Yasin YALÇIN",
+    "hazirlanmaTarihi": "27.04.2025"
+  },
+  "dersOgrenmeÇiktilari": [
+    {
+      "id": "ÖÇ.1",
+      "aciklama": "Veri analizi ve veri bilimi kavramlarını, R programlama ortamını ve veri analizi iş akışlarını açıklar."
+    },
+    {
+      "id": "ÖÇ.2",
+      "aciklama": "R dilini kullanarak farklı veri türlerini (vektörler, matrisler, veri çerçeveleri) yönetir; veri içe aktarma, temizleme, dönüştürme ve düzenleme (tidy data) gibi veri ön işleme tekniklerini uygular."
+    },
+    {
+      "id": "ÖÇ.3",
+      "aciklama": "Keşifsel veri analizi (EDA) yapar, verileri özetler ve temel istatistiksel analizleri R ortamında gerçekleştirir."
+    },
+    {
+      "id": "ÖÇ.4",
+      "aciklama": "ggplot2 gibi R paketlerini kullanarak etkili veri görselleştirmeleri oluşturur ve yorumlar."
+    },
+    {
+      "id": "ÖÇ.5",
+      "aciklama": "R dilinde fonksiyonlar yazar, döngüler ve koşullu ifadeler kullanır; fonksiyonel programlama ve iterasyon tekniklerini veri analizi problemlerine uygular."
+    },
+    {
+      "id": "ÖÇ.6",
+      "aciklama": "R paketlerini etkin bir şekilde kullanır ve R Markdown ile tekrarlanabilir analiz raporları oluşturur."
+    },
+    {
+      "id": "ÖÇ.7",
+      "aciklama": "Veri analizi alanındaki güncel araçları ve teknikleri öğrenmeye yönelik yaşam boyu öğrenme becerisi geliştirir."
+    }
+  ],
+  "haftalikDersIcerikleri": [
+    {
+      "hafta": 1,
+      "icerik": "Dersin Tanıtımı ve Veri Bilimine Giriş: Dersin kapsamı, amaçları, değerlendirme yöntemleri, veri analizi ve veri biliminin temel kavramları, endüstrideki kullanım alanları",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Anlatım, Tartışma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, R for Data Science (Bölüm 1)",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Veri bilimi alanındaki güncel uygulamaları araştırma"
+    },
+    {
+      "hafta": 2,
+      "icerik": "R ve RStudio'ya Giriş, R Markdown: R programlama dilinin temel özellikleri, RStudio IDE kullanımı, paket yükleme ve kullanma, R Markdown ile rapor oluşturma",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.6",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Anlatım, Gösterim",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Hands-On Programming with R (Bölüm 1-2), R Markdown: The Definitive Guide",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "RStudio kurulumu, temel R komutları ve R Markdown alıştırmaları"
+    },
+    {
+      "hafta": 3,
+      "icerik": "R'da Veri Türleri ve Veri Yapıları: Temel veri türleri (sayısal, karakter, mantıksal), vektörler, matrisler, listeler, faktörler ve veri çerçeveleri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "R ve RStudio kurulumu",
+      "ogretimYontemleri": "Anlatım, Gösterim, Soru-Cevap",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "R for Data Science (Bölüm 3-4), Hands-On Programming with R (Bölüm 3-4)",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Farklı veri türleriyle çalışma ve veri manipülasyonu alıştırmaları"
+    },
+    {
+      "hafta": 4,
+      "icerik": "Tidyverse Ekosistemine Giriş, dplyr ile Veri Manipülasyonu: Veri çerçevelerini işleme, filtreleme, sıralama, seçme, gruplandırma ve özetleme işlemleri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.6",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "R veri yapıları",
+      "ogretimYontemleri": "Anlatım, Gösterim, Örnek Çalışma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "R for Data Science (Bölüm 5), Tidyverse dokümantasyonu",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "dplyr kullanarak veri işleme ve analiz ödevi"
+    },
+    {
+      "hafta": 5,
+      "icerik": "Pipe Operatörü (%>%) ve Veri Özetleme: Kod akışını iyileştirmek için pipe kullanımı, özet istatistikler oluşturma, veri gruplandırma ve özet işlevleri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "dplyr temelleri",
+      "ogretimYontemleri": "Anlatım, Gösterim, Problem Çözme",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "R for Data Science (Bölüm 6-7), dplyr dokümantasyonu",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Gerçek veri setiyle özet istatistikler çıkarma ödevi"
+    },
+    {
+      "hafta": 6,
+      "icerik": "Keşifsel Veri Analizi (EDA): Veri keşfi iş akışları, veri inceleme teknikleri, değişkenler arasındaki ilişkileri keşfetme, varyasyonları ve kovaryasyonları inceleme",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.5",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Veri özetleme ve dplyr",
+      "ogretimYontemleri": "Anlatım, Gösterim, Tartışma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "R for Data Science (Bölüm 8), Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Gerçek veri setiyle EDA uygulaması"
+    },
+    {
+      "hafta": 7,
+      "icerik": "Veri İçe Aktarma ve Dışa Aktarma: readr, readxl ve diğer paketlerle çeşitli formatlarda (CSV, Excel, JSON, SQL) veri okuma ve yazma, veri kaynaklarına bağlanma",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "R veri manipülasyonu",
+      "ogretimYontemleri": "Anlatım, Gösterim",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "R for Data Science (Bölüm 9), readr ve readxl dokümantasyonu",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Farklı formatlardaki veri kaynaklarını içe aktarma ödevi"
+    },
+    {
+      "hafta": 8,
+      "icerik": "Ara Sınav: 1-7 haftalar arası konuları kapsayan teorik ve uygulamalı değerlendirme",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.5, ÖÇ.6",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "1-7. Hafta konuları",
+      "ogretimYontemleri": "Sınav",
+      "aracVeGerecler": "Bilgisayar",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Yazılı Sınav",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 9,
+      "icerik": "Düzenli Veri (Tidy Data) ve tidyr: Veri düzenleme prensipleri, pivot_longer ve pivot_wider işlevleri, veri ayırma, birleştirme, eksik değerlerle çalışma",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Veri manipülasyonu",
+      "ogretimYontemleri": "Anlatım, Gösterim",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "R for Data Science (Bölüm 10), tidyr dokümantasyonu",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Karmaşık veri setlerini düzenleme ödevi"
+    },
+    {
+      "hafta": 10,
+      "icerik": "İlişkisel Veriler ve Join İşlemleri: Veri setlerini birleştirme, inner/outer/left/right join, anahtar değişkenler, ilişkisel veri yapıları",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Veri çerçeveleri, tidyr",
+      "ogretimYontemleri": "Anlatım, Gösterim",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "R for Data Science (Bölüm 11), dplyr joins dokümantasyonu",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Çoklu veri setleriyle join işlemleri uygulaması"
+    },
+    {
+      "hafta": 11,
+      "icerik": "Fonksiyonlar ve Koşullu İfadeler: Kendi fonksiyonlarını yazma, if-else ifadeleri, koşullu yürütme, fonksiyon argümanları, kapsamlar, rekürsiyon",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.5",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "R programlama temelleri",
+      "ogretimYontemleri": "Anlatım, Gösterim, Problem Çözme",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Hands-On Programming with R (Bölüm 5-6), R for Data Science (Bölüm 19)",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Veri analizi için özel fonksiyonlar yazma ödevi"
+    },
+    {
+      "hafta": 12,
+      "icerik": "Tarihler, Saatler ve Metin İşleme: lubridate paketi ile tarih/saat manipülasyonu, stringr ile metin işleme, düzenli ifadeler (regex)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Veri türleri",
+      "ogretimYontemleri": "Anlatım, Gösterim",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "R for Data Science (Bölüm 12-13), lubridate ve stringr dokümantasyonu",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Tarih/saat ve metin veri analizleri"
+    },
+    {
+      "hafta": 13,
+      "icerik": "İterasyon ve Fonksiyonel Programlama: for döngüleri, purrr paketi, map fonksiyonları, liste manipülasyonu, fonksiyonel vektörlerin kullanımı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.5",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Fonksiyonlar",
+      "ogretimYontemleri": "Anlatım, Gösterim",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "R for Data Science (Bölüm 17-18), purrr dokümantasyonu",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Karmaşık veri işlemleri için fonksiyonel programlama teknikleri"
+    },
+    {
+      "hafta": 14,
+      "icerik": "Veri Görselleştirme ve ggplot2: Gramerde grafik prensipleri, katmanlar, koordinat sistemleri, ölçekler, temalar, facetler ve interaktif grafikler",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Veri manipülasyonu",
+      "ogretimYontemleri": "Anlatım, Gösterim",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "R for Data Science (Bölüm 14-15), ggplot2: Elegant Graphics for Data Analysis",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Kapsamlı veri görselleştirme projesi"
+    },
+    {
+      "hafta": 15,
+      "icerik": "Gelişmiş Veri Analizi Tekniklerinin Tanıtımı ve Tekrar: İstatistiksel modelleme, makine öğrenimi, Shiny uygulamaları, ders genelinin özeti ve tekrarı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.3, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Tüm konular",
+      "ogretimYontemleri": "Anlatım, Tartışma, Soru-Cevap",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders notları, R for Data Science (Bölüm 23-25)",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Final projesinin hazırlığı ve veri analizinde ileri konular araştırması"
+    },
+    {
+      "hafta": 16,
+      "icerik": "Final Sınavı: Tüm dersi kapsayan teorik ve uygulamalı değerlendirme",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Tüm konular",
+      "ogretimYontemleri": "Sınav",
+      "aracVeGerecler": "Bilgisayar",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Yazılı Sınav",
+      "odevVeCalisma": "-"
+    }
+  ],
+  "dersIsYuku": {
+    "etkinlikler": [
+      {
+        "etkinlik": "Derse Katılım",
+        "sayi": 14,
+        "sure": 2.5,
+        "toplamIsYuku": 35.0
+      },
+      {
+        "etkinlik": "Bireysel Çalışma",
+        "sayi": 14,
+        "sure": 2.5,
+        "toplamIsYuku": 35.0
+      },
+      {
+        "etkinlik": "Ödev Problemleri İçin Çalışma",
+        "sayi": 7,
+        "sure": 2.5,
+        "toplamIsYuku": 17.5
+      },
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "sure": 1.7,
+        "toplamIsYuku": 1.7
+      },
+      {
+        "etkinlik": "Ara Sınav İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 12.5,
+        "toplamIsYuku": 12.5
+      },
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "sure": 2.5,
+        "toplamIsYuku": 2.5
+      },
+      {
+        "etkinlik": "Final Sınavı İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 14.2,
+        "toplamIsYuku": 14.2
+      },
+      {
+        "etkinlik": "Proje Hazırlama",
+        "sayi": 1,
+        "sure": 6.7,
+        "toplamIsYuku": 6.7
+      }
+    ],
+    "toplamIsYuku": 125,
+    "dersAKTSKredisi": 5,
+    "hesaplama": "Dersin AKTS Kredisi = Toplam İş Yükü (Saat) / 25 = 5",
+    "aktsHesaplama": "Toplam İş Yükü / 25"
+  },
+  "etkinlikTurleri": [
+    "Alan Çalışması",
+    "Alan Gezisi",
+    "Ara Sınav",
+    "Ara Sınav İçin Bireysel Çalışma",
+    "Beyin Fırtınası",
+    "Bireysel Çalışma",
+    "Bütünleme Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Derse Katılım",
+    "Ev Ödevi",
+    "Final Sınavı",
+    "Final Sınavı İçin Bireysel Çalışma",
+    "Gösterme",
+    "Gözlem",
+    "Laboratuvar",
+    "Laboratuvar Ara Sınavı",
+    "Laboratuvar Sınavı",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Multirom CD Çalışması",
+    "Ödev Problemleri İçin Çalışma",
+    "Okuma",
+    "Örnek Vaka İncelemesi",
+    "Performans",
+    "Problem Çözümü",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Quiz İçin Bireysel Çalışma",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Rehberli Problem Çözümü",
+    "Rol Oynama / Dramatizasyon",
+    "Seminer",
+    "Soru-Yanıt",
+    "Sözlü Sınav",
+    "Takım/Grup Çalışması",
+    "Tartışma",
+    "Toplantı Başkanlığı Yapma",
+    "Uygulama/Pratik"
+  ],
+  "dersDegerlendirme": {
+    "yariyilIciEtkinlikleri": [
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "katkiYuzdesi": 60
+      },
+      {
+        "etkinlik": "Ev Ödevi",
+        "sayi": 5,
+        "katkiYuzdesi": 20
+      },
+      {
+        "etkinlik": "Proje Hazırlama",
+        "sayi": 1,
+        "katkiYuzdesi": 20
+      }
+    ],
+    "yariyilIciToplam": 100,
+    "yariyilSonuEtkinlikleri": [
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "katkiYuzdesi": 100
+      }
+    ],
+    "yariyilSonuToplam": 100,
+    "genelDegerlendirme": [
+      {
+        "degerlendirme": "Yarıyıl (Yıl) İçi Etkinlikleri",
+        "katkiYuzdesi": 40
+      },
+      {
+        "degerlendirme": "Yarıyıl (Yıl) Sonu Etkinlikleri",
+        "katkiYuzdesi": 60
+      }
+    ],
+    "genelDegerlendirmeToplam": 100
+  },
+  "yariyilIciOlasiEtkinlikler": [
+    "Ara Sınav",
+    "Laboratuvar Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Performans",
+    "Quiz",
+    "Rapor",
+    "Rapor Sunma",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Rehberli Problem Çözümü",
+    "Seminer",
+    "Sözlü Sınav",
+    "Ödev Problemleri İçin Çalışma",
+    "Proje Tasarımı/Yönetimi"
+  ],
+  "yariyilSonuOlasiEtkinlikler": [
+    "Final Sınavı",
+    "Laboratuvar Ara Sınavı",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Seminer",
+    "Sözlü Sınav",
+    "Gözlem"
+  ],
+  "programCiktilari": [
+    {
+      "id": "PÇ.1",
+      "kategori": "BİLGİ - Kuramsal Olgusal",
+      "aciklama": "TEMEL BİLGİ: Matematik, Fen Bilimleri ve Bilgisayar Mühendisliği konularında yeterli bilgi sahibidir; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanır."
+    },
+    {
+      "id": "PÇ.2",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "PROBLEM ÇÖZME: Karmaşık Bilgisayar Mühendisliği problemlerini saptar, tanımlar, formüle eder ve çözer; bu amaca uygun analiz ve modelleme yöntemlerini seçer ve uygular."
+    },
+    {
+      "id": "PÇ.3",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TASARIM: Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlar; bu amaçla modern tasarım yöntemlerini uygular."
+    },
+    {
+      "id": "PÇ.4",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TEKNOLOJİ: Bilgisayar Mühendisliği uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirir, seçer ve kullanır; bilişim teknolojilerini etkin bir şekilde kullanır."
+    },
+    {
+      "id": "PÇ.5",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "ARAŞTIRMA: Karmaşık Bilgisayar Mühendisliği problemlerinin veya araştırma konularının incelenmesi için deney tasarlar, deney yapar, veri toplar, sonuçları analiz eder ve yorumlar."
+    },
+    {
+      "id": "PÇ.6",
+      "kategori": "YETKİNLİKLER - Bağımsız Çalışabilme ve Sorumluluk Alabilme Yetkinliği",
+      "aciklama": "İŞBİRLİĞİ: Bilgisayar Mühendisliği disiplini içinde ve çok disiplinli takımlarda etkin biçimde çalışır; bireysel çalışma sergiler."
+    },
+    {
+      "id": "PÇ.7",
+      "kategori": "YETKİNLİKLER - Öğrenme Yetkinliği",
+      "aciklama": "GELİŞİM: Yaşam boyu öğrenmenin gerekliliğinin bilincindedir; bilgiye erişir, bilim ve teknolojideki gelişmeleri izler ve kendini sürekli yeniler; insanlık tarihi boyunca oluşan bilgi birikimini Bilgisayar Mühendisliği alanıyla ilişkilendirir."
+    },
+    {
+      "id": "PÇ.8",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "İLETİŞİM: Türkçe sözlü ve yazılı etkin iletişim kurar; etkin rapor yazar ve yazılı raporları anlar, tasarım ve üretim raporları hazırlar, etkin sunum yapar, açık ve anlaşılır talimat verir ve alır."
+    },
+    {
+      "id": "PÇ.9",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "TOPLUMSAL BİLİNÇ: Bilgisayar Mühendisliği uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi sahibidir; mühendislik çözümlerinin hukuksal sonuçlarının farkındadır."
+    },
+    {
+      "id": "PÇ.10",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "ULUSLARARASILIK: Bir yabancı dili kullanarak Bilgisayar Mühendisliği ile ilişkili konularda, bilgi toplar ve meslektaşları ile iletişim kurar."
+    },
+    {
+      "id": "PÇ.11",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "ETİK: Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilincine sahiptir; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi sahibidir."
+    },
+    {
+      "id": "PÇ.12",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "YÖNETİM: Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi sahibidir; girişimcilik, yenilikçilik hakkında bilinçlidir; sürdürülebilir kalkınma hakkında bilgi sahibidir."
+    }
+  ],
+  "programVeOgrenmeIliskisi": {
+    "iliskiOlcekleri": "0-5 arası değerler (0: İlişki yok, 5: Çok güçlü ilişki)",
+    "iliskiTablosu": [
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.1",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 5,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.2",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.3",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.4",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 3,
+          "PÇ.4": 3,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 3,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.5",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.6",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.7",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 3,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      }
+    ]
+  },
+  "toplumsalKatkiVeSurdurulebilirlik": {
+    "surdurulebilirKalkinmaAmaclari": [
+      {
+        "amac": "Yoksulluğa Son",
+        "secili": false
+      },
+      {
+        "amac": "Açlığa Son",
+        "secili": false
+      },
+      {
+        "amac": "Sağlık ve Kaliteli Yaşam",
+        "secili": true
+      },
+      {
+        "amac": "Nitelikli Eğitim",
+        "secili": true
+      },
+      {
+        "amac": "Toplumsal Cinsiyet Eşitliği",
+        "secili": false
+      },
+      {
+        "amac": "Temiz Su ve Sanitasyon",
+        "secili": false
+      },
+      {
+        "amac": "Erişilebilir ve Temiz Enerji",
+        "secili": false
+      },
+      {
+        "amac": "İnsana Yakışır İş ve Ekonomik Büyüme",
+        "secili": true
+      },
+      {
+        "amac": "Sanayi, Yenilikçilik ve Altyapı",
+        "secili": true
+      },
+      {
+        "amac": "Eşitsizliklerin Azaltılması",
+        "secili": false
+      },
+      {
+        "amac": "Sürdürülebilir Şehirler ve Topluluklar",
+        "secili": false
+      },
+      {
+        "amac": "Sorumlu Üretim ve Tüketim",
+        "secili": true
+      },
+      {
+        "amac": "İklim Eylemi",
+        "secili": false
+      },
+      {
+        "amac": "Sudaki Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Karasal Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Barış, Adalet ve Güçlü Kurumlar",
+        "secili": false
+      },
+      {
+        "amac": "Amaçlar İçin Ortaklıklar",
+        "secili": false
+      }
+    ],
+    "toplumsalKatkiAlanlari": [
+      {
+        "alan": "Eğitim ve Öğretim",
+        "secili": true
+      },
+      {
+        "alan": "Sağlık",
+        "secili": true
+      },
+      {
+        "alan": "Sosyal Hizmetler ve Toplumsal Eşitlik",
+        "secili": false
+      },
+      {
+        "alan": "Çevre ve Sürdürülebilirlik",
+        "secili": false
+      },
+      {
+        "alan": "Teknolojik ve Bilimsel Yenilikler",
+        "secili": true
+      },
+      {
+        "alan": "Ekonomik Kalkınma ve Girişimcilik",
+        "secili": true
+      },
+      {
+        "alan": "Kültürel ve Sanatsal Etkinlikler",
+        "secili": false
+      },
+      {
+        "alan": "Uluslararası İş birliği ve Diplomasi",
+        "secili": false
+      },
+      {
+        "alan": "Toplum yararına yapılacak diğer çalışmalar",
+        "secili": true
+      }
+    ]
+  },
+  "dersSekmeler": {
+    "dersGenel": true,
+    "dersOgrenmeÇiktilari": true,
+    "haftalikDersIcerikleri": true,
+    "dersIsYuku": true,
+    "dersDegerlendirme": true,
+    "programVeOgrenmeÇiktilariIliskisi": true,
+    "toplumsalKatkiVeSurdurulebilirlik": true
+  },
+  "denetimBilgileri": {
+    "olusturmaTarihi": "2025-05-10 18:09:39",
+    "olusturan": "json_processor_script",
+    "sonGuncellenmeTarihi": "2025-05-10 18:09:39",
+    "guncelleyen": "json_processor_script",
+    "durum": "Taslak"
+  },
+  "numaralandirmaDegerleri": {
+    "dersTurleri": [
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dersSeviyesi": [
+      "Lisans",
+      "Yüksek Lisans",
+      "Doktora"
+    ],
+    "ogretimSistemi": [
+      "Birinci Öğretim",
+      "İkinci Öğretim",
+      "Uzaktan Öğretim"
+    ],
+    "egitimDili": [
+      "Türkçe",
+      "İngilizce"
+    ],
+    "stajDurumu": [
+      "Mevcut Değil",
+      "Mevcut",
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dokumanDurumu": [
+      "Taslak",
+      "Onaylandı",
+      "Yayınlandı",
+      "Revize Edildi"
+    ]
+  }
+}

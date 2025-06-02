@@ -1,0 +1,615 @@
+{
+  "career_paths": [
+    {
+      "id": "software",
+      "name": "Yazılım Geliştirme",
+      "icon": "fas fa-laptop-code",
+      "color": "#3498db",
+      "description": "Modern yazılım uygulamalarının tasarımı, geliştirilmesi ve bakımına odaklanır. Algoritmalar, veri yapıları, nesne yönelimli programlama ve yazılım mühendisliği prensiplerini içerir.",
+      "skills": [
+        "Algoritmalar", 
+        "Veri Yapıları", 
+        "Nesne Yönelimli Programlama",
+        "Yazılım Mimarisi", 
+        "Veritabanı Yönetimi", 
+        "Test ve Debugging"
+      ],
+      "job_titles": [
+        "Yazılım Mühendisi",
+        "Yazılım Geliştirici",
+        "Full-Stack Geliştirici",
+        "Backend Geliştirici",
+        "DevOps Mühendisi",
+        "Yazılım Mimarı"
+      ],
+      "industry_trends": [
+        "DevOps ve CI/CD Süreçleri",
+        "Mikroservis Mimarisi",
+        "Cloud-Native Geliştirme",
+        "Low-Code/No-Code Platformları",
+        "Sürekli Entegrasyon",
+        "Git ve Versiyon Kontrolü"
+      ],
+      "certifications": [
+        {
+          "name": "AWS Certified Developer",
+          "organization": "Amazon Web Services",
+          "url": "https://aws.amazon.com/certification/certified-developer-associate/"
+        },
+        {
+          "name": "Microsoft Certified: Azure Developer",
+          "organization": "Microsoft",
+          "url": "https://docs.microsoft.com/en-us/learn/certifications/azure-developer"
+        },
+        {
+          "name": "Professional Scrum Developer",
+          "organization": "Scrum.org",
+          "url": "https://www.scrum.org/professional-scrum-developer-certification"
+        },
+        {
+          "name": "Oracle Certified Professional: Java SE 11 Developer",
+          "organization": "Oracle",
+          "url": "https://education.oracle.com/java/java-se/product_267"
+        }
+      ],
+      "core_courses_2020": [
+        "CE103", "CE100", "CE205", "CE204", "CE208", "CE304", "CE300", "CE313", "CE310", "CE312", "CE412"
+      ],
+      "core_courses_2024": [
+        "CEN107", "CEN108", "CEN207", "CEN206", "CEN208", "CEN302", "CEN301", "CEN313", "CEN310", "CEN405", "CEN437", "CEN439"
+      ]
+    },
+    {
+      "id": "cyber",
+      "name": "Siber Güvenlik",
+      "icon": "fas fa-shield-alt",
+      "color": "#e74c3c",
+      "description": "Bilgi sistemleri, ağlar ve verileri dijital saldırılardan koruma ve güvenliğini sağlama üzerine odaklanır. Güvenlik açıklarını tespit etme, önleme ve giderme konularını kapsar.",
+      "skills": [
+        "Ağ Güvenliği",
+        "Penetrasyon Testi",
+        "Kriptografi",
+        "Güvenli Kod Geliştirme",
+        "Tehdit Analizi",
+        "Adli Bilişim"
+      ],
+      "job_titles": [
+        "Siber Güvenlik Uzmanı",
+        "Güvenlik Mühendisi",
+        "Güvenlik Analisti",
+        "Sızma Test Uzmanı",
+        "Güvenlik Mimarı",
+        "Siber Güvenlik Danışmanı"
+      ],
+      "industry_trends": [
+        "Sıfır Güven Mimarisi",
+        "Bulut Güvenliği",
+        "AI Destekli Tehdit Tespiti",
+        "DevSecOps",
+        "Kuantum Sonrası Kriptografi",
+        "IoT Güvenliği"
+      ],
+      "certifications": [
+        {
+          "name": "CompTIA Security+",
+          "organization": "CompTIA",
+          "url": "https://www.comptia.org/certifications/security"
+        },
+        {
+          "name": "Certified Ethical Hacker (CEH)",
+          "organization": "EC-Council",
+          "url": "https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/"
+        },
+        {
+          "name": "Certified Information Systems Security Professional (CISSP)",
+          "organization": "ISC²",
+          "url": "https://www.isc2.org/Certifications/CISSP"
+        },
+        {
+          "name": "Offensive Security Certified Professional (OSCP)",
+          "organization": "Offensive Security",
+          "url": "https://www.offensive-security.com/pwk-oscp/"
+        }
+      ],
+      "core_courses_2020": [
+        "CE207", "CE203", "CE208", "CE204", "CE306", "CE317", "CE403", "CE407", "CE406", "CE408", "CE410"
+      ],
+      "core_courses_2024": [
+        "CEN209", "CEN210", "CEN208", "CEN206", "CEN302", "CEN315", "CEN333", "CEN306", "CEN409", "CEN427", "CEN429", "CEN433", "CEN425"
+      ]
+    },
+    {
+      "id": "data",
+      "name": "Veri Bilimi & Analitik",
+      "icon": "fas fa-chart-bar",
+      "color": "#2ecc71",
+      "description": "Veri bilimi, büyük veri kümelerinden içgörüler ve bilgiler çıkarmak için matematiksel modeller, istatistiksel analizler ve algoritmalar kullanır. Karar verme süreçlerini iyileştirmeye ve tahminler yapmaya odaklanır.",
+      "skills": [
+        "İstatistiksel Analiz",
+        "Makine Öğrenimi",
+        "Veri Görselleştirme",
+        "Veri Madenciliği",
+        "Büyük Veri Teknolojileri",
+        "Programlama (Python, R)"
+      ],
+      "job_titles": [
+        "Veri Bilimci",
+        "Veri Analisti",
+        "Veri Mühendisi",
+        "İş Analisti",
+        "Makine Öğrenimi Mühendisi",
+        "Büyük Veri Uzmanı"
+      ],
+      "industry_trends": [
+        "Otomatik Makine Öğrenimi (AutoML)",
+        "Açıklanabilir Yapay Zeka",
+        "Veri Gizliliği ve Etik",
+        "Gerçek Zamanlı Analitik",
+        "Veri Demokratikleştirme",
+        "Edge Analytics"
+      ],
+      "certifications": [
+        {
+          "name": "Microsoft Certified: Azure Data Scientist Associate",
+          "organization": "Microsoft",
+          "url": "https://docs.microsoft.com/en-us/learn/certifications/azure-data-scientist"
+        },
+        {
+          "name": "AWS Certified Data Analytics - Specialty",
+          "organization": "Amazon Web Services",
+          "url": "https://aws.amazon.com/certification/certified-data-analytics-specialty/"
+        },
+        {
+          "name": "Google Professional Data Engineer",
+          "organization": "Google Cloud",
+          "url": "https://cloud.google.com/certification/data-engineer"
+        },
+        {
+          "name": "Cloudera Certified Data Analyst",
+          "organization": "Cloudera",
+          "url": "https://www.cloudera.com/about/training/certification.html"
+        }
+      ],
+      "core_courses_2020": [
+        "MAT181", "MAT184", "MAT156", "CE206", "CE208", "CE305", "CE302", "CE307", "CE309", "CE314", "CE320", "CE405", "CE409"
+      ],
+      "core_courses_2024": [
+        "CEN101", "CEN102", "CEN106", "CEN202", "CEN208", "CEN305", "CEN307", "CEN309", "CEN314", "CEN325", "CEN327", "CEN331", "CEN324", "CEN326", "CEN328", "CEN330", "CEN332", "CEN334", "CEN411", "CEN419", "CEN441", "CEN431"
+      ]
+    },
+    {
+      "id": "web",
+      "name": "Web & Mobil Geliştirme",
+      "icon": "fas fa-mobile-alt",
+      "color": "#9b59b6",
+      "description": "Web ve mobil platformlarda arayüz ve uygulama geliştirmeye odaklanır. Kullanıcı deneyimi, frontend ve backend teknolojileri, mobil framework'ler ve duyarlı tasarımı içerir.",
+      "skills": [
+        "Frontend Geliştirme",
+        "Backend Geliştirme",
+        "Responsive Design",
+        "UX/UI Tasarımı",
+        "API Geliştirme",
+        "Mobil Uygulama Geliştirme"
+      ],
+      "job_titles": [
+        "Web Geliştirici",
+        "Mobil Uygulama Geliştirici",
+        "Frontend Geliştirici",
+        "Backend Geliştirici",
+        "Full-Stack Geliştirici",
+        "UI/UX Tasarımcısı"
+      ],
+      "industry_trends": [
+        "Progressive Web Apps (PWA)",
+        "Single Page Applications (SPA)",
+        "JAMstack Mimarisi",
+        "Cross-Platform Mobil Geliştirme",
+        "Duyarlı ve Uyarlanabilir Tasarım",
+        "Serverless Mimariler"
+      ],
+      "certifications": [
+        {
+          "name": "Google Mobile Web Specialist",
+          "organization": "Google",
+          "url": "https://developers.google.com/certification/mobile-web-specialist"
+        },
+        {
+          "name": "Meta Front-End Developer Certificate",
+          "organization": "Meta",
+          "url": "https://www.coursera.org/professional-certificates/meta-front-end-developer"
+        },
+        {
+          "name": "Microsoft Certified: Power Apps Developer Associate",
+          "organization": "Microsoft",
+          "url": "https://docs.microsoft.com/en-us/learn/certifications/power-apps-developer-associate/"
+        },
+        {
+          "name": "AWS Certified Developer - Associate",
+          "organization": "Amazon Web Services",
+          "url": "https://aws.amazon.com/certification/certified-developer-associate/"
+        }
+      ],
+      "core_courses_2020": [
+        "CE103", "CE100", "CE205", "CE204", "CE208", "CE303", "CE313", "CE312", "CE314", "CE316", "CE318", "CE416"
+      ],
+      "core_courses_2024": [
+        "CEN107", "CEN108", "CEN207", "CEN206", "CEN208", "CEN303", "CEN219", "CEN226", "CEN310", "CEN312", "CEN316", "CEN320", "CEN322", "CEN437", "CEN439"
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "Yapay Zeka & Makine Öğrenimi",
+      "icon": "fas fa-brain",
+      "color": "#f39c12",
+      "description": "Yapay zeka ve makine öğrenimi, bilgisayar sistemlerinin verilerden öğrenmesini ve akıllı kararlar almasını sağlayan algoritmalara odaklanır. Derin öğrenme, doğal dil işleme ve bilgisayarlı görü gibi alanları içerir.",
+      "skills": [
+        "Makine Öğrenimi Algoritmaları",
+        "Derin Öğrenme",
+        "Doğal Dil İşleme",
+        "Bilgisayarlı Görü",
+        "Sinir Ağları",
+        "Pekiştirmeli Öğrenme"
+      ],
+      "job_titles": [
+        "Yapay Zeka Mühendisi",
+        "Makine Öğrenimi Mühendisi",
+        "AI Araştırmacısı",
+        "NLP Uzmanı",
+        "Bilgisayarlı Görü Uzmanı",
+        "AI Çözüm Mimarı"
+      ],
+      "industry_trends": [
+        "Büyük Dil Modelleri (LLM)",
+        "Jeneratif AI",
+        "Düşük Kaynaklı AI (TinyML)",
+        "Kendini Denetimli Öğrenme",
+        "AI Etiği ve Yorumlanabilirlik",
+        "Multimodal AI"
+      ],
+      "certifications": [
+        {
+          "name": "AWS Certified Machine Learning - Specialty",
+          "organization": "Amazon Web Services",
+          "url": "https://aws.amazon.com/certification/certified-machine-learning-specialty/"
+        },
+        {
+          "name": "TensorFlow Developer Certificate",
+          "organization": "Google",
+          "url": "https://www.tensorflow.org/certificate"
+        },
+        {
+          "name": "Microsoft Certified: Azure AI Engineer Associate",
+          "organization": "Microsoft",
+          "url": "https://docs.microsoft.com/en-us/learn/certifications/azure-ai-engineer"
+        },
+        {
+          "name": "NVIDIA Deep Learning Institute Certifications",
+          "organization": "NVIDIA",
+          "url": "https://www.nvidia.com/en-us/training/online/"
+        }
+      ],
+      "core_courses_2020": [
+        "CE103", "CE100", "CE201", "CE205", "CE206", "CE305", "CE302", "CE309", "CE311", "CE315", "CE316", "CE405", "CE409", "CE404", "CE414"
+      ],
+      "core_courses_2024": [
+        "CEN107", "CEN108", "CEN203", "CEN207", "CEN202", "CEN305", "CEN309", "CEN311", "CEN317", "CEN319", "CEN327", "CEN330", "CEN334", "CEN336", "CEN407", "CEN415", "CEN417", "CEN441", "CEN431"
+      ]
+    },
+    {
+      "id": "networks",
+      "name": "Ağlar & İletişim",
+      "icon": "fas fa-network-wired",
+      "color": "#1abc9c",
+      "description": "Veri iletişim ağlarının tasarımı, uygulanması, yönetimi ve optimizasyonuna odaklanır. Bilgisayar ağları, protokoller, ağ güvenliği ve dağıtık sistemleri içerir.",
+      "skills": [
+        "Ağ Protokolleri",
+        "Ağ Mimarisi",
+        "Yönlendirme ve Anahtarlama",
+        "Ağ Güvenliği",
+        "SDN (Yazılım Tanımlı Ağlar)",
+        "Kablosuz Ağlar"
+      ],
+      "job_titles": [
+        "Ağ Mühendisi",
+        "Ağ Mimarı",
+        "Ağ Güvenliği Uzmanı",
+        "Ağ Yöneticisi",
+        "Telekomünikasyon Mühendisi",
+        "Cloud Network Uzmanı"
+      ],
+      "industry_trends": [
+        "5G ve Ötesi Teknolojiler",
+        "Yazılım Tanımlı Ağlar (SDN)",
+        "Network Function Virtualization (NFV)",
+        "Ağ Otomasyonu",
+        "Sıfır Güven Ağ Mimarisi",
+        "Edge Computing"
+      ],
+      "certifications": [
+        {
+          "name": "Cisco Certified Network Professional (CCNP)",
+          "organization": "Cisco",
+          "url": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-enterprise.html"
+        },
+        {
+          "name": "CompTIA Network+",
+          "organization": "CompTIA",
+          "url": "https://www.comptia.org/certifications/network"
+        },
+        {
+          "name": "Juniper Networks Certified Professional (JNCP)",
+          "organization": "Juniper Networks",
+          "url": "https://www.juniper.net/us/en/training/certification/certification-tracks/sp-routing-switching-track.html"
+        },
+        {
+          "name": "AWS Certified Advanced Networking",
+          "organization": "Amazon Web Services",
+          "url": "https://aws.amazon.com/certification/certified-advanced-networking-specialty/"
+        }
+      ],
+      "core_courses_2020": [
+        "CE207", "CE203", "CE200", "CE306", "CE403", "CE402", "CE408", "CE416"
+      ],
+      "core_courses_2024": [
+        "CEN209", "CEN210", "CEN204", "CEN306", "CEN322", "CEN403", "CEN409", "CEN421", "CEN425", "CEN435"
+      ]
+    },
+    {
+      "id": "systems",
+      "name": "Bilgisayar Sistemleri & Mimarisi",
+      "icon": "fas fa-microchip",
+      "color": "#34495e",
+      "description": "Bilgisayar donanımı, işletim sistemleri ve düşük seviyeli yazılıma odaklanır. Bilgisayar mimarisi, işletim sistemi tasarımı, gömülü sistemler ve sistem programlama konularını içerir.",
+      "skills": [
+        "Bilgisayar Mimarisi",
+        "İşletim Sistemleri",
+        "Sistem Programlama",
+        "Gömülü Sistemler",
+        "Derleyici Tasarımı",
+        "FPGA Programlama"
+      ],
+      "job_titles": [
+        "Sistem Mimarı",
+        "İşletim Sistemi Geliştirici",
+        "Gömülü Sistem Mühendisi",
+        "FPGA Tasarımcısı",
+        "Derleyici Geliştirici",
+        "Sistem Programcısı"
+      ],
+      "industry_trends": [
+        "RISC-V Mimarisi",
+        "Heterogen Hesaplama",
+        "Yüksek Performanslı Hesaplama (HPC)",
+        "Düşük Güçlü Sistemler",
+        "Sistem-Çip Tasarımları (SoC)",
+        "Kuantum Hesaplama"
+      ],
+      "certifications": [
+        {
+          "name": "CompTIA A+",
+          "organization": "CompTIA",
+          "url": "https://www.comptia.org/certifications/a"
+        },
+        {
+          "name": "Red Hat Certified System Administrator (RHCSA)",
+          "organization": "Red Hat",
+          "url": "https://www.redhat.com/en/services/certification/rhcsa"
+        },
+        {
+          "name": "Linux Professional Institute Certification (LPIC)",
+          "organization": "Linux Professional Institute",
+          "url": "https://www.lpi.org/our-certifications/lpic-1-overview"
+        },
+        {
+          "name": "Oracle Certified Professional: Linux System Administrator",
+          "organization": "Oracle",
+          "url": "https://education.oracle.com/oracle-linux-administration/pexam_1z0-105"
+        }
+      ],
+      "core_courses_2020": [
+        "FZK161", "FZK162", "CE102", "CE203", "CE202", "CE200", "CE301", "CE304", "CE311", "CE319", "CE308", "CE312", "CE322"
+      ],
+      "core_courses_2024": [
+        "CEN103", "CEN104", "CEN110", "CEN210", "CEN304", "CEN204", "CEN205", "CEN302", "CEN311", "CEN321", "CEN323", "CEN308", "CEN310", "CEN318", "CEN413"
+      ]
+    },
+    {
+      "id": "blockchain",
+      "name": "Blockchain Teknolojileri",
+      "icon": "fas fa-link",
+      "color": "#e67e22",
+      "description": "Blockchain teknolojileri, merkeziyetsiz ve güvenli dijital işlem kayıtları oluşturmaya odaklanır. Kriptografi, dağıtık sistemler, akıllı sözleşmeler ve merkeziyetsiz uygulamalar konularını içerir.",
+      "skills": [
+        "Blockchain Mimarisi",
+        "Akıllı Sözleşmeler",
+        "Kriptografi",
+        "Dağıtık Sistemler",
+        "Merkeziyetsiz Uygulamalar",
+        "Kripto Ekonomisi"
+      ],
+      "job_titles": [
+        "Blockchain Geliştirici",
+        "Akıllı Sözleşme Uzmanı",
+        "Blockchain Çözüm Mimarı",
+        "Kripto Güvenlik Uzmanı",
+        "DeFi Geliştirici",
+        "Web3 Mühendisi"
+      ],
+      "industry_trends": [
+        "Web3 ve Merkeziyetsiz Web",
+        "Merkeziyetsiz Finans (DeFi)",
+        "Değiştirilemez Tokenlar (NFT)",
+        "Blockchain Ölçeklenebilirliği",
+        "Kurumsal Blockchain Çözümleri",
+        "Cross-Chain Interoperability"
+      ],
+      "certifications": [
+        {
+          "name": "Certified Blockchain Developer",
+          "organization": "Blockchain Council",
+          "url": "https://www.blockchain-council.org/certifications/certified-blockchain-developer/"
+        },
+        {
+          "name": "Ethereum Developer Certification",
+          "organization": "ConsenSys Academy",
+          "url": "https://consensys.net/academy/bootcamp/"
+        },
+        {
+          "name": "Certified Blockchain Security Professional",
+          "organization": "EC-Council",
+          "url": "https://www.eccouncil.org/programs/blockchain-certification/"
+        },
+        {
+          "name": "Hyperledger Fabric Developer",
+          "organization": "The Linux Foundation",
+          "url": "https://training.linuxfoundation.org/training/hyperledger-fabric-developer/"
+        }
+      ],
+      "core_courses_2020": [
+        "CE207", "CE208", "CE306", "CE317", "CE318", "CE406", "CE408"
+      ],
+      "core_courses_2024": [
+        "CEN209", "CEN208", "CEN315", "CEN333", "CEN306", "CEN316", "CEN425", "CEN423"
+      ]
+    },
+    {
+      "id": "cloud",
+      "name": "Bulut Bilişim",
+      "icon": "fas fa-cloud",
+      "color": "#e84393",
+      "description": "Bulut bilişim, internet üzerinden erişilebilen bilgi işlem kaynaklarının sağlanmasına odaklanır. Bulut hizmetleri, sanal altyapı, konteyner teknolojileri ve dağıtık sistemleri içerir.",
+      "skills": [
+        "Bulut Mimarisi",
+        "Konteyner Teknolojileri",
+        "Microservice Mimarisi",
+        "DevOps Uygulamaları",
+        "Infrastructure as Code",
+        "Serverless Computing"
+      ],
+      "job_titles": [
+        "Bulut Çözüm Mimarı",
+        "DevOps Mühendisi",
+        "Cloud Platform Mühendisi",
+        "Site Reliability Engineer",
+        "Cloud Security Uzmanı",
+        "Kubernetes Administrator"
+      ],
+      "industry_trends": [
+        "Multi-Cloud ve Hybrid Cloud",
+        "Kubernetes ve Konteyner Orkestrasyon",
+        "Serverless ve Function-as-a-Service",
+        "Infrastructure as Code",
+        "Bulut Yerli Geliştirme",
+        "Edge Computing"
+      ],
+      "certifications": [
+        {
+          "name": "AWS Certified Solutions Architect",
+          "organization": "Amazon Web Services",
+          "url": "https://aws.amazon.com/certification/certified-solutions-architect-associate/"
+        },
+        {
+          "name": "Microsoft Certified: Azure Solutions Architect",
+          "organization": "Microsoft",
+          "url": "https://docs.microsoft.com/en-us/learn/certifications/azure-solutions-architect"
+        },
+        {
+          "name": "Google Cloud Certified - Professional Cloud Architect",
+          "organization": "Google Cloud",
+          "url": "https://cloud.google.com/certification/cloud-architect"
+        },
+        {
+          "name": "Certified Kubernetes Administrator (CKA)",
+          "organization": "Cloud Native Computing Foundation",
+          "url": "https://www.cncf.io/certification/cka/"
+        }
+      ],
+      "core_courses_2020": [
+        "CE207", "CE203", "CE208", "CE304", "CE312", "CE408"
+      ],
+      "core_courses_2024": [
+        "CEN209", "CEN210", "CEN208", "CEN302", "CEN310", "CEN403", "CEN413", "CEN425"
+      ]
+    }
+  ],
+  "career_path_relations": [
+    {
+      "path1": "software",
+      "path2": "web",
+      "overlap_percentage": 65,
+      "shared_skills": ["Frontend/Backend Geliştirme", "OOP", "Veritabanı Yönetimi", "API Geliştirme"]
+    },
+    {
+      "path1": "software",
+      "path2": "cyber",
+      "overlap_percentage": 40,
+      "shared_skills": ["Güvenli Kod Geliştirme", "Sistem Programlama", "Veritabanı Güvenliği"]
+    },
+    {
+      "path1": "software",
+      "path2": "data",
+      "overlap_percentage": 35,
+      "shared_skills": ["Veri Yapıları", "Algoritma Geliştirme", "Veritabanı Yönetimi"]
+    },
+    {
+      "path1": "software",
+      "path2": "ai",
+      "overlap_percentage": 30,
+      "shared_skills": ["Algoritma Geliştirme", "Veri Yapıları", "Programlama Dilleri"]
+    },
+    {
+      "path1": "software",
+      "path2": "systems",
+      "overlap_percentage": 35,
+      "shared_skills": ["Sistem Programlama", "İşletim Sistemleri", "Düşük Seviyeli Programlama"]
+    },
+    {
+      "path1": "software",
+      "path2": "networks",
+      "overlap_percentage": 25,
+      "shared_skills": ["Dağıtık Sistemler", "Protokol Gerçekleştirimi", "Backend Geliştirme"]
+    },
+    {
+      "path1": "software",
+      "path2": "cloud",
+      "overlap_percentage": 45,
+      "shared_skills": ["Microservices", "DevOps", "Konteyner Teknolojileri", "CI/CD"]
+    },
+    {
+      "path1": "software",
+      "path2": "blockchain",
+      "overlap_percentage": 30,
+      "shared_skills": ["Dağıtık Sistemler", "Kriptografi", "Akıllı Sözleşmeler"]
+    },
+    {
+      "path1": "data",
+      "path2": "ai",
+      "overlap_percentage": 75,
+      "shared_skills": ["Makine Öğrenimi", "İstatistik", "Modelleme", "Python/R Programlama"]
+    },
+    {
+      "path1": "cyber",
+      "path2": "networks",
+      "overlap_percentage": 70,
+      "shared_skills": ["Ağ Güvenliği", "Protokoller", "Saldırı Tespiti", "Güvenlik Duvarları"]
+    },
+    {
+      "path1": "cyber",
+      "path2": "blockchain",
+      "overlap_percentage": 50,
+      "shared_skills": ["Kriptografi", "Güvenli Sistemler", "Hash Fonksiyonları"]
+    },
+    {
+      "path1": "systems",
+      "path2": "networks",
+      "overlap_percentage": 45,
+      "shared_skills": ["Düşük Seviyeli Programlama", "Protokol Gerçekleştirimi", "Donanım-Yazılım Arayüzü"]
+    },
+    {
+      "path1": "cloud",
+      "path2": "networks",
+      "overlap_percentage": 60,
+      "shared_skills": ["SDN", "Sanal Ağlar", "Dağıtık Sistemler", "Ağ Otomasyonu"]
+    }
+  ]
+}

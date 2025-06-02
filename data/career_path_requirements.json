@@ -1,0 +1,281 @@
+{
+  "requirements": {
+    "2020": {
+      "mandatory_courses": 41,
+      "elective_structure": [
+        {"group": "SECS03", "count": 1},
+        {"group": "SECPFS01", "count": 1, "optional": true},
+        {"group": "SECS04", "count": 1},
+        {"group": "SECPFS02", "count": 1, "optional": true},
+        {"group": "ELCE05", "count": 2},
+        {"group": "SECCE05", "count": 1},
+        {"group": "SECPFS03-1", "count": 1, "optional": true},
+        {"group": "SECPFS03-2", "count": 1, "optional": true},
+        {"group": "ELCE06", "count": 2},
+        {"group": "SECCE06", "count": 1},
+        {"group": "SECPFS004-1", "count": 1, "optional": true},
+        {"group": "SECPFS04-2", "count": 1, "optional": true},
+        {"group": "ELCE07", "count": 2},
+        {"group": "SECCE07", "count": 2},
+        {"group": "SECPFS05", "count": 2, "optional": true},
+        {"group": "SECÜSD07", "count": 1, "optional": true},
+        {"group": "ELCE08", "count": 2},
+        {"group": "SECCE08", "count": 2},
+        {"group": "SECPFS06", "count": 1, "optional": true},
+        {"group": "SECÜSD08", "count": 1, "optional": true}
+      ],
+      "standard_pathway_electives": 16,
+      "graduation_requirements": {
+        "total_courses": 57,
+        "required_courses": 41,
+        "required_electives": 16,
+        "standard_pathway_courses": 57,
+        "teacher_pathway_courses_additional": 10
+      },
+      "english_requirements": {
+        "mandatory_english_courses": 14,
+        "expected_english_electives": 8,
+        "total_expected_english_courses": 22,
+        "english_percentage": 38.6
+      },
+      "career_pathways": {
+        "software": {
+          "required_courses": ["CE103", "CE100", "CE205", "CE204", "CE208", "CE304", "CE300"],
+          "recommended_electives": ["CE313", "CE310", "CE312", "CE412"],
+          "expected_english_percentage": 42.1
+        },
+        "cyber": {
+          "required_courses": ["CE207", "CE203", "CE208", "CE204"],
+          "recommended_electives": ["CE306", "CE317", "CE403", "CE407", "CE406", "CE408", "CE410"],
+          "expected_english_percentage": 36.8
+        },
+        "data": {
+          "required_courses": ["MAT181", "MAT184", "MAT156", "CE206", "CE208", "CE305", "CE302"],
+          "recommended_electives": ["CE307", "CE309", "CE314", "CE320", "CE405", "CE409"],
+          "expected_english_percentage": 33.3
+        },
+        "web": {
+          "required_courses": ["CE103", "CE100", "CE205", "CE204", "CE208", "CE303"],
+          "recommended_electives": ["CE313", "CE312", "CE314", "CE316", "CE318", "CE416"],
+          "expected_english_percentage": 40.4
+        },
+        "ai": {
+          "required_courses": ["CE103", "CE100", "CE201", "CE205", "CE206", "CE305", "CE302"],
+          "recommended_electives": ["CE309", "CE311", "CE315", "CE316", "CE405", "CE409", "CE404", "CE414"],
+          "expected_english_percentage": 35.1
+        },
+        "networks": {
+          "required_courses": ["CE207", "CE203", "CE200"],
+          "recommended_electives": ["CE306", "CE403", "CE402", "CE408", "CE416"],
+          "expected_english_percentage": 40.4
+        },
+        "systems": {
+          "required_courses": ["FZK161", "FZK162", "CE102", "CE203", "CE202", "CE200", "CE301", "CE304"],
+          "recommended_electives": ["CE311", "CE319", "CE308", "CE312", "CE322"],
+          "expected_english_percentage": 31.6
+        },
+        "blockchain": {
+          "required_courses": ["CE207", "CE208"],
+          "recommended_electives": ["CE306", "CE317", "CE318", "CE406", "CE408"],
+          "expected_english_percentage": 35.1
+        },
+        "cloud": {
+          "required_courses": ["CE207", "CE203", "CE208", "CE304"],
+          "recommended_electives": ["CE312", "CE408"],
+          "expected_english_percentage": 33.3
+        }
+      }
+    },
+    "2024": {
+      "mandatory_courses": 38,
+      "elective_structure": [
+        {"group": "SECCEN03", "count": 1},
+        {"group": "SECPFS01", "count": 1, "optional": true},
+        {"group": "SECCEN04", "count": 1},
+        {"group": "SECPFS02", "count": 1, "optional": true},
+        {"groups": ["SECCEN05-1", "SECCEN05-2"], "count": 2},
+        {"group": "SECPFS03-1", "count": 1, "optional": true},
+        {"group": "SECPFS03-2", "count": 1, "optional": true},
+        {"groups": ["SECCEN06-1", "SECCEN06-2"], "count": 2},
+        {"group": "SECPFS04-1", "count": 1, "optional": true},
+        {"group": "SECPFS04-2", "count": 1, "optional": true},
+        {"groups": ["SECCEN07-1", "SECCEN07-2"], "count": 4},
+        {"group": "SECPFS05", "count": 2, "optional": true},
+        {"group": "SECPFS06", "count": 1, "optional": true}
+      ],
+      "standard_pathway_electives": 10,
+      "graduation_requirements": {
+        "total_courses": 48,
+        "required_courses": 38,
+        "required_electives": 10,
+        "standard_pathway_courses": 48,
+        "teacher_pathway_courses_additional": 10
+      },
+      "english_requirements": {
+        "mandatory_english_courses": 10,
+        "expected_english_electives": 5.8,
+        "total_expected_english_courses": 15.8,
+        "english_percentage": 32.9
+      },
+      "career_pathways": {
+        "software": {
+          "required_courses": ["CEN107", "CEN108", "CEN207", "CEN206", "CEN208", "CEN302", "CEN301"],
+          "recommended_electives": ["CEN313", "CEN310", "CEN405", "CEN437", "CEN439"],
+          "expected_english_percentage": 35.4
+        },
+        "cyber": {
+          "required_courses": ["CEN209", "CEN210", "CEN208", "CEN206", "CEN302"],
+          "recommended_electives": ["CEN315", "CEN333", "CEN306", "CEN409", "CEN427", "CEN429", "CEN433", "CEN425"],
+          "expected_english_percentage": 33.3
+        },
+        "data": {
+          "required_courses": ["CEN101", "CEN102", "CEN106", "CEN202", "CEN208", "CEN305"],
+          "recommended_electives": ["CEN307", "CEN309", "CEN314", "CEN325", "CEN327", "CEN331", "CEN324", "CEN326", "CEN328", "CEN330", "CEN332", "CEN334", "CEN411", "CEN419", "CEN441", "CEN431"],
+          "expected_english_percentage": 31.3
+        },
+        "web": {
+          "required_courses": ["CEN107", "CEN108", "CEN207", "CEN206", "CEN208", "CEN303"],
+          "recommended_electives": ["CEN219", "CEN226", "CEN310", "CEN312", "CEN316", "CEN320", "CEN322", "CEN437", "CEN439"],
+          "expected_english_percentage": 35.4
+        },
+        "ai": {
+          "required_courses": ["CEN107", "CEN108", "CEN203", "CEN207", "CEN202", "CEN305"],
+          "recommended_electives": ["CEN309", "CEN311", "CEN317", "CEN319", "CEN327", "CEN330", "CEN334", "CEN336", "CEN407", "CEN415", "CEN417", "CEN441", "CEN431"],
+          "expected_english_percentage": 33.3
+        },
+        "networks": {
+          "required_courses": ["CEN209", "CEN210", "CEN204"],
+          "recommended_electives": ["CEN306", "CEN322", "CEN403", "CEN409", "CEN421", "CEN425", "CEN435"],
+          "expected_english_percentage": 35.4
+        },
+        "systems": {
+          "required_courses": ["CEN103", "CEN104", "CEN110", "CEN210", "CEN304", "CEN204", "CEN205", "CEN302"],
+          "recommended_electives": ["CEN311", "CEN321", "CEN323", "CEN308", "CEN310", "CEN318", "CEN413"],
+          "expected_english_percentage": 29.2
+        },
+        "blockchain": {
+          "required_courses": ["CEN209", "CEN208"],
+          "recommended_electives": ["CEN315", "CEN333", "CEN306", "CEN316", "CEN425", "CEN423"],
+          "expected_english_percentage": 33.3
+        },
+        "cloud": {
+          "required_courses": ["CEN209", "CEN210", "CEN208", "CEN302"],
+          "recommended_electives": ["CEN310", "CEN403", "CEN413", "CEN425"],
+          "expected_english_percentage": 31.3
+        }
+      }
+    }
+  },
+  "student_pathways": {
+    "standard": {
+      "description": "Standard pathway for computer engineering students without teacher training focus",
+      "elective_selection": "Standard electives only (no SECPFS courses)"
+    },
+    "teacher_training": {
+      "description": "Pathway for students interested in teacher certification alongside computer engineering",
+      "elective_selection": "Includes all SECPFS courses, reducing available technical electives"
+    }
+  },
+  "english_distribution": {
+    "2020": {
+      "semester_1": {
+        "total_courses": 8,
+        "english_courses": 3,
+        "english_percentage": 37.5
+      },
+      "semester_2": {
+        "total_courses": 8,
+        "english_courses": 2,
+        "english_percentage": 25.0
+      },
+      "semester_3": {
+        "total_courses": 7,
+        "english_courses": 2,
+        "english_percentage": 28.6
+      },
+      "semester_4": {
+        "total_courses": 8,
+        "english_courses": 3,
+        "english_percentage": 37.5
+      },
+      "semester_5": {
+        "total_courses": 6,
+        "english_courses": 4,
+        "english_percentage": 66.7
+      },
+      "semester_6": {
+        "total_courses": 7,
+        "english_courses": 3,
+        "english_percentage": 42.9
+      },
+      "semester_7": {
+        "total_courses": 5,
+        "english_courses": 2,
+        "english_percentage": 40.0
+      },
+      "semester_8": {
+        "total_courses": 5,
+        "english_courses": 3,
+        "english_percentage": 60.0
+      }
+    },
+    "2024": {
+      "semester_1": {
+        "total_courses": 8,
+        "english_courses": 2,
+        "english_percentage": 25.0
+      },
+      "semester_2": {
+        "total_courses": 8,
+        "english_courses": 2,
+        "english_percentage": 25.0
+      },
+      "semester_3": {
+        "total_courses": 8,
+        "english_courses": 2,
+        "english_percentage": 25.0
+      },
+      "semester_4": {
+        "total_courses": 7,
+        "english_courses": 2,
+        "english_percentage": 28.6
+      },
+      "semester_5": {
+        "total_courses": 6,
+        "english_courses": 3,
+        "english_percentage": 50.0
+      },
+      "semester_6": {
+        "total_courses": 5,
+        "english_courses": 2,
+        "english_percentage": 40.0
+      },
+      "semester_7": {
+        "total_courses": 5,
+        "english_courses": 3,
+        "english_percentage": 60.0
+      },
+      "semester_8": {
+        "total_courses": 1,
+        "english_courses": 0,
+        "english_percentage": 0.0
+      }
+    }
+  },
+  "analysis": {
+    "total_course_differences": {
+      "2020_vs_2024": {
+        "total_courses": -9,
+        "mandatory_courses": -3,
+        "elective_courses": -6,
+        "english_courses": -6.2,
+        "english_percentage_change": -5.7
+      }
+    },
+    "career_focus_changes": {
+      "increased_focus": ["data", "ai", "blockchain", "cloud"],
+      "decreased_focus": [],
+      "similar_focus": ["software", "cyber", "web", "networks", "systems"]
+    }
+  }
+}

@@ -1,0 +1,758 @@
+{
+  "dersGenel": {
+    "dersTuru": "Zorunlu",
+    "dersinSeviyesi": "Lisans",
+    "dersinAKTSKredisi": 4,
+    "haftalikDersSaatiKuramsal": 3,
+    "haftalikUygulamaSaati": 0,
+    "haftalikLaboratuarSaati": 0,
+    "dersinVerildigiYariyil": 6,
+    "ogretimSistemi": "Birinci Öğretim",
+    "egitimDili": "Türkçe",
+    "universite": "Recep Tayyip Erdoğan Üniversitesi",
+    "ulke": "Türkiye",
+    "il": "Rize",
+    "ilce": "Merkez",
+    "mahalle": "Fener Mah",
+    "fakulte": "Mühendislik Ve Mimarlık Fakültesi",
+    "bolum": "Bilgisayar Mühendisliği",
+    "dersKodu": "CE304",
+    "dersAdi": "Sistem Programlama",
+    "ogretimYiliDonemi": "Bahar",
+    "dersAKTSKredisi": 4,
+    "dilSecimi": "Türkçe",
+    "mufredatOlusturulmaYili": "2020",
+    "akademikYil": ""
+  },
+  "dersIcerik": {
+    "dersinAmaci": "Dersinin amacı, öğrencilere bilgisayar sistemlerinin altında yatan çalışma prensiplerini ve işletim sistemleri ile donanım arasındaki etkileşimi anlamalarını sağlamak için tasarlanmıştır. Bu ders, öğrencilere işletim sistemi hizmetlerini kullanma, sistem çağrılarını anlama ve yönetimini gerçekleştirme, bellek yönetimi, çoklu işlem ve iş parçacığı programlama gibi temel sistem programlama becerilerini kazandırmayı hedeflemektedir. Ayrıca, sistem programlama dersi, bilgisayar sistemlerinin performansını artırmak ve sistem düzeyinde verimli yazılım geliştirmek için gerekli olan analitik düşünce ve problem çözme yeteneklerini de öğrencilere sunar.",
+    "dersinOnKosuluOlanDersler": "Mevcut Değil",
+    "dersinIcerigi": "Öğrencilere bilgisayar sistemlerinin işleyişini anlamak ve kontrol etmek için gerekli olan düşük seviyeli programlama becerilerini kazandırmayı amaçlayan bir dersdir. Bu derste, işletim sistemi, donanım ve yazılım arasındaki etkileşimi anlamak için bellek yönetimi, işlem yönetimi, dosya sistemleri, ağ protokolleri gibi temel konular ele alınır. Ayrıca, sistem çağrıları, hata ayıklama teknikleri ve güvenlik konuları gibi önemli konular da kapsanarak, öğrencilerin karmaşık sistemlerde uygulama geliştirme ve sorun giderme becerilerini geliştirmeleri hedeflenir. Haftalık konular şunlardır: Sistem Programlama Temelleri, Bellek Yapısı ve Yönetimi, İşletim Sistemleri ve Çekirdek Mimarisi, Çoklu İşlem ve İş Parçacığı Yönetimi, Dosya Sistemleri ve Yönetimi, Giriş/Çıkış Yönetimi, Aygıt Sürücüleri, Sistem Programlama Uygulamaları ve Güvenlik.",
+    "dersinIcinOnerilenHususlar": "Bu derste, öğrencilerin işletim sistemleri, donanım ve yazılım arasındaki etkileşimleri anlamalarına odaklanmaları önemlidir. Ders boyunca, düşük seviyeli programlama becerileri ve assembly diline hakimiyet geliştirilmeli, bellek yönetimi, aygıt sürücüleri ve işlem yönetimi gibi temel sistem bileşenleri üzerinde yoğunlaşılmalıdır. Ayrıca, gerçek dünya senaryolarında kullanılan işletim sistemi araçları ve hata ayıklama teknikleriyle pratik deneyim kazandırılmalıdır. Bu ders, öğrencilere veri yapıları ve algoritmalarla uyumlu bir şekilde sistem düzeyinde yazılım geliştirme becerileri kazandırarak, karmaşık sistemlerin tasarımı ve uygulanmasına yönelik güçlü bir temel oluşturmayı amaçlamaktadır.",
+    "ogretimTuru": "Birinci Öğretim",
+    "stajDurumu": "Mevcut Değil",
+    "dersinKitabiMalzemesiOnerilenKaynaklar": "Bu ders için bir zorunlu kitap bulunmamaktadır. Gerektiğinde, aşağıdaki kitapları ve açık kaynaklı çevrimiçi kaynakları kullanabilirsiniz:\nKitaplar:\na. \"Advanced Programming in the UNIX Environment\" - Richard Stevens, Stephen Rago\nb. \"Operating Systems: Three Easy Pieces\" - Remzi H. Arpaci-Dusseau, Andrea C. Arpaci-Dusseau\nc. \"The Linux Programming Interface: A Linux and UNIX System Programming Handbook\" - Michael Kerrisk\n\nOnline Kaynaklar:\na. GeeksforGeeks (www.geeksforgeeks.org)\nb. Linux man sayfaları\n\nEk olarak, derste kullanılacak slaytlar ve örnek kodlar düzenli olarak ders portalında paylaşılacaktır.",
+    "dersiVerenOgretimUyesiOgretimGorevlisi": "Dr. Öğretim Üyesi Mehmet Sevri",
+    "hazirlanmaTarihi": "27.04.2025"
+  },
+  "dersOgrenmeÇiktilari": [
+    {
+      "id": "ÖÇ.1",
+      "aciklama": "İşletim sistemi ve çekirdek mimarisinin temellerini, bellek yapısını/yönetimini, işlem/iş parçacığı yönetimini, dosya sistemlerini ve G/Ç işlemlerini içeren sistem programlama kavramlarını açıklar."
+    },
+    {
+      "id": "ÖÇ.2",
+      "aciklama": "Sistem programlama görevleri için C/C++ gibi dilleri ve ilgili derleyici/hata ayıklama (debugging) araçlarını etkin bir şekilde kullanır."
+    },
+    {
+      "id": "ÖÇ.3",
+      "aciklama": "İşletim sistemi tarafından sağlanan sistem çağrılarını (örn: dosya işlemleri, işlem yönetimi) ve API'leri kullanarak sistem kaynaklarını programatik olarak yönetir."
+    },
+    {
+      "id": "ÖÇ.4",
+      "aciklama": "Çoklu işlem (process) ve iş parçacığı (thread) ortamlarında süreçler arası iletişim (IPC) ve senkronizasyon (semaphore, mutex) mekanizmalarını uygular."
+    },
+    {
+      "id": "ÖÇ.5",
+      "aciklama": "Sistem programlamada karşılaşılan hataları ayıklama tekniklerini uygular ve temel performans analizi yöntemleriyle yazılım verimliliğini değerlendirir."
+    },
+    {
+      "id": "ÖÇ.6",
+      "aciklama": "Aygıt sürücüleri ve donanım/yazılım arayüzlerinin temellerini anlar."
+    },
+    {
+      "id": "ÖÇ.7",
+      "aciklama": "Sistem programlamanın güvenlik boyutunu ve olası zafiyetleri bilir, bu alandaki güncel yaklaşımları takip eder."
+    }
+  ],
+  "haftalikDersIcerikleri": [
+    {
+      "hafta": 1,
+      "icerik": "Sistem Programlama Nedir?, Sistem Programlama Temel Kavramlar ve İşlevleri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Sunumları, Önerilen Kitaplar Bölüm 1",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Temel kavramları araştırma"
+    },
+    {
+      "hafta": 2,
+      "icerik": "Bellek Yapısı ve İşleyişi, Bellek Yönetimi ve Bölümlendirme",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Temel Bilgisayar Mimarisi Bilgisi",
+      "ogretimYontemleri": "Anlatım, Tartışma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Sunumları, Önerilen Kitaplar Bölüm 2",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Bellek yönetimi tekniklerini inceleme"
+    },
+    {
+      "hafta": 3,
+      "icerik": "İşletim Sistemleri ve Çekirdek Mimarisi, Çoklu İşlem ve İş Parçacığı Yönetimi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "İşletim Sistemi Temel Kavramları",
+      "ogretimYontemleri": "Anlatım, Uygulamalı Örnekler (Teorik)",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Sunumları, Önerilen Kitaplar Bölüm 3",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "İşlem/İş parçacığı kavramlarını araştırma"
+    },
+    {
+      "hafta": 4,
+      "icerik": "Dosya ve Veri Yapıları, Dosya Sistemleri ve Yönetimi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Temel Veri Yapıları Bilgisi",
+      "ogretimYontemleri": "Anlatım, Tartışma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Sunumları, Önerilen Kitaplar Bölüm 4",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Farklı dosya sistemi yapılarını karşılaştırma"
+    },
+    {
+      "hafta": 5,
+      "icerik": "Giriş/Çıkış Yönetimi, Aygıt Sürücüleri ve Arabirimleri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.6",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Donanım Temelleri",
+      "ogretimYontemleri": "Anlatım, Örnek İnceleme",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Sunumları, Önerilen Kitaplar Bölüm 5",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "G/Ç yönetimi prensiplerini çalışma"
+    },
+    {
+      "hafta": 6,
+      "icerik": "Sistem Çağrıları ve API Kullanımı (Örnekler: Dosya İşlemleri)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "C/C++ Programlama Bilgisi",
+      "ogretimYontemleri": "Uygulamalı Öğretim, Kodlama",
+      "aracVeGerecler": "Bilgisayar, C/C++ Derleyici, IDE",
+      "kaynakVeMateryal": "Ders Notları, API Dokümantasyonu, Örnek Kodlar",
+      "degerlendirmeYontemleri": "Laboratuvar Çalışması",
+      "odevVeCalisma": "Dosya işlemleri için sistem çağrılarını kullanma"
+    },
+    {
+      "hafta": 7,
+      "icerik": "Sistem Çağrıları ve API Kullanımı (Örnekler: İşlem Yönetimi)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3, ÖÇ.4",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "C/C++ Programlama, İşlem Kavramları",
+      "ogretimYontemleri": "Uygulamalı Öğretim, Kodlama",
+      "aracVeGerecler": "Bilgisayar, C/C++ Derleyici, IDE",
+      "kaynakVeMateryal": "Ders Notları, API Dokümantasyonu, Örnek Kodlar",
+      "degerlendirmeYontemleri": "Laboratuvar Çalışması",
+      "odevVeCalisma": "fork(), exec() gibi sistem çağrılarını kullanma"
+    },
+    {
+      "hafta": 8,
+      "icerik": "Ara Sınav",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.6",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "1-7 Hafta Konuları",
+      "ogretimYontemleri": "Sınav",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Yazılı Sınav",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 9,
+      "icerik": "Süreçler Arası İletişim (IPC) Mekanizmaları (Pipe, FIFO, Shared Memory)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.4",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "İşlem Yönetimi, Sistem Çağrıları",
+      "ogretimYontemleri": "Anlatım, Uygulamalı Öğretim",
+      "aracVeGerecler": "Bilgisayar, C/C++ Derleyici, IDE",
+      "kaynakVeMateryal": "Ders Notları, Örnek Kodlar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "IPC mekanizmalarını kullanarak basit programlar yazma"
+    },
+    {
+      "hafta": 10,
+      "icerik": "Senkronizasyon Mekanizmaları (Semaphore, Mutex)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "Çoklu İşlem, IPC",
+      "ogretimYontemleri": "Anlatım, Uygulamalı Öğretim",
+      "aracVeGerecler": "Bilgisayar, C/C++ Derleyici, IDE",
+      "kaynakVeMateryal": "Ders Notları, Örnek Kodlar",
+      "degerlendirmeYontemleri": "Laboratuvar Çalışması",
+      "odevVeCalisma": "Senkronizasyon problemlerini çözme"
+    },
+    {
+      "hafta": 11,
+      "icerik": "İş Parçacıkları (Threads) Programlama",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.4",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "Çoklu İşlem, Senkronizasyon",
+      "ogretimYontemleri": "Anlatım, Uygulamalı Öğretim",
+      "aracVeGerecler": "Bilgisayar, C/C++ Derleyici, IDE, Pthreads kütüphanesi",
+      "kaynakVeMateryal": "Ders Notları, Örnek Kodlar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Thread kullanarak paralel programlama"
+    },
+    {
+      "hafta": 12,
+      "icerik": "Sistem Programlamada Hata Ayıklama Teknikleri ve Araçları",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.5",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "C/C++ Programlama",
+      "ogretimYontemleri": "Demonstrasyon, Uygulamalı Öğretim",
+      "aracVeGerecler": "Bilgisayar, IDE, gdb gibi hata ayıklayıcılar",
+      "kaynakVeMateryal": "Ders Notları, Hata Ayıklama Kılavuzları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Hata ayıklama araçlarını kullanma alıştırmaları"
+    },
+    {
+      "hafta": 13,
+      "icerik": "Performans Analizi ve Optimizasyon Temelleri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Sistem Programlama Kavramları",
+      "ogretimYontemleri": "Anlatım, Tartışma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Profiling Araçları (Teorik)",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Performans darboğazlarını anlama"
+    },
+    {
+      "hafta": 14,
+      "icerik": "Sistem Programlama Uygulamaları ve Güvenlik, Sistem Programlama Projeleri ve Geleceği",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm Dönem Konuları",
+      "ogretimYontemleri": "Anlatım, Tartışma, Proje Fikirleri",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları, Güncel Makaleler",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Final sınavına hazırlık, Proje konularını araştırma"
+    },
+    {
+      "hafta": 15,
+      "icerik": "Genel Tekrar ve Soru-Cevap",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm Dönem Konuları",
+      "ogretimYontemleri": "Soru-Cevap, Özetleme",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Final sınavına hazırlık"
+    },
+    {
+      "hafta": 16,
+      "icerik": "Final Sınavı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm konular",
+      "ogretimYontemleri": "Sınav",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Yazılı Sınav",
+      "odevVeCalisma": "-"
+    }
+  ],
+  "dersIsYuku": {
+    "etkinlikler": [
+      {
+        "etkinlik": "Derse Katılım",
+        "sayi": 14,
+        "sure": 3,
+        "toplamIsYuku": 42
+      },
+      {
+        "etkinlik": "Ara Sınav İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 15,
+        "toplamIsYuku": 15
+      },
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "sure": 2,
+        "toplamIsYuku": 2
+      },
+      {
+        "etkinlik": "Final Sınavı İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 25,
+        "toplamIsYuku": 25
+      },
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "sure": 2,
+        "toplamIsYuku": 2
+      },
+      {
+        "etkinlik": "Bireysel Çalışma",
+        "sayi": 14,
+        "sure": 1,
+        "toplamIsYuku": 14
+      }
+    ],
+    "toplamIsYuku": 100,
+    "dersAKTSKredisi": 4,
+    "hesaplama": "Dersin AKTS Kredisi = Toplam İş Yükü (Saat) / 25 = 4",
+    "aktsHesaplama": "Toplam İş Yükü / 25"
+  },
+  "etkinlikTurleri": [
+    "Alan Çalışması",
+    "Alan Gezisi",
+    "Ara Sınav",
+    "Ara Sınav İçin Bireysel Çalışma",
+    "Beyin Fırtınası",
+    "Bireysel Çalışma",
+    "Bütünleme Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Derse Katılım",
+    "Ev Ödevi",
+    "Final Sınavı",
+    "Final Sınavı İçin Bireysel Çalışma",
+    "Gösterme",
+    "Gözlem",
+    "Laboratuvar",
+    "Laboratuvar Ara Sınavı",
+    "Laboratuvar Sınavı",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Multirom CD Çalışması",
+    "Ödev Problemleri İçin Çalışma",
+    "Okuma",
+    "Örnek Vaka İncelemesi",
+    "Performans",
+    "Problem Çözümü",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Quiz İçin Bireysel Çalışma",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Rehberli Problem Çözümü",
+    "Rol Oynama / Dramatizasyon",
+    "Seminer",
+    "Soru-Yanıt",
+    "Sözlü Sınav",
+    "Takım/Grup Çalışması",
+    "Tartışma",
+    "Toplantı Başkanlığı Yapma",
+    "Uygulama/Pratik"
+  ],
+  "dersDegerlendirme": {
+    "yariyilIciEtkinlikleri": [
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "katkiYuzdesi": 100
+      }
+    ],
+    "yariyilIciToplam": 100,
+    "yariyilSonuEtkinlikleri": [
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "katkiYuzdesi": 100
+      }
+    ],
+    "yariyilSonuToplam": 100,
+    "genelDegerlendirme": [
+      {
+        "degerlendirme": "Yarıyıl (Yıl) Sonu Etkinlikleri",
+        "katkiYuzdesi": 60
+      },
+      {
+        "degerlendirme": "Yarıyıl (Yıl) İçi Etkinlikleri",
+        "katkiYuzdesi": 40
+      }
+    ],
+    "genelDegerlendirmeToplam": 100
+  },
+  "yariyilIciOlasiEtkinlikler": [
+    "Ara Sınav",
+    "Laboratuvar Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Performans",
+    "Quiz",
+    "Rapor",
+    "Rapor Sunma",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Rehberli Problem Çözümü",
+    "Seminer",
+    "Sözlü Sınav",
+    "Ödev Problemleri İçin Çalışma",
+    "Proje Tasarımı/Yönetimi"
+  ],
+  "yariyilSonuOlasiEtkinlikler": [
+    "Final Sınavı",
+    "Laboratuvar Ara Sınavı",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Seminer",
+    "Sözlü Sınav",
+    "Gözlem"
+  ],
+  "programCiktilari": [
+    {
+      "id": "PÇ.1",
+      "kategori": "BİLGİ - Kuramsal Olgusal",
+      "aciklama": "TEMEL BİLGİ: Matematik, Fen Bilimleri ve Bilgisayar Mühendisliği konularında yeterli bilgi sahibidir; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanır."
+    },
+    {
+      "id": "PÇ.2",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "PROBLEM ÇÖZME: Karmaşık Bilgisayar Mühendisliği problemlerini saptar, tanımlar, formüle eder ve çözer; bu amaca uygun analiz ve modelleme yöntemlerini seçer ve uygular."
+    },
+    {
+      "id": "PÇ.3",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TASARIM: Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlar; bu amaçla modern tasarım yöntemlerini uygular."
+    },
+    {
+      "id": "PÇ.4",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TEKNOLOJİ: Bilgisayar Mühendisliği uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirir, seçer ve kullanır; bilişim teknolojilerini etkin bir şekilde kullanır."
+    },
+    {
+      "id": "PÇ.5",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "ARAŞTIRMA: Karmaşık Bilgisayar Mühendisliği problemlerinin veya araştırma konularının incelenmesi için deney tasarlar, deney yapar, veri toplar, sonuçları analiz eder ve yorumlar."
+    },
+    {
+      "id": "PÇ.6",
+      "kategori": "YETKİNLİKLER - Bağımsız Çalışabilme ve Sorumluluk Alabilme Yetkinliği",
+      "aciklama": "İŞBİRLİĞİ: Bilgisayar Mühendisliği disiplini içinde ve çok disiplinli takımlarda etkin biçimde çalışır; bireysel çalışma sergiler."
+    },
+    {
+      "id": "PÇ.7",
+      "kategori": "YETKİNLİKLER - Öğrenme Yetkinliği",
+      "aciklama": "GELİŞİM: Yaşam boyu öğrenmenin gerekliliğinin bilincindedir; bilgiye erişir, bilim ve teknolojideki gelişmeleri izler ve kendini sürekli yeniler; insanlık tarihi boyunca oluşan bilgi birikimini Bilgisayar Mühendisliği alanıyla ilişkilendirir."
+    },
+    {
+      "id": "PÇ.8",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "İLETİŞİM: Türkçe sözlü ve yazılı etkin iletişim kurar; etkin rapor yazar ve yazılı raporları anlar, tasarım ve üretim raporları hazırlar, etkin sunum yapar, açık ve anlaşılır talimat verir ve alır."
+    },
+    {
+      "id": "PÇ.9",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "TOPLUMSAL BİLİNÇ: Bilgisayar Mühendisliği uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi sahibidir; mühendislik çözümlerinin hukuksal sonuçlarının farkındadır."
+    },
+    {
+      "id": "PÇ.10",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "ULUSLARARASILIK: Bir yabancı dili kullanarak Bilgisayar Mühendisliği ile ilişkili konularda, bilgi toplar ve meslektaşları ile iletişim kurar."
+    },
+    {
+      "id": "PÇ.11",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "ETİK: Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilincine sahiptir; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi sahibidir."
+    },
+    {
+      "id": "PÇ.12",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "YÖNETİM: Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi sahibidir; girişimcilik, yenilikçilik hakkında bilinçlidir; sürdürülebilir kalkınma hakkında bilgi sahibidir."
+    }
+  ],
+  "programVeOgrenmeIliskisi": {
+    "iliskiOlcekleri": "0-5 arası değerler (0: İlişki yok, 5: Çok güçlü ilişki)",
+    "iliskiTablosu": [
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.1",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 5,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.2",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 3,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.3",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.4",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 3,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.5",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.6",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 3,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.7",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      }
+    ]
+  },
+  "toplumsalKatkiVeSurdurulebilirlik": {
+    "surdurulebilirKalkinmaAmaclari": [
+      {
+        "amac": "Yoksulluğa Son",
+        "secili": false
+      },
+      {
+        "amac": "Açlığa Son",
+        "secili": false
+      },
+      {
+        "amac": "Sağlık ve Kaliteli Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Nitelikli Eğitim",
+        "secili": true
+      },
+      {
+        "amac": "Toplumsal Cinsiyet Eşitliği",
+        "secili": false
+      },
+      {
+        "amac": "Temiz Su ve Sanitasyon",
+        "secili": false
+      },
+      {
+        "amac": "Erişilebilir ve Temiz Enerji",
+        "secili": false
+      },
+      {
+        "amac": "İnsana Yakışır İş ve Ekonomik Büyüme",
+        "secili": true
+      },
+      {
+        "amac": "Sanayi, Yenilikçilik ve Altyapı",
+        "secili": true
+      },
+      {
+        "amac": "Eşitsizliklerin Azaltılması",
+        "secili": false
+      },
+      {
+        "amac": "Sürdürülebilir Şehirler ve Topluluklar",
+        "secili": false
+      },
+      {
+        "amac": "Sorumlu Üretim ve Tüketim",
+        "secili": true
+      },
+      {
+        "amac": "İklim Eylemi",
+        "secili": false
+      },
+      {
+        "amac": "Sudaki Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Karasal Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Barış, Adalet ve Güçlü Kurumlar",
+        "secili": false
+      },
+      {
+        "amac": "Amaçlar İçin Ortaklıklar",
+        "secili": false
+      }
+    ],
+    "toplumsalKatkiAlanlari": [
+      {
+        "alan": "Eğitim ve Öğretim",
+        "secili": true
+      },
+      {
+        "alan": "Sağlık",
+        "secili": false
+      },
+      {
+        "alan": "Sosyal Hizmetler ve Toplumsal Eşitlik",
+        "secili": false
+      },
+      {
+        "alan": "Çevre ve Sürdürülebilirlik",
+        "secili": false
+      },
+      {
+        "alan": "Teknolojik ve Bilimsel Yenilikler",
+        "secili": true
+      },
+      {
+        "alan": "Ekonomik Kalkınma ve Girişimcilik",
+        "secili": true
+      },
+      {
+        "alan": "Kültürel ve Sanatsal Etkinlikler",
+        "secili": false
+      },
+      {
+        "alan": "Uluslararası İş birliği ve Diplomasi",
+        "secili": false
+      },
+      {
+        "alan": "Toplum yararına yapılacak diğer çalışmalar",
+        "secili": true
+      }
+    ]
+  },
+  "dersSekmeler": {
+    "dersGenel": true,
+    "dersOgrenmeÇiktilari": true,
+    "haftalikDersIcerikleri": true,
+    "dersIsYuku": true,
+    "dersDegerlendirme": true,
+    "programVeOgrenmeÇiktilariIliskisi": true,
+    "toplumsalKatkiVeSurdurulebilirlik": true
+  },
+  "denetimBilgileri": {
+    "olusturmaTarihi": "2025-05-10 18:09:22",
+    "olusturan": "json_processor_script",
+    "sonGuncellenmeTarihi": "2025-05-10 18:09:22",
+    "guncelleyen": "json_processor_script",
+    "durum": "Taslak"
+  },
+  "numaralandirmaDegerleri": {
+    "dersTurleri": [
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dersSeviyesi": [
+      "Lisans",
+      "Yüksek Lisans",
+      "Doktora"
+    ],
+    "ogretimSistemi": [
+      "Birinci Öğretim",
+      "İkinci Öğretim",
+      "Uzaktan Öğretim"
+    ],
+    "egitimDili": [
+      "Türkçe",
+      "İngilizce"
+    ],
+    "stajDurumu": [
+      "Mevcut Değil",
+      "Mevcut",
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dokumanDurumu": [
+      "Taslak",
+      "Onaylandı",
+      "Yayınlandı",
+      "Revize Edildi"
+    ]
+  }
+}

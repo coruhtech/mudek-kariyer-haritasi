@@ -1,0 +1,785 @@
+{
+  "dersGenel": {
+    "dersTuru": "Zorunlu",
+    "dersinSeviyesi": "Lisans",
+    "dersinAKTSKredisi": 2,
+    "haftalikDersSaatiKuramsal": 2,
+    "haftalikUygulamaSaati": 0,
+    "haftalikLaboratuarSaati": 0,
+    "dersinVerildigiYariyil": 2,
+    "ogretimSistemi": "Birinci Öğretim",
+    "egitimDili": "İngilizce",
+    "universite": "Recep Tayyip Erdoğan Üniversitesi",
+    "ulke": "Türkiye",
+    "il": "Rize",
+    "ilce": "Merkez",
+    "mahalle": "Fener Mah",
+    "fakulte": "Mühendislik Ve Mimarlık Fakültesi",
+    "bolum": "Bilgisayar Mühendisliği",
+    "dersKodu": "YBD110",
+    "dersAdi": "Yabancı Dil-II",
+    "ogretimYiliDonemi": "Bahar",
+    "dersAKTSKredisi": 2,
+    "dilSecimi": "Türkçe",
+    "mufredatOlusturulmaYili": "2020",
+    "akademikYil": ""
+  },
+  "dersIcerik": {
+    "dersinAmaci": "Bu dersin sonunda öğrencilerin; İngilizce dilince kendilerini basit cümlelerle tanıtabilmeleri beklenmektedir. Öğrencilerin geniş-geçmiş-şimdiki zaman kullanarak basit cümleler kurup günlük hayatlarında yaptıkları şeyleri anlatabilmeleri istenmektedir. Öğrencilerin kendilerini ve başkalarını kişisel ve fiziksel özellikleri ile tasvir ederek iletişim kurabilmeleri beklenmektedir. Öğrencilerin sağlık sorunlarından bahsedebilme, tavsiyede bulunma, yön tarif etme gibi günlük hayatta ihtiyaç duyabilecekleri becerileri sergilemeleri beklenmektedir. Vücudun çeşitli bölümleri, tarihler, hava durumu, kılık kıyafet gibi konularda genel kelimeleri tanıma ve kullanabilmeleri beklenmektedir.",
+    "dersinOnKosuluOlanDersler": "Mevcut Değil",
+    "dersinIcerigi": "İngilizce gramer yapısının temelinde bulunan geniş zaman, şimdiki zaman ve geçmiş zaman kullanımı, bu zamanlarla kurallı ve anlamlı cümleler kurma, temel İngilizce seviyesindeki kelimeleri yazı ve okuma aktivitelerinde kullanma, günlük hayatta sık karşılaşılan rica ve emir cümleleri ile yetenek ve tavsiye belirten yapıların kullanılması.",
+    "dersinIcinOnerilenHususlar": "Öğrencilerin derslere düzenli katılımı, verilen alıştırmaları yapması ve dil pratiği için ek kaynaklardan yararlanması önerilir.",
+    "ogretimTuru": "Birinci Öğretim",
+    "stajDurumu": "Mevcut Değil",
+    "dersinKitabiMalzemesiOnerilenKaynaklar": "1. Ders kitabı, English for Beginners, Revised 2016\n2. Dersin sorumlusu öğretim görevlisi tarafından belirlenen uzaktan eğitme uygun materyaller ve kaynaklar.",
+    "dersiVerenOgretimUyesiOgretimGorevlisi": "",
+    "hazirlanmaTarihi": "27.04.2025"
+  },
+  "dersOgrenmeÇiktilari": [
+    {
+      "id": "ÖÇ.1",
+      "aciklama": "Şimdiki zaman (present continuous), geçmiş zaman ('to be', simple past - regular/irregular verbs) ve modal fiilleri ('can', 'like', 'want') basit cümle yapılarında doğru kullanır."
+    },
+    {
+      "id": "ÖÇ.2",
+      "aciklama": "Basit metinleri (örn. geçmiş olaylar, kişisel deneyimler, basit tarifler/yönlendirmeler) okuyup ana fikri ve belirgin bilgileri anlar."
+    },
+    {
+      "id": "ÖÇ.3",
+      "aciklama": "Geçmişteki olaylar, kişisel tercihler ve yetenekler gibi bilinen konular hakkında kısa paragraflar yazar."
+    },
+    {
+      "id": "ÖÇ.4",
+      "aciklama": "Bildiği konularda basit diyaloglara katılır, soru sorar, cevap verir ve temel yönergeleri/tavsiyeleri anlar."
+    },
+    {
+      "id": "ÖÇ.5",
+      "aciklama": "Sayılabilen/sayılamayan isimleri, miktar ve sıklık belirteçlerini doğru kullanır."
+    },
+    {
+      "id": "ÖÇ.6",
+      "aciklama": "Karşılaştırma ve üstünlük yapılarını (comparatives/superlatives) kullanarak kişi, yer ve nesneleri basit düzeyde karşılaştırır."
+    },
+    {
+      "id": "ÖÇ.7",
+      "aciklama": "Günlük yaşam, giysiler, hava durumu, yiyecek/içecek, aile gibi konularda temel kelime dağarcığını kullanarak iletişim kurar ve basit bilgi toplar."
+    }
+  ],
+  "haftalikDersIcerikleri": [
+    {
+      "hafta": 1,
+      "icerik": "Unit 6A-6B (örn: Yetenekler 'can', istekler 'like/want', şimdiki zaman)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.5, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "YBD109 konuları",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Uygulama",
+      "aracVeGerecler": "Tahta, Projeksiyon, Ders Kitabı",
+      "kaynakVeMateryal": "Ders Kitabı, Ek Materyaller",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Alıştırmalar"
+    },
+    {
+      "hafta": 2,
+      "icerik": "Unit 6C-6D (örn: Şimdiki zaman devam, giysiler, hava durumu)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Unit 6A-6B",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Uygulama",
+      "aracVeGerecler": "Tahta, Projeksiyon, Ders Kitabı",
+      "kaynakVeMateryal": "Ders Kitabı, Ek Materyaller",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Alıştırmalar"
+    },
+    {
+      "hafta": 3,
+      "icerik": "UNIT 6- REVIEW",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.5, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Unit 6 konuları",
+      "ogretimYontemleri": "Tekrar, Alıştırma, Soru-Cevap",
+      "aracVeGerecler": "Tahta, Projeksiyon, Ders Kitabı",
+      "kaynakVeMateryal": "Ders Kitabı, Ek Materyaller",
+      "degerlendirmeYontemleri": "Quiz",
+      "odevVeCalisma": "Tekrar alıştırmaları"
+    },
+    {
+      "hafta": 4,
+      "icerik": "Unit 7A-7B (örn: Geçmiş zaman 'was/were', zaman ifadeleri)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Unit 6 tekrarı",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Uygulama",
+      "aracVeGerecler": "Tahta, Projeksiyon, Ders Kitabı",
+      "kaynakVeMateryal": "Ders Kitabı, Ek Materyaller",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Alıştırmalar"
+    },
+    {
+      "hafta": 5,
+      "icerik": "Unit 7C-UNIT 7 REVIEW (örn: Geçmiş zaman düzenli fiiller)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Unit 7 konuları",
+      "ogretimYontemleri": "Tekrar, Alıştırma, Soru-Cevap",
+      "aracVeGerecler": "Tahta, Projeksiyon, Ders Kitabı",
+      "kaynakVeMateryal": "Ders Kitabı, Ek Materyaller",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Geçmiş zamanla ilgili metin yazma/okuma"
+    },
+    {
+      "hafta": 6,
+      "icerik": "Unit 8A (örn: Geçmiş zaman düzensiz fiiller)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Düzenli fiiller geçmiş zaman",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Uygulama",
+      "aracVeGerecler": "Tahta, Projeksiyon, Ders Kitabı",
+      "kaynakVeMateryal": "Ders Kitabı, Ek Materyaller",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Alıştırmalar"
+    },
+    {
+      "hafta": 7,
+      "icerik": "Unit 8B-8C (örn: Geçmiş zaman soru ve olumsuz cümleler)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.3, ÖÇ.4, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Düzensiz fiiller geçmiş zaman",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Uygulama",
+      "aracVeGerecler": "Tahta, Projeksiyon, Ders Kitabı",
+      "kaynakVeMateryal": "Ders Kitabı, Ek Materyaller",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Diyalog çalışması"
+    },
+    {
+      "hafta": 8,
+      "icerik": "ARA SINAV HAFTASI",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "1-7 hafta konularının tekrarı",
+      "ogretimYontemleri": "Ölçme Değerlendirme",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Yazılı Sınav",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 9,
+      "icerik": "UNIT 8 REVIEW",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Geçmiş zaman konuları",
+      "ogretimYontemleri": "Tekrar, Alıştırma, Soru-Cevap",
+      "aracVeGerecler": "Tahta, Projeksiyon, Ders Kitabı",
+      "kaynakVeMateryal": "Ders Kitabı, Ek Materyaller",
+      "degerlendirmeYontemleri": "Quiz",
+      "odevVeCalisma": "Tekrar alıştırmaları"
+    },
+    {
+      "hafta": 10,
+      "icerik": "Unit 9A-9B (örn: Sayılabilen/Sayılamayan isimler, 'some/any')",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.5, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Temel isim bilgisi",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Uygulama",
+      "aracVeGerecler": "Tahta, Projeksiyon, Ders Kitabı",
+      "kaynakVeMateryal": "Ders Kitabı, Ek Materyaller",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Alıştırmalar"
+    },
+    {
+      "hafta": 11,
+      "icerik": "Unit 9C (örn: Miktar belirteçleri 'how much/many', 'a lot of')",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.4, ÖÇ.5, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Sayılabilen/Sayılamayan isimler",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Uygulama",
+      "aracVeGerecler": "Tahta, Projeksiyon, Ders Kitabı",
+      "kaynakVeMateryal": "Ders Kitabı, Ek Materyaller",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Alıştırmalar"
+    },
+    {
+      "hafta": 12,
+      "icerik": "UNIT 9 REVIEW",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.4, ÖÇ.5, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Unit 9 konuları",
+      "ogretimYontemleri": "Tekrar, Alıştırma, Soru-Cevap",
+      "aracVeGerecler": "Tahta, Projeksiyon, Ders Kitabı",
+      "kaynakVeMateryal": "Ders Kitabı, Ek Materyaller",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Tekrar alıştırmaları"
+    },
+    {
+      "hafta": 13,
+      "icerik": "Unit 10A-10B (örn: Karşılaştırma sıfatları 'comparatives')",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.3, ÖÇ.4, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Temel sıfat bilgisi",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Uygulama",
+      "aracVeGerecler": "Tahta, Projeksiyon, Ders Kitabı",
+      "kaynakVeMateryal": "Ders Kitabı, Ek Materyaller",
+      "degerlendirmeYontemleri": "Quiz",
+      "odevVeCalisma": "Alıştırmalar"
+    },
+    {
+      "hafta": 14,
+      "icerik": "Unit 10C (örn: Üstünlük sıfatları 'superlatives')",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.3, ÖÇ.4, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Karşılaştırma sıfatları",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Uygulama",
+      "aracVeGerecler": "Tahta, Projeksiyon, Ders Kitabı",
+      "kaynakVeMateryal": "Ders Kitabı, Ek Materyaller",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Alıştırmalar"
+    },
+    {
+      "hafta": 15,
+      "icerik": "UNIT 10 REVIEW",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Unit 10 konuları",
+      "ogretimYontemleri": "Tekrar, Alıştırma, Soru-Cevap",
+      "aracVeGerecler": "Tahta, Projeksiyon, Ders Kitabı",
+      "kaynakVeMateryal": "Ders Kitabı, Ek Materyaller, Mesleki metin örnekleri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Genel tekrar ve mesleki okuma"
+    },
+    {
+      "hafta": 16,
+      "icerik": "DÖNEM SONU SINAVI",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm konuların tekrarı",
+      "ogretimYontemleri": "Ölçme Değerlendirme",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Yazılı Sınav",
+      "odevVeCalisma": "-"
+    }
+  ],
+  "dersIsYuku": {
+    "etkinlikler": [
+      {
+        "etkinlik": "Derse Katılım",
+        "sayi": 15,
+        "sure": 2,
+        "toplamIsYuku": 30
+      },
+      {
+        "etkinlik": "Bireysel Çalışma",
+        "sayi": 6,
+        "sure": 1,
+        "toplamIsYuku": 6
+      },
+      {
+        "etkinlik": "Ev Ödevi",
+        "sayi": 6,
+        "sure": 1,
+        "toplamIsYuku": 6
+      },
+      {
+        "etkinlik": "Quiz",
+        "sayi": 2,
+        "sure": 0.5,
+        "toplamIsYuku": 1
+      },
+      {
+        "etkinlik": "Ara Sınav İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 3,
+        "toplamIsYuku": 3
+      },
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "sure": 1,
+        "toplamIsYuku": 1
+      },
+      {
+        "etkinlik": "Final Sınavı İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 2,
+        "toplamIsYuku": 2
+      },
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "sure": 1,
+        "toplamIsYuku": 1
+      }
+    ],
+    "toplamIsYuku": 50,
+    "dersAKTSKredisi": 2,
+    "hesaplama": "Dersin AKTS Kredisi = Toplam İş Yükü (Saat) / 25 = 2",
+    "aktsHesaplama": "Toplam İş Yükü / 25"
+  },
+  "etkinlikTurleri": [
+    "Alan Çalışması",
+    "Alan Gezisi",
+    "Ara Sınav",
+    "Ara Sınav İçin Bireysel Çalışma",
+    "Beyin Fırtınası",
+    "Bireysel Çalışma",
+    "Bütünleme Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Derse Katılım",
+    "Ev Ödevi",
+    "Final Sınavı",
+    "Final Sınavı İçin Bireysel Çalışma",
+    "Gösterme",
+    "Gözlem",
+    "Laboratuvar",
+    "Laboratuvar Ara Sınavı",
+    "Laboratuvar Sınavı",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Multirom CD Çalışması",
+    "Ödev Problemleri İçin Çalışma",
+    "Okuma",
+    "Örnek Vaka İncelemesi",
+    "Performans",
+    "Problem Çözümü",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Quiz İçin Bireysel Çalışma",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Rehberli Problem Çözümü",
+    "Rol Oynama / Dramatizasyon",
+    "Seminer",
+    "Soru-Yanıt",
+    "Sözlü Sınav",
+    "Takım/Grup Çalışması",
+    "Tartışma",
+    "Toplantı Başkanlığı Yapma",
+    "Uygulama/Pratik"
+  ],
+  "dersDegerlendirme": {
+    "yariyilIciEtkinlikleri": [
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "katkiYuzdesi": 50
+      },
+      {
+        "etkinlik": "Quiz",
+        "sayi": 2,
+        "katkiYuzdesi": 17
+      },
+      {
+        "etkinlik": "Ev Ödevi",
+        "sayi": 6,
+        "katkiYuzdesi": 17
+      },
+      {
+        "etkinlik": "Derse Katılım",
+        "sayi": 15,
+        "katkiYuzdesi": 16
+      }
+    ],
+    "yariyilIciToplam": 100,
+    "yariyilSonuEtkinlikleri": [
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "katkiYuzdesi": 100
+      }
+    ],
+    "yariyilSonuToplam": 100,
+    "genelDegerlendirme": [
+      {
+        "degerlendirme": "Yarıyıl (Yıl) Sonu Etkinlikleri",
+        "katkiYuzdesi": 60
+      },
+      {
+        "degerlendirme": "Yarıyıl (Yıl) İçi Etkinlikleri",
+        "katkiYuzdesi": 40
+      }
+    ],
+    "genelDegerlendirmeToplam": 100
+  },
+  "yariyilIciOlasiEtkinlikler": [
+    "Ara Sınav",
+    "Laboratuvar Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Performans",
+    "Quiz",
+    "Rapor",
+    "Rapor Sunma",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Rehberli Problem Çözümü",
+    "Seminer",
+    "Sözlü Sınav",
+    "Ödev Problemleri İçin Çalışma",
+    "Proje Tasarımı/Yönetimi"
+  ],
+  "yariyilSonuOlasiEtkinlikler": [
+    "Final Sınavı",
+    "Laboratuvar Ara Sınavı",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Seminer",
+    "Sözlü Sınav",
+    "Gözlem"
+  ],
+  "programCiktilari": [
+    {
+      "id": "PÇ.1",
+      "kategori": "BİLGİ - Kuramsal Olgusal",
+      "aciklama": "TEMEL BİLGİ: Matematik, Fen Bilimleri ve Bilgisayar Mühendisliği konularında yeterli bilgi sahibidir; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanır."
+    },
+    {
+      "id": "PÇ.2",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "PROBLEM ÇÖZME: Karmaşık Bilgisayar Mühendisliği problemlerini saptar, tanımlar, formüle eder ve çözer; bu amaca uygun analiz ve modelleme yöntemlerini seçer ve uygular."
+    },
+    {
+      "id": "PÇ.3",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TASARIM: Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlar; bu amaçla modern tasarım yöntemlerini uygular."
+    },
+    {
+      "id": "PÇ.4",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TEKNOLOJİ: Bilgisayar Mühendisliği uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirir, seçer ve kullanır; bilişim teknolojilerini etkin bir şekilde kullanır."
+    },
+    {
+      "id": "PÇ.5",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "ARAŞTIRMA: Karmaşık Bilgisayar Mühendisliği problemlerinin veya araştırma konularının incelenmesi için deney tasarlar, deney yapar, veri toplar, sonuçları analiz eder ve yorumlar."
+    },
+    {
+      "id": "PÇ.6",
+      "kategori": "YETKİNLİKLER - Bağımsız Çalışabilme ve Sorumluluk Alabilme Yetkinliği",
+      "aciklama": "İŞBİRLİĞİ: Bilgisayar Mühendisliği disiplini içinde ve çok disiplinli takımlarda etkin biçimde çalışır; bireysel çalışma sergiler."
+    },
+    {
+      "id": "PÇ.7",
+      "kategori": "YETKİNLİKLER - Öğrenme Yetkinliği",
+      "aciklama": "GELİŞİM: Yaşam boyu öğrenmenin gerekliliğinin bilincindedir; bilgiye erişir, bilim ve teknolojideki gelişmeleri izler ve kendini sürekli yeniler; insanlık tarihi boyunca oluşan bilgi birikimini Bilgisayar Mühendisliği alanıyla ilişkilendirir."
+    },
+    {
+      "id": "PÇ.8",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "İLETİŞİM: Türkçe sözlü ve yazılı etkin iletişim kurar; etkin rapor yazar ve yazılı raporları anlar, tasarım ve üretim raporları hazırlar, etkin sunum yapar, açık ve anlaşılır talimat verir ve alır."
+    },
+    {
+      "id": "PÇ.9",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "TOPLUMSAL BİLİNÇ: Bilgisayar Mühendisliği uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi sahibidir; mühendislik çözümlerinin hukuksal sonuçlarının farkındadır."
+    },
+    {
+      "id": "PÇ.10",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "ULUSLARARASILIK: Bir yabancı dili kullanarak Bilgisayar Mühendisliği ile ilişkili konularda, bilgi toplar ve meslektaşları ile iletişim kurar."
+    },
+    {
+      "id": "PÇ.11",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "ETİK: Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilincine sahiptir; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi sahibidir."
+    },
+    {
+      "id": "PÇ.12",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "YÖNETİM: Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi sahibidir; girişimcilik, yenilikçilik hakkında bilinçlidir; sürdürülebilir kalkınma hakkında bilgi sahibidir."
+    }
+  ],
+  "programVeOgrenmeIliskisi": {
+    "iliskiOlcekleri": "0-5 arası değerler (0: İlişki yok, 5: Çok güçlü ilişki)",
+    "iliskiTablosu": [
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.1",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 5,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.2",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 3,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.3",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 3,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 3,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.4",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 3,
+          "PÇ.9": 0,
+          "PÇ.10": 3,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.5",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 3,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.6",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 3,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.7",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 3,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 3,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      }
+    ]
+  },
+  "toplumsalKatkiVeSurdurulebilirlik": {
+    "surdurulebilirKalkinmaAmaclari": [
+      {
+        "amac": "Yoksulluğa Son",
+        "secili": false
+      },
+      {
+        "amac": "Açlığa Son",
+        "secili": false
+      },
+      {
+        "amac": "Sağlık ve Kaliteli Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Nitelikli Eğitim",
+        "secili": true
+      },
+      {
+        "amac": "Toplumsal Cinsiyet Eşitliği",
+        "secili": false
+      },
+      {
+        "amac": "Temiz Su ve Sanitasyon",
+        "secili": false
+      },
+      {
+        "amac": "Erişilebilir ve Temiz Enerji",
+        "secili": false
+      },
+      {
+        "amac": "İnsana Yakışır İş ve Ekonomik Büyüme",
+        "secili": true
+      },
+      {
+        "amac": "Sanayi, Yenilikçilik ve Altyapı",
+        "secili": false
+      },
+      {
+        "amac": "Eşitsizliklerin Azaltılması",
+        "secili": false
+      },
+      {
+        "amac": "Sürdürülebilir Şehirler ve Topluluklar",
+        "secili": false
+      },
+      {
+        "amac": "Sorumlu Üretim ve Tüketim",
+        "secili": false
+      },
+      {
+        "amac": "İklim Eylemi",
+        "secili": false
+      },
+      {
+        "amac": "Sudaki Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Karasal Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Barış, Adalet ve Güçlü Kurumlar",
+        "secili": true
+      },
+      {
+        "amac": "Amaçlar İçin Ortaklıklar",
+        "secili": true
+      }
+    ],
+    "toplumsalKatkiAlanlari": [
+      {
+        "alan": "Eğitim ve Öğretim",
+        "secili": true
+      },
+      {
+        "alan": "Sağlık",
+        "secili": false
+      },
+      {
+        "alan": "Sosyal Hizmetler ve Toplumsal Eşitlik",
+        "secili": false
+      },
+      {
+        "alan": "Çevre ve Sürdürülebilirlik",
+        "secili": false
+      },
+      {
+        "alan": "Teknolojik ve Bilimsel Yenilikler",
+        "secili": false
+      },
+      {
+        "alan": "Ekonomik Kalkınma ve Girişimcilik",
+        "secili": true
+      },
+      {
+        "alan": "Kültürel ve Sanatsal Etkinlikler",
+        "secili": true
+      },
+      {
+        "alan": "Uluslararası İş birliği ve Diplomasi",
+        "secili": true
+      },
+      {
+        "alan": "Toplum yararına yapılacak diğer çalışmalar",
+        "secili": false
+      }
+    ]
+  },
+  "dersSekmeler": {
+    "dersGenel": true,
+    "dersOgrenmeÇiktilari": true,
+    "haftalikDersIcerikleri": true,
+    "dersIsYuku": true,
+    "dersDegerlendirme": true,
+    "programVeOgrenmeÇiktilariIliskisi": true,
+    "toplumsalKatkiVeSurdurulebilirlik": true
+  },
+  "denetimBilgileri": {
+    "olusturmaTarihi": "2025-05-10 18:09:14",
+    "olusturan": "json_processor_script",
+    "sonGuncellenmeTarihi": "2025-05-10 18:09:14",
+    "guncelleyen": "json_processor_script",
+    "durum": "Taslak"
+  },
+  "numaralandirmaDegerleri": {
+    "dersTurleri": [
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dersSeviyesi": [
+      "Lisans",
+      "Yüksek Lisans",
+      "Doktora"
+    ],
+    "ogretimSistemi": [
+      "Birinci Öğretim",
+      "İkinci Öğretim",
+      "Uzaktan Öğretim"
+    ],
+    "egitimDili": [
+      "Türkçe",
+      "İngilizce"
+    ],
+    "stajDurumu": [
+      "Mevcut Değil",
+      "Mevcut",
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dokumanDurumu": [
+      "Taslak",
+      "Onaylandı",
+      "Yayınlandı",
+      "Revize Edildi"
+    ]
+  }
+}

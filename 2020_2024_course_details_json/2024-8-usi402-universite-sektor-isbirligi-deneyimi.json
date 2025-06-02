@@ -1,0 +1,774 @@
+{
+  "dersGenel": {
+    "dersTuru": "Zorunlu",
+    "dersinSeviyesi": "Lisans",
+    "dersKredisi": 15,
+    "dersinAKTSKredisi": 22,
+    "haftalikDersSaatiKuramsal": 5,
+    "haftalikUygulamaSaati": 20,
+    "haftalikLaboratuarSaati": 0,
+    "dersinVerildigiYariyil": 8,
+    "ogretimSistemi": "Birinci Öğretim",
+    "egitimDili": "Türkçe",
+    "universite": "Recep Tayyip Erdoğan Üniversitesi",
+    "ulke": "Türkiye",
+    "il": "Rize",
+    "ilce": "Merkez",
+    "mahalle": "Fener Mah",
+    "fakulte": "Mühendislik Ve Mimarlık Fakültesi",
+    "bolum": "Bilgisayar Mühendisliği",
+    "dersKodu": "ÜSİ402",
+    "dersAdi": "Üniversite-Sektör İşbirliği Deneyimi",
+    "ogretimYiliDonemi": "Bahar",
+    "dersAKTSKredisi": 22,
+    "dilSecimi": "Türkçe",
+    "mufredatOlusturulmaYili": "2024",
+    "akademikYil": ""
+  },
+  "dersIcerik": {
+    "dersinAmaci": "Bilgisayar mühendisliği öğrencilerinin öğretim sürecinde edindikleri teorik ve pratik bilgileri pekiştirmek, sektörde ihtiyaç duyulan güncel mesleki beceri ve tecrübelerini gerçek iş ortamında geliştirmek, işyeri organizasyonlarını tanımalarını sağlamak ve mesleki hazırlıklarını tamamlayarak mezuniyet sonrası kariyerlerine hazırlamaktır.",
+    "dersinOnKosuluOlanDersler": "Öğrencinin mezun durumunda olması",
+    "dersinIcerigi": "Bu derste öğrenciler, son sınıfta bir dönem boyunca gerçek bir iş yerinde tam zamanlı çalışarak meslek hayatındaki uygulamaları gözlemler ve katılım sağlarlar. Öğrenciler, bilgisayar mühendisliğinin çeşitli alanlarında (yazılım geliştirme, veritabanı yönetimi, ağ sistemleri, veri bilimi, siber güvenlik vb.) proje geliştirme, uygulama, test etme ve belgelendirme süreçlerinde aktif rol alırlar. İş yerinde edinilen deneyimler günlük raporlar, ara değerlendirmeler ve dönem sonu raporları ile belgelendirilir. İş yeri eğitimi kapsamında öğrenciler, kurumsal iş süreçlerini, iş etiğini ve ekip çalışmasını öğrenir, mesleki iletişim becerilerini geliştirir ve iş sağlığı-güvenliği konularında bilinç kazanırlar.",
+    "dersinIcinOnerilenHususlar": "Öğrencilerin işyeri eğitimi süresince işyeri kurallarına uymaları, Üniversite-Sanayi İş birliği Deneyimi (ÜSİD) kapsamında üniversite ile işletme arasında imzalanmış olan protokol hükümlerine riayet etmeleri, danışman öğretim üyesi ve işyeri eğitim sorumlusu ile düzenli iletişim halinde olmaları beklenmektedir. Ayrıca, günlük raporların düzenli tutulması, ara değerlendirme ve final raporlarının zamanında teslim edilmesi gereklidir. İşyeri eğitiminde devam zorunluluğu vardır ve devamsızlık hakkı, mazeretler ve hastalık raporları dahil olmak üzere, toplam sürenin %20'sini geçemez.",
+    "ogretimTuru": "Birinci Öğretim",
+    "stajDurumu": "Mevcut Değil",
+    "dersinKitabiMalzemesiOnerilenKaynaklar": "Öğrencinin çalıştığı alana özgü teknik kaynaklar, işyeri tarafından sağlanan eğitim materyalleri, ilgili mesleki standartlar, Üniversite-Sanayi İş birliği Deneyimi kapsamında hazırlanan yönerge ve kılavuzlar.",
+    "dersiVerenOgretimUyesiOgretimGorevlisi": "İlgili Bölüm Öğretim Üyeleri",
+    "hazirlanmaTarihi": "28.04.2025"
+  },
+  "dersOgrenmeÇiktilari": [
+    {
+      "id": "ÖÇ.1",
+      "aciklama": "İş yerindeki çalışma süreçlerini ve organizasyon yapısını tanır, mesleki uygulama ortamına uyum sağlar."
+    },
+    {
+      "id": "ÖÇ.2",
+      "aciklama": "Bilgisayar mühendisliği alanında edindiği teorik bilgileri gerçek iş ortamındaki uygulamalarla pekiştirir ve karşılaştığı teknik sorunlara çözüm önerileri getirir."
+    },
+    {
+      "id": "ÖÇ.3",
+      "aciklama": "İş yerindeki ekip çalışmalarına etkin bir şekilde katılır, mesleki iletişim becerilerini geliştirir ve kurumsal iş kültürüne uyum sağlar."
+    },
+    {
+      "id": "ÖÇ.4",
+      "aciklama": "İş sağlığı ve güvenliği kurallarına uygun çalışma alışkanlığı kazanır ve risk değerlendirmesi yapabilir."
+    },
+    {
+      "id": "ÖÇ.5",
+      "aciklama": "Mesleki etik ilkelere uygun davranış sergiler ve kurumsal gizlilik politikalarına riayet eder."
+    },
+    {
+      "id": "ÖÇ.6",
+      "aciklama": "İş yerinde üstlendiği görevleri planlı, disiplinli ve zamanında yerine getirir, proje yönetimi becerilerini uygular."
+    },
+    {
+      "id": "ÖÇ.7",
+      "aciklama": "Mesleki ve teknik gelişmeleri takip eder, yaşam boyu öğrenme bilinci kazanır ve kariyer planlaması yapar."
+    }
+  ],
+  "haftalikDersIcerikleri": [
+    {
+      "hafta": 1,
+      "icerik": "İşyerine uyum ve oryantasyon süreci, işyeri kurallarının ve organizasyon yapısının tanıtılması, iş güvenliği eğitimi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.4",
+      "ogretimOrtami": "İş Yeri",
+      "onHazirlik": "ÜSİD belgelerinin incelenmesi",
+      "ogretimYontemleri": "İşbaşı Eğitim, Demonstrasyon",
+      "aracVeGerecler": "İşyeri ekipmanları",
+      "kaynakVeMateryal": "İşyeri el kitabı, iş güvenliği kılavuzu",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Günlük rapor, Haftalık özet"
+    },
+    {
+      "hafta": 2,
+      "icerik": "Çalışılacak bölüm/departman tanıtımı, görev tanımlarının netleştirilmesi, çalışma planının oluşturulması",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.6",
+      "ogretimOrtami": "İş Yeri",
+      "onHazirlik": "Departman dokümanlarının incelenmesi",
+      "ogretimYontemleri": "İşbaşı Eğitim, Mentörlük",
+      "aracVeGerecler": "İşyeri ekipmanları",
+      "kaynakVeMateryal": "Görev tanımları, çalışma planı",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Günlük rapor, Haftalık özet"
+    },
+    {
+      "hafta": 3,
+      "icerik": "İş süreçlerine katılım, temel görevlerin üstlenilmesi, işyeri kültürüne adaptasyon",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3",
+      "ogretimOrtami": "İş Yeri",
+      "onHazirlik": "Önceki hafta raporlarının incelenmesi",
+      "ogretimYontemleri": "Uygulamalı Çalışma, Takım Çalışması",
+      "aracVeGerecler": "İşyeri ekipmanları, bilgisayar, yazılımlar",
+      "kaynakVeMateryal": "İş süreçleri dokümanları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Günlük rapor, Haftalık özet"
+    },
+    {
+      "hafta": 4,
+      "icerik": "Sorumlu olunan projelere/işlere katılım, teknik becerilerin uygulanması, problem çözme yaklaşımlarının geliştirilmesi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3, ÖÇ.6",
+      "ogretimOrtami": "İş Yeri",
+      "onHazirlik": "Proje dokümanlarının incelenmesi",
+      "ogretimYontemleri": "Proje Tabanlı Öğrenme, Problem Çözme",
+      "aracVeGerecler": "Proje yönetim araçları, teknik ekipmanlar",
+      "kaynakVeMateryal": "Proje dokümanları, teknik kaynaklar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Günlük rapor, Haftalık özet"
+    },
+    {
+      "hafta": 5,
+      "icerik": "Mesleki sorumlulukların artırılması, ekip çalışması içinde rol alma, mesleki iletişim becerilerinin geliştirilmesi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.5, ÖÇ.6",
+      "ogretimOrtami": "İş Yeri",
+      "onHazirlik": "İletişim becerileri dokümanlarının incelenmesi",
+      "ogretimYontemleri": "Takım Çalışması, İşbirlikçi Öğrenme",
+      "aracVeGerecler": "İşyeri ekipmanları, iletişim araçları",
+      "kaynakVeMateryal": "Ekip çalışması kılavuzları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Günlük rapor, Haftalık özet"
+    },
+    {
+      "hafta": 6,
+      "icerik": "İş yerindeki teknik süreçlere aktif katılım, proje geliştirme aşamalarına dahil olma",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3, ÖÇ.6",
+      "ogretimOrtami": "İş Yeri",
+      "onHazirlik": "Teknik süreç dokümanlarının incelenmesi",
+      "ogretimYontemleri": "Uygulamalı Çalışma, Proje Tabanlı Öğrenme",
+      "aracVeGerecler": "Teknik ekipmanlar, yazılım geliştirme araçları",
+      "kaynakVeMateryal": "Teknik dokümanlar, geliştirme kılavuzları",
+      "degerlendirmeYontemleri": "Ara Değerlendirme",
+      "odevVeCalisma": "Günlük rapor, Haftalık özet, Ara rapor hazırlığı"
+    },
+    {
+      "hafta": 7,
+      "icerik": "Ara değerlendirme için rapor hazırlama, mesleki gelişimin değerlendirilmesi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "İş Yeri / Danışman Görüşmesi",
+      "onHazirlik": "Önceki raporların derlenmesi",
+      "ogretimYontemleri": "Öz Değerlendirme, Rapor Yazma",
+      "aracVeGerecler": "Bilgisayar, raporlama araçları",
+      "kaynakVeMateryal": "ÜSİD ara rapor formatı",
+      "degerlendirmeYontemleri": "Ara Değerlendirme",
+      "odevVeCalisma": "Ara değerlendirme raporu"
+    },
+    {
+      "hafta": 8,
+      "icerik": "Ara değerlendirme sonuçlarına göre çalışma planının güncellenmesi, geri bildirimler doğrultusunda mesleki gelişimin yönlendirilmesi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "İş Yeri",
+      "onHazirlik": "Ara değerlendirme sonuçlarının incelenmesi",
+      "ogretimYontemleri": "Planlama, Geri Bildirim Değerlendirme",
+      "aracVeGerecler": "Planlama araçları",
+      "kaynakVeMateryal": "Ara değerlendirme raporu",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Günlük rapor, Haftalık özet, Revize edilmiş çalışma planı"
+    },
+    {
+      "hafta": 9,
+      "icerik": "İleri düzey teknik görevlerde sorumluluk alma, mesleki yetkinliklerin artırılması",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.5, ÖÇ.6",
+      "ogretimOrtami": "İş Yeri",
+      "onHazirlik": "İleri teknik dokümanların incelenmesi",
+      "ogretimYontemleri": "Uygulamalı Çalışma, Problem Çözme",
+      "aracVeGerecler": "Teknik ekipmanlar, yazılımlar",
+      "kaynakVeMateryal": "Teknik kılavuzlar, referans dokümanlar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Günlük rapor, Haftalık özet"
+    },
+    {
+      "hafta": 10,
+      "icerik": "Ekip içinde mesleki sorumlulukları yerine getirme, mesleki etik konuların uygulanması",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.5",
+      "ogretimOrtami": "İş Yeri",
+      "onHazirlik": "Mesleki etik dokümanlarının incelenmesi",
+      "ogretimYontemleri": "Vaka Analizi, Etik Durum Değerlendirmesi",
+      "aracVeGerecler": "İşyeri ekipmanları",
+      "kaynakVeMateryal": "Etik çalışma kılavuzları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Günlük rapor, Haftalık özet"
+    },
+    {
+      "hafta": 11,
+      "icerik": "Bağımsız çalışma becerisinin geliştirilmesi, projelerde inisiyatif alma",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "İş Yeri",
+      "onHazirlik": "Proje dokümanlarının incelenmesi",
+      "ogretimYontemleri": "Uygulamalı Çalışma, Bağımsız Proje Yönetimi",
+      "aracVeGerecler": "Proje yönetim araçları",
+      "kaynakVeMateryal": "Proje belgeleri, teknik kaynaklar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Günlük rapor, Haftalık özet"
+    },
+    {
+      "hafta": 12,
+      "icerik": "Sektördeki güncel teknolojilerin ve trendlerin takibi, mesleki gelişim için kaynak araştırması",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.7",
+      "ogretimOrtami": "İş Yeri",
+      "onHazirlik": "Sektör trendlerinin araştırılması",
+      "ogretimYontemleri": "Araştırma, Teknoloji Analizi",
+      "aracVeGerecler": "Araştırma kaynakları, internet",
+      "kaynakVeMateryal": "Mesleki dergiler, bloglar, teknik dokümanlar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Günlük rapor, Haftalık özet, Teknoloji trend analizi"
+    },
+    {
+      "hafta": 13,
+      "icerik": "İş yerindeki projelerin tamamlanma aşamasına getirilmesi, son test ve kontrollerin yapılması",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3, ÖÇ.6",
+      "ogretimOrtami": "İş Yeri",
+      "onHazirlik": "Test dokümanlarının incelenmesi",
+      "ogretimYontemleri": "Proje Değerlendirme, Test Etme",
+      "aracVeGerecler": "Test araçları, kalite kontrol ekipmanları",
+      "kaynakVeMateryal": "Test prosedürleri, kalite standartları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Günlük rapor, Haftalık özet, Proje tamamlama raporu"
+    },
+    {
+      "hafta": 14,
+      "icerik": "Final değerlendirmesi için rapor hazırlama, iş yeri deneyiminin dokümante edilmesi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "İş Yeri / Danışman Görüşmesi",
+      "onHazirlik": "Tüm dönem raporlarının derlenmesi",
+      "ogretimYontemleri": "Rapor Yazma, Öz Değerlendirme",
+      "aracVeGerecler": "Bilgisayar, raporlama araçları",
+      "kaynakVeMateryal": "ÜSİD final rapor formatı",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Final raporu hazırlığı"
+    },
+    {
+      "hafta": 15,
+      "icerik": "İş yeri eğitiminin tamamlanması, görev ve sorumlulukların devri, final raporunun teslimi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.5, ÖÇ.7",
+      "ogretimOrtami": "İş Yeri",
+      "onHazirlik": "Devir teslim dökümanlarının hazırlanması",
+      "ogretimYontemleri": "Kapanış Toplantısı, Devir Teslim",
+      "aracVeGerecler": "Bilgisayar",
+      "kaynakVeMateryal": "Devir teslim prosedürleri",
+      "degerlendirmeYontemleri": "Final Değerlendirmesi",
+      "odevVeCalisma": "Final raporu teslimi, Devir teslim dokümanları"
+    },
+    {
+      "hafta": 16,
+      "icerik": "İş yeri eğitimi sunumu, deneyimlerin paylaşılması, geri bildirimlerin alınması",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.7",
+      "ogretimOrtami": "Üniversite / Çevrimiçi Platform",
+      "onHazirlik": "Sunum hazırlığı",
+      "ogretimYontemleri": "Sunum, Soru-Cevap",
+      "aracVeGerecler": "Sunum araçları, bilgisayar, projeksiyon",
+      "kaynakVeMateryal": "Final raporu, sunum materyalleri",
+      "degerlendirmeYontemleri": "Sunum Değerlendirmesi",
+      "odevVeCalisma": "Deneyim sunumu"
+    }
+  ],
+  "dersIsYuku": {
+    "etkinlikler": [
+      {
+        "etkinlik": "Uygulama/Pratik",
+        "sayi": 16,
+        "sure": 25,
+        "toplamIsYuku": 400
+      },
+      {
+        "etkinlik": "Rapor Hazırlama",
+        "sayi": 16,
+        "sure": 3,
+        "toplamIsYuku": 48
+      },
+      {
+        "etkinlik": "Rapor Hazırlama",
+        "sayi": 1,
+        "sure": 20,
+        "toplamIsYuku": 20
+      },
+      {
+        "etkinlik": "Rapor Hazırlama",
+        "sayi": 1,
+        "sure": 40,
+        "toplamIsYuku": 40
+      },
+      {
+        "etkinlik": "Takım/Grup Çalışması",
+        "sayi": 16,
+        "sure": 1,
+        "toplamIsYuku": 16
+      },
+      {
+        "etkinlik": "Seminer",
+        "sayi": 1,
+        "sure": 26,
+        "toplamIsYuku": 26
+      }
+    ],
+    "toplamIsYuku": 550,
+    "dersAKTSKredisi": 22,
+    "hesaplama": "Dersin AKTS Kredisi = Toplam İş Yükü (Saat) / 25 = 22",
+    "aktsHesaplama": "Toplam İş Yükü / 25"
+  },
+  "etkinlikTurleri": [
+    "Alan Çalışması",
+    "Alan Gezisi",
+    "Ara Sınav",
+    "Ara Sınav İçin Bireysel Çalışma",
+    "Beyin Fırtınası",
+    "Bireysel Çalışma",
+    "Bütünleme Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Derse Katılım",
+    "Ev Ödevi",
+    "Final Sınavı",
+    "Final Sınavı İçin Bireysel Çalışma",
+    "Gösterme",
+    "Gözlem",
+    "Laboratuvar",
+    "Laboratuvar Ara Sınavı",
+    "Laboratuvar Sınavı",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Multirom CD Çalışması",
+    "Ödev Problemleri İçin Çalışma",
+    "Okuma",
+    "Örnek Vaka İncelemesi",
+    "Performans",
+    "Problem Çözümü",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Quiz İçin Bireysel Çalışma",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Rehberli Problem Çözümü",
+    "Rol Oynama / Dramatizasyon",
+    "Seminer",
+    "Soru-Yanıt",
+    "Sözlü Sınav",
+    "Takım/Grup Çalışması",
+    "Tartışma",
+    "Toplantı Başkanlığı Yapma",
+    "Uygulama/Pratik"
+  ],
+  "dersDegerlendirme": {
+    "yariyilIciEtkinlikleri": [
+      {
+        "etkinlik": "Performans",
+        "sayi": 1,
+        "katkiYuzdesi": 62
+      },
+      {
+        "etkinlik": "Performans",
+        "sayi": 1,
+        "katkiYuzdesi": 38
+      }
+    ],
+    "yariyilIciToplam": 100,
+    "yariyilSonuEtkinlikleri": [
+      {
+        "etkinlik": "Sözlü Sınav",
+        "sayi": 1,
+        "katkiYuzdesi": 50
+      },
+      {
+        "etkinlik": "Rapor Hazırlama",
+        "sayi": 1,
+        "katkiYuzdesi": 33
+      },
+      {
+        "etkinlik": "Seminer",
+        "sayi": 1,
+        "katkiYuzdesi": 17
+      }
+    ],
+    "yariyilSonuToplam": 100,
+    "genelDegerlendirme": [
+      {
+        "degerlendirme": "Yarıyıl (Yıl) Sonu Etkinlikleri",
+        "katkiYuzdesi": 60
+      },
+      {
+        "degerlendirme": "Yarıyıl (Yıl) İçi Etkinlikleri",
+        "katkiYuzdesi": 40
+      }
+    ],
+    "genelDegerlendirmeToplam": 100
+  },
+  "yariyilIciOlasiEtkinlikler": [
+    "Ara Sınav",
+    "Laboratuvar Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Performans",
+    "Quiz",
+    "Rapor",
+    "Rapor Sunma",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Rehberli Problem Çözümü",
+    "Seminer",
+    "Sözlü Sınav",
+    "Ödev Problemleri İçin Çalışma",
+    "Proje Tasarımı/Yönetimi"
+  ],
+  "yariyilSonuOlasiEtkinlikler": [
+    "Final Sınavı",
+    "Laboratuvar Ara Sınavı",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Seminer",
+    "Sözlü Sınav",
+    "Gözlem"
+  ],
+  "programCiktilari": [
+    {
+      "id": "PÇ.1",
+      "kategori": "BİLGİ - Kuramsal Olgusal",
+      "aciklama": "TEMEL BİLGİ: Matematik, Fen Bilimleri ve Bilgisayar Mühendisliği konularında yeterli bilgi sahibidir; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanır."
+    },
+    {
+      "id": "PÇ.2",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "PROBLEM ÇÖZME: Karmaşık Bilgisayar Mühendisliği problemlerini saptar, tanımlar, formüle eder ve çözer; bu amaca uygun analiz ve modelleme yöntemlerini seçer ve uygular."
+    },
+    {
+      "id": "PÇ.3",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TASARIM: Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlar; bu amaçla modern tasarım yöntemlerini uygular."
+    },
+    {
+      "id": "PÇ.4",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TEKNOLOJİ: Bilgisayar Mühendisliği uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirir, seçer ve kullanır; bilişim teknolojilerini etkin bir şekilde kullanır."
+    },
+    {
+      "id": "PÇ.5",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "ARAŞTIRMA: Karmaşık Bilgisayar Mühendisliği problemlerinin veya araştırma konularının incelenmesi için deney tasarlar, deney yapar, veri toplar, sonuçları analiz eder ve yorumlar."
+    },
+    {
+      "id": "PÇ.6",
+      "kategori": "YETKİNLİKLER - Bağımsız Çalışabilme ve Sorumluluk Alabilme Yetkinliği",
+      "aciklama": "İŞBİRLİĞİ: Bilgisayar Mühendisliği disiplini içinde ve çok disiplinli takımlarda etkin biçimde çalışır; bireysel çalışma sergiler."
+    },
+    {
+      "id": "PÇ.7",
+      "kategori": "YETKİNLİKLER - Öğrenme Yetkinliği",
+      "aciklama": "GELİŞİM: Yaşam boyu öğrenmenin gerekliliğinin bilincindedir; bilgiye erişir, bilim ve teknolojideki gelişmeleri izler ve kendini sürekli yeniler; insanlık tarihi boyunca oluşan bilgi birikimini Bilgisayar Mühendisliği alanıyla ilişkilendirir."
+    },
+    {
+      "id": "PÇ.8",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "İLETİŞİM: Türkçe sözlü ve yazılı etkin iletişim kurar; etkin rapor yazar ve yazılı raporları anlar, tasarım ve üretim raporları hazırlar, etkin sunum yapar, açık ve anlaşılır talimat verir ve alır."
+    },
+    {
+      "id": "PÇ.9",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "TOPLUMSAL BİLİNÇ: Bilgisayar Mühendisliği uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi sahibidir; mühendislik çözümlerinin hukuksal sonuçlarının farkındadır."
+    },
+    {
+      "id": "PÇ.10",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "ULUSLARARASILIK: Bir yabancı dili kullanarak Bilgisayar Mühendisliği ile ilişkili konularda, bilgi toplar ve meslektaşları ile iletişim kurar."
+    },
+    {
+      "id": "PÇ.11",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "ETİK: Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilincine sahiptir; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi sahibidir."
+    },
+    {
+      "id": "PÇ.12",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "YÖNETİM: Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi sahibidir; girişimcilik, yenilikçilik hakkında bilinçlidir; sürdürülebilir kalkınma hakkında bilgi sahibidir."
+    }
+  ],
+  "programVeOgrenmeIliskisi": {
+    "iliskiOlcekleri": "0-5 arası değerler (0: İlişki yok, 5: Çok güçlü ilişki)",
+    "iliskiTablosu": [
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.1",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 3,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 5
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.2",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.3",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 3,
+          "PÇ.7": 0,
+          "PÇ.8": 3,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 3
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.4",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.5",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.6",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 3,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 3
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.7",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 3
+        }
+      }
+    ]
+  },
+  "toplumsalKatkiVeSurdurulebilirlik": {
+    "surdurulebilirKalkinmaAmaclari": [
+      {
+        "amac": "Yoksulluğa Son",
+        "secili": false
+      },
+      {
+        "amac": "Açlığa Son",
+        "secili": false
+      },
+      {
+        "amac": "Sağlık ve Kaliteli Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Nitelikli Eğitim",
+        "secili": true
+      },
+      {
+        "amac": "Toplumsal Cinsiyet Eşitliği",
+        "secili": false
+      },
+      {
+        "amac": "Temiz Su ve Sanitasyon",
+        "secili": false
+      },
+      {
+        "amac": "Erişilebilir ve Temiz Enerji",
+        "secili": false
+      },
+      {
+        "amac": "İnsana Yakışır İş ve Ekonomik Büyüme",
+        "secili": true
+      },
+      {
+        "amac": "Sanayi, Yenilikçilik ve Altyapı",
+        "secili": true
+      },
+      {
+        "amac": "Eşitsizliklerin Azaltılması",
+        "secili": false
+      },
+      {
+        "amac": "Sürdürülebilir Şehirler ve Topluluklar",
+        "secili": true
+      },
+      {
+        "amac": "Sorumlu Üretim ve Tüketim",
+        "secili": true
+      },
+      {
+        "amac": "İklim Eylemi",
+        "secili": false
+      },
+      {
+        "amac": "Sudaki Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Karasal Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Barış, Adalet ve Güçlü Kurumlar",
+        "secili": false
+      },
+      {
+        "amac": "Amaçlar İçin Ortaklıklar",
+        "secili": true
+      }
+    ],
+    "toplumsalKatkiAlanlari": [
+      {
+        "alan": "Eğitim ve Öğretim",
+        "secili": true
+      },
+      {
+        "alan": "Sağlık",
+        "secili": false
+      },
+      {
+        "alan": "Sosyal Hizmetler ve Toplumsal Eşitlik",
+        "secili": false
+      },
+      {
+        "alan": "Çevre ve Sürdürülebilirlik",
+        "secili": true
+      },
+      {
+        "alan": "Teknolojik ve Bilimsel Yenilikler",
+        "secili": true
+      },
+      {
+        "alan": "Ekonomik Kalkınma ve Girişimcilik",
+        "secili": true
+      },
+      {
+        "alan": "Kültürel ve Sanatsal Etkinlikler",
+        "secili": false
+      },
+      {
+        "alan": "Uluslararası İş birliği ve Diplomasi",
+        "secili": true
+      },
+      {
+        "alan": "Toplum yararına yapılacak diğer çalışmalar",
+        "secili": true
+      }
+    ]
+  },
+  "dersSekmeler": {
+    "dersGenel": true,
+    "dersOgrenmeÇiktilari": true,
+    "haftalikDersIcerikleri": true,
+    "dersIsYuku": true,
+    "dersDegerlendirme": true,
+    "programVeOgrenmeÇiktilariIliskisi": true,
+    "toplumsalKatkiVeSurdurulebilirlik": true
+  },
+  "denetimBilgileri": {
+    "olusturmaTarihi": "2025-05-10 18:09:53",
+    "olusturan": "json_processor_script",
+    "sonGuncellenmeTarihi": "2025-05-10 18:09:53",
+    "guncelleyen": "json_processor_script",
+    "durum": "Taslak"
+  },
+  "numaralandirmaDegerleri": {
+    "dersTurleri": [
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dersSeviyesi": [
+      "Lisans",
+      "Yüksek Lisans",
+      "Doktora"
+    ],
+    "ogretimSistemi": [
+      "Birinci Öğretim",
+      "İkinci Öğretim",
+      "Uzaktan Öğretim"
+    ],
+    "egitimDili": [
+      "Türkçe",
+      "İngilizce"
+    ],
+    "stajDurumu": [
+      "Mevcut Değil",
+      "Mevcut",
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dokumanDurumu": [
+      "Taslak",
+      "Onaylandı",
+      "Yayınlandı",
+      "Revize Edildi"
+    ]
+  }
+}

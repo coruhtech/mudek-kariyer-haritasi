@@ -1,0 +1,791 @@
+{
+  "dersGenel": {
+    "dersTuru": "Zorunlu",
+    "dersinSeviyesi": "Lisans",
+    "dersinAKTSKredisi": 3,
+    "haftalikDersSaatiKuramsal": 2,
+    "haftalikUygulamaSaati": 0,
+    "haftalikLaboratuarSaati": 0,
+    "dersinVerildigiYariyil": 1,
+    "ogretimSistemi": "Birinci Öğretim",
+    "egitimDili": "İngilizce",
+    "universite": "Recep Tayyip Erdoğan Üniversitesi",
+    "ulke": "Türkiye",
+    "il": "Rize",
+    "ilce": "Merkez",
+    "mahalle": "Fener Mah",
+    "fakulte": "Mühendislik Ve Mimarlık Fakültesi",
+    "bolum": "Bilgisayar Mühendisliği",
+    "dersKodu": "CE105",
+    "dersAdi": "Fundamental Information Technologies",
+    "ogretimYiliDonemi": "Güz",
+    "dersAKTSKredisi": 3,
+    "dilSecimi": "İngilizce",
+    "mufredatOlusturulmaYili": "2020",
+    "akademikYil": ""
+  },
+  "dersIcerik": {
+    "dersinAmaci": "Temel Bilgi Teknolojileri dersi, öğrencilere gerekli araçları, teknolojileri ve uygulamaları tanıtır. Bu kursta üniversite BT hizmetlerine nasıl erişileceğini öğrenecek ve bilgisayarlar, bilgi işlem teknolojileri ve işbirliğine dayalı çalışma araçlarına aşina olacaksınız. Ek olarak, bir internet araştırmasının nasıl gerçekleştirileceğini, verilen standartları kullanarak bir araştırma makalesini veya bir raporu nasıl hazırlayacağınızı / düzenleyeceğinizi, belirli bir araştırma konusu hakkında bir sunum hazırlayıp sunacağınızı öğreneceksiniz.",
+    "dersinOnKosuluOlanDersler": "Mevcut Değil",
+    "dersinIcerigi": "Bilgisayarlar ve sanallaştırma İşletim Sistemleri ve önemli ayarlar İnternet araması ve güvenliği Lateks Ortak çalışma araçları.",
+    "dersinIcinOnerilenHususlar": "Öğrencilerin ders materyallerini düzenli takip etmesi ve uygulamaları yapması önerilir.",
+    "ogretimTuru": "Birinci Öğretim",
+    "stajDurumu": "Mevcut Değil",
+    "dersinKitabiMalzemesiOnerilenKaynaklar": "Bu kurs ders kitabı gerektirmez. Gerekirse, açık kaynak çevrimiçi kaynaklar kullanılacaktır.",
+    "dersiVerenOgretimUyesiOgretimGorevlisi": "",
+    "hazirlanmaTarihi": "27.04.2025"
+  },
+  "dersOgrenmeÇiktilari": [
+    {
+      "id": "ÖÇ.1",
+      "aciklama": "Temel bilgisayar donanım bileşenlerini (CPU, RAM, depolama vb.), çevre birimlerini ve işlevlerini tanır; sanallaştırma kavramını bilir."
+    },
+    {
+      "id": "ÖÇ.2",
+      "aciklama": "Yaygın işletim sistemlerinin (Windows, Linux, macOS) temel görevlerini, kullanıcı arayüzlerini ve temel ayarlarını açıklar ve kullanır."
+    },
+    {
+      "id": "ÖÇ.3",
+      "aciklama": "Bilgisayar ağlarının (LAN, WAN) ve İnternet'in temel çalışma prensiplerini, protokollerini (örn. TCP/IP) ve yaygın hizmetlerini (e-posta, web) bilir."
+    },
+    {
+      "id": "ÖÇ.4",
+      "aciklama": "Kelime işlemci (MS Word/LibreOffice Writer), hesap tablosu (MS Excel/LibreOffice Calc) ve sunum (MS PowerPoint/LibreOffice Impress) yazılımlarını temel ve orta düzeyde etkin bir şekilde kullanır."
+    },
+    {
+      "id": "ÖÇ.5",
+      "aciklama": "Temel bilgi güvenliği kavramlarını (şifreleme, güvenlik duvarı, antivirüs, yedekleme), yaygın tehditleri ve kişisel/kurumsal verilerin korunması için temel yöntemleri bilir ve uygular."
+    },
+    {
+      "id": "ÖÇ.6",
+      "aciklama": "Temel bilişim teknolojilerini (donanım, yazılım, ağ) günlük ve akademik görevler için etkin bir şekilde seçer, kullanır ve temel sorun giderme adımlarını uygular."
+    },
+    {
+      "id": "ÖÇ.7",
+      "aciklama": "Akademik raporlar ve sunumlar hazırlamak için belge düzenleme (LaTeX dahil), internet araştırması ve çevrimiçi işbirliği araçlarını kullanır; etkili sunum tekniklerini uygular."
+    }
+  ],
+  "haftalikDersIcerikleri": [
+    {
+      "hafta": 1,
+      "icerik": "Bilgisayar ve parçalar, Sanallaştırma, İşletim Sistemleri, MS Windows, OSX, Linux",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2",
+      "ogretimOrtami": "Sınıf Ortamı, Bilgisayar Laboratuvarı",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Anlatım, Gösterme, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, Sanallaştırma Yazılımı",
+      "kaynakVeMateryal": "Ders Sunumları, Online Kaynaklar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Programların yüklenmesi ve kaldırılması."
+    },
+    {
+      "hafta": 2,
+      "icerik": "Ekran yakalama ve görüntü düzenleme. E-posta ve İnternet araması.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı, Bilgisayar Laboratuvarı",
+      "onHazirlik": "Temel bilgisayar kullanımı",
+      "ogretimYontemleri": "Anlatım, Gösterme, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, Görüntü Düzenleme Yazılımı",
+      "kaynakVeMateryal": "Ders Sunumları, Online Kaynaklar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Öğrenciler erdogan.edu.tr e-posta hesaplarını etkinleştirmeli ve tüm mobil cihazları için Eduroam ayarlarını tamamlamalıdır."
+    },
+    {
+      "hafta": 3,
+      "icerik": "Kullanıcı hesapları, Yazılım Lisansı, Şifreleme, Sistem güncelleme, Güvenlik Duvarı, Antivirüs, Yedekleme",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.5",
+      "ogretimOrtami": "Sınıf Ortamı, Bilgisayar Laboratuvarı",
+      "onHazirlik": "İşletim sistemi temel bilgisi",
+      "ogretimYontemleri": "Anlatım, Gösterme, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Sunumları, Online Güvenlik Kaynakları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Bir sanallaştırma yazılımı kullanarak açık kaynak veya lisanslı bir işletim sistemi kurun."
+    },
+    {
+      "hafta": 4,
+      "icerik": "Office Paketine Giriş (Libreoffice ve / veya MS Office), Bir kelime işlemci yazılımına giriş.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı, Bilgisayar Laboratuvarı",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Anlatım, Gösterme, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, Kelime İşlemci Yazılımı",
+      "kaynakVeMateryal": "Ders Sunumları, Yazılım Dokümantasyonları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Bir kelime işlemci yazılımında yazım denetimi ayarlarının kurulması değiştirilmesi."
+    },
+    {
+      "hafta": 5,
+      "icerik": "Belge / Sayfa düzenleme. Görüntüler, tablolar ve denklemlerle çalışma",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı, Bilgisayar Laboratuvarı",
+      "onHazirlik": "Kelime işlemci temel bilgisi",
+      "ogretimYontemleri": "Anlatım, Gösterme, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, Kelime İşlemci Yazılımı",
+      "kaynakVeMateryal": "Ders Sunumları, Yazılım Dokümantasyonları",
+      "degerlendirmeYontemleri": "Quiz",
+      "odevVeCalisma": "Örnek belge üzerinde düzenleme çalışmaları"
+    },
+    {
+      "hafta": 6,
+      "icerik": "İçindekiler / Resim / Tablo, Dizin, Kaynakça, İzleme değişiklikleri.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı, Bilgisayar Laboratuvarı",
+      "onHazirlik": "Kelime işlemci ileri düzey özellikleri",
+      "ogretimYontemleri": "Anlatım, Gösterme, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, Kelime İşlemci Yazılımı",
+      "kaynakVeMateryal": "Ders Sunumları, Yazılım Dokümantasyonları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Akademik formatta belge oluşturma"
+    },
+    {
+      "hafta": 7,
+      "icerik": "Belge düzenleme uygulaması",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4, ÖÇ.7",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "Kelime işlemci ileri düzey özellikleri",
+      "ogretimYontemleri": "Uygulama, Problem Çözme",
+      "aracVeGerecler": "Bilgisayar, Kelime İşlemci Yazılımı",
+      "kaynakVeMateryal": "Örnek Belge Şablonları",
+      "degerlendirmeYontemleri": "Laboratuvar Çalışması",
+      "odevVeCalisma": "Belge düzenleme"
+    },
+    {
+      "hafta": 8,
+      "icerik": "Bir Sunum Nasıl Hazırlanır ve Verilir",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Anlatım, Tartışma, Gösterme",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Sunumları, Online Kaynaklar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Bir sunum fikri önerin"
+    },
+    {
+      "hafta": 9,
+      "icerik": "Bir sunum yazılımına giriş. Resimler, grafikler ve diğer nesnelerle çalışma, Slayt notları.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı, Bilgisayar Laboratuvarı",
+      "onHazirlik": "Sunum hazırlama prensipleri",
+      "ogretimYontemleri": "Anlatım, Gösterme, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, Sunum Yazılımı",
+      "kaynakVeMateryal": "Ders Sunumları, Yazılım Dokümantasyonları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Sunumu hazırlayın"
+    },
+    {
+      "hafta": 10,
+      "icerik": "Bir elektronik tablo yazılımına giriş. Verilerin düzenlenmesi ve işlenmesi, Fonksiyonlar, Grafiklerle çalışma.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4",
+      "ogretimOrtami": "Sınıf Ortamı, Bilgisayar Laboratuvarı",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Anlatım, Gösterme, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, Elektronik Tablo Yazılımı",
+      "kaynakVeMateryal": "Ders Sunumları, Yazılım Dokümantasyonları",
+      "degerlendirmeYontemleri": "Quiz",
+      "odevVeCalisma": "Verilen elektronik tabloyu düzenleyin"
+    },
+    {
+      "hafta": 11,
+      "icerik": "Latekse Giriş",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı, Bilgisayar Laboratuvarı",
+      "onHazirlik": "Kelime işlemci kullanımı",
+      "ogretimYontemleri": "Anlatım, Gösterme, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, LaTeX Editörü/Derleyicisi",
+      "kaynakVeMateryal": "Ders Sunumları, LaTeX Dokümantasyonu",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Lateks derleyicisini ve düzenleyiciyi yükleyin."
+    },
+    {
+      "hafta": 12,
+      "icerik": "Lateks - Belge Düzenleme İçindekiler, Dizin, Kaynakça",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı, Bilgisayar Laboratuvarı",
+      "onHazirlik": "LaTeX temel bilgisi",
+      "ogretimYontemleri": "Anlatım, Gösterme, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, LaTeX Editörü/Derleyicisi",
+      "kaynakVeMateryal": "Ders Sunumları, LaTeX Dokümantasyonu",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "LaTeX ile temel belge oluşturma"
+    },
+    {
+      "hafta": 13,
+      "icerik": "Lateks Denklemler, resimler ve tablolarla çalışma",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı, Bilgisayar Laboratuvarı",
+      "onHazirlik": "LaTeX belge düzenleme",
+      "ogretimYontemleri": "Anlatım, Gösterme, Uygulama",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, LaTeX Editörü/Derleyicisi",
+      "kaynakVeMateryal": "Ders Sunumları, LaTeX Dokümantasyonu",
+      "degerlendirmeYontemleri": "Laboratuvar Çalışması",
+      "odevVeCalisma": "Latex'te belge düzenleme"
+    },
+    {
+      "hafta": 14,
+      "icerik": "Ortak çalışma, Çevrimiçi belge düzenleme, Kod depoları.",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı, Bilgisayar Laboratuvarı",
+      "onHazirlik": "Temel internet kullanımı",
+      "ogretimYontemleri": "Anlatım, Gösterme, Tartışma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon, Online İşbirliği Araçları",
+      "kaynakVeMateryal": "Ders Sunumları, Online Platform Kılavuzları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Hesapları açın ve belge düzenleme ve kod havuzları için başlıca çevrimiçi işbirliği platformlarını keşfedin."
+    },
+    {
+      "hafta": 15,
+      "icerik": "Dönem Tekrarı ve Soru-Cevap",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm konuların tekrarı",
+      "ogretimYontemleri": "Soru-Cevap, Tartışma",
+      "aracVeGerecler": "Projeksiyon, Bilgisayar",
+      "kaynakVeMateryal": "Ders Notları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 16,
+      "icerik": "Final Sınavı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm konuların kapsamlı tekrarı",
+      "ogretimYontemleri": "Ölçme Değerlendirme",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Yazılı Sınav",
+      "odevVeCalisma": "-"
+    }
+  ],
+  "dersIsYuku": {
+    "etkinlikler": [
+      {
+        "etkinlik": "Derse Katılım",
+        "sayi": 15,
+        "sure": 2,
+        "toplamIsYuku": 30
+      },
+      {
+        "etkinlik": "Laboratuvar",
+        "sayi": 10,
+        "sure": 1,
+        "toplamIsYuku": 10
+      },
+      {
+        "etkinlik": "Bireysel Çalışma",
+        "sayi": 15,
+        "sure": 1,
+        "toplamIsYuku": 15
+      },
+      {
+        "etkinlik": "Ev Ödevi",
+        "sayi": 6,
+        "sure": 2,
+        "toplamIsYuku": 12
+      },
+      {
+        "etkinlik": "Quiz",
+        "sayi": 2,
+        "sure": 0.5,
+        "toplamIsYuku": 1
+      },
+      {
+        "etkinlik": "Ara Sınav İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 8,
+        "toplamIsYuku": 8
+      },
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "sure": 1,
+        "toplamIsYuku": 1
+      },
+      {
+        "etkinlik": "Final Sınavı İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 12,
+        "toplamIsYuku": 12
+      },
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "sure": 1,
+        "toplamIsYuku": 1
+      }
+    ],
+    "toplamIsYuku": 90,
+    "dersAKTSKredisi": 3,
+    "hesaplama": "Dersin AKTS Kredisi = Toplam İş Yükü (Saat) / 25 = 3",
+    "aktsHesaplama": "Toplam İş Yükü / 25"
+  },
+  "etkinlikTurleri": [
+    "Alan Çalışması",
+    "Alan Gezisi",
+    "Ara Sınav",
+    "Ara Sınav İçin Bireysel Çalışma",
+    "Beyin Fırtınası",
+    "Bireysel Çalışma",
+    "Bütünleme Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Derse Katılım",
+    "Ev Ödevi",
+    "Final Sınavı",
+    "Final Sınavı İçin Bireysel Çalışma",
+    "Gösterme",
+    "Gözlem",
+    "Laboratuvar",
+    "Laboratuvar Ara Sınavı",
+    "Laboratuvar Sınavı",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Multirom CD Çalışması",
+    "Ödev Problemleri İçin Çalışma",
+    "Okuma",
+    "Örnek Vaka İncelemesi",
+    "Performans",
+    "Problem Çözümü",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Quiz İçin Bireysel Çalışma",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Rehberli Problem Çözümü",
+    "Rol Oynama / Dramatizasyon",
+    "Seminer",
+    "Soru-Yanıt",
+    "Sözlü Sınav",
+    "Takım/Grup Çalışması",
+    "Tartışma",
+    "Toplantı Başkanlığı Yapma",
+    "Uygulama/Pratik"
+  ],
+  "dersDegerlendirme": {
+    "yariyilIciEtkinlikleri": [
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "katkiYuzdesi": 50
+      },
+      {
+        "etkinlik": "Quiz",
+        "sayi": 2,
+        "katkiYuzdesi": 17
+      },
+      {
+        "etkinlik": "Ev Ödevi",
+        "sayi": 6,
+        "katkiYuzdesi": 25
+      },
+      {
+        "etkinlik": "Uygulama/Pratik",
+        "sayi": 10,
+        "katkiYuzdesi": 8
+      }
+    ],
+    "yariyilIciToplam": 100,
+    "yariyilSonuEtkinlikleri": [
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "katkiYuzdesi": 100
+      }
+    ],
+    "yariyilSonuToplam": 100,
+    "genelDegerlendirme": [
+      {
+        "degerlendirme": "Yarıyıl (Yıl) Sonu Etkinlikleri",
+        "katkiYuzdesi": 60
+      },
+      {
+        "degerlendirme": "Yarıyıl (Yıl) İçi Etkinlikleri",
+        "katkiYuzdesi": 40
+      }
+    ],
+    "genelDegerlendirmeToplam": 100
+  },
+  "yariyilIciOlasiEtkinlikler": [
+    "Ara Sınav",
+    "Laboratuvar Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Performans",
+    "Quiz",
+    "Rapor",
+    "Rapor Sunma",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Rehberli Problem Çözümü",
+    "Seminer",
+    "Sözlü Sınav",
+    "Ödev Problemleri İçin Çalışma",
+    "Proje Tasarımı/Yönetimi"
+  ],
+  "yariyilSonuOlasiEtkinlikler": [
+    "Final Sınavı",
+    "Laboratuvar Ara Sınavı",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Seminer",
+    "Sözlü Sınav",
+    "Gözlem"
+  ],
+  "programCiktilari": [
+    {
+      "id": "PÇ.1",
+      "kategori": "BİLGİ - Kuramsal Olgusal",
+      "aciklama": "TEMEL BİLGİ: Matematik, Fen Bilimleri ve Bilgisayar Mühendisliği konularında yeterli bilgi sahibidir; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanır."
+    },
+    {
+      "id": "PÇ.2",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "PROBLEM ÇÖZME: Karmaşık Bilgisayar Mühendisliği problemlerini saptar, tanımlar, formüle eder ve çözer; bu amaca uygun analiz ve modelleme yöntemlerini seçer ve uygular."
+    },
+    {
+      "id": "PÇ.3",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TASARIM: Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlar; bu amaçla modern tasarım yöntemlerini uygular."
+    },
+    {
+      "id": "PÇ.4",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TEKNOLOJİ: Bilgisayar Mühendisliği uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirir, seçer ve kullanır; bilişim teknolojilerini etkin bir şekilde kullanır."
+    },
+    {
+      "id": "PÇ.5",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "ARAŞTIRMA: Karmaşık Bilgisayar Mühendisliği problemlerinin veya araştırma konularının incelenmesi için deney tasarlar, deney yapar, veri toplar, sonuçları analiz eder ve yorumlar."
+    },
+    {
+      "id": "PÇ.6",
+      "kategori": "YETKİNLİKLER - Bağımsız Çalışabilme ve Sorumluluk Alabilme Yetkinliği",
+      "aciklama": "İŞBİRLİĞİ: Bilgisayar Mühendisliği disiplini içinde ve çok disiplinli takımlarda etkin biçimde çalışır; bireysel çalışma sergiler."
+    },
+    {
+      "id": "PÇ.7",
+      "kategori": "YETKİNLİKLER - Öğrenme Yetkinliği",
+      "aciklama": "GELİŞİM: Yaşam boyu öğrenmenin gerekliliğinin bilincindedir; bilgiye erişir, bilim ve teknolojideki gelişmeleri izler ve kendini sürekli yeniler; insanlık tarihi boyunca oluşan bilgi birikimini Bilgisayar Mühendisliği alanıyla ilişkilendirir."
+    },
+    {
+      "id": "PÇ.8",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "İLETİŞİM: Türkçe sözlü ve yazılı etkin iletişim kurar; etkin rapor yazar ve yazılı raporları anlar, tasarım ve üretim raporları hazırlar, etkin sunum yapar, açık ve anlaşılır talimat verir ve alır."
+    },
+    {
+      "id": "PÇ.9",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "TOPLUMSAL BİLİNÇ: Bilgisayar Mühendisliği uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi sahibidir; mühendislik çözümlerinin hukuksal sonuçlarının farkındadır."
+    },
+    {
+      "id": "PÇ.10",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "ULUSLARARASILIK: Bir yabancı dili kullanarak Bilgisayar Mühendisliği ile ilişkili konularda, bilgi toplar ve meslektaşları ile iletişim kurar."
+    },
+    {
+      "id": "PÇ.11",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "ETİK: Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilincine sahiptir; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi sahibidir."
+    },
+    {
+      "id": "PÇ.12",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "YÖNETİM: Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi sahibidir; girişimcilik, yenilikçilik hakkında bilinçlidir; sürdürülebilir kalkınma hakkında bilgi sahibidir."
+    }
+  ],
+  "programVeOgrenmeIliskisi": {
+    "iliskiOlcekleri": "0-5 arası değerler (0: İlişki yok, 5: Çok güçlü ilişki)",
+    "iliskiTablosu": [
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.1",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 5,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.2",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 3,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 3,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.3",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.4",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 3,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.5",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.6",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 3,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 3,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.7",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 0,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 3,
+          "PÇ.12": 0
+        }
+      }
+    ]
+  },
+  "toplumsalKatkiVeSurdurulebilirlik": {
+    "surdurulebilirKalkinmaAmaclari": [
+      {
+        "amac": "Yoksulluğa Son",
+        "secili": false
+      },
+      {
+        "amac": "Açlığa Son",
+        "secili": false
+      },
+      {
+        "amac": "Sağlık ve Kaliteli Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Nitelikli Eğitim",
+        "secili": true
+      },
+      {
+        "amac": "Toplumsal Cinsiyet Eşitliği",
+        "secili": false
+      },
+      {
+        "amac": "Temiz Su ve Sanitasyon",
+        "secili": false
+      },
+      {
+        "amac": "Erişilebilir ve Temiz Enerji",
+        "secili": false
+      },
+      {
+        "amac": "İnsana Yakışır İş ve Ekonomik Büyüme",
+        "secili": true
+      },
+      {
+        "amac": "Sanayi, Yenilikçilik ve Altyapı",
+        "secili": true
+      },
+      {
+        "amac": "Eşitsizliklerin Azaltılması",
+        "secili": false
+      },
+      {
+        "amac": "Sürdürülebilir Şehirler ve Topluluklar",
+        "secili": false
+      },
+      {
+        "amac": "Sorumlu Üretim ve Tüketim",
+        "secili": false
+      },
+      {
+        "amac": "İklim Eylemi",
+        "secili": false
+      },
+      {
+        "amac": "Sudaki Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Karasal Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Barış, Adalet ve Güçlü Kurumlar",
+        "secili": false
+      },
+      {
+        "amac": "Amaçlar İçin Ortaklıklar",
+        "secili": true
+      }
+    ],
+    "toplumsalKatkiAlanlari": [
+      {
+        "alan": "Eğitim ve Öğretim",
+        "secili": true
+      },
+      {
+        "alan": "Sağlık",
+        "secili": false
+      },
+      {
+        "alan": "Sosyal Hizmetler ve Toplumsal Eşitlik",
+        "secili": false
+      },
+      {
+        "alan": "Çevre ve Sürdürülebilirlik",
+        "secili": false
+      },
+      {
+        "alan": "Teknolojik ve Bilimsel Yenilikler",
+        "secili": true
+      },
+      {
+        "alan": "Ekonomik Kalkınma ve Girişimcilik",
+        "secili": true
+      },
+      {
+        "alan": "Kültürel ve Sanatsal Etkinlikler",
+        "secili": false
+      },
+      {
+        "alan": "Uluslararası İş birliği ve Diplomasi",
+        "secili": false
+      },
+      {
+        "alan": "Toplum yararına yapılacak diğer çalışmalar",
+        "secili": true
+      }
+    ]
+  },
+  "dersSekmeler": {
+    "dersGenel": true,
+    "dersOgrenmeÇiktilari": true,
+    "haftalikDersIcerikleri": true,
+    "dersIsYuku": true,
+    "dersDegerlendirme": true,
+    "programVeOgrenmeÇiktilariIliskisi": true,
+    "toplumsalKatkiVeSurdurulebilirlik": true
+  },
+  "denetimBilgileri": {
+    "olusturmaTarihi": "2025-05-10 18:09:11",
+    "olusturan": "json_processor_script",
+    "sonGuncellenmeTarihi": "2025-05-10 18:09:11",
+    "guncelleyen": "json_processor_script",
+    "durum": "Taslak"
+  },
+  "numaralandirmaDegerleri": {
+    "dersTurleri": [
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dersSeviyesi": [
+      "Lisans",
+      "Yüksek Lisans",
+      "Doktora"
+    ],
+    "ogretimSistemi": [
+      "Birinci Öğretim",
+      "İkinci Öğretim",
+      "Uzaktan Öğretim"
+    ],
+    "egitimDili": [
+      "Türkçe",
+      "İngilizce"
+    ],
+    "stajDurumu": [
+      "Mevcut Değil",
+      "Mevcut",
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dokumanDurumu": [
+      "Taslak",
+      "Onaylandı",
+      "Yayınlandı",
+      "Revize Edildi"
+    ]
+  }
+}

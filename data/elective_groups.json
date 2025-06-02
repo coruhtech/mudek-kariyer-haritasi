@@ -1,0 +1,1075 @@
+{
+  "elective_groups_2020": [
+    {
+      "group_id": "SECS03",
+      "name": "Sosyal Seçmeli Ders 1",
+      "semester": 3,
+      "courses_to_select": 1,
+      "courses": [
+        {
+          "course_code": "CE209",
+          "course_name": "İşletme Yönetimi",
+          "language": "Turkish",
+          "ects": 3,
+          "career_paths": []
+        },
+        {
+          "course_code": "CE211",
+          "course_name": "Bilişim Hukuku",
+          "language": "Turkish",
+          "ects": 3,
+          "career_paths": ["cyber"]
+        },
+        {
+          "course_code": "CE213",
+          "course_name": "İleri Sunum Teknikleri",
+          "language": "Turkish",
+          "ects": 3,
+          "career_paths": []
+        }
+      ]
+    },
+    {
+      "group_id": "SECPFS01",
+      "name": "İsteğe Bağlı Formasyon Seçmeli Ders Grubu01",
+      "semester": 3,
+      "courses_to_select": 1,
+      "courses": [
+        {
+          "course_code": "PFS201",
+          "course_name": "Eğitime Giriş",
+          "language": "Turkish",
+          "ects": 4,
+          "career_paths": []
+        }
+      ]
+    },
+    {
+      "group_id": "SECS04",
+      "name": "Sosyal Seçmeli Ders 2",
+      "semester": 4,
+      "courses_to_select": 1,
+      "courses": [
+        {
+          "course_code": "CE210",
+          "course_name": "Advance Academic Writing",
+          "language": "English",
+          "ects": 3,
+          "career_paths": ["software"]
+        },
+        {
+          "course_code": "CE212",
+          "course_name": "Girişimcilik Ve Proje Yönetimi",
+          "language": "Turkish",
+          "ects": 3,
+          "career_paths": []
+        },
+        {
+          "course_code": "CE214",
+          "course_name": "Latex Ile Akademik Yazım Ve Dokümantasyon",
+          "language": "Turkish",
+          "ects": 3,
+          "career_paths": []
+        }
+      ]
+    },
+    {
+      "group_id": "SECPFS02",
+      "name": "İsteğe Bağlı Formasyon Seçmeli Ders Grubu02",
+      "semester": 4,
+      "courses_to_select": 1,
+      "courses": [
+        {
+          "course_code": "PFS202",
+          "course_name": "Eğitim Psikolojisi",
+          "language": "Turkish",
+          "ects": 4,
+          "career_paths": []
+        }
+      ]
+    },
+    {
+      "group_id": "ELCE05",
+      "name": "Elective Module",
+      "semester": 5,
+      "courses_to_select": 2,
+      "courses": [
+        {
+          "course_code": "CE307",
+          "course_name": "Graph Theory",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["data"]
+        },
+        {
+          "course_code": "CE309",
+          "course_name": "Fuzzy Logic",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["ai", "data"]
+        },
+        {
+          "course_code": "CE311",
+          "course_name": "Robotics",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["ai", "systems"]
+        },
+        {
+          "course_code": "CE313",
+          "course_name": "System And Software Analysis And Design",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["software"]
+        }
+      ]
+    },
+    {
+      "group_id": "SECCE05",
+      "name": "Seçmeli Ders 3",
+      "semester": 5,
+      "courses_to_select": 1,
+      "courses": [
+        {
+          "course_code": "CE315",
+          "course_name": "Matlab Programlama",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["ai", "data"]
+        },
+        {
+          "course_code": "CE317",
+          "course_name": "Kriptografi",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["cyber"]
+        },
+        {
+          "course_code": "CE319",
+          "course_name": "Biçimsel Diller Ve Otomata Teorisi",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["systems"]
+        }
+      ]
+    },
+    {
+      "group_id": "SECPFS03-1",
+      "name": "İsteğe Bağlı Formasyon Seçmeli Ders Grubu03-1",
+      "semester": 5,
+      "courses_to_select": 1,
+      "courses": [
+        {
+          "course_code": "PFS301",
+          "course_name": "Öğretim Teknolojileri",
+          "language": "Turkish",
+          "ects": 3,
+          "career_paths": []
+        }
+      ]
+    },
+    {
+      "group_id": "SECPFS03-2",
+      "name": "İsteğe Bağlı Formasyon Seçmeli Ders Grubu03-2",
+      "semester": 5,
+      "courses_to_select": 1,
+      "courses": [
+        {
+          "course_code": "PFS303",
+          "course_name": "Öğretim İlke Ve Yöntemleri",
+          "language": "Turkish",
+          "ects": 4,
+          "career_paths": []
+        }
+      ]
+    },
+    {
+      "group_id": "ELCE06",
+      "name": "Elective Module",
+      "semester": 6,
+      "courses_to_select": 2,
+      "courses": [
+        {
+          "course_code": "CE306",
+          "course_name": "Cyber Security",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["cyber", "blockchain"]
+        },
+        {
+          "course_code": "CE308",
+          "course_name": "Detection And Estimation",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["systems"]
+        },
+        {
+          "course_code": "CE310",
+          "course_name": "Formal Methods For Software Engineering",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["software"]
+        },
+        {
+          "course_code": "CE312",
+          "course_name": "Parallel Programming",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["software", "web", "systems"]
+        },
+        {
+          "course_code": "CE314",
+          "course_name": "Image-Video Processing",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["web", "data"]
+        },
+        {
+          "course_code": "CE320",
+          "course_name": "Fundamentals of Data Visualization",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["data"]
+        }
+      ]
+    },
+    {
+      "group_id": "SECCE06",
+      "name": "Seçmeli Ders 3",
+      "semester": 6,
+      "courses_to_select": 1,
+      "courses": [
+        {
+          "course_code": "CE316",
+          "course_name": "Yapay Zeka",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["ai", "web"]
+        },
+        {
+          "course_code": "CE318",
+          "course_name": "Finansal Teknolojiler",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["web", "blockchain"]
+        },
+        {
+          "course_code": "CE322",
+          "course_name": "Gömülü Sistemler",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["systems"]
+        }
+      ]
+    },
+    {
+      "group_id": "SECPFS004-1",
+      "name": "İsteğe Bağlı Formasyon Seçmeli Ders Grubu04-1",
+      "semester": 6,
+      "courses_to_select": 1,
+      "courses": [
+        {
+          "course_code": "PFS304",
+          "course_name": "Eğitimde Ölçme Ve Değerlendirme",
+          "language": "Turkish",
+          "ects": 4,
+          "career_paths": []
+        }
+      ]
+    },
+    {
+      "group_id": "SECPFS04-2",
+      "name": "İsteğe Bağlı Formasyon Seçmeli Ders Grubu04-2",
+      "semester": 6,
+      "courses_to_select": 1,
+      "courses": [
+        {
+          "course_code": "PFS306",
+          "course_name": "Sınıf Yönetimi",
+          "language": "Turkish",
+          "ects": 3,
+          "career_paths": []
+        }
+      ]
+    },
+    {
+      "group_id": "ELCE07",
+      "name": "Elective Module",
+      "semester": 7,
+      "courses_to_select": 2,
+      "courses": [
+        {
+          "course_code": "CE403",
+          "course_name": "Network Security",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["cyber", "networks"]
+        },
+        {
+          "course_code": "CE405",
+          "course_name": "Data Mining",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["data", "ai"]
+        }
+      ]
+    },
+    {
+      "group_id": "SECCE07",
+      "name": "Seçmeli Ders",
+      "semester": 7,
+      "courses_to_select": 2,
+      "courses": [
+        {
+          "course_code": "CE407",
+          "course_name": "Güvenli Programlama",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["cyber"]
+        },
+        {
+          "course_code": "CE409",
+          "course_name": "Derin Öğrenme",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["ai", "data"]
+        }
+      ]
+    },
+    {
+      "group_id": "SECPFS05",
+      "name": "İsteğe Bağlı Formasyon Seçmeli Ders Grubu05",
+      "semester": 7,
+      "courses_to_select": 2,
+      "courses": [
+        {
+          "course_code": "PFS401",
+          "course_name": "Özel Öğretim Yöntemleri",
+          "language": "Turkish",
+          "ects": 4,
+          "career_paths": []
+        },
+        {
+          "course_code": "PFS403",
+          "course_name": "Rehberlik Ve Özel Eğitim",
+          "language": "Turkish",
+          "ects": 4,
+          "career_paths": []
+        }
+      ]
+    },
+    {
+      "group_id": "ELCE08",
+      "name": "Elective Module",
+      "semester": 8,
+      "courses_to_select": 2,
+      "courses": [
+        {
+          "course_code": "CE402",
+          "course_name": "Software Defined Networking",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["networks"]
+        },
+        {
+          "course_code": "CE404",
+          "course_name": "Fuzzy Systems",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["ai"]
+        },
+        {
+          "course_code": "CE406",
+          "course_name": "Postquantum Crytography",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["cyber"]
+        },
+        {
+          "course_code": "CE412",
+          "course_name": "Software Engineering",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["software"]
+        },
+        {
+          "course_code": "CE414",
+          "course_name": "Tiny Machine Learning",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["ai"]
+        }
+      ]
+    },
+    {
+      "group_id": "SECCE08",
+      "name": "Seçmeli Ders",
+      "semester": 8,
+      "courses_to_select": 2,
+      "courses": [
+        {
+          "course_code": "CE408",
+          "course_name": "Dağıtık Sistemler Ve Güvenlik",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["cyber", "networks", "cloud"]
+        },
+        {
+          "course_code": "CE410",
+          "course_name": "Bilgi Güvenliği",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["cyber"]
+        },
+        {
+          "course_code": "CE416",
+          "course_name": "Nesnelerin İnterneti",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["networks", "web"]
+        }
+      ]
+    },
+    {
+      "group_id": "SECPFS06",
+      "name": "İsteğe Bağlı Formasyon Seçmeli Ders Grubu06",
+      "semester": 8,
+      "courses_to_select": 1,
+      "courses": [
+        {
+          "course_code": "PFS402",
+          "course_name": "Öğretmenlik Uygulaması",
+          "language": "Turkish",
+          "ects": 10,
+          "career_paths": []
+        }
+      ]
+    }
+  ],
+  "elective_groups_2024": [
+    {
+      "group_id": "SECCEN03",
+      "name": "Sosyal Seçmeli Ders",
+      "semester": 3,
+      "courses_to_select": 1,
+      "courses": [
+        {
+          "course_code": "CEN211",
+          "course_name": "İşletme Yönetimi",
+          "language": "Turkish",
+          "ects": 3,
+          "career_paths": []
+        },
+        {
+          "course_code": "CEN215",
+          "course_name": "İleri Sunum Teknikleri",
+          "language": "Turkish",
+          "ects": 3,
+          "career_paths": []
+        },
+        {
+          "course_code": "CEN217",
+          "course_name": "Mühendisler için İletişim Becerileri",
+          "language": "Turkish",
+          "ects": 3,
+          "career_paths": []
+        },
+        {
+          "course_code": "CEN219",
+          "course_name": "İnsan Bilgisayar Etkileşimi",
+          "language": "Turkish",
+          "ects": 3,
+          "career_paths": ["web"]
+        },
+        {
+          "course_code": "CEN221",
+          "course_name": "Yapay Zekanın Sosyal Etkileri",
+          "language": "Turkish",
+          "ects": 3,
+          "career_paths": ["ai"]
+        }
+      ]
+    },
+    {
+      "group_id": "SECPFS01",
+      "name": "İsteğe Bağlı Formasyon Seçmeli Ders Grubu01",
+      "semester": 3,
+      "courses_to_select": 1,
+      "courses": [
+        {
+          "course_code": "PFS201",
+          "course_name": "Eğitime Giriş",
+          "language": "Turkish",
+          "ects": 4,
+          "career_paths": []
+        }
+      ]
+    },
+    {
+      "group_id": "SECCEN04",
+      "name": "Sosyal Seçmeli Ders",
+      "semester": 4,
+      "courses_to_select": 1,
+      "courses": [
+        {
+          "course_code": "CEN214",
+          "course_name": "Advanced Academic Writing",
+          "language": "English",
+          "ects": 3,
+          "career_paths": ["software"]
+        },
+        {
+          "course_code": "CEN216",
+          "course_name": "Girişimcilik ve Proje Yönetimi",
+          "language": "Turkish",
+          "ects": 3,
+          "career_paths": []
+        },
+        {
+          "course_code": "CEN218",
+          "course_name": "Latex ile Akademik Yazım ve Dokümantasyon",
+          "language": "Turkish",
+          "ects": 3,
+          "career_paths": []
+        },
+        {
+          "course_code": "CEN220",
+          "course_name": "Mühendisler için Finansal Okuryazarlık",
+          "language": "Turkish",
+          "ects": 3,
+          "career_paths": []
+        },
+        {
+          "course_code": "CEN222",
+          "course_name": "Mühendisler için Pazarlama",
+          "language": "Turkish",
+          "ects": 3,
+          "career_paths": []
+        },
+        {
+          "course_code": "CEN224",
+          "course_name": "Fikri Mülkiyet ve Patent Hukuku",
+          "language": "Turkish",
+          "ects": 3,
+          "career_paths": []
+        },
+        {
+          "course_code": "CEN226",
+          "course_name": "Kullanıcı Deneyimi Tasarımı",
+          "language": "Turkish",
+          "ects": 3,
+          "career_paths": ["web"]
+        }
+      ]
+    },
+    {
+      "group_id": "SECPFS02",
+      "name": "İsteğe Bağlı Formasyon Seçmeli Ders Grubu02",
+      "semester": 4,
+      "courses_to_select": 1,
+      "courses": [
+        {
+          "course_code": "PFS202",
+          "course_name": "Eğitim Psikolojisi",
+          "language": "Turkish",
+          "ects": 4,
+          "career_paths": []
+        }
+      ]
+    },
+    {
+      "group_id": "SECCEN05-1",
+      "name": "Seçmeli Ders",
+      "semester": 5,
+      "courses_to_select": 2,
+      "combined_with": "SECCEN05-2",
+      "courses": [
+        {
+          "course_code": "CEN307",
+          "course_name": "Graph Theory",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["data"]
+        },
+        {
+          "course_code": "CEN309",
+          "course_name": "Fuzzy Logic and Artificial Neural Networks",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["ai", "data"]
+        },
+        {
+          "course_code": "CEN311",
+          "course_name": "Robotics",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["ai", "systems"]
+        },
+        {
+          "course_code": "CEN313",
+          "course_name": "System and Software Analysis and Design",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["software"]
+        },
+        {
+          "course_code": "CEN315",
+          "course_name": "Cryptography",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["cyber", "blockchain"]
+        }
+      ]
+    },
+    {
+      "group_id": "SECCEN05-2",
+      "name": "Seçmeli Ders",
+      "semester": 5,
+      "courses_to_select": 2,
+      "combined_with": "SECCEN05-1",
+      "courses": [
+        {
+          "course_code": "CEN317",
+          "course_name": "Yapay Zeka",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["ai"]
+        },
+        {
+          "course_code": "CEN319",
+          "course_name": "Matlab Programlama",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["ai", "data"]
+        },
+        {
+          "course_code": "CEN321",
+          "course_name": "Biçimsel Diller ve Otomata Teorisi",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["systems"]
+        },
+        {
+          "course_code": "CEN323",
+          "course_name": "Dosya Organizasyonu",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["systems"]
+        },
+        {
+          "course_code": "CEN325",
+          "course_name": "Graf Teori",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["data"]
+        },
+        {
+          "course_code": "CEN327",
+          "course_name": "Bulanık Mantık ve Yapay Sinir Ağları",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["ai", "data"]
+        },
+        {
+          "course_code": "CEN331",
+          "course_name": "Büyük Veriye Giriş",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["data"]
+        },
+        {
+          "course_code": "CEN333",
+          "course_name": "Kriptografi",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["cyber", "blockchain"]
+        }
+      ]
+    },
+    {
+      "group_id": "SECPFS03-1",
+      "name": "İsteğe Bağlı Formasyon Seçmeli Ders Grubu03-1",
+      "semester": 5,
+      "courses_to_select": 1,
+      "courses": [
+        {
+          "course_code": "PFS301",
+          "course_name": "Öğretim Teknolojileri",
+          "language": "Turkish",
+          "ects": 3,
+          "career_paths": []
+        }
+      ]
+    },
+    {
+      "group_id": "SECPFS03-2",
+      "name": "İsteğe Bağlı Formasyon Seçmeli Ders Grubu03-2",
+      "semester": 5,
+      "courses_to_select": 1,
+      "courses": [
+        {
+          "course_code": "PFS303",
+          "course_name": "Öğretim İlke ve Yöntemleri",
+          "language": "Turkish",
+          "ects": 4,
+          "career_paths": []
+        }
+      ]
+    },
+    {
+      "group_id": "SECCEN06-1",
+      "name": "Seçmeli Ders",
+      "semester": 6,
+      "courses_to_select": 2,
+      "combined_with": "SECCEN06-2",
+      "courses": [
+        {
+          "course_code": "CEN306",
+          "course_name": "Cyber Security",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["cyber", "blockchain"]
+        },
+        {
+          "course_code": "CEN308",
+          "course_name": "Detection and Estimation",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["systems"]
+        },
+        {
+          "course_code": "CEN310",
+          "course_name": "Parallel Programming",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["software", "web", "systems", "cloud"]
+        },
+        {
+          "course_code": "CEN312",
+          "course_name": "Image-Video Processing",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["web", "data"]
+        },
+        {
+          "course_code": "CEN314",
+          "course_name": "Fundamentals of Data Visualization",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["data"]
+        },
+        {
+          "course_code": "CEN316",
+          "course_name": "Financial Technologies",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["web", "blockchain"]
+        },
+        {
+          "course_code": "CEN318",
+          "course_name": "Embedded Systems",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["systems"]
+        },
+        {
+          "course_code": "CEN320",
+          "course_name": "Computer Graphics",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["web"]
+        },
+        {
+          "course_code": "CEN322",
+          "course_name": "Internet of Things",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["networks", "web"]
+        },
+        {
+          "course_code": "CEN336",
+          "course_name": "Artificial Intelligence",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["ai"]
+        }
+      ]
+    },
+    {
+      "group_id": "SECCEN06-2",
+      "name": "Seçmeli Ders",
+      "semester": 6,
+      "courses_to_select": 2,
+      "combined_with": "SECCEN06-1",
+      "courses": [
+        {
+          "course_code": "CEN324",
+          "course_name": "Uygulamalı İstatistik",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["data", "ai"]
+        },
+        {
+          "course_code": "CEN326",
+          "course_name": "Veri Bilimine Giriş",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["data"]
+        },
+        {
+          "course_code": "CEN328",
+          "course_name": "Veri Mühendisliği",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["data"]
+        },
+        {
+          "course_code": "CEN330",
+          "course_name": "Veri Bilimlerinde Etik",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["data", "ai"]
+        },
+        {
+          "course_code": "CEN332",
+          "course_name": "Deneysel Tasarım ve Analiz",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["data"]
+        },
+        {
+          "course_code": "CEN334",
+          "course_name": "İleri İstatistiksel Hesaplama",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["data", "ai"]
+        }
+      ]
+    },
+    {
+      "group_id": "SECPFS04-1",
+      "name": "İsteğe Bağlı Formasyon Seçmeli Ders Grubu04-1",
+      "semester": 6,
+      "courses_to_select": 1,
+      "courses": [
+        {
+          "course_code": "PFS304",
+          "course_name": "Eğitimde Ölçme ve Değerlendirme",
+          "language": "Turkish",
+          "ects": 4,
+          "career_paths": []
+        }
+      ]
+    },
+    {
+      "group_id": "SECPFS04-2",
+      "name": "İsteğe Bağlı Formasyon Seçmeli Ders Grubu04-2",
+      "semester": 6,
+      "courses_to_select": 1,
+      "courses": [
+        {
+          "course_code": "PFS306",
+          "course_name": "Sınıf Yönetimi",
+          "language": "Turkish",
+          "ects": 3,
+          "career_paths": []
+        }
+      ]
+    },
+    {
+      "group_id": "SECCEN07-1",
+      "name": "Seçmeli Ders",
+      "semester": 7,
+      "courses_to_select": 4,
+      "combined_with": "SECCEN07-2",
+      "courses": [
+        {
+          "course_code": "CEN403",
+          "course_name": "Software Defined Networking",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["networks", "cloud"]
+        },
+        {
+          "course_code": "CEN405",
+          "course_name": "Software Engineering",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["software"]
+        },
+        {
+          "course_code": "CEN407",
+          "course_name": "Tiny Machine Learning",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["ai"]
+        },
+        {
+          "course_code": "CEN409",
+          "course_name": "Network Security",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["cyber", "networks"]
+        },
+        {
+          "course_code": "CEN411",
+          "course_name": "Data Mining",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["data", "ai"]
+        },
+        {
+          "course_code": "CEN413",
+          "course_name": "Cloud Computing",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["cloud", "software", "systems"]
+        },
+        {
+          "course_code": "CEN415",
+          "course_name": "Pattern Recognition",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["ai"]
+        },
+        {
+          "course_code": "CEN417",
+          "course_name": "Natural Language Processing",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["ai"]
+        },
+        {
+          "course_code": "CEN419",
+          "course_name": "Data Science and Analytics",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["data"]
+        },
+        {
+          "course_code": "CEN421",
+          "course_name": "5G Networks and Applications",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["networks"]
+        },
+        {
+          "course_code": "CEN423",
+          "course_name": "Blockchain Technology",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["blockchain"]
+        },
+        {
+          "course_code": "CEN441",
+          "course_name": "Deep Learning",
+          "language": "English",
+          "ects": 5,
+          "career_paths": ["ai", "data"]
+        }
+      ]
+    },
+    {
+      "group_id": "SECCEN07-2",
+      "name": "Seçmeli Ders",
+      "semester": 7,
+      "courses_to_select": 4,
+      "combined_with": "SECCEN07-1",
+      "courses": [
+        {
+          "course_code": "CEN425",
+          "course_name": "Dağıtık Sistemler ve Güvenlik",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["cyber", "networks", "cloud"]
+        },
+        {
+          "course_code": "CEN427",
+          "course_name": "Bilgi Güvenliği",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["cyber"]
+        },
+        {
+          "course_code": "CEN429",
+          "course_name": "Güvenli Programlama",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["cyber"]
+        },
+        {
+          "course_code": "CEN431",
+          "course_name": "Derin Öğrenme",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["ai", "data"]
+        },
+        {
+          "course_code": "CEN433",
+          "course_name": "Beyaz Şapkalı Hacker",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["cyber"]
+        },
+        {
+          "course_code": "CEN435",
+          "course_name": "Fiber Optik Ağlar",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["networks"]
+        },
+        {
+          "course_code": "CEN437",
+          "course_name": "Oyun Programlamaya Giriş",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["web", "software"]
+        },
+        {
+          "course_code": "CEN439",
+          "course_name": "İnsan Odaklı Programlama",
+          "language": "Turkish",
+          "ects": 5,
+          "career_paths": ["software", "web"]
+        }
+      ]
+    },
+    {
+      "group_id": "SECPFS05",
+      "name": "İsteğe Bağlı Formasyon Seçmeli Ders Grubu05",
+      "semester": 7,
+      "courses_to_select": 2,
+      "courses": [
+        {
+          "course_code": "PFS401",
+          "course_name": "Özel Öğretim Yöntemleri",
+          "language": "Turkish",
+          "ects": 4,
+          "career_paths": []
+        },
+        {
+          "course_code": "PFS403",
+          "course_name": "Rehberlik ve Özel Eğitim",
+          "language": "Turkish",
+          "ects": 4,
+          "career_paths": []
+        }
+      ]
+    },
+    {
+      "group_id": "SECPFS06",
+      "name": "İsteğe Bağlı Formasyon Seçmeli Ders Grubu06",
+      "semester": 8,
+      "courses_to_select": 1,
+      "courses": [
+        {
+          "course_code": "PFS402",
+          "course_name": "Öğretmenlik Uygulaması",
+          "language": "Turkish",
+          "ects": 10,
+          "career_paths": []
+        }
+      ]
+    }
+  ]
+}

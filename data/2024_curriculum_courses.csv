@@ -1,0 +1,109 @@
+Course Code,Course Name,Semester,Type,Group,Language,ECTS,Career Paths
+CEN105,Introduction to Computer Engineering,1,Mandatory,,English,5,software;web;systems
+CEN107,Algorithms and Programming I,1,Mandatory,,English,5,software;web;ai
+CEN109,Fundamental Information Technologies,1,Mandatory,,English,3,software;web
+CEN103,Mühendislik Fiziği I,1,Mandatory,,Turkish,5,systems
+CEN101,Mühendislik Matematiği I,1,Mandatory,,Turkish,6,data;ai
+TDL101,Türk Dili-I,1,Mandatory,,Turkish,2,
+ATA101,Atatürk İlkeleri ve İnkılap Tarihi-I,1,Mandatory,,Turkish,2,
+YBD109,Yabancı Dil-I,1,Mandatory,,Turkish,2,
+CEN108,Algorithms and Programming II,2,Mandatory,,English,5,software;web;ai
+CEN110,Digital Logic Design,2,Mandatory,,English,5,systems
+CEN102,Mühendislik Matematiği-II,2,Mandatory,,Turkish,5,data;ai
+CEN106,Lineer Cebir,2,Mandatory,,Turkish,4,data;ai
+CEN104,Mühendislik Fiziği II,2,Mandatory,,Turkish,5,systems
+TDL102,Türk Dili-II,2,Mandatory,,Turkish,2,
+ATA102,Atatürk İlkeleri ve İnkılap Tarihi-II,2,Mandatory,,Turkish,2,
+YBD110,Yabancı Dil-II,2,Mandatory,,Turkish,2,
+CEN203,Ayrık Matematik,3,Mandatory,,Turkish,5,software;ai
+CEN201,Diferansiyel Denklemler,3,Mandatory,,Turkish,6,data
+ISG203,İş Sağlığı ve Güvenliği-I,3,Mandatory,,Turkish,2,
+CEN207,Data Structures,3,Mandatory,,English,5,software;ai;web
+CEN210,İşletim Sistemleri,3,Mandatory,,Turkish,4,cyber;networks;systems
+CEN209,Computer Networks,3,Mandatory,,English,5,cyber;networks
+CEN205,Bilgisayar Mimarileri,3,Mandatory,,Turkish,5,systems
+CEN211,İşletme Yönetimi,3,Elective,SECCEN03,Turkish,3,
+CEN215,İleri Sunum Teknikleri,3,Elective,SECCEN03,Turkish,3,
+CEN217,Mühendisler için İletişim Becerileri,3,Elective,SECCEN03,Turkish,3,
+CEN219,İnsan Bilgisayar Etkileşimi,3,Elective,SECCEN03,Turkish,3,web
+CEN221,Yapay Zekanın Sosyal Etkileri,3,Elective,SECCEN03,Turkish,3,ai
+PFS201,Eğitime Giriş,3,Elective,SECPFS01,Turkish,4,
+ISG204,İş Sağlığı ve Güvenliği-II,4,Mandatory,,Turkish,2,
+CEN208,Database Management Systems,4,Mandatory,,English,5,software;web;data;cyber
+CEN206,Object-Oriented Programming,4,Mandatory,,English,5,software;web;cyber
+CEN204,Mikroişlemciler,4,Mandatory,,Turkish,4,systems;networks
+CEN202,Probability and Statistics,4,Mandatory,,English,4,data;ai
+CEN214,Advanced Academic Writing,4,Elective,SECCEN04,English,3,software
+CEN216,Girişimcilik ve Proje Yönetimi,4,Elective,SECCEN04,Turkish,3,
+CEN218,Latex ile Akademik Yazım ve Dokümantasyon,4,Elective,SECCEN04,Turkish,3,
+CEN220,Mühendisler için Finansal Okuryazarlık,4,Elective,SECCEN04,Turkish,3,
+CEN222,Mühendisler için Pazarlama,4,Elective,SECCEN04,Turkish,3,
+CEN224,Fikri Mülkiyet ve Patent Hukuku,4,Elective,SECCEN04,Turkish,3,
+CEN226,Kullanıcı Deneyimi Tasarımı,4,Elective,SECCEN04,Turkish,3,web
+PFS202,Eğitim Psikolojisi,4,Elective,SECPFS02,Turkish,4,
+STJ202,Staj,4,Mandatory,,Turkish,3,
+CEN301,Proje Yönetimi,5,Mandatory,,Turkish,4,software
+CEN303,Web and Mobile Programming,5,Mandatory,,English,5,web
+CEN305,Data Analysis,5,Mandatory,,English,5,data;ai
+CEN307,Graph Theory,5,Elective,SECCEN05-1,English,5,data
+CEN309,Fuzzy Logic and Artificial Neural Networks,5,Elective,SECCEN05-1,English,5,ai;data
+CEN311,Robotics,5,Elective,SECCEN05-1,English,5,ai;systems
+CEN313,System and Software Analysis and Design,5,Elective,SECCEN05-1,English,5,software
+CEN315,Cryptography,5,Elective,SECCEN05-1,English,5,cyber;blockchain
+CEN317,Yapay Zeka,5,Elective,SECCEN05-2,Turkish,5,ai
+CEN319,Matlab Programlama,5,Elective,SECCEN05-2,Turkish,5,ai;data
+CEN321,Biçimsel Diller ve Otomata Teorisi,5,Elective,SECCEN05-2,Turkish,5,systems
+CEN323,Dosya Organizasyonu,5,Elective,SECCEN05-2,Turkish,5,systems
+CEN325,Graf Teori,5,Elective,SECCEN05-2,Turkish,5,data
+CEN327,Bulanık Mantık ve Yapay Sinir Ağları,5,Elective,SECCEN05-2,Turkish,5,ai;data
+CEN331,Büyük Veriye Giriş,5,Elective,SECCEN05-2,Turkish,5,data
+CEN333,Kriptografi,5,Elective,SECCEN05-2,Turkish,5,cyber;blockchain
+PFS301,Öğretim Teknolojileri,5,Elective,SECPFS03-1,Turkish,3,
+PFS303,Öğretim İlke ve Yöntemleri,5,Elective,SECPFS03-2,Turkish,4,
+CEN302,Sistem Programlama,6,Mandatory,,Turkish,4,software;systems
+CEN304,Sinyaller ve Sistemler,6,Mandatory,,Turkish,4,systems
+CEN306,Cyber Security,6,Elective,SECCEN06-1,English,5,cyber;blockchain
+CEN308,Detection and Estimation,6,Elective,SECCEN06-1,English,5,systems
+CEN310,Parallel Programming,6,Elective,SECCEN06-1,English,5,software;web;systems;cloud
+CEN312,Image-Video Processing,6,Elective,SECCEN06-1,English,5,web;data
+CEN314,Fundamentals of Data Visualization,6,Elective,SECCEN06-1,English,5,data
+CEN316,Financial Technologies,6,Elective,SECCEN06-1,English,5,web;blockchain
+CEN318,Embedded Systems,6,Elective,SECCEN06-1,English,5,systems
+CEN320,Computer Graphics,6,Elective,SECCEN06-1,English,5,web
+CEN322,Internet of Things,6,Elective,SECCEN06-1,English,5,networks;web
+CEN336,Artificial Intelligence,6,Elective,SECCEN06-1,English,5,ai
+CEN324,Uygulamalı İstatistik,6,Elective,SECCEN06-2,Turkish,5,data;ai
+CEN326,Veri Bilimine Giriş,6,Elective,SECCEN06-2,Turkish,5,data
+CEN328,Veri Mühendisliği,6,Elective,SECCEN06-2,Turkish,5,data
+CEN330,Veri Bilimlerinde Etik,6,Elective,SECCEN06-2,Turkish,5,data;ai
+CEN332,Deneysel Tasarım ve Analiz,6,Elective,SECCEN06-2,Turkish,5,data
+CEN334,İleri İstatistiksel Hesaplama,6,Elective,SECCEN06-2,Turkish,5,data;ai
+PFS304,Eğitimde Ölçme ve Değerlendirme,6,Elective,SECPFS04-1,Turkish,4,
+PFS306,Sınıf Yönetimi,6,Elective,SECPFS04-2,Turkish,3,
+STJ302,Staj,6,Mandatory,,Turkish,3,
+CEN401,Bitirme Tezi 1,7,Mandatory,,Turkish,8,
+CEN403,Software Defined Networking,7,Elective,SECCEN07-1,English,5,networks;cloud
+CEN405,Software Engineering,7,Elective,SECCEN07-1,English,5,software
+CEN407,Tiny Machine Learning,7,Elective,SECCEN07-1,English,5,ai
+CEN409,Network Security,7,Elective,SECCEN07-1,English,5,cyber;networks
+CEN411,Data Mining,7,Elective,SECCEN07-1,English,5,data;ai
+CEN413,Cloud Computing,7,Elective,SECCEN07-1,English,5,cloud;software;systems
+CEN415,Pattern Recognition,7,Elective,SECCEN07-1,English,5,ai
+CEN417,Natural Language Processing,7,Elective,SECCEN07-1,English,5,ai
+CEN419,Data Science and Analytics,7,Elective,SECCEN07-1,English,5,data
+CEN421,5G Networks and Applications,7,Elective,SECCEN07-1,English,5,networks
+CEN423,Blockchain Technology,7,Elective,SECCEN07-1,English,5,blockchain
+CEN441,Deep Learning,7,Elective,SECCEN07-1,English,5,ai;data
+CEN425,Dağıtık Sistemler ve Güvenlik,7,Elective,SECCEN07-2,Turkish,5,cyber;networks;cloud
+CEN427,Bilgi Güvenliği,7,Elective,SECCEN07-2,Turkish,5,cyber
+CEN429,Güvenli Programlama,7,Elective,SECCEN07-2,Turkish,5,cyber
+CEN431,Derin Öğrenme,7,Elective,SECCEN07-2,Turkish,5,ai;data
+CEN433,Beyaz Şapkalı Hacker,7,Elective,SECCEN07-2,Turkish,5,cyber
+CEN435,Fiber Optik Ağlar,7,Elective,SECCEN07-2,Turkish,5,networks
+CEN437,Oyun Programlamaya Giriş,7,Elective,SECCEN07-2,Turkish,5,web;software
+CEN439,İnsan Odaklı Programlama,7,Elective,SECCEN07-2,Turkish,5,software;web
+PFS401,Özel Öğretim Yöntemleri,7,Elective,SECPFS05,Turkish,4,
+PFS403,Rehberlik ve Özel Eğitim,7,Elective,SECPFS05,Turkish,4,
+CEN402,Bitirme Tezi 2,8,Mandatory,,Turkish,8,
+PFS402,Öğretmenlik Uygulaması,8,Elective,SECPFS06,Turkish,10,
+USI402,Üniversite Sektör İşbirliği Deneyimi,8,Mandatory,,Turkish,5,

@@ -1,0 +1,734 @@
+{
+  "dersGenel": {
+    "dersTuru": "Zorunlu",
+    "dersinSeviyesi": "Lisans",
+    "dersinAKTSKredisi": 4,
+    "haftalikDersSaatiKuramsal": 3,
+    "haftalikUygulamaSaati": 0,
+    "haftalikLaboratuarSaati": 0,
+    "dersinVerildigiYariyil": 4,
+    "ogretimSistemi": "Birinci Öğretim",
+    "egitimDili": "İngilizce",
+    "universite": "Recep Tayyip Erdoğan Üniversitesi",
+    "ulke": "Türkiye",
+    "il": "Rize",
+    "ilce": "Merkez",
+    "mahalle": "Fener Mah",
+    "fakulte": "Mühendislik Ve Mimarlık Fakültesi",
+    "bolum": "Bilgisayar Mühendisliği",
+    "dersKodu": "CEN202",
+    "dersAdi": "Probability And Statistics",
+    "ogretimYiliDonemi": "Bahar",
+    "dersAKTSKredisi": 4,
+    "dilSecimi": "İngilizce",
+    "mufredatOlusturulmaYili": "2024",
+    "akademikYil": ""
+  },
+  "dersIcerik": {
+    "dersinAmaci": "Öğrencilere alanda gerekli olan olasılık ve istatistik teorisi kavramları ve yöntemleri hakkında bilgi vermek. Bu ders, öğrencilerin belirsizlik içeren durumları modelleyebilmeleri, verileri analiz edip yorumlayabilmeleri ve mühendislik problemlerine olasılık ve istatistik yaklaşımlarını uygulayabilmeleri için temel oluşturmayı hedeflemektedir.",
+    "dersinOnKosuluOlanDersler": "Yok",
+    "dersinIcerigi": "Olasılığa Giriş, Rastgele Değişkenler, Bazı Özel Olasılık Dağılımları, İstatistiğe Giriş, Merkezi Eğilim Ölçüleri, Dağılım Ölçüleri, Hipotez Testi, Korelasyon Analizi, Regresyon Analizi. Temel olasılık aksiyomları, koşullu olasılık, Bayes teoremi, kesikli ve sürekli rastgele değişkenler, olasılık dağılımları, beklenen değer, varyans, momentler, istatistiksel verilerin analizi, örneklem seçimi, güven aralıkları.",
+    "dersinIcinOnerilenHususlar": "Öğrencilerin temel matematik bilgisine sahip olması ve düzenli problem çözme alıştırmaları yapması önerilmektedir.",
+    "ogretimTuru": "Birinci Öğretim",
+    "stajDurumu": "Mevcut Değil",
+    "dersinKitabiMalzemesiOnerilenKaynaklar": "Walpole, R., Myers, R., Myers, S., & Ye, K. (2017). Probability & Statistics for Engineers & Scientists, Prentice Hall.",
+    "dersiVerenOgretimUyesiOgretimGorevlisi": "Doç. Dr. Zafer BEKİRYAZICI",
+    "hazirlanmaTarihi": "10.02.2025"
+  },
+  "dersOgrenmeÇiktilari": [
+    {
+      "id": "ÖÇ.1",
+      "aciklama": "Temel Olasılık kavramlarını öğrenir ve mühendislik problemlerinde uygular."
+    },
+    {
+      "id": "ÖÇ.2",
+      "aciklama": "Önemli Olasılık dağılımlarını tanır ve özellikleriyle ilgili hesaplamaları yapabilir."
+    },
+    {
+      "id": "ÖÇ.3",
+      "aciklama": "Temel İstatistik kavramlarını öğrenir ve merkezi eğilim ve dağılım ölçülerini hesaplayabilir."
+    },
+    {
+      "id": "ÖÇ.4",
+      "aciklama": "Önemli İstatistik yöntemlerini tanır, hipotez testleri yapabilir ve sonuçlarını yorumlayabilir."
+    },
+    {
+      "id": "ÖÇ.5",
+      "aciklama": "Alanla ilgili Olasılık ve İstatistik uygulamalarını tanır ve bilgisayar mühendisliği problemlerine uygulayabilir."
+    }
+  ],
+  "haftalikDersIcerikleri": [
+    {
+      "hafta": 1,
+      "icerik": "Olasılığa Giriş: Temel Kavramlar, Olasılık Aksiyomları, Koşullu Olasılık",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Temel küme teorisi kavramları",
+      "ogretimYontemleri": "Anlatım, Problem Çözümü",
+      "aracVeGerecler": "Projeksiyon, Tahta",
+      "kaynakVeMateryal": "Ders Kitabı, Bölüm 1",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Problem Seti 1"
+    },
+    {
+      "hafta": 2,
+      "icerik": "Olasılığa Giriş: Bağımsız Olaylar, Bayes Teoremi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Temel olasılık kavramları",
+      "ogretimYontemleri": "Anlatım, Problem Çözümü",
+      "aracVeGerecler": "Projeksiyon, Tahta",
+      "kaynakVeMateryal": "Ders Kitabı, Bölüm 1",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Problem Seti 2"
+    },
+    {
+      "hafta": 3,
+      "icerik": "Rastgele Değişkenler: Kesikli ve Sürekli Rastgele Değişkenler, Rastgele Değişkenlerin Dağılımı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Bayes teoremi ve koşullu olasılık",
+      "ogretimYontemleri": "Anlatım, Problem Çözümü",
+      "aracVeGerecler": "Projeksiyon, Tahta",
+      "kaynakVeMateryal": "Ders Kitabı, Bölüm 2",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Problem Seti 3"
+    },
+    {
+      "hafta": 4,
+      "icerik": "Rastgele Değişkenler: İki Boyutlu Rastgele Değişkenler, Beklenen Değer, Varyans, Momentler",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Rastgele değişkenler",
+      "ogretimYontemleri": "Anlatım, Problem Çözümü",
+      "aracVeGerecler": "Projeksiyon, Tahta",
+      "kaynakVeMateryal": "Ders Kitabı, Bölüm 2",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Problem Seti 4"
+    },
+    {
+      "hafta": 5,
+      "icerik": "Bazı Özel Olasılık Dağılımları: Özel Kesikli Olasılık Dağılımları: Düzgün, Bernoulli, Binom, Geometrik, Negatif Binom, Hipergeometrik, Poisson",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Beklenen değer ve varyans",
+      "ogretimYontemleri": "Anlatım, Problem Çözümü",
+      "aracVeGerecler": "Projeksiyon, Tahta",
+      "kaynakVeMateryal": "Ders Kitabı, Bölüm 3",
+      "degerlendirmeYontemleri": "Quiz",
+      "odevVeCalisma": "Problem Seti 5"
+    },
+    {
+      "hafta": 6,
+      "icerik": "Bazı Özel Olasılık Dağılımları: Özel Sürekli Dağılımlar: Düzgün, Üstel, Gamma, Beta, Normal",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Kesikli olasılık dağılımları",
+      "ogretimYontemleri": "Anlatım, Problem Çözümü",
+      "aracVeGerecler": "Projeksiyon, Tahta",
+      "kaynakVeMateryal": "Ders Kitabı, Bölüm 3",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Problem Seti 6"
+    },
+    {
+      "hafta": 7,
+      "icerik": "İstatistiğe Giriş: Temel Kavramlar",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Sürekli olasılık dağılımları",
+      "ogretimYontemleri": "Anlatım, Problem Çözümü",
+      "aracVeGerecler": "Projeksiyon, Tahta",
+      "kaynakVeMateryal": "Ders Kitabı, Bölüm 4",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Problem Seti 7"
+    },
+    {
+      "hafta": 8,
+      "icerik": "Ara sınav",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "1-7 haftalar arası tüm konular",
+      "ogretimYontemleri": "Ölçme-Değerlendirme",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Yazılı Sınav",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 9,
+      "icerik": "İstatistiğe Giriş: Örneklem Seçimi, Verilerin Düzenlenmesi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "İstatistiğin temel kavramları",
+      "ogretimYontemleri": "Anlatım, Problem Çözümü",
+      "aracVeGerecler": "Projeksiyon, Tahta",
+      "kaynakVeMateryal": "Ders Kitabı, Bölüm 4",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Problem Seti 8"
+    },
+    {
+      "hafta": 10,
+      "icerik": "Merkezi Eğilim ve Dağılım Ölçüleri: Aritmetik Ortalama, Mod, Medyan",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Örnekleme ve veri düzenleme",
+      "ogretimYontemleri": "Anlatım, Problem Çözümü",
+      "aracVeGerecler": "Projeksiyon, Tahta, Hesap Makinesi",
+      "kaynakVeMateryal": "Ders Kitabı, Bölüm 5",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Problem Seti 9"
+    },
+    {
+      "hafta": 11,
+      "icerik": "Merkezi Eğilim ve Dağılım Ölçüleri: Varyans, Değişim Katsayısı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.3",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Merkezi eğilim ölçüleri",
+      "ogretimYontemleri": "Anlatım, Problem Çözümü",
+      "aracVeGerecler": "Projeksiyon, Tahta, Hesap Makinesi",
+      "kaynakVeMateryal": "Ders Kitabı, Bölüm 5",
+      "degerlendirmeYontemleri": "Quiz",
+      "odevVeCalisma": "Problem Seti 10"
+    },
+    {
+      "hafta": 12,
+      "icerik": "Hipotez Testleri: Tek Kitlede Ortalama ve Oran için Hipotez Testi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Dağılım ölçüleri",
+      "ogretimYontemleri": "Anlatım, Problem Çözümü",
+      "aracVeGerecler": "Projeksiyon, Tahta, Hesap Makinesi",
+      "kaynakVeMateryal": "Ders Kitabı, Bölüm 6",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Problem Seti 11"
+    },
+    {
+      "hafta": 13,
+      "icerik": "Hipotez Testleri: Tek Kitlede Standart Sapma için Hipotez Testi, Güven Aralıkları",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Hipotez testleri",
+      "ogretimYontemleri": "Anlatım, Problem Çözümü",
+      "aracVeGerecler": "Projeksiyon, Tahta, Hesap Makinesi",
+      "kaynakVeMateryal": "Ders Kitabı, Bölüm 6",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Problem Seti 12"
+    },
+    {
+      "hafta": 14,
+      "icerik": "Korelasyon ve Regresyon Analizi: Korelasyon, Doğrusal Regresyon",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4, ÖÇ.5",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Hipotez testleri ve güven aralıkları",
+      "ogretimYontemleri": "Anlatım, Problem Çözümü",
+      "aracVeGerecler": "Projeksiyon, Tahta, Hesap Makinesi",
+      "kaynakVeMateryal": "Ders Kitabı, Bölüm 7",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Problem Seti 13"
+    },
+    {
+      "hafta": 15,
+      "icerik": "Korelasyon ve Regresyon Analizi: Önem Testleri",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4, ÖÇ.5",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Korelasyon ve regresyon",
+      "ogretimYontemleri": "Anlatım, Problem Çözümü, Vaka Analizi",
+      "aracVeGerecler": "Projeksiyon, Tahta, Hesap Makinesi",
+      "kaynakVeMateryal": "Ders Kitabı, Bölüm 7",
+      "degerlendirmeYontemleri": "Quiz",
+      "odevVeCalisma": "Problem Seti 14"
+    },
+    {
+      "hafta": 16,
+      "icerik": "Final Sınavı",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5",
+      "ogretimOrtami": "Sınıf",
+      "onHazirlik": "Tüm konular",
+      "ogretimYontemleri": "Ölçme-Değerlendirme",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Yazılı Sınav",
+      "odevVeCalisma": "-"
+    }
+  ],
+  "dersIsYuku": {
+    "etkinlikler": [
+      {
+        "etkinlik": "Derse Katılım",
+        "sayi": 14,
+        "sure": 3,
+        "toplamIsYuku": 42
+      },
+      {
+        "etkinlik": "Bireysel Çalışma",
+        "sayi": 14,
+        "sure": 1,
+        "toplamIsYuku": 14
+      },
+      {
+        "etkinlik": "Uygulama/Pratik",
+        "sayi": 1,
+        "sure": 3,
+        "toplamIsYuku": 3
+      },
+      {
+        "etkinlik": "Ev Ödevi",
+        "sayi": 3,
+        "sure": 3,
+        "toplamIsYuku": 9
+      },
+      {
+        "etkinlik": "Quiz",
+        "sayi": 3,
+        "sure": 1,
+        "toplamIsYuku": 3
+      },
+      {
+        "etkinlik": "Ara Sınav İçin Bireysel Çalışma",
+        "sayi": 7,
+        "sure": 2,
+        "toplamIsYuku": 14
+      },
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "sure": 2,
+        "toplamIsYuku": 2
+      },
+      {
+        "etkinlik": "Final Sınavı İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 11,
+        "toplamIsYuku": 11
+      },
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "sure": 2,
+        "toplamIsYuku": 2
+      }
+    ],
+    "toplamIsYuku": 100,
+    "dersAKTSKredisi": 4,
+    "hesaplama": "Dersin AKTS Kredisi = Toplam İş Yükü (Saat) / 25 = 4",
+    "aktsHesaplama": "Toplam İş Yükü / 25"
+  },
+  "etkinlikTurleri": [
+    "Alan Çalışması",
+    "Alan Gezisi",
+    "Ara Sınav",
+    "Ara Sınav İçin Bireysel Çalışma",
+    "Beyin Fırtınası",
+    "Bireysel Çalışma",
+    "Bütünleme Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Derse Katılım",
+    "Ev Ödevi",
+    "Final Sınavı",
+    "Final Sınavı İçin Bireysel Çalışma",
+    "Gösterme",
+    "Gözlem",
+    "Laboratuvar",
+    "Laboratuvar Ara Sınavı",
+    "Laboratuvar Sınavı",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Multirom CD Çalışması",
+    "Ödev Problemleri İçin Çalışma",
+    "Okuma",
+    "Örnek Vaka İncelemesi",
+    "Performans",
+    "Problem Çözümü",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Quiz İçin Bireysel Çalışma",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Rehberli Problem Çözümü",
+    "Rol Oynama / Dramatizasyon",
+    "Seminer",
+    "Soru-Yanıt",
+    "Sözlü Sınav",
+    "Takım/Grup Çalışması",
+    "Tartışma",
+    "Toplantı Başkanlığı Yapma",
+    "Uygulama/Pratik"
+  ],
+  "dersDegerlendirme": {
+    "yariyilIciEtkinlikleri": [
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "katkiYuzdesi": 100
+      }
+    ],
+    "yariyilIciToplam": 100,
+    "yariyilSonuEtkinlikleri": [
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "katkiYuzdesi": 100
+      }
+    ],
+    "yariyilSonuToplam": 100,
+    "genelDegerlendirme": [
+      {
+        "degerlendirme": "Yarıyıl (Yıl) İçi Etkinlikleri",
+        "katkiYuzdesi": 40
+      },
+      {
+        "degerlendirme": "Yarıyıl (Yıl) Sonu Etkinlikleri",
+        "katkiYuzdesi": 60
+      }
+    ],
+    "genelDegerlendirmeToplam": 100
+  },
+  "yariyilIciOlasiEtkinlikler": [
+    "Ara Sınav",
+    "Laboratuvar Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Performans",
+    "Quiz",
+    "Rapor",
+    "Rapor Sunma",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Rehberli Problem Çözümü",
+    "Seminer",
+    "Sözlü Sınav",
+    "Ödev Problemleri İçin Çalışma",
+    "Proje Tasarımı/Yönetimi"
+  ],
+  "yariyilSonuOlasiEtkinlikler": [
+    "Final Sınavı",
+    "Laboratuvar Ara Sınavı",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Seminer",
+    "Sözlü Sınav",
+    "Gözlem"
+  ],
+  "programCiktilari": [
+    {
+      "id": "PÇ.1",
+      "kategori": "BİLGİ - Kuramsal Olgusal",
+      "aciklama": "TEMEL BİLGİ: Matematik, Fen Bilimleri ve Bilgisayar Mühendisliği konularında yeterli bilgi sahibidir; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanır."
+    },
+    {
+      "id": "PÇ.2",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "PROBLEM ÇÖZME: Karmaşık Bilgisayar Mühendisliği problemlerini saptar, tanımlar, formüle eder ve çözer; bu amaca uygun analiz ve modelleme yöntemlerini seçer ve uygular."
+    },
+    {
+      "id": "PÇ.3",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TASARIM: Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlar; bu amaçla modern tasarım yöntemlerini uygular."
+    },
+    {
+      "id": "PÇ.4",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TEKNOLOJİ: Bilgisayar Mühendisliği uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirir, seçer ve kullanır; bilişim teknolojilerini etkin bir şekilde kullanır."
+    },
+    {
+      "id": "PÇ.5",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "ARAŞTIRMA: Karmaşık Bilgisayar Mühendisliği problemlerinin veya araştırma konularının incelenmesi için deney tasarlar, deney yapar, veri toplar, sonuçları analiz eder ve yorumlar."
+    },
+    {
+      "id": "PÇ.6",
+      "kategori": "YETKİNLİKLER - Bağımsız Çalışabilme ve Sorumluluk Alabilme Yetkinliği",
+      "aciklama": "İŞBİRLİĞİ: Bilgisayar Mühendisliği disiplini içinde ve çok disiplinli takımlarda etkin biçimde çalışır; bireysel çalışma sergiler."
+    },
+    {
+      "id": "PÇ.7",
+      "kategori": "YETKİNLİKLER - Öğrenme Yetkinliği",
+      "aciklama": "GELİŞİM: Yaşam boyu öğrenmenin gerekliliğinin bilincindedir; bilgiye erişir, bilim ve teknolojideki gelişmeleri izler ve kendini sürekli yeniler; insanlık tarihi boyunca oluşan bilgi birikimini Bilgisayar Mühendisliği alanıyla ilişkilendirir."
+    },
+    {
+      "id": "PÇ.8",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "İLETİŞİM: Türkçe sözlü ve yazılı etkin iletişim kurar; etkin rapor yazar ve yazılı raporları anlar, tasarım ve üretim raporları hazırlar, etkin sunum yapar, açık ve anlaşılır talimat verir ve alır."
+    },
+    {
+      "id": "PÇ.9",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "TOPLUMSAL BİLİNÇ: Bilgisayar Mühendisliği uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi sahibidir; mühendislik çözümlerinin hukuksal sonuçlarının farkındadır."
+    },
+    {
+      "id": "PÇ.10",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "ULUSLARARASILIK: Bir yabancı dili kullanarak Bilgisayar Mühendisliği ile ilişkili konularda, bilgi toplar ve meslektaşları ile iletişim kurar."
+    },
+    {
+      "id": "PÇ.11",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "ETİK: Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilincine sahiptir; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi sahibidir."
+    },
+    {
+      "id": "PÇ.12",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "YÖNETİM: Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi sahibidir; girişimcilik, yenilikçilik hakkında bilinçlidir; sürdürülebilir kalkınma hakkında bilgi sahibidir."
+    }
+  ],
+  "programVeOgrenmeIliskisi": {
+    "iliskiOlcekleri": "0-5 arası değerler (0: İlişki yok, 5: Çok güçlü ilişki)",
+    "iliskiTablosu": [
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.1",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 5,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.2",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.3",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.4",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.5",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 3,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      }
+    ]
+  },
+  "toplumsalKatkiVeSurdurulebilirlik": {
+    "surdurulebilirKalkinmaAmaclari": [
+      {
+        "amac": "Yoksulluğa Son",
+        "secili": false
+      },
+      {
+        "amac": "Açlığa Son",
+        "secili": false
+      },
+      {
+        "amac": "Sağlık ve Kaliteli Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Nitelikli Eğitim",
+        "secili": true
+      },
+      {
+        "amac": "Toplumsal Cinsiyet Eşitliği",
+        "secili": false
+      },
+      {
+        "amac": "Temiz Su ve Sanitasyon",
+        "secili": false
+      },
+      {
+        "amac": "Erişilebilir ve Temiz Enerji",
+        "secili": false
+      },
+      {
+        "amac": "İnsana Yakışır İş ve Ekonomik Büyüme",
+        "secili": true
+      },
+      {
+        "amac": "Sanayi, Yenilikçilik ve Altyapı",
+        "secili": true
+      },
+      {
+        "amac": "Eşitsizliklerin Azaltılması",
+        "secili": false
+      },
+      {
+        "amac": "Sürdürülebilir Şehirler ve Topluluklar",
+        "secili": false
+      },
+      {
+        "amac": "Sorumlu Üretim ve Tüketim",
+        "secili": false
+      },
+      {
+        "amac": "İklim Eylemi",
+        "secili": false
+      },
+      {
+        "amac": "Sudaki Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Karasal Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Barış, Adalet ve Güçlü Kurumlar",
+        "secili": false
+      },
+      {
+        "amac": "Amaçlar İçin Ortaklıklar",
+        "secili": false
+      }
+    ],
+    "toplumsalKatkiAlanlari": [
+      {
+        "alan": "Eğitim ve Öğretim",
+        "secili": true
+      },
+      {
+        "alan": "Sağlık",
+        "secili": false
+      },
+      {
+        "alan": "Sosyal Hizmetler ve Toplumsal Eşitlik",
+        "secili": false
+      },
+      {
+        "alan": "Çevre ve Sürdürülebilirlik",
+        "secili": false
+      },
+      {
+        "alan": "Teknolojik ve Bilimsel Yenilikler",
+        "secili": true
+      },
+      {
+        "alan": "Ekonomik Kalkınma ve Girişimcilik",
+        "secili": true
+      },
+      {
+        "alan": "Kültürel ve Sanatsal Etkinlikler",
+        "secili": false
+      },
+      {
+        "alan": "Uluslararası İş birliği ve Diplomasi",
+        "secili": false
+      },
+      {
+        "alan": "Toplum yararına yapılacak diğer çalışmalar",
+        "secili": true
+      }
+    ]
+  },
+  "dersSekmeler": {
+    "dersGenel": true,
+    "dersOgrenmeÇiktilari": true,
+    "haftalikDersIcerikleri": true,
+    "dersIsYuku": true,
+    "dersDegerlendirme": true,
+    "programVeOgrenmeÇiktilariIliskisi": true,
+    "toplumsalKatkiVeSurdurulebilirlik": true
+  },
+  "denetimBilgileri": {
+    "olusturmaTarihi": "2025-05-10 18:09:35",
+    "olusturan": "json_processor_script",
+    "sonGuncellenmeTarihi": "2025-05-10 18:09:35",
+    "guncelleyen": "json_processor_script",
+    "durum": "Taslak"
+  },
+  "numaralandirmaDegerleri": {
+    "dersTurleri": [
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dersSeviyesi": [
+      "Lisans",
+      "Yüksek Lisans",
+      "Doktora"
+    ],
+    "ogretimSistemi": [
+      "Birinci Öğretim",
+      "İkinci Öğretim",
+      "Uzaktan Öğretim"
+    ],
+    "egitimDili": [
+      "Türkçe",
+      "İngilizce"
+    ],
+    "stajDurumu": [
+      "Mevcut Değil",
+      "Mevcut",
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dokumanDurumu": [
+      "Taslak",
+      "Onaylandı",
+      "Yayınlandı",
+      "Revize Edildi"
+    ]
+  }
+}

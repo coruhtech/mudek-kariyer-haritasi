@@ -1,0 +1,792 @@
+{
+  "dersGenel": {
+    "dersTuru": "Zorunlu",
+    "dersinSeviyesi": "Lisans",
+    "dersinAKTSKredisi": 5,
+    "haftalikDersSaatiKuramsal": 3,
+    "haftalikUygulamaSaati": 0,
+    "haftalikLaboratuarSaati": 2,
+    "dersinVerildigiYariyil": 1,
+    "ogretimSistemi": "Birinci Öğretim",
+    "egitimDili": "İngilizce",
+    "universite": "Recep Tayyip Erdoğan Üniversitesi",
+    "ulke": "Türkiye",
+    "il": "Rize",
+    "ilce": "Merkez",
+    "mahalle": "Fener Mah",
+    "fakulte": "Mühendislik Ve Mimarlık Fakültesi",
+    "bolum": "Bilgisayar Mühendisliği",
+    "dersKodu": "CE103",
+    "dersAdi": "Algorithms And Programming I",
+    "ogretimYiliDonemi": "Güz",
+    "dersAKTSKredisi": 5,
+    "dilSecimi": "Türkçe",
+    "mufredatOlusturulmaYili": "2020",
+    "akademikYil": ""
+  },
+  "dersIcerik": {
+    "dersinAmaci": "Bu dersin amacı, öğrencilere yüksek kaliteli bir kariyer yolu sağlamak için gereken algoritma ve programlama uzmanlığını temel seviyeden ileri düzeye kadar geliştirmektir. Ders, uygulamalı öğrenme yaklaşımıyla öğrencilerin algoritma tasarlama, problem çözme ve yazılım geliştirme becerilerini güçlendirecektir. Öğrenciler, C, C++, C# ve Java programlama dillerinde fonksiyonel programlama tekniklerini öğrenerek, güncel yazılım geliştirme ortamlarında pratik deneyim kazanacaklardır. Teorik bilgilerin yanı sıra, yazılım projeleri, versiyon kontrol sistemleri, test ve dokümantasyon gibi profesyonel yazılım geliştirme süreçleri hakkında uygulamalı eğitim verilecektir. Bu ders, öğrencilerin bilgisayar mühendisliği alanında sağlam bir temel oluşturmalarını ve endüstride aranan teknik yetkinlikleri kazanmalarını hedeflemektedir.",
+    "dersinOnKosuluOlanDersler": "Mevcut Değil",
+    "dersinIcerigi": "Yazılım Geliştirici Yol Haritası: Yazılım geliştirme kariyer yolları, modern mühendislik yaklaşımları ve teknoloji trendleri\nAlgoritma Tasarımı ve Temelleri: Algoritma kavramı, akış şemaları, tasarım teknikleri, veri yapıları ve algoritma analizi\nGeliştirme Gereksinimi için Temel İşletim Sistemi Bilgileri: Windows/Linux ortamları, komut satırı kullanımı, ortam değişkenleri ve sistem komutları\nTemel Uzaktan Bağlantı ve Çalışma Bilgisi: SSH protokolleri, uzaktan geliştirme araçları, bulut tabanlı platformlar ve işbirlikli çalışma yöntemleri\nKaynak Kodu Sürüm Yönetim Sistemleri (GIT): Git komutları, dallanma/birleştirme stratejileri, GitHub/GitLab platformları ve takım çalışması süreçleri\nEntegre Geliştirme Ortamları: IDE seçimi ve kurulumu, kod düzenleme teknikleri, eklentiler ve çoklu dil desteği\nUygulama Testi Otomasyonu: Test türleri, çerçeveleri, Test Güdümlü Geliştirme (TDD) ve test kapsamı analizi\nUygulama Hata Ayıklama ve Hata Düzeltme: Debugging teknikleri, araçları, hata izleme ve performans analizi\nİşlevsel Programlama (C, C++, C#, Java): Programlama paradigmaları, dil özellikleri, nesne yönelimli ve fonksiyonel yaklaşımlar\nSürekli Entegrasyon ve Geliştirme Süreçleri: CI/CD pipeline kavramı, otomatik deployment ve yazılım yaşam döngüsü yönetimi\nYazılım Geliştirme İlkeleri: Temiz kod yazma, SOLID/DRY/KISS prensipleri, kod kalitesi ve tasarım desenleri\nUygulama Dokümantasyon Otomasyonu: Kod dokümantasyon standartları, API dokümantasyonu ve otomatik doküman oluşturma\nÇapraz Ortamda Paylaşılan ve Statik Kitaplık Geliştirme ve Test Etme: Kütüphane tasarımı, statik/dinamik kütüphaneler ve paketleme yöntemleri",
+    "dersinIcinOnerilenHususlar": "Bu kurs sırasında, programlama uygulamaları için bir dizüstü bilgisayarınız olmalıdır. Geliştirme ortamımız olacak ve bunu sınav ve ödevler için ayrıca sınıf uygulamaları için kullanacaksınız. Öğrencilerin derslere düzenli katılımı, laboratuvar çalışmalarına aktif katılımı ve verilen projeleri zamanında tamamlaması beklenmektedir. Teorik bilgilerden ziyade pratik uygulamalara ağırlık verilecektir. Öğrencilerin ders dışında da kendi projelerini geliştirerek öğrendiklerini pekiştirmeleri önerilir.",
+    "ogretimTuru": "Birinci Öğretim",
+    "stajDurumu": "Mevcut Değil",
+    "dersinKitabiMalzemesiOnerilenKaynaklar": "Bu ders için bir zorunlu kitap bulunmamaktadır. Gerektiğinde, aşağıdaki kitapları ve açık kaynaklı çevrimiçi kaynakları kullanabilirsiniz:\nPaul Deitel ve Harvey Deitel. 2012. C How to Program (7. baskı). Prentice Hall Press, ABD.\nY. Daniel Liang. Intro to Java Programming, Comprehensive Version (10. baskı).\nThomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest ve Clifford Stein. Introduction to Algorithms (3. baskı).\nJ.R. Hanly ve E.B. Koffman. Problem Solving and Program Design in C (6. baskı).\nRobert Sedgewick ve Kevin Wayne. 2011. Algorithms (4. baskı). Addison-Wesley Professional.\nHarvey M. Deitel ve Paul J. Deitel. 2001. Java How to Program (4. baskı). Prentice-Hall PTR, ABD.\nPaul Deitel ve Harvey Deitel. 2016. Visual C# How to Program (6. baskı). Pearson.\nEk olarak, derste kullanılacak slaytlar ve örnek kodlar düzenli olarak ders portalında paylaşılacaktır. Online kaynaklar, dokümantasyonlar ve açık kaynaklı örnekler de dersin önemli materyalleri arasındadır.",
+    "dersiVerenOgretimUyesiOgretimGorevlisi": "Dr. Öğr. Üyesi Uğur CORUH",
+    "hazirlanmaTarihi": "27.04.2025"
+  },
+  "dersOgrenmeÇiktilari": [
+    {
+      "id": "ÖÇ.1",
+      "aciklama": "Algoritma tasarımı (akış şemaları, sözde kod) ve temel problem çözme stratejilerini açıklar; yazılım geliştirme yaşam döngüsü ve kariyer yolları hakkında bilgi sahibi olur."
+    },
+    {
+      "id": "ÖÇ.2",
+      "aciklama": "Seçilen programlama dillerinin (C, C++, C#, Java) temel söz dizimini, veri türlerini, kontrol yapılarını ve fonksiyonel programlama paradigmalarını kullanarak algoritmaları uygular ve diller arası temel farkları karşılaştırır."
+    },
+    {
+      "id": "ÖÇ.3",
+      "aciklama": "Basit ve orta karmaşıklıktaki mühendislik problemlerini analiz eder, uygun algoritmalar tasarlar ve seçilen bir dilde programlama çözümleri geliştirir."
+    },
+    {
+      "id": "ÖÇ.4",
+      "aciklama": "Kaynak kodu sürüm kontrolü için GIT komutlarını ve platformlarını (örn. GitHub) kullanarak bireysel ve takım projelerinde işbirliği yapar."
+    },
+    {
+      "id": "ÖÇ.5",
+      "aciklama": "Entegre Geliştirme Ortamlarını (IDE) etkin kullanarak kod yazar, derler, test eder (TDD prensipleri dahil), hataları ayıklar ve temel kod dokümantasyonu oluşturur."
+    },
+    {
+      "id": "ÖÇ.6",
+      "aciklama": "Temiz kod yazma, SOLID/DRY/KISS gibi temel yazılım geliştirme ilkelerini anlar; statik/paylaşılan kütüphaneler oluşturarak kodun yeniden kullanılabilirliğini ve modülerliğini sağlar."
+    },
+    {
+      "id": "ÖÇ.7",
+      "aciklama": "Seçilen dillerde (C/C++, C#, Java) temel konsol ve grafik kullanıcı arayüzü (GUI) uygulamaları geliştirir ve test eder."
+    }
+  ],
+  "haftalikDersIcerikleri": [
+    {
+      "hafta": 1,
+      "icerik": "Ders Planı ve İletişim Not Sistemi, Ödevler ve Sınavlar Bilgisayar Mühendisliği İş Nitelikleri ve Yol Haritası Google Arama Temelleri Programlamaya Giriş (İşletim Sistemi Temelleri, Bilgisayar Ağı Temelleri, Sayısal Sistem Temelleri, Karakter Kümeleri)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "-",
+      "ogretimYontemleri": "Anlatım, Soru-Cevap, Tartışma",
+      "aracVeGerecler": "Bilgisayar, Projeksiyon",
+      "kaynakVeMateryal": "Ders Sunumları, Online Kaynaklar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Kurs tanıtımını inceleme, temel kavramlar hakkında araştırma"
+    },
+    {
+      "hafta": 2,
+      "icerik": "Algoritma Temelleri, Flowgorithm, Pseudocode C, C++, Java ve C# için Programlama Ortamı Kurulumu ve Yapılandırması Genel Geliştirici Araçları Çevrimiçi Programlama Ortamları",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.5",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "İşletim sistemi ve temel bilgisayar kavramları",
+      "ogretimYontemleri": "Uygulamalı Öğretim, Demonstrasyon",
+      "aracVeGerecler": "Bilgisayar, IDE'ler, Flowgorithm",
+      "kaynakVeMateryal": "Çeşitli IDE Kurulum Kılavuzları, Algoritma Örnekleri",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Temel algoritmalar oluşturma, IDE kurulumu"
+    },
+    {
+      "hafta": 3,
+      "icerik": "Kaynak Kod Paylaşımı ve Sürüm Yönetimi",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.4",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "IDE kurulum tamamlanmış olmalı",
+      "ogretimYontemleri": "Uygulamalı Öğretim, Grup Çalışması",
+      "aracVeGerecler": "Git, GitHub, GitLab",
+      "kaynakVeMateryal": "Git Dokümantasyonu, GitHub Kılavuzları",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Basit bir projeyi Git ile yönetme"
+    },
+    {
+      "hafta": 4,
+      "icerik": "C, C++, C# ve Java için Paylaşılan Kitaplık Geliştirme ve Uygulama Test Otomasyonu TDD (Test Odaklı Geliştirme)",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.5, ÖÇ.6",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "Git temelleri",
+      "ogretimYontemleri": "Uygulamalı Öğretim, Problem Çözme",
+      "aracVeGerecler": "Test Çerçeveleri, CI/CD Araçları",
+      "kaynakVeMateryal": "Test Yöntemleri Dokümantasyonu",
+      "degerlendirmeYontemleri": "Laboratuvar Çalışması",
+      "odevVeCalisma": "Test senaryoları oluşturma ve uygulama"
+    },
+    {
+      "hafta": 5,
+      "icerik": "C Fonksiyonel Konsol Programlama",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "Algoritma tasarımı",
+      "ogretimYontemleri": "Uygulamalı Öğretim, Kod İncelemesi",
+      "aracVeGerecler": "C Derleyici, IDE",
+      "kaynakVeMateryal": "C Programlama Kitapları, Online Kaynaklar",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "C dilinde konsol uygulaması geliştirme"
+    },
+    {
+      "hafta": 6,
+      "icerik": "C++ Fonksiyonel Konsol Programlama",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "C programlama temelleri",
+      "ogretimYontemleri": "Uygulamalı Öğretim, Kod İncelemesi",
+      "aracVeGerecler": "C++ Derleyici, IDE",
+      "kaynakVeMateryal": "C++ Programlama Kitapları, Online Kaynaklar",
+      "degerlendirmeYontemleri": "Laboratuvar Çalışması",
+      "odevVeCalisma": "C++ dilinde konsol uygulaması geliştirme"
+    },
+    {
+      "hafta": 7,
+      "icerik": "C# Fonksiyonel Konsol Programlama",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "C/C++ programlama",
+      "ogretimYontemleri": "Uygulamalı Öğretim, Kod İncelemesi",
+      "aracVeGerecler": ".NET Framework, Visual Studio",
+      "kaynakVeMateryal": "C# Programlama Kitapları, Microsoft Dokümantasyonu",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "C# dilinde konsol uygulaması geliştirme"
+    },
+    {
+      "hafta": 8,
+      "icerik": "Ara Sınav",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.6",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "1-7 hafta konuları",
+      "ogretimYontemleri": "Proje Gösterimi",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Proje",
+      "odevVeCalisma": "-"
+    },
+    {
+      "hafta": 9,
+      "icerik": "Java Fonksiyonel Konsol Programlama-I",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "Temel programlama bilgisi",
+      "ogretimYontemleri": "Uygulamalı Öğretim, Kod İncelemesi",
+      "aracVeGerecler": "Java SDK, IDE",
+      "kaynakVeMateryal": "Java Programlama Kitapları, Oracle Dokümantasyonu",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Java temelleriyle konsol uygulaması"
+    },
+    {
+      "hafta": 10,
+      "icerik": "Java Fonksiyonel Konsol Programlama-II",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "Java temelleri",
+      "ogretimYontemleri": "Uygulamalı Öğretim, Problem Çözme",
+      "aracVeGerecler": "Java SDK, IDE",
+      "kaynakVeMateryal": "Java Programlama Kitapları, Oracle Dokümantasyonu",
+      "degerlendirmeYontemleri": "Laboratuvar Çalışması",
+      "odevVeCalisma": "Java ile orta seviye konsol uygulaması"
+    },
+    {
+      "hafta": 11,
+      "icerik": "Java Fonksiyonel Konsol Programlama-III",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.2, ÖÇ.3, ÖÇ.6",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "Java orta seviye",
+      "ogretimYontemleri": "Uygulamalı Öğretim, Proje Tabanlı Öğrenme",
+      "aracVeGerecler": "Java SDK, IDE",
+      "kaynakVeMateryal": "Java Programlama Kitapları, Oracle Dokümantasyonu",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Java ile ileri seviye konsol uygulaması"
+    },
+    {
+      "hafta": 12,
+      "icerik": "C / C++ Grafik Kullanıcı Arayüzü (GUI) Programlama",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.7",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "C/C++ konsol programlama",
+      "ogretimYontemleri": "Uygulamalı Öğretim, Demonstrasyon",
+      "aracVeGerecler": "C/C++ GUI Kütüphaneleri",
+      "kaynakVeMateryal": "GUI Programlama Kaynakları, Kütüphane Dokümantasyonu",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "Basit GUI uygulaması geliştirme"
+    },
+    {
+      "hafta": 13,
+      "icerik": "C# Grafik Kullanıcı Arayüzü (GUI) Programlama",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.7",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "C# konsol programlama",
+      "ogretimYontemleri": "Uygulamalı Öğretim, Demonstrasyon",
+      "aracVeGerecler": "Visual Studio, .NET Framework",
+      "kaynakVeMateryal": "Windows Forms/WPF Kaynakları, Microsoft Dokümantasyonu",
+      "degerlendirmeYontemleri": "Laboratuvar Çalışması",
+      "odevVeCalisma": "C# ile GUI uygulaması"
+    },
+    {
+      "hafta": 14,
+      "icerik": "C# Grafik Kullanıcı Arayüzü (GUI) Programlama",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.7",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "C# GUI temelleri",
+      "ogretimYontemleri": "Uygulamalı Öğretim, Proje Tabanlı Öğrenme",
+      "aracVeGerecler": "Visual Studio, .NET Framework",
+      "kaynakVeMateryal": "Windows Forms/WPF Kaynakları, Microsoft Dokümantasyonu",
+      "degerlendirmeYontemleri": "-",
+      "odevVeCalisma": "C# ile ileri seviye GUI uygulaması"
+    },
+    {
+      "hafta": 15,
+      "icerik": "Java Grafik Kullanıcı Arayüzü (GUI) Programlama",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.7",
+      "ogretimOrtami": "Bilgisayar Laboratuvarı",
+      "onHazirlik": "Java konsol programlama",
+      "ogretimYontemleri": "Uygulamalı Öğretim, Proje Tabanlı Öğrenme",
+      "aracVeGerecler": "Java SDK, IDE, JavaFX/Swing",
+      "kaynakVeMateryal": "Java GUI Programlama Kaynakları",
+      "degerlendirmeYontemleri": "Laboratuvar Çalışması",
+      "odevVeCalisma": "Java ile GUI uygulaması projesi"
+    },
+    {
+      "hafta": 16,
+      "icerik": "Final",
+      "iliskiliOgrenmeÇiktisi": "ÖÇ.1, ÖÇ.2, ÖÇ.3, ÖÇ.4, ÖÇ.5, ÖÇ.6, ÖÇ.7",
+      "ogretimOrtami": "Sınıf Ortamı",
+      "onHazirlik": "Tüm konular",
+      "ogretimYontemleri": "Proje Gösterimi",
+      "aracVeGerecler": "-",
+      "kaynakVeMateryal": "-",
+      "degerlendirmeYontemleri": "Proje",
+      "odevVeCalisma": "-"
+    }
+  ],
+  "dersIsYuku": {
+    "etkinlikler": [
+      {
+        "etkinlik": "Derse Katılım",
+        "sayi": 14,
+        "sure": 3,
+        "toplamIsYuku": 42
+      },
+      {
+        "etkinlik": "Uygulama/Pratik",
+        "sayi": 14,
+        "sure": 2,
+        "toplamIsYuku": 28
+      },
+      {
+        "etkinlik": "Bireysel Çalışma",
+        "sayi": 14,
+        "sure": 1,
+        "toplamIsYuku": 14
+      },
+      {
+        "etkinlik": "Proje Hazırlama",
+        "sayi": 2,
+        "sure": 10,
+        "toplamIsYuku": 20
+      },
+      {
+        "etkinlik": "Quiz",
+        "sayi": 2,
+        "sure": 1,
+        "toplamIsYuku": 2
+      },
+      {
+        "etkinlik": "Quiz İçin Bireysel Çalışma",
+        "sayi": 2,
+        "sure": 2,
+        "toplamIsYuku": 4
+      },
+      {
+        "etkinlik": "Ara Sınav İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 7,
+        "toplamIsYuku": 7
+      },
+      {
+        "etkinlik": "Ara Sınav",
+        "sayi": 1,
+        "sure": 2,
+        "toplamIsYuku": 2
+      },
+      {
+        "etkinlik": "Final Sınavı İçin Bireysel Çalışma",
+        "sayi": 1,
+        "sure": 4,
+        "toplamIsYuku": 4
+      },
+      {
+        "etkinlik": "Final Sınavı",
+        "sayi": 1,
+        "sure": 2,
+        "toplamIsYuku": 2
+      }
+    ],
+    "toplamIsYuku": 125,
+    "dersAKTSKredisi": 5,
+    "hesaplama": "Dersin AKTS Kredisi = Toplam İş Yükü (Saat) / 25 = 125 / 25 = 5",
+    "aktsHesaplama": "Toplam İş Yükü / 25"
+  },
+  "etkinlikTurleri": [
+    "Alan Çalışması",
+    "Alan Gezisi",
+    "Ara Sınav",
+    "Ara Sınav İçin Bireysel Çalışma",
+    "Beyin Fırtınası",
+    "Bireysel Çalışma",
+    "Bütünleme Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Derse Katılım",
+    "Ev Ödevi",
+    "Final Sınavı",
+    "Final Sınavı İçin Bireysel Çalışma",
+    "Gösterme",
+    "Gözlem",
+    "Laboratuvar",
+    "Laboratuvar Ara Sınavı",
+    "Laboratuvar Sınavı",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Multirom CD Çalışması",
+    "Ödev Problemleri İçin Çalışma",
+    "Okuma",
+    "Örnek Vaka İncelemesi",
+    "Performans",
+    "Problem Çözümü",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Quiz İçin Bireysel Çalışma",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Rehberli Problem Çözümü",
+    "Rol Oynama / Dramatizasyon",
+    "Seminer",
+    "Soru-Yanıt",
+    "Sözlü Sınav",
+    "Takım/Grup Çalışması",
+    "Tartışma",
+    "Toplantı Başkanlığı Yapma",
+    "Uygulama/Pratik"
+  ],
+  "dersDegerlendirme": {
+    "yariyilIciEtkinlikleri": [
+      {
+        "etkinlik": "Quiz",
+        "sayi": 1,
+        "katkiYuzdesi": 40
+      },
+      {
+        "etkinlik": "Proje Hazırlama",
+        "sayi": 1,
+        "katkiYuzdesi": 60
+      }
+    ],
+    "yariyilIciToplam": 100,
+    "yariyilSonuEtkinlikleri": [
+      {
+        "etkinlik": "Quiz",
+        "sayi": 1,
+        "katkiYuzdesi": 30
+      },
+      {
+        "etkinlik": "Proje Hazırlama",
+        "sayi": 1,
+        "katkiYuzdesi": 70
+      }
+    ],
+    "yariyilSonuToplam": 100,
+    "genelDegerlendirme": [
+      {
+        "degerlendirme": "Yarıyıl (Yıl) Sonu Etkinlikleri",
+        "katkiYuzdesi": 60
+      },
+      {
+        "degerlendirme": "Yarıyıl (Yıl) İçi Etkinlikleri",
+        "katkiYuzdesi": 40
+      }
+    ],
+    "genelDegerlendirmeToplam": 100
+  },
+  "yariyilIciOlasiEtkinlikler": [
+    "Ara Sınav",
+    "Laboratuvar Sınavı",
+    "Deney",
+    "Deney Sonrası Quiz",
+    "Performans",
+    "Quiz",
+    "Rapor",
+    "Rapor Sunma",
+    "Makale Kritik Etme",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Rehberli Problem Çözümü",
+    "Seminer",
+    "Sözlü Sınav",
+    "Ödev Problemleri İçin Çalışma",
+    "Proje Tasarımı/Yönetimi"
+  ],
+  "yariyilSonuOlasiEtkinlikler": [
+    "Final Sınavı",
+    "Laboratuvar Ara Sınavı",
+    "Makale Yazma",
+    "Proje Hazırlama",
+    "Proje Sunma",
+    "Proje Tasarımı/Yönetimi",
+    "Quiz",
+    "Rapor",
+    "Rapor Hazırlama",
+    "Rapor Sunma",
+    "Seminer",
+    "Sözlü Sınav",
+    "Gözlem"
+  ],
+  "programCiktilari": [
+    {
+      "id": "PÇ.1",
+      "kategori": "BİLGİ - Kuramsal Olgusal",
+      "aciklama": "TEMEL BİLGİ: Matematik, Fen Bilimleri ve Bilgisayar Mühendisliği konularında yeterli bilgi sahibidir; bu alanlardaki kuramsal ve uygulamalı bilgileri, karmaşık mühendislik problemlerinde kullanır."
+    },
+    {
+      "id": "PÇ.2",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "PROBLEM ÇÖZME: Karmaşık Bilgisayar Mühendisliği problemlerini saptar, tanımlar, formüle eder ve çözer; bu amaca uygun analiz ve modelleme yöntemlerini seçer ve uygular."
+    },
+    {
+      "id": "PÇ.3",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TASARIM: Karmaşık bir sistemi, süreci, cihazı veya ürünü gerçekçi kısıtlar ve koşullar altında, belirli gereksinimleri karşılayacak şekilde tasarlar; bu amaçla modern tasarım yöntemlerini uygular."
+    },
+    {
+      "id": "PÇ.4",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "TEKNOLOJİ: Bilgisayar Mühendisliği uygulamalarında karşılaşılan karmaşık problemlerin analizi ve çözümü için gerekli olan modern teknik ve araçları geliştirir, seçer ve kullanır; bilişim teknolojilerini etkin bir şekilde kullanır."
+    },
+    {
+      "id": "PÇ.5",
+      "kategori": "BECERİLER - Bilişsel Uygulamalı",
+      "aciklama": "ARAŞTIRMA: Karmaşık Bilgisayar Mühendisliği problemlerinin veya araştırma konularının incelenmesi için deney tasarlar, deney yapar, veri toplar, sonuçları analiz eder ve yorumlar."
+    },
+    {
+      "id": "PÇ.6",
+      "kategori": "YETKİNLİKLER - Bağımsız Çalışabilme ve Sorumluluk Alabilme Yetkinliği",
+      "aciklama": "İŞBİRLİĞİ: Bilgisayar Mühendisliği disiplini içinde ve çok disiplinli takımlarda etkin biçimde çalışır; bireysel çalışma sergiler."
+    },
+    {
+      "id": "PÇ.7",
+      "kategori": "YETKİNLİKLER - Öğrenme Yetkinliği",
+      "aciklama": "GELİŞİM: Yaşam boyu öğrenmenin gerekliliğinin bilincindedir; bilgiye erişir, bilim ve teknolojideki gelişmeleri izler ve kendini sürekli yeniler; insanlık tarihi boyunca oluşan bilgi birikimini Bilgisayar Mühendisliği alanıyla ilişkilendirir."
+    },
+    {
+      "id": "PÇ.8",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "İLETİŞİM: Türkçe sözlü ve yazılı etkin iletişim kurar; etkin rapor yazar ve yazılı raporları anlar, tasarım ve üretim raporları hazırlar, etkin sunum yapar, açık ve anlaşılır talimat verir ve alır."
+    },
+    {
+      "id": "PÇ.9",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "TOPLUMSAL BİLİNÇ: Bilgisayar Mühendisliği uygulamalarının evrensel ve toplumsal boyutlarda sağlık, çevre ve güvenlik üzerindeki etkileri ve çağın mühendislik alanına yansıyan sorunları hakkında bilgi sahibidir; mühendislik çözümlerinin hukuksal sonuçlarının farkındadır."
+    },
+    {
+      "id": "PÇ.10",
+      "kategori": "YETKİNLİKLER - İletişim ve Sosyal Yetkinlik",
+      "aciklama": "ULUSLARARASILIK: Bir yabancı dili kullanarak Bilgisayar Mühendisliği ile ilişkili konularda, bilgi toplar ve meslektaşları ile iletişim kurar."
+    },
+    {
+      "id": "PÇ.11",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "ETİK: Etik ilkelerine uygun davranma, mesleki ve etik sorumluluk bilincine sahiptir; mühendislik uygulamalarında kullanılan standartlar hakkında bilgi sahibidir."
+    },
+    {
+      "id": "PÇ.12",
+      "kategori": "YETKİNLİKLER - Alana Özgü Yetkinlik",
+      "aciklama": "YÖNETİM: Proje yönetimi, risk yönetimi ve değişiklik yönetimi gibi, iş hayatındaki uygulamalar hakkında bilgi sahibidir; girişimcilik, yenilikçilik hakkında bilinçlidir; sürdürülebilir kalkınma hakkında bilgi sahibidir."
+    }
+  ],
+  "programVeOgrenmeIliskisi": {
+    "iliskiOlcekleri": "0-5 arası değerler (0: İlişki yok, 5: Çok güçlü ilişki)",
+    "iliskiTablosu": [
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.1",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 5,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.2",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 3,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 3,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.3",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.4",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 3,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.5",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 3,
+          "PÇ.6": 0,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 3,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.6",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 0,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 3,
+          "PÇ.7": 0,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 3,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      },
+      {
+        "ogrenmeÇiktisiID": "ÖÇ.7",
+        "programÇiktilariIliskileri": {
+          "PÇ.1": 0,
+          "PÇ.2": 3,
+          "PÇ.3": 3,
+          "PÇ.4": 0,
+          "PÇ.5": 0,
+          "PÇ.6": 0,
+          "PÇ.7": 3,
+          "PÇ.8": 0,
+          "PÇ.9": 0,
+          "PÇ.10": 0,
+          "PÇ.11": 0,
+          "PÇ.12": 0
+        }
+      }
+    ]
+  },
+  "toplumsalKatkiVeSurdurulebilirlik": {
+    "surdurulebilirKalkinmaAmaclari": [
+      {
+        "amac": "Yoksulluğa Son",
+        "secili": false
+      },
+      {
+        "amac": "Açlığa Son",
+        "secili": false
+      },
+      {
+        "amac": "Sağlık ve Kaliteli Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Nitelikli Eğitim",
+        "secili": true
+      },
+      {
+        "amac": "Toplumsal Cinsiyet Eşitliği",
+        "secili": false
+      },
+      {
+        "amac": "Temiz Su ve Sanitasyon",
+        "secili": false
+      },
+      {
+        "amac": "Erişilebilir ve Temiz Enerji",
+        "secili": false
+      },
+      {
+        "amac": "İnsana Yakışır İş ve Ekonomik Büyüme",
+        "secili": true
+      },
+      {
+        "amac": "Sanayi, Yenilikçilik ve Altyapı",
+        "secili": true
+      },
+      {
+        "amac": "Eşitsizliklerin Azaltılması",
+        "secili": false
+      },
+      {
+        "amac": "Sürdürülebilir Şehirler ve Topluluklar",
+        "secili": false
+      },
+      {
+        "amac": "Sorumlu Üretim ve Tüketim",
+        "secili": false
+      },
+      {
+        "amac": "İklim Eylemi",
+        "secili": false
+      },
+      {
+        "amac": "Sudaki Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Karasal Yaşam",
+        "secili": false
+      },
+      {
+        "amac": "Barış, Adalet ve Güçlü Kurumlar",
+        "secili": false
+      },
+      {
+        "amac": "Amaçlar İçin Ortaklıklar",
+        "secili": false
+      }
+    ],
+    "toplumsalKatkiAlanlari": [
+      {
+        "alan": "Eğitim ve Öğretim",
+        "secili": true
+      },
+      {
+        "alan": "Sağlık",
+        "secili": false
+      },
+      {
+        "alan": "Sosyal Hizmetler ve Toplumsal Eşitlik",
+        "secili": false
+      },
+      {
+        "alan": "Çevre ve Sürdürülebilirlik",
+        "secili": false
+      },
+      {
+        "alan": "Teknolojik ve Bilimsel Yenilikler",
+        "secili": true
+      },
+      {
+        "alan": "Ekonomik Kalkınma ve Girişimcilik",
+        "secili": true
+      },
+      {
+        "alan": "Kültürel ve Sanatsal Etkinlikler",
+        "secili": false
+      },
+      {
+        "alan": "Uluslararası İş birliği ve Diplomasi",
+        "secili": false
+      },
+      {
+        "alan": "Toplum yararına yapılacak diğer çalışmalar",
+        "secili": true
+      }
+    ]
+  },
+  "dersSekmeler": {
+    "dersGenel": true,
+    "dersOgrenmeÇiktilari": true,
+    "haftalikDersIcerikleri": true,
+    "dersIsYuku": true,
+    "dersDegerlendirme": true,
+    "programVeOgrenmeÇiktilariIliskisi": true,
+    "toplumsalKatkiVeSurdurulebilirlik": true
+  },
+  "denetimBilgileri": {
+    "olusturmaTarihi": "2025-05-10 18:09:11",
+    "olusturan": "json_processor_script",
+    "sonGuncellenmeTarihi": "2025-05-10 18:09:11",
+    "guncelleyen": "json_processor_script",
+    "durum": "Taslak"
+  },
+  "numaralandirmaDegerleri": {
+    "dersTurleri": [
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dersSeviyesi": [
+      "Lisans",
+      "Yüksek Lisans",
+      "Doktora"
+    ],
+    "ogretimSistemi": [
+      "Birinci Öğretim",
+      "İkinci Öğretim",
+      "Uzaktan Öğretim"
+    ],
+    "egitimDili": [
+      "Türkçe",
+      "İngilizce"
+    ],
+    "stajDurumu": [
+      "Mevcut Değil",
+      "Mevcut",
+      "Zorunlu",
+      "Seçmeli"
+    ],
+    "dokumanDurumu": [
+      "Taslak",
+      "Onaylandı",
+      "Yayınlandı",
+      "Revize Edildi"
+    ]
+  }
+}
