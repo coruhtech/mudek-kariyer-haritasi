@@ -2,15 +2,21 @@ name: 🚀 Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main, master ]
+    branches:
+      - main
+      - master
   pull_request:
-    branches: [ main, master ]
+    branches:
+      - main
+      - master
   workflow_dispatch: # Manuel tetikleme
 
+# GitHub Pages için gerekli izinler
 permissions:
   contents: read
   pages: write
   id-token: write
+  actions: read
 
 concurrency:
   group: "pages"
@@ -123,6 +129,9 @@ jobs:
       - name: 🌐 Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          # GitHub Pages'i otomatik etkinleştir
+          enablement: true
         
       - name: ✅ Deployment Success
         run: |
