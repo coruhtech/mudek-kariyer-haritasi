@@ -9,26 +9,53 @@ async function buildStatic() {
         // Dist klasörünü temizle ve oluştur
         const distDir = path.join(__dirname, 'dist');
         
-        // Windows için güvenli temizleme
+        // Windows için güvenli temizleme - birden fazla yöntem dene
+        console.log('🗑️  Eski dist klasörü temizleniyor...');
+        
         try {
             if (await fs.pathExists(distDir)) {
-                console.log('🗑️  Eski dist klasörü temizleniyor...');
-                await fs.remove(distDir);
-                console.log('✅ Eski dist klasörü silindi');
+                // Önce içindeki dosyaları tek tek sil
+                try {
+                    const items = await fs.readdir(distDir);
+                    for (const item of items) {
+                        const itemPath = path.join(distDir, item);
+                        try {
+                            await fs.remove(itemPath);
+                        } catch (itemError) {
+                            console.warn(`⚠️  ${item} silinemedi:`, itemError.message);
+                        }
+                    }
+                } catch (readError) {
+                    console.warn('⚠️  Dist içeriği okunamadı:', readError.message);
+                }
+                
+                // Sonra klasörü silmeye çalış
+                try {
+                    await fs.remove(distDir);
+                    console.log('✅ Eski dist klasörü silindi');
+                } catch (removeError) {
+                    console.warn('⚠️  Dist klasörü silinemedi:', removeError.message);
+                    // Silme başarısız olduysa içini boşalt
+                    try {
+                        await fs.emptyDir(distDir);
+                        console.log('✅ Dist klasörü içeriği temizlendi');
+                    } catch (emptyError) {
+                        console.warn('⚠️  Dist klasörü temizlenemedi, yeni klasör oluşturuluyor...', emptyError.message);
+                    }
+                }
             }
-        } catch (removeError) {
-            console.warn('⚠️  Dist klasörü silinemedi, içeriği temizleniyor...', removeError.message);
-            try {
-                await fs.emptyDir(distDir);
-                console.log('✅ Dist klasörü içeriği temizlendi');
-            } catch (emptyError) {
-                console.warn('⚠️  Dist klasörü temizlenemedi, devam ediliyor...', emptyError.message);
-            }
+        } catch (pathError) {
+            console.warn('⚠️  Dist klasörü kontrol edilemedi:', pathError.message);
         }
         
-        // Dist klasörünü oluştur
-        await fs.ensureDir(distDir);
-        console.log('✅ Dist klasörü hazırlandı');
+        // Dist klasörünü kesin oluştur
+        try {
+            await fs.ensureDir(distDir);
+            console.log('✅ Dist klasörü hazırlandı');
+        } catch (ensureError) {
+            console.error('❌ Dist klasörü oluşturulamadı:', ensureError);
+            throw ensureError;
+        }
 
         // Ana dosyaları kopyala
         const filesToCopy = [
